@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../style'
-import { tick, union } from '../../assets'
+import { good, tick, } from '../../assets'
 
 const Paid = () => {
   return (
@@ -16,7 +16,7 @@ const Paid = () => {
         <div className='flex flex-row gap-4 mt-2'>
             {/* icons */}
             <div className='w-5 mt-2'>
-                <img src={union} alt=""  />
+                <img src={good} alt=""  />
             </div>
             <div>
               <p className={`${styles.paragraph}`}>Work from Home</p>
@@ -30,7 +30,7 @@ const Paid = () => {
         <div className='flex flex-row gap-4 mt-2'>
             {/* icons */}
             <div className='w-5 mt-2'>
-                <img src={union} alt=""  />
+                <img src={good} alt=""  />
             </div>
             <div>
               <p className={`${styles.paragraph}`}>Work from Home</p>
@@ -44,7 +44,7 @@ const Paid = () => {
         <div className='flex flex-row gap-4 mt-2'>
             {/* icons */}
             <div className='w-5 mt-2'>
-                <img src={union} alt=""  />
+                <img src={good} alt=""  />
             </div>
             <div>
               <p className={`${styles.paragraph}`}>Work from Home</p>

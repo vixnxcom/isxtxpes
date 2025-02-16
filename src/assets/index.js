@@ -1,9 +1,9 @@
 import tick from './tick.png'
 import open from './open.png'
-import union from './union.png'
+import good from './good.png'
 
 export{
 tick,
 open,
-union,
+good,
 }

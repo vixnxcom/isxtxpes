@@ -15,12 +15,13 @@ const Steps = () => {
         {/* card 1 */}
           <div className='flex flex-row gap-4 mt-2'>
               {/* icons */}
-              <div className='w-[50px] h-[50px] bg-gold mx-auto rounded-[8px]'>
-                <p className='p-4 text-white text-[20px] aeon-bold'>01</p>
+              <div className='w-[50px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+                <p className='p-2 text-white text-[20px] aeon-bold mx-1'>01</p>
               </div>
 
               <div>
-              <p className={`${styles.paragraph}`}>Watch complete video</p>
+              <p className={`${styles.paragraph}`}>Watch the complete video on <br />
+                 our homepage</p>
               </div>   
               </div>   
               
@@ -28,12 +29,12 @@ const Steps = () => {
         {/* card 1 */}
           <div className='flex flex-row gap-4 mt-2'>
               {/* icons */}
-              <div className='w-[50px] h-[50px] bg-gold mx-auto rounded-[8px]'>
-                <p className='p-4 text-white text-[20px] aeon-bold'>02</p>
+              <div className='w-[50px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+                <p className='p-2 text-white text-[20px] aeon-bold mx-1'>02</p>
               </div>
 
               <div>
-              <p className={`${styles.paragraph}`}>Click on Join Now button</p>
+              <p className={`${styles.paragraph} mt-2`}>Click on 'Join Now' button</p>
               </div>   
               </div>   
               
@@ -41,12 +42,11 @@ const Steps = () => {
         {/* card 1 */}
           <div className='flex flex-row gap-4 mt-2'>
               {/* icons */}
-              <div className='w-[50px] h-[50px] bg-gold mx-auto rounded-[8px]'>
-                <p className='p-4 text-white text-[20px] aeon-bold'>03</p>
+              <div className='w-[50px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+                <p className='p-2 text-white text-[20px] aeon-bold mx-1'>03</p>
               </div>
-
               <div>
-              <p className={`${styles.paragraph}`}>Choose our 'Sign-Up Now' offer</p>
+              <p className={`${styles.paragraph} mt-2`}>Choose our 'Sign-Up Now' offer</p>
               </div>   
               </div>   
               
@@ -54,12 +54,12 @@ const Steps = () => {
         {/* card 1 */}
         <div className='flex flex-row gap-4 mt-2'>
               {/* icons */}
-              <div className='w-[50px] h-[50px] bg-gold mx-auto rounded-[8px]'>
-                <p className='p-4 text-white text-[20px] aeon-bold'>04</p>
+              <div className='w-[50px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+                <p className='p-2 text-white text-[20px] aeon-bold mx-1'>04</p>
               </div>
 
               <div>
-              <p className={`${styles.paragraph}`}>Make Payment</p>
+              <p className={`${styles.paragraph} mt-2`}>Make Payment</p>
               </div>   
               </div>   
               
@@ -67,12 +67,12 @@ const Steps = () => {
         {/* card 1 */}
           <div className='flex flex-row gap-4 mt-2'>
               {/* icons */}
-              <div className='w-[50px] h-[50px] bg-gold mx-auto rounded-[8px]'>
-                <p className='p-4 text-white text-[20px] aeon-bold'>05</p>
+              <div className='w-[50px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+                <p className='p-2 text-white text-[20px] aeon-bold mx-1'>05</p>
               </div>
 
               <div className=''>
-              <p className={`${styles.paragraph}`}>Fill out the Form</p>
+              <p className={`${styles.paragraph} mt-2`}>Fill out the Form</p>
               </div>   
               </div> 
 
@@ -81,12 +81,12 @@ const Steps = () => {
         {/* card 1 */}
           <div className='flex flex-row gap-4 mt-2'>
               {/* icons */}
-              <div className='w-[50px] h-[50px] bg-gold mx-auto rounded-[8px]'>
-                <p className='p-4 text-white text-[20px] aeon-bold'>06</p>
+              <div className='w-[50px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+                <p className='p-2 text-white text-[20px] aeon-bold mx-1'>06</p>
               </div>
 
               <div>
-              <p className={`${styles.paragraph}`}>Click on submit button</p>
+              <p className={`${styles.paragraph} mt-2`}>Click on submit button</p>
               </div>   
               </div>   
               
@@ -94,10 +94,9 @@ const Steps = () => {
         {/* card 1 */}
           <div className='flex flex-row gap-4 mt-2'>
               {/* icons */}
-              <div className='w-[50px] h-[50px] bg-gold mx-auto rounded-[8px]'>
-                <p className='p-4 text-white text-[20px] aeon-bold'>07</p>
+              <div className='w-[50px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+                <p className='p-2 text-white text-[20px] aeon-bold mx-1'>07</p>
               </div>
-
               <div>
               <p className={`${styles.paragraph}`}>Automatically get added to our 
                 Telegram Channel and Whatsapp group</p>

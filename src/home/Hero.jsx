@@ -5,11 +5,11 @@ import Button from './Button'
 const Hero = () => {
   return (
 
- <section className={`${styles.flexCenter} h-auto flex flex-col`}>
+ <section className={`${styles.flexCenter} md:h-screen h-auto flex flex-col`}>
   {/* main text */}
          
          <div className={`${styles.heading1} `} >
-            <div className='bg-white h-[120px]'></div>
+            <div className='md:hidden bg-white h-[120px]'></div>
         <h1 className=''>
         Turn Your Smartphone into a <span className='gold'>Money-Making</span> with <span className='blue'>C21FG!</span>
         </h1>

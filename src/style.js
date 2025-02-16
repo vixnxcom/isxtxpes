@@ -2,7 +2,7 @@ const styles = {
   boxWidth: "xl:max-w-[1440px] w-full",
 
   heading1: "aeon-bold text-center xs:text-[44px] text-[40px] text-black xs:leading-[76.8px] leading-[66.8px] w-full",
-  subHeading: "noto text-center xs:text-[36px] text-[32px] text-black mt-5 w-full",
+  subHeading: "noto text-center xs:text-[28px] text-[24px] text-black mt-5 w-full",
 
   paragraph: "noto font-normal text-dimWhite text-[2vw] leading-[30.8px]",
 

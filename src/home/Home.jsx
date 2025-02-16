@@ -3,6 +3,9 @@ import styles from '../style'
 import Hero from './Hero'
 import Benefitx from './Benefitx'
 import Steps from './Steps'
+import Offer from './offer/Offer'
+import Free from './offer/Free'
+import Paid from './offer/Paid'
 
 const Home = () => {
   return (
@@ -24,6 +27,24 @@ const Home = () => {
  <div className={`${styles.boxWidth}`}>
 
    <Steps/>
+</div>
+</div>
+ <div className={`${styles.flexCenter} mt-5`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Offer/>
+</div>
+</div>
+ <div className={`${styles.flexCenter} mt-5`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Paid/>
+</div>
+</div>
+ <div className={`${styles.flexCenter} mt-5`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Free/>
 </div>
 </div>
 

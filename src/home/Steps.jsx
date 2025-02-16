@@ -99,6 +99,8 @@ const Steps = () => {
               </div>
               <div>
               <p className={`${styles.paragraph}`}>Automatically get added to our 
+            </p>
+              <p className={`${styles.paragraph}`}>
                 Telegram Channel and Whatsapp group</p>
               </div>   
               </div>   

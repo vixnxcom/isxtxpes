@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { open } from "./assets";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,12 +12,15 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="text-black md:hidden noto"
+          className="text-black md:hidden noto flex  flex-row"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
           aria-expanded={isOpen}
         >
-          {isOpen ? "Close" : "Open"}
+          <div className="mt-2">
+          {isOpen ? "Close" : "Open" }
+          </div>
+          <img src={open} alt="" className="w-4 " />
         </button>
 
         {/* Fix: Add `top-16` to push menu below navbar */}

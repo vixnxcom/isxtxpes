@@ -5,7 +5,7 @@ import Button from './Button'
 const Hero = () => {
   return (
 
- <section className={`${styles.flexCenter} md:h-screen h-auto flex flex-col`}>
+ <section className={`${styles.flexCenter} md:h-[500px] h-auto flex flex-col`}>
   {/* main text */}
          
          <div className={`${styles.heading1} `} >

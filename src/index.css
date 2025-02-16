@@ -44,3 +44,7 @@
 .bg-blue{
   background-color: #00239c;
 }
+
+.bg-gold{
+  background: linear-gradient(90deg, #FFD700, #FFC107, #FFB300); 
+}

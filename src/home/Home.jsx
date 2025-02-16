@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../style'
 import Hero from './Hero'
 import Benefitx from './Benefitx'
+import Steps from './Steps'
 
 const Home = () => {
   return (
@@ -17,6 +18,12 @@ const Home = () => {
  <div className={`${styles.boxWidth}`}>
 
    <Benefitx/>
+</div>
+</div>
+ <div className={`${styles.flexCenter} mt-5`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Steps/>
 </div>
 </div>
 

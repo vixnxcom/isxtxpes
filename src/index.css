@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: aeon-bold;
+  src: url(./fonts/AeonikProTRIAL-Bold.otf);
+}
+
+@font-face {
+  font-family: aeon-boldt;
+  src: url(./fonts/AeonikProTRIAL-BoldItalic.otf);
+}
+
+@font-face {
+  font-family: noto;
+  src: url(./fonts/noto-sans.regular.ttf);
+}
+
+.noto{
+  font-family: noto;
+}
+.aeon-bold{
+  font-family: aeon-bold;
+}
+.aeon-boldt{
+  font-family: aeon-boldt;
+}
+
+.card{
+  background-color: blueviolet;
+}
+
+.coal{
+  color: #3a3a3a;
+}
+.blue{
+ color: #00239c;
+}
+.gold{
+  background: linear-gradient(90deg, #FFD700, #FFC107, #FFB300);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-blue{
+  background-color: #00239c;
+}

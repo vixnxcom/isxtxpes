@@ -36,21 +36,21 @@ const Home = () => {
    <Benefitx/>
 </div>
 </div>
- <div className={`${styles.flexCenter} mt-10 bg-blue`}>
+ <div className={`${styles.flexCenter} mt-10 bg-blue w-[92vw]`}>
  <div className={`${styles.boxWidth}`}>
 
    <Imagine/>
 </div>
 </div>
 
- <div className={`${styles.flexCenter} mt-10 bg-blue`}>
+ <div className={`${styles.flexCenter} mt-10 bg-blue w-[92vw] mx-10`}>
  <div className={`${styles.boxWidth}`}>
 
    <Rice/>
 </div>
 </div>
 
-<div className={`${styles.flexCenter} mt-10 bg-blue`}>
+<div className={`${styles.flexCenter} mt-10 bg-blue w-[92vw]`}>
  <div className={`${styles.boxWidth}`}>
 
    <Crush />

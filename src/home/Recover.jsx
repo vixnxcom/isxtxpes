@@ -12,7 +12,7 @@ const Recover = () => {
     that chance?
     </div>
     <div className={`${styles.heading3} mt-5`}>
-    If your answer is yes;
+    If your answer is yes; 
        </div>
     </section>
   )

@@ -101,13 +101,13 @@ const Home = () => {
    <Offer/>
 </div>
 </div>
- <div className={`${styles.flexCenter} mt-5`}>
+ <div className={`${styles.flexCenter} mt-10`}>
  <div className={`${styles.boxWidth}`}>
 
    <Paid/>
 </div>
 </div>
- <div className={`${styles.flexCenter} mt-5`}>
+ <div className={`${styles.flexCenter} mt-10 `}>
  <div className={`${styles.boxWidth}`}>
 
    <Free/>

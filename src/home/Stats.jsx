@@ -8,17 +8,17 @@ const Stats = () => {
 
            {/* head section */}
            <div className={`${styles.heading3}`}>
-       We're in the business of helping you grow your business
+           What is the Diamond Project?
            </div>
            <div className={`${styles.subHeading} mt-2`}>
-     Through Mentorship/Training, Capacity Building and Building Financial Leverage
-Systems.
-
+           The Diamond Project is a Project that was launched to help individuals live out their true potential and become the
+           ultimate version of themselves. Through Mentorship/Training, Capacity Building and Building Financial Leverage
+            Systems
            </div>
         {/* head section */}
 
         {/* card */}
-        <div className='flex flex-row gap-4'>
+        <div className='flex flex-row gap-4 mt-5'>
             
         <div className="flex flex-col box justify-center items-center mt-5 mx-2">
   <div className="text-white aeon-bold text-[24px] ">
@@ -42,7 +42,7 @@ Systems.
         {/* card */}
 
         {/* card 2 */}
-        <div className="flex flex-col boxx justify-center items-center mt-5 mx-2 ">
+        <div className="flex flex-col boxx justify-center items-center mt-5 mx-2 mb-10 ">
 
        <div className="text-white aeon-bold text-[24px] ">
        50,000+ 
@@ -54,7 +54,15 @@ Systems.
 
         </div>
         {/* card 2 */}
-       
+        <div className={`${styles.heading3} mt-5`}>
+        Do you lack passive income? 
+           </div>
+        <div className={`${styles.subHeading} mt-2`}>
+        Let's help you build a financial leverage system.
+Having a system that works for you while you sleep is the fastest way to become financially free.
+Our wealthiest partners have made over N5 Billion each over the years and they can help you achieve millionaire
+status in 90 days.
+        </div>
     </section>
   )
 }

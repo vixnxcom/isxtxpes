@@ -26,7 +26,7 @@ const Home = () => {
    <PartnerButton />
 </div>
 </div>
- <div className={`${styles.flexCenter} mt-5`}>
+ <div className={`${styles.flexCenter} mt-10`}>
  <div className={`${styles.boxWidth}`}>
 
    <Benefitx/>

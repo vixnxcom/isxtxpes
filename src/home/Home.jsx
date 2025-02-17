@@ -6,6 +6,8 @@ import Steps from './Steps'
 import Offer from './offer/Offer'
 import Free from './offer/Free'
 import Paid from './offer/Paid'
+import Stats from './Stats'
+import PartnerButton from './PartnerButton'
 
 const Home = () => {
   return (
@@ -18,6 +20,13 @@ const Home = () => {
 </div>
 </div>
  <div className={`${styles.flexCenter} mt-40`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Stats/>
+   <PartnerButton />
+</div>
+</div>
+ <div className={`${styles.flexCenter} mt-5`}>
  <div className={`${styles.boxWidth}`}>
 
    <Benefitx/>

@@ -5,6 +5,7 @@ const styles = {
   heading2: "aeon-bold text-center xs:text-[20px] text-[24px] text-black xs:leading-[76.8px] leading-[66.8px] w-full",
   heading3: "aeon-bold text-center xs:text-[20px] text-[24px] text-black xs:leading-[46.8px] leading-[36.8px] w-full",
   subHeading: "noto text-center xs:text-[28px] text-[24px] text-black mt-5 w-full",
+  subHeadingx: "noto text-left xs:text-[28px] text-[24px] text-white mt-5 w-full",
 
   paragraph: "noto font-normal coal md:text-[2vw] text-[4vw] leading-[30.8px]",
 

@@ -7,7 +7,7 @@ const Stats = () => {
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
 
            {/* head section */}
-           <div className={`${styles.heading3}`}>
+           <div className={`${styles.heading1}`}>
            What is the Diamond Project?
            </div>
            <div className={`${styles.subHeading} mt-2`}>

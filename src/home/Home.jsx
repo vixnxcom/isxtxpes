@@ -12,6 +12,9 @@ import Imagine from './Imagine'
 import Rice from './Rice'
 import WhatIf from './WhatIf'
 import Crush from './Crush'
+import Nintydays from './Nintydays'
+import Llegit from './Llegit'
+import Recover from './Recover'
 
 const Home = () => {
   return (
@@ -36,28 +39,28 @@ const Home = () => {
    <Benefitx/>
 </div>
 </div>
- <div className={`${styles.flexCenter} mt-10 bg-blue w-[92vw]`}>
+ <div className={`${styles.flexCenter} mt-10 bg-blue w-[92vw] mx-auto rounded-[24px]`}>
  <div className={`${styles.boxWidth}`}>
 
    <Imagine/>
 </div>
 </div>
 
- <div className={`${styles.flexCenter} mt-10 bg-blue w-[92vw] mx-10`}>
+ <div className={`${styles.flexCenter} mt-10 bg-blue w-[92vw] mx-auto rounded-[24px]`}>
  <div className={`${styles.boxWidth}`}>
 
    <Rice/>
 </div>
 </div>
 
-<div className={`${styles.flexCenter} mt-10 bg-blue w-[92vw]`}>
+<div className={`${styles.flexCenter} mt-10 bg-blue w-[92vw] mx-auto rounded-[24px]`}>
  <div className={`${styles.boxWidth}`}>
 
    <Crush />
 </div>
 </div>
 
- <div className={`${styles.flexCenter} mt-5 `}>
+ <div className={`${styles.flexCenter} mt-10 `}>
  <div className={`${styles.boxWidth}`}>
 
    <WhatIf />
@@ -65,6 +68,26 @@ const Home = () => {
 </div>
 </div>
 
+
+<div className={`${styles.flexCenter} mt-10 table w-[92vw] mx-auto rounded-[24px]`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Nintydays />
+</div>
+</div>
+<div className={`${styles.flexCenter} mt-10 table w-[92vw] mx-auto rounded-[24px]`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Llegit />
+</div>
+</div>
+<div className={`${styles.flexCenter} mt-10 `}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Recover/>
+   <PartnerButton />
+</div>
+</div>
 
  <div className={`${styles.flexCenter} mt-10`}>
  <div className={`${styles.boxWidth}`}>

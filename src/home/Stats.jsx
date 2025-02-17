@@ -18,9 +18,9 @@ const Stats = () => {
         {/* head section */}
 
         {/* card */}
-        <div className='flex flex-row gap-4 mt-5'>
+        <div className='flex flex-row gap-5 mt-5 mx-auto mx-auto'>
             
-        <div className="flex flex-col box justify-center items-center mt-5 mx-2">
+        <div className="flex flex-col box justify-center items-center mt-5 ">
   <div className="text-white aeon-bold text-[24px] ">
     800,000+ 
   </div>
@@ -42,6 +42,7 @@ const Stats = () => {
         {/* card */}
 
         {/* card 2 */}
+        <div className='mx-auto'>
         <div className="flex flex-col boxx justify-center items-center mt-5 mx-2 mb-10 ">
 
        <div className="text-white aeon-bold text-[24px] ">
@@ -50,6 +51,7 @@ const Stats = () => {
   </div>
   <div className="text-white noto text-[24px]">
   Multi-millionaires
+    </div>  
     </div>  
 
         </div>

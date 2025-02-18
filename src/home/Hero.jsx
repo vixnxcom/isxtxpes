@@ -11,11 +11,11 @@ const Hero = () => {
          <div className={`${styles.heading1} `} >
             <div className='md:hidden bg-white h-[120px]'></div>
         <h1 className=''>
-        Turn Your Smartphone into a <span className='gold'>Money-Making</span> with <span className='blue'>C21FG!</span>
+        Do you lack   <span className='gold'>passive</span>  <span className='blue'>income?</span>
         </h1>
          </div>
          <div className={`${styles.subHeading}`}>
-         No Selling Required. No Experience Needed. 100% Online.
+         Let's help you build a financial leverage system.
          </div>
   {/* main text */}
        <Button />

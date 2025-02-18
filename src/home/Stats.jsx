@@ -57,10 +57,10 @@ const Stats = () => {
         </div>
         {/* card 2 */}
         <div className={`${styles.heading3} mt-5`}>
-        Do you lack passive income? 
+        
            </div>
         <div className={`${styles.subHeading} mt-2`}>
-        Let's help you build a financial leverage system.
+      
 Having a system that works for you while you sleep is the fastest way to become financially free.
 Our wealthiest partners have made over <span className='gold aeon-bold'>₦5 Billion</span>  each over the years and they can help you achieve millionaire
 status in 90 days.

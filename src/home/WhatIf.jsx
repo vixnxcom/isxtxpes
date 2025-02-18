@@ -11,10 +11,8 @@ const WhatIf = () => {
             </div>
 
          <div className={`${styles.subHeading} mt-2`}>
-         Let's help you build a financial leverage system.
- Having a system that works for you while you sleep is the fastest way to become financially free.
- Our wealthiest partners have made over N5 Billion each over the years and they can help you achieve millionaire
- status in <span className='gold'>90 days</span> 
+       Whats if, in the next <span className='aeon-bold text-[24px gold'> 
+         90 days </span> you could recover everything you’ve ever lost—financially, emotionally, and mentally?
          </div>
 
          </section>

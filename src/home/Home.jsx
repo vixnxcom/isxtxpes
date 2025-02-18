@@ -15,6 +15,7 @@ import Crush from './Crush'
 import Nintydays from './Nintydays'
 import Llegit from './Llegit'
 import Recover from './Recover'
+import Freedom from './Freedom'
 
 const Home = () => {
   return (
@@ -73,6 +74,12 @@ const Home = () => {
  <div className={`${styles.boxWidth}`}>
 
    <Nintydays />
+</div>
+</div>
+<div className={`${styles.flexCenter} mt-10 tabley w-[92vw] mx-auto `}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Freedom />
 </div>
 </div>
 <div className={`${styles.flexCenter} mt-10 table w-[92vw] mx-auto rounded-[24px]`}>

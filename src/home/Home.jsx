@@ -19,7 +19,7 @@ import Freedom from './Freedom'
 
 const Home = () => {
   return (
- <div className='bg-white w-full'>
+ <div className='bg-blue w-full'>
 
  <div className={`${styles.flexCenter} `}>
  <div className={`${styles.boxWidth}`}>

@@ -6,7 +6,7 @@ const Freedom = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
     {/* head section */}
-    <div className={`${styles.heading2}`}>
+    <div className={`${styles.heading4}`}>
        Financial Freedom
     </div>
 

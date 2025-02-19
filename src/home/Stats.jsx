@@ -21,19 +21,19 @@ const Stats = () => {
         <div className='flex flex-row gap-5 mt-5 mx-auto mx-auto'>
             
         <div className="flex flex-col box justify-center items-center mt-5 ">
-  <div className="text-white aeon-bold text-[24px] ">
+  <div className="text-black aeon-bold text-[24px] ">
     800,000+ 
   </div>
-  <div className="text-white noto text-[24px]">
+  <div className="text-black noto text-[24px]">
    Partners
     </div>
     </div>
 
         <div className="flex flex-col box justify-center items-center mt-5">
-  <div className="text-white aeon-bold text-[24px]">
+  <div className="text-black aeon-bold text-[24px]">
     8
   </div>
-  <div className="text-white noto text-[24px]">
+  <div className="text-black noto text-[24px]">
    Billionaires
     </div>
     </div>
@@ -45,11 +45,11 @@ const Stats = () => {
         <div className='mx-auto'>
         <div className="flex flex-col boxx justify-center items-center mt-5 mx-2 mb-10 ">
 
-       <div className="text-white aeon-bold text-[24px] ">
+       <div className="text-black aeon-bold text-[24px] ">
        50,000+ 
 
   </div>
-  <div className="text-white noto text-[24px]">
+  <div className="text-black noto text-[24px]">
   Multi-millionaires
     </div>  
     </div>  
@@ -62,7 +62,8 @@ const Stats = () => {
         <div className={`${styles.subHeading} mt-2`}>
       
 Having a system that works for you while you sleep is the fastest way to become financially free.
-Our wealthiest partners have made over <span className='gold aeon-bold'>₦5 Billion</span>  each over the years and they can help you achieve millionaire
+Our wealthiest partners have made over <span className='gold aeon-bold'>₦5 Billion</span> 
+ each over the years and they can help you achieve millionaire
 status in 90 days.
         </div>
     </section>

@@ -4,7 +4,7 @@ import styles from '../style'
 const Nintydays = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col mb-10 mt-5`}>
-    <div className={`${styles.subHeadingc} mt-2`}>
+    <div className={`${styles.subHeadingb} mt-2`}>
    
 
 Not in a <span className='aeon-bold text-[24px blue'> 9-to-5 job </span> that keeps you stuck.

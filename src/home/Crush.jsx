@@ -9,7 +9,7 @@ const Crush = () => {
 
   
     <div className={`${styles.subHeadingx}  mt-2 `}>
-    <span className='aeon-bold text-[24px'>You see people. Opportunities </span>
+    <span className='aeon-bold text-[24px'>You see people, opportunities. </span>
 The girl/boy you had a crush on but never had the courage to tell.
 Everything you’ve ever lost. <span className='aeon-bold text-[24px'>Every opportunity </span> you didn’t take. Every moment you let slip through your fingers.
 And then it hits you.

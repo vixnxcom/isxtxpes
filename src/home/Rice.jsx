@@ -11,7 +11,7 @@ const Rice = () => {
     <div className={`${styles.subHeadingx} mt-2`}>
     <span className='aeon-bold text-[24px'>That Rice </span> you missed out on at a wedding or birthday party because you came late.
 Your favorite pair of shoes from when you were a kid—the ones your mom searched for until she got tired.
-<span className='aeon-bold text-[24px'>Money </span>that <span className='aeon-bold text-[24px'>'disappeared' </span> from your bag because you <span className='aeon-bold text-[24px'>trusted </span> the wrong person.
+<span className='aeon-bold text-[24px'> Money </span>that <span className='aeon-bold text-[24px'>'disappeared' </span> from your bag because you <span className='aeon-bold text-[24px'>trusted </span> the wrong person.
 
 
     </div>

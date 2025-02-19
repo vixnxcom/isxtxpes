@@ -62,7 +62,7 @@ const Stats = () => {
         <div className={`${styles.subHeading} mt-2`}>
       
 Having a system that works for you while you sleep is the fastest way to become financially free.
-Our wealthiest partners have made over <span className='gold aeon-bold'>₦5 Billion</span> 
+Our wealthiest partners have made over <span className='gold aeon-bold'> ₦5 Billion</span> 
  each over the years and they can help you achieve millionaire
 status in 90 days.
         </div>

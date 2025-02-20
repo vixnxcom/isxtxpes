@@ -41,6 +41,12 @@
   -webkit-text-fill-color: transparent;
 }
 
+.bg-goldd{
+  background: linear-gradient(180deg,#fea 0%,rgb(241, 217, 121) 49%,
+  rgb(202, 182, 102) 51%,#dc8 100%);
+
+}
+
 .bg-blue{
   background: linear-gradient(190.89deg, #00239C 61.98%, #02134b 124.86%);
 }
@@ -58,6 +64,7 @@ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
 border-radius: 24px;
 width: 92vw;
 }
+
 .tabley{
 background: #fff;
 border: 2px solid #fff;
@@ -70,9 +77,8 @@ width: 92vw;
 .tablex{
 background: #FFFFFF;
 border: 2px solid #DCDADA;
-
 border-radius: 24px;
-
+width: 80vw; 
 }
 
 .box{

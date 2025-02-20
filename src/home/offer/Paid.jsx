@@ -6,7 +6,7 @@ const Paid = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col table mx-auto`}>
         {/* head section */}
-        <div className={`${styles.heading2}`}>
+        <div className={`${styles.heading4}`}>
            Sign-Up Now Offer
         </div>
 

@@ -9,7 +9,7 @@ const Hero = () => {
   {/* main text */}
          
          <div className={`${styles.heading1} `} >
-            <div className='md:hidden  h-[160px]'></div>
+            <div className='md:h-[160px]  h-[160px]'></div>
         <h1 className=''>
         Do you lack   <span className='gold'>passive income?</span>  
         </h1>

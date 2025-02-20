@@ -5,7 +5,7 @@ const Button = () => {
   return (
     <div className={`${styles.flexCenter} flex justify-content-center align-items-center mt-10`}>
     <div className=''>
-    <button className='mx-auto bg-gold md:w-[24vw] md:h-[4vw] w-[60vw] rounded-[24px] h-[12vw]'>
+    <button className='mx-auto bg-goldd md:w-[24vw] md:h-[4vw] w-[60vw] rounded-[24px] h-[12vw]'>
     <p 
      className='aeon-bold text-black text-[20px]'>Join Now</p>
     </button>

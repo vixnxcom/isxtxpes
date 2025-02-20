@@ -53,6 +53,14 @@
   background: linear-gradient(190.89deg, #00239C 61.98%, #02134b 124.86%);
 }
 
+.bg-bluee{
+
+background: linear-gradient(213.94deg, #02134B 9.54%,
+ #00239C 58.97%, #02134B 108.4%);
+
+
+}
+
 .bg-gold{
   background: linear-gradient(90deg, #FFD700, #FFC107, #FFB300); 
 }

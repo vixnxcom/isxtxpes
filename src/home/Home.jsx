@@ -40,21 +40,21 @@ const Home = () => {
    <Benefitx/>
 </div>
 </div>
- <div className={`${styles.flexCenter} mt-10 bg-blue w-[92vw] mx-auto rounded-[24px]`}>
+ <div className={`${styles.flexCenter} mt-10 bg-bluee w-[92vw] mx-auto rounded-[24px]`}>
  <div className={`${styles.boxWidth}`}>
 
    <Imagine/>
 </div>
 </div>
 
- <div className={`${styles.flexCenter} mt-10 bg-blue w-[92vw] mx-auto rounded-[24px]`}>
+ <div className={`${styles.flexCenter} mt-10 bg-bluee w-[92vw] mx-auto rounded-[24px]`}>
  <div className={`${styles.boxWidth}`}>
 
    <Rice/>
 </div>
 </div>
 
-<div className={`${styles.flexCenter} mt-10 bg-blue w-[92vw] mx-auto rounded-[24px]`}>
+<div className={`${styles.flexCenter} mt-10 bg-bluee w-[92vw] mx-auto rounded-[24px]`}>
  <div className={`${styles.boxWidth}`}>
 
    <Crush />

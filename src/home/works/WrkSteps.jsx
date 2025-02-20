@@ -8,13 +8,13 @@ const WrkSteps = () => {
     <section className={`${styles.flexCenter} ${styles.paddingX} flex flex-col`}>
 
            {/* head section */}
-           <div className={`${styles.heading4}`}>
-           Simple Steps
+           <div className={`${styles.heading5} blue`}>
+           How to Register
            </div>
         {/* head section */}
 
         {/* card 1 */}
-          <div className='flex flex-col  mt-5'>
+          <div className='flex flex-col  mt-10'>
               {/* icons */}
               <div className='w-[200px] h-[160px] bg-gold mx-auto rounded-[8px] tablex'>
              <img src={tick} alt="" className='w-24 mx-auto flex' />
@@ -22,7 +22,7 @@ const WrkSteps = () => {
 
               <div>
               <p className={`${styles.paragraphx} mt-2`}>Watch the complete video on 
-                 our homepage. The Join-Now button only activates after watching the complete video</p>
+                 our homepage. The "Join-Now" / "Become a partner" button only activates after watching the complete video</p>
               </div>   
               </div>   
               

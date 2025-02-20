@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from '../Navbar';
 import Home from '../home/Home';
 import Works from '../home/works/Works';
+import Footer from '../home/Footer';
 
 const Pages = () => {
   return (
@@ -16,7 +17,9 @@ const Pages = () => {
         <Route exact path="/works" element={<Works />} />
       </Routes>
 
-
+      <div className="bottom-0 h-[50vh] bg-blue">
+        <Footer />
+      </div>
     </Router>
   );
 };

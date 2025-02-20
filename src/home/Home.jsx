@@ -124,7 +124,7 @@ const Home = () => {
 
 
 
-<div className='h-[20vh] '></div>
+<div className='h-[40px] '></div>
 
 
 

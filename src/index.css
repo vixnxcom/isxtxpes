@@ -33,7 +33,9 @@
   color: #3a3a3a;
 }
 .blue{
- color: #00239c;
+  background: linear-gradient(190.89deg, #00239C 61.98%, #02134b 124.86%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
 }
 .gold{
   background: linear-gradient(90deg, #FFD700, #FFC107, #FFB300);

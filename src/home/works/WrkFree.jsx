@@ -7,7 +7,7 @@ const WrkFree = () => {
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col mx-auto`}>
         {/* head section */}
         <div className={`${styles.heading4}`}>
-           Sign-Up Later Offer
+           Sign-Up-Now Offer
         </div>
 
         {/* head section */}

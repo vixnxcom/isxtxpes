@@ -17,6 +17,8 @@ import Llegit from './Llegit'
 import Recover from './Recover'
 import Freedom from './Freedom'
 import { video } from '../assets'
+import Hook from './Hook'
+import Bulletpoints from './Bulletpoints'
 
 const Home = () => {
   return (
@@ -42,11 +44,25 @@ const Home = () => {
 </div>
 </div>
  <div className={`${styles.flexCenter} mt-10`}>
- <div className=' bg-white w-[90vw]' >
+ <div className={`${styles.boxWidth}`}>
 
-  <img src={video} alt="" className='mx-auto mt-2 mb-2'/>
+   <Hook/>
 </div>
 </div>
+
+<div className={`${styles.flexCenter} mt-10`}>
+ <div className=' bg-white w-[90vw]' >
+  <img src={video} alt="" className='mx-auto mt-2 mb-2 p-1'/>
+</div>
+</div>
+
+ <div className={`${styles.flexCenter} mt-10`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Bulletpoints/>
+</div>
+</div>
+
  <div className={`${styles.flexCenter} mt-10 bg-bluee w-[92vw] mx-auto rounded-[24px]`}>
  <div className={`${styles.boxWidth}`}>
 

@@ -16,9 +16,11 @@ import Nintydays from './Nintydays'
 import Llegit from './Llegit'
 import Recover from './Recover'
 import Freedom from './Freedom'
-import { video } from '../assets'
+import { beach, tick, video } from '../assets'
 import Hook from './Hook'
 import Bulletpoints from './Bulletpoints'
+import Vid from './Vid'
+import AfterVid from './AfterVid'
 
 const Home = () => {
   return (
@@ -60,6 +62,35 @@ const Home = () => {
  <div className={`${styles.boxWidth}`}>
 
    <Bulletpoints/>
+</div>
+</div>
+
+<div className={`${styles.flexCenter} mt-10`}>
+ <div className=' bg-white w-[90vw]' >
+  <img src={beach} alt="" className='mx-auto mt-2 mb-2 p-1'/>
+</div>
+</div>
+
+ <div className={`${styles.flexCenter} mt-10 `}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Vid/>
+</div>
+</div>
+
+
+<div className={`${styles.flexCenter} mt-10`}>
+ <div className=' bg-white w-[90vw] h-[200px]' >
+  <img src={tick} alt="" className='mx-auto mt-2 mb-2 w-8' />
+</div>
+</div>
+
+
+<div className={`${styles.flexCenter} mt-10`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <AfterVid/>
+   <PartnerButton />
 </div>
 </div>
 

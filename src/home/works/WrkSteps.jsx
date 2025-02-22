@@ -28,7 +28,7 @@ const WrkSteps = () => {
               
         {/* card 1 */}
         {/* card 1 */}
-          <div className='flex flex-col  mt-5'>
+          <div className='flex flex-col  mt-10'>
               {/* icons */}
               <div className='w-[200px] h-[160px] bg-gold mx-auto rounded-[8px] tablex'>
              <img src={tick} alt="" className='w-24 mx-auto flex' />
@@ -41,7 +41,7 @@ const WrkSteps = () => {
               
         {/* card 1 */}
         {/* card 1 */}
-          <div className='flex flex-col  mt-5'>
+          <div className='flex flex-col  mt-10'>
               {/* icons */}
               <div className='w-[200px] h-[160px] bg-gold mx-auto rounded-[8px] tablex'>
              <img src={tick} alt="" className='w-24 mx-auto flex' />

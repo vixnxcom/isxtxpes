@@ -16,6 +16,7 @@ import Nintydays from './Nintydays'
 import Llegit from './Llegit'
 import Recover from './Recover'
 import Freedom from './Freedom'
+import { video } from '../assets'
 
 const Home = () => {
   return (
@@ -38,6 +39,12 @@ const Home = () => {
  <div className={`${styles.boxWidth}`}>
 
    <Benefitx/>
+</div>
+</div>
+ <div className={`${styles.flexCenter} mt-10`}>
+ <div className=' bg-white w-[90vw]' >
+
+  <img src={video} alt="" className='mx-auto mt-2 mb-2'/>
 </div>
 </div>
  <div className={`${styles.flexCenter} mt-10 bg-bluee w-[92vw] mx-auto rounded-[24px]`}>

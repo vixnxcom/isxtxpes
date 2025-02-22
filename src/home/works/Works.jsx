@@ -17,7 +17,7 @@ const Works = () => {
    </div>
    </div>
 
-   <div className={`${styles.flexCenter} mt-10`}>
+   <div className={`${styles.flexCenter} mt-20`}>
  <div className={`${styles.boxWidth}`}>
 
    <WrkOffer/>

@@ -50,26 +50,23 @@
 }
 
 .bg-blue{
-  background: linear-gradient(190.89deg, #00239C 61.98%, #02134b 124.86%);
+  background: linear-gradient(190.89deg, #00239C 61.98%, 
+  #02134b 124.86%);
 }
 
 .bg-bluee{
-
-
-background: linear-gradient(207.41deg, #02134B 4.53%,
+background: linear-gradient(207.41deg, #011861 4.53%,
  #00239C 58.75%, #02134B 112.96%);
-
-
-
 }
 
+
+
 .bg-gold{
-  background: linear-gradient(90deg, #FFD700, #FFC107, #FFB300); 
+  background: linear-gradient(90deg, #FFD700, 
+  #FFC107, #FFB300); 
 }
 
 .table{
-
-
 background: #FFFFFF;
 border: 2px solid #DCDADA;
 box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);

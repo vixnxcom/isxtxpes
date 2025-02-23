@@ -8,7 +8,10 @@ const Opportunity = () => {
 
     {/* head section */}
     <div className={`${styles.heading2}`}>
-    Why This is the Only Opportunity You Need Right Now!
+    Why This is the Only Opportunity
+    </div> 
+    <div className={`${styles.heading2}`}>
+     You Need Right Now!
     </div> 
  {/* head section */}
 
@@ -62,7 +65,7 @@ const Opportunity = () => {
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px]'>
             <div className=''>
-                <img src={wealth} alt="" className='w-16 mx-auto mt-2' /> 
+                <img src={wealth} alt="" className='w-16 mx-auto mt-3' /> 
               
             </div>
             <div className='mt-2 p-4 '>

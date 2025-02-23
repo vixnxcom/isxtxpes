@@ -13,7 +13,7 @@ const HeroTwo = () => {
         </h1>
          </div>
          <div className={`${styles.subHeading}`}>
-         Turn your aspirations into a reality—earn from anywhere, anytime, while making an impact that 
+         Turn your aspirations into a reality. <br /> Earn from anywhere, anytime, while making an impact that <br />
          lasts forever.
          </div>
   {/* main text */}

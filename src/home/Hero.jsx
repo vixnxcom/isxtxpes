@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import Button from './Button' 
+ 
 
 const Hero = () => {
   return (
@@ -18,7 +18,7 @@ const Hero = () => {
          Let's help you build a financial leverage system.
          </div>
   {/* main text */}
-       <Button />
+      
  </section>
   )
 }

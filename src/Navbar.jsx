@@ -53,7 +53,7 @@ const Navbar = () => {
               to="/works"
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
-              How to become a Partner
+             What We offer
             </Link>
           </li>
           <li>

@@ -1,21 +1,24 @@
 import React from 'react'
 import styles from '../style'
 
-const AfterVid = () => {
+const Build = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
 
     {/* head section */}
-    
-    <div className={`${styles.subHeading} mt-2`}>
-    Great! Now that you understand the opportunity, it’s time to take action.
+    <div className={`${styles.heading1}`}>
+    Ready to Build the Life You Deserve?
+
+
     </div>
     <div className={`${styles.subHeading} mt-2`}>
-    Take Action Now. <br />Start Your Journey Today
+    For less than you spend on a weekend, you can start building generational wealth, impacting others, and unlocking
+the freedom to live life on your terms.
+
     </div>
  {/* head section */}
  </section>
   )
 }
 
-export default AfterVid
+export default Build

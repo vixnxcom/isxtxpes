@@ -11,7 +11,7 @@ const Bulletpoints = () => {
         </div>
         {/* head section */}
         {/* card 1 */}
-          <div className='flex flex-col  mt-2 text-center justify-center items-center'>
+          <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
             <div className='w-[86vw] h-[160px] text-center bg-white rounded-[24px]'>
                 <img src={finance} alt="" className='w-24 mx-auto ' /> 

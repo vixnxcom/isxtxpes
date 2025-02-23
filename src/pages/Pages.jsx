@@ -17,7 +17,7 @@ const Pages = () => {
         <Route exact path="/works" element={<Works />} />
       </Routes>
 
-      <div className="bottom-0 h-[50vh] bg-blue">
+      <div className="bottom-0 h-[50vh]">
         <Footer />
       </div>
     </Router>

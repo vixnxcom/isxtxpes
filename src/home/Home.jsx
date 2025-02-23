@@ -21,6 +21,11 @@ import Hook from './Hook'
 import Bulletpoints from './Bulletpoints'
 import Vid from './Vid'
 import AfterVid from './AfterVid'
+import Button from './Button'
+import HeroTwo from './HeroTwo'
+import Footer from './Footer'
+import Build from './Build'
+import Opportunity from './Opportunity'
 
 const Home = () => {
   return (
@@ -30,8 +35,18 @@ const Home = () => {
  <div className={`${styles.boxWidth}`}>
 
    <Hero/>
+   <Button />
 </div>
 </div>
+
+ <div className={`${styles.flexCenter} mt-10`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <HeroTwo/>
+   
+</div>
+</div>
+
  <div className={`${styles.flexCenter} mt-40`}>
  <div className={`${styles.boxWidth}`}>
 
@@ -39,7 +54,7 @@ const Home = () => {
    <PartnerButton />
 </div>
 </div>
- <div className={`${styles.flexCenter} mt-10`}>
+ <div className={`${styles.flexCenter} mt-20`}>
  <div className={`${styles.boxWidth}`}>
 
    <Benefitx/>
@@ -74,10 +89,21 @@ const Home = () => {
  <div className={`${styles.flexCenter} mt-10 `}>
  <div className={`${styles.boxWidth}`}>
 
-   <Vid/>
+   <Build/>
 </div>
 </div>
 
+
+
+
+
+<div className={`${styles.flexCenter} mt-10`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Vid/>
+ 
+</div>
+</div>
 
 <div className={`${styles.flexCenter} mt-10`}>
  <div className=' bg-white w-[90vw] h-[200px]' >
@@ -85,12 +111,18 @@ const Home = () => {
 </div>
 </div>
 
-
-<div className={`${styles.flexCenter} mt-10`}>
+<div className={`${styles.flexCenter} mt-5`}>
  <div className={`${styles.boxWidth}`}>
 
    <AfterVid/>
    <PartnerButton />
+</div>
+</div>
+<div className={`${styles.flexCenter} mt-20`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Opportunity/>
+
 </div>
 </div>
 
@@ -130,12 +162,7 @@ const Home = () => {
    <Nintydays />
 </div>
 </div>
-<div className={`${styles.flexCenter} mt-10 tabley w-[92vw] mx-auto `}>
- <div className={`${styles.boxWidth}`}>
 
-   <Freedom />
-</div>
-</div>
 <div className={`${styles.flexCenter} mt-10 table w-[92vw] mx-auto rounded-[24px]`}>
  <div className={`${styles.boxWidth}`}>
 
@@ -178,7 +205,8 @@ const Home = () => {
 
 
 
-<div className='h-[40px] '></div>
+<div className='h-[40px] '>
+</div>
 
 
 

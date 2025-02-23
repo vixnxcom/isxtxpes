@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { finance, health, tick } from '../assets'
+import { business, finance, health, tick, world } from '../assets'
 
 const Bulletpoints = () => {
   return (
@@ -38,7 +38,7 @@ const Bulletpoints = () => {
           <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
             <div className='w-[86vw] h-[160px] text-center bg-white rounded-[24px]'>
-                <img src={tick} alt="" className='w-8 mx-auto translate-y-1/2' /> 
+                <img src={world} alt="" className='w-36 mx-auto mt-8' /> 
               
             </div>
             <div className='mt-2'>
@@ -50,7 +50,7 @@ const Bulletpoints = () => {
           <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
             <div className='w-[86vw] h-[160px] text-center bg-white rounded-[24px]'>
-                <img src={tick} alt="" className='w-8 mx-auto translate-y-1/2' /> 
+                <img src={business} alt="" className='w-36 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2'>

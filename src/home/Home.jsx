@@ -125,7 +125,7 @@ const Home = () => {
 
 </div>
 </div>
-
+{/* 
  <div className={`${styles.flexCenter} mt-10 bg-bluee w-[92vw] mx-auto rounded-[24px]`}>
  <div className={`${styles.boxWidth}`}>
 
@@ -175,24 +175,27 @@ const Home = () => {
    <Recover/>
    <PartnerButton />
 </div>
-</div>
+</div> */}
 
  <div className={`${styles.flexCenter} mt-10`}>
  <div className={`${styles.boxWidth}`}>
 
    <Steps/>
+ 
 </div>
 </div>
  <div className={`${styles.flexCenter} mt-10`}>
  <div className={`${styles.boxWidth}`}>
 
    <Offer/>
+  
 </div>
 </div>
+
  <div className={`${styles.flexCenter} mt-10`}>
  <div className={`${styles.boxWidth}`}>
-
    <Paid/>
+  
 </div>
 </div>
  <div className={`${styles.flexCenter} mt-10 `}>

@@ -8,7 +8,7 @@ const Offer = () => {
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
         {/* head section */}
         <div className={`${styles.heading1}`}>
-           What we Offer
+        Here’s What You’ll Get When You Join Today!
         </div>
       
     </section>

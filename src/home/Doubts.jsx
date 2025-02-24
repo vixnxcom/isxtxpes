@@ -16,7 +16,7 @@ Still Have Doubts? Let’s Address Them
 
     </div>  
     {/* head section */}
-    <div className={`${styles.heading6} mt-5 mb-5 table mx-auto `}>
+    <div className={`${styles.heading6} mt-10 mb-5 table mx-auto `}>
     "I don’t have the money"
     </div>
 

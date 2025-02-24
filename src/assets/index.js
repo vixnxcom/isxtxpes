@@ -12,10 +12,17 @@ import protect from './protect.png'
 import wealth from './wealth.png'
 import business from './business.png'
 import world from './world.png'
+import one from './one.png'
+import two from './two.png'
+import three from './three.png'
+import four from './four.png'
+import five from './five.png'
+import six from './six.png'
+import seven from './seven.png'
 
 export{
-    beach,
-    earn, build, products, protect, wealth, business, world,
+    beach, two, three, four, five, six, seven,
+    earn, build, products, protect, wealth, business, world, one,
 tick,
 open,
 good,

@@ -27,6 +27,8 @@ import Footer from './Footer'
 import Build from './Build'
 import Opportunity from './Opportunity'
 import Doubts from './Doubts'
+import Bonus from './Bonus'
+import Final from './Final'
 
 const Home = () => {
   return (
@@ -212,7 +214,21 @@ const Home = () => {
    <PartnerButton/>
 </div>
 </div>
+ <div className={`${styles.flexCenter} mt-20 `}>
+ <div className={`${styles.boxWidth}`}>
 
+   <Bonus/>
+
+ 
+</div>
+</div>
+<div className={`${styles.flexCenter} mt-20 `}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Final/>
+   <PartnerButton/>
+</div>
+</div>
 
 
 

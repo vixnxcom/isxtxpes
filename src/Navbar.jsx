@@ -40,20 +40,24 @@ const Navbar = () => {
               Home
             </Link>
           </li>
+
+        
+
           <li>
             <Link
-              to="/about"
-             className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
+              to="/offer"
+              className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
-            
+              Our Offer
             </Link>
           </li>
+        
           <li>
             <Link
               to="/works"
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
-             What We offer
+             How to become a Partner
             </Link>
           </li>
           <li>

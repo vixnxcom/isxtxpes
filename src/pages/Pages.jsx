@@ -4,6 +4,7 @@ import Navbar from '../Navbar';
 import Home from '../home/Home';
 import Works from '../home/works/Works';
 import Footer from '../home/Footer';
+import Offer from '../offer/Offer';
 
 const Pages = () => {
   return (
@@ -15,6 +16,7 @@ const Pages = () => {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/works" element={<Works />} />
+        <Route exact path="/offer" element={<Offer />} />
       </Routes>
 
       <div className="bottom-0 h-[50vh] bg-blue">

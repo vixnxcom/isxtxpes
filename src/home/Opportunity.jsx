@@ -10,7 +10,7 @@ const Opportunity = () => {
     <div className={`${styles.heading3}`}>
     Why This is the Only Opportunity
     </div> 
-    <div className={`${styles.heading2}`}>
+    <div className={`${styles.heading3}`}>
      You Need Right Now!
     </div> 
  {/* head section */}

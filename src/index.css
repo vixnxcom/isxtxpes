@@ -32,6 +32,9 @@
 .coal{
   color: #3a3a3a;
 }
+.bluey{
+  color: #00239C;
+}
 .blue{
   background: linear-gradient(190.89deg, #00239C 61.98%, #02134b 124.86%);
   -webkit-background-clip: text;

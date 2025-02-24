@@ -138,7 +138,10 @@ const Paid = () => {
             </div>
           </div>
           {/* card  */}
-          <div>
+          <div className={`${styles.flexCenter} flex flex-col`}>
+          <p className={`${styles.paragraphx} mt-10 `}>
+          Sign Up Now & Secure Your Future
+          </p>
             <SignNow />
           </div>
         

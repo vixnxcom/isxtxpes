@@ -26,6 +26,7 @@ import HeroTwo from './HeroTwo'
 import Footer from './Footer'
 import Build from './Build'
 import Opportunity from './Opportunity'
+import Doubts from './Doubts'
 
 const Home = () => {
   return (
@@ -202,6 +203,13 @@ const Home = () => {
  <div className={`${styles.boxWidth}`}>
 
    <Free/>
+</div>
+</div>
+ <div className={`${styles.flexCenter} mt-20 `}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Doubts/>
+   <PartnerButton/>
 </div>
 </div>
 

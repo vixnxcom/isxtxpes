@@ -7,7 +7,7 @@ const Opportunity = () => {
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
 
     {/* head section */}
-    <div className={`${styles.heading2}`}>
+    <div className={`${styles.heading3}`}>
     Why This is the Only Opportunity
     </div> 
     <div className={`${styles.heading2}`}>
@@ -20,7 +20,7 @@ const Opportunity = () => {
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px]'>
             <div className=''>
-                <img src={build} alt="" className='w-16 mt-2 mx-auto ' /> 
+                <img src={build} alt="" className='w-20 mt-5 mx-auto ' /> 
               
             </div>
             <div className='mt-2 p-4 '>
@@ -35,7 +35,7 @@ const Opportunity = () => {
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px]'>
             <div className=''>
-                <img src={earn} alt="" className='w-16 mt-2 mx-auto ' /> 
+                <img src={earn} alt="" className='w-16 mt-5 mx-auto ' /> 
               
             </div>
             <div className='mt-2 p-4 '>
@@ -49,7 +49,7 @@ const Opportunity = () => {
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px]'>
             <div className=''>
-                <img src={products} alt="" className='w-16 mx-auto mt-2 ' /> 
+                <img src={products} alt="" className='w-16 mx-auto mt-5 ' /> 
               
             </div>
             <div className='mt-2 p-4 '>
@@ -65,7 +65,7 @@ const Opportunity = () => {
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px]'>
             <div className=''>
-                <img src={wealth} alt="" className='w-16 mx-auto mt-3' /> 
+                <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
@@ -79,7 +79,7 @@ const Opportunity = () => {
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px]'>
             <div className=''>
-                <img src={protect} alt="" className='w-16 mx-auto mt-2 ' /> 
+                <img src={protect} alt="" className='w-16 mx-auto mt-5 ' /> 
               
             </div>
             <div className='mt-2 p-4 '>

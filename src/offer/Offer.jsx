@@ -88,6 +88,13 @@ const Offer = () => {
 </div>
 </div> 
 
+<div className={`${styles.flexCenter} mt-20 `}>
+ <div className={`${styles.boxWidth}`}>
+
+   <SignNow/>  
+ 
+</div>
+</div> 
 
 <div className={`${styles.flexCenter} mt-20 `}>
  <div className={`${styles.boxWidth}`}>
@@ -117,13 +124,7 @@ const Offer = () => {
    <PartnerButton/>  
 </div>
 </div> 
-<div className={`${styles.flexCenter} mt-20 `}>
- <div className={`${styles.boxWidth}`}>
 
-   <SignNow/>  
- 
-</div>
-</div> 
 <div className={`${styles.flexCenter} mt-20 `}>
  <div className={`${styles.boxWidth}`}>
 

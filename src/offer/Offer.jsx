@@ -13,6 +13,8 @@ import Legacy from './Legacy'
 import Button from '../home/Button'
 import Opptunity from './Opptunity'
 import Get from './Get'
+import Transformation from './Transformation'
+import System from './System'
 
 const Offer = () => {
   return (
@@ -98,6 +100,19 @@ const Offer = () => {
    <Get/>
    <PartnerButton />
    
+</div>
+</div> 
+<div className={`${styles.flexCenter} mt-20 `}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Transformation />  
+</div>
+</div> 
+<div className={`${styles.flexCenter} mt-10 `}>
+ <div className={`${styles.boxWidth}`}>
+
+   <System />  
+   <PartnerButton/>  
 </div>
 </div> 
 

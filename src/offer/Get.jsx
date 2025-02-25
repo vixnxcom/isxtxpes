@@ -6,7 +6,7 @@ const Get = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
     {/* head section */}
-    <div className={`${styles.heading7}`}>
+    <div className={`${styles.heading7} blue`}>
     What You Get
     </div>
 
@@ -185,9 +185,8 @@ dreams!</p>
               
         {/* card 1 */}
         <div className={`${styles.subHeadingy} mt-5`}>
-        Imagine waking up in a beach resort, sipping fresh coconut water, knowing your business is making money for you even while you travel!
-
-
+        Imagine waking up in a beach resort, sipping fresh coconut water, knowing your business is making money 
+        for you even while you travel!
     </div>
 
     </section>

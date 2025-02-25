@@ -6,7 +6,7 @@ const Legacy = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
     {/* head section */}
-    <div className={`${styles.heading7}`}>
+    <div className={`${styles.heading7} blue`}>
     Could your path to financial & lifestyle freedom start now
     </div>
     <div className={`${styles.subHeadingy}`}>

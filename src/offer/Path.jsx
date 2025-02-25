@@ -7,7 +7,7 @@ const Path = () => {
 
 
     {/* head section */}
-    <div className={`${styles.heading5}`}>
+    <div className={`${styles.heading5} blue`}>
     The Opportunity to <span className='gold'>Change Your Life</span> is Right Here, Right Now
     </div>
     </section>

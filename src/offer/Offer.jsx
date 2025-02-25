@@ -15,6 +15,7 @@ import Opptunity from './Opptunity'
 import Get from './Get'
 import Transformation from './Transformation'
 import System from './System'
+import SignNow from './SignNow'
 
 const Offer = () => {
   return (
@@ -113,6 +114,13 @@ const Offer = () => {
 
    <System />  
    <PartnerButton/>  
+</div>
+</div> 
+<div className={`${styles.flexCenter} mt-20 `}>
+ <div className={`${styles.boxWidth}`}>
+
+   <SignNow/>  
+ 
 </div>
 </div> 
 

@@ -8,7 +8,7 @@ const Opptunity = () => {
 
 
     {/* head section */}
-    <div className={`${styles.heading5}`}>
+    <div className={`${styles.heading5} blue`}>
     Why this opportunity is a no-brainer
     </div>
 

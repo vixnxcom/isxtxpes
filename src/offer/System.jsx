@@ -6,7 +6,7 @@ const System = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
     {/* head section */}
-    <div className={`${styles.heading7}`}>
+    <div className={`${styles.heading7} blue`}>
   This system is for you if:
     </div>
       {/* head section */}

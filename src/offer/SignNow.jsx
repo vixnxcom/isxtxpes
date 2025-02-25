@@ -14,7 +14,7 @@ Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME 
   {/* card 4 */}
   <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] border-[1px] border-[#DCDADA] h-[240px]'>
+            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
                 <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
               
@@ -28,7 +28,7 @@ Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME 
   {/* card 4 */}
   <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] border-[1px] border-[#DCDADA] h-[240px]'>
+            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
                 <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
               
@@ -44,7 +44,7 @@ Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME 
   {/* card 4 */}
   <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] border-[1px] border-[#DCDADA] h-[240px]'>
+            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
                 <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
               
@@ -59,7 +59,7 @@ Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME 
   {/* card 4 */}
   <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] border-[1px] border-[#DCDADA] h-[240px]'>
+            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
                 <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
               
@@ -74,7 +74,7 @@ Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME 
   {/* card 4 */}
   <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] border-[1px] border-[#DCDADA] h-[240px]'>
+            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
                 <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
               
@@ -91,7 +91,7 @@ Immunity!
   {/* card 4 */}
   <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] border-[1px] border-[#DCDADA] h-[240px]'>
+            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
                 <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
               
@@ -109,7 +109,7 @@ Immunity!
   {/* card 4 */}
   <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] border-[1px] border-[#DCDADA] h-[240px]'>
+            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
                 <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
               
@@ -126,7 +126,7 @@ Immunity!
   {/* card 4 */}
   <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] border-[1px] border-[#DCDADA] h-[240px]'>
+            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
                 <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
               

@@ -3,7 +3,7 @@ import styles from '../style'
 
 const Objections = () => {
   return (
-    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col  mx-auto`}>
+    <section className={`${styles.flexCenter} ${styles.paddingX} flex flex-col  mx-auto`}>
 
     <div className={`${styles.heading7} blue`}>
     Still Have Doubts? Let’s Address Them
@@ -17,8 +17,8 @@ const Objections = () => {
     
         {/* head section */}
         {/* card 1 */}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablegold  mx-auto  `}> 
-          <div className='flex flex-row gap-4 '>
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col   mx-auto  tablegold `}> 
+          <div className=''>
             
           
            <p className='noto text-start xs:text-[20px] text-[24px] text-black mt-2 mb-2'>
@@ -39,7 +39,7 @@ const Objections = () => {
         {/* head section */}
         {/* card 1 */}
         <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablegold  mx-auto  `}> 
-          <div className='flex flex-row gap-4 '>
+          <div className=''>
             
           
            <p className='noto text-start xs:text-[20px] text-[24px] text-black mt-2 mb-2'>
@@ -61,7 +61,7 @@ const Objections = () => {
         {/* head section */}
         {/* card 1 */}
         <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablegold  mx-auto  `}> 
-          <div className='flex flex-row gap-4 '>
+          <div className=''>
             
           
            <p className='noto text-start xs:text-[20px] text-[24px] text-black mt-2 mb-2'>

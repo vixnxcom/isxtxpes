@@ -74,7 +74,9 @@ background: #FFFFFF;
 border: 2px solid #DCDADA;
 box-shadow: 0px 0px 20px rgba(80, 80, 80, 0.08);
 border-radius: 24px;
-width: 92vw;
+width: 90vw;
+justify-content: center;
+align-items: center;
 }
 
 .tablegold{
@@ -82,7 +84,7 @@ width: 92vw;
 border: 2px solid #DCDADA;
 /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08); */
 border-radius: 24px;
-width: 92vw;
+width: 90vw;
 }
 
 .tabley{

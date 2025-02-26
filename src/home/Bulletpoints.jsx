@@ -14,7 +14,7 @@ const Bulletpoints = () => {
           <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
             <div className='w-[86vw] h-[160px] text-center bg-white rounded-[24px]'>
-                <img src={finance} alt="" className='w-28 mx-auto ' /> 
+                <img src={finance} alt="" className='w-32 mt-5 mx-auto ' /> 
               
             </div>
             <div className='mt-2'>
@@ -26,7 +26,7 @@ const Bulletpoints = () => {
           <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
             <div className='w-[86vw] h-[160px] text-center bg-white rounded-[24px] '>
-                <img src={health} alt="" className='w-40 mx-auto  mt-5 ' /> 
+                <img src={health} alt="" className='w-36 mx-auto  mt-2 ' /> 
               
             </div>
             <div className='mt-2'>
@@ -38,7 +38,7 @@ const Bulletpoints = () => {
           <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
             <div className='w-[86vw] h-[160px] text-center bg-white rounded-[24px]'>
-                <img src={world} alt="" className='w-40 mx-auto mt-5' /> 
+                <img src={world} alt="" className='w-28 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2'>
@@ -50,7 +50,7 @@ const Bulletpoints = () => {
           <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
             <div className='w-[86vw] h-[160px] text-center bg-white rounded-[24px]'>
-                <img src={business} alt="" className='w-40 mx-auto mt-4' /> 
+                <img src={business} alt="" className='w-28 mx-auto mt-5 ' /> 
               
             </div>
             <div className='mt-2'>

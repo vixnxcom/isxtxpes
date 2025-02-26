@@ -27,9 +27,12 @@ import plan from './plan.png'
 import access from './access.png'
 import travel from './travel.png'
 import grow from './grow.png'
+import ppl from './ppl.png'
+import happy from './happy.jpg'
+import tired from './tired.jpg'
 
 export{
-    beach, two, three, four, five, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,
+    beach, two, three, four, five, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,ppl, tired, happy, 
     earn, build, products, protect, wealth, business, world, one,
 tick,
 open,

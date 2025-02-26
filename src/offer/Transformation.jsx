@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { tick } from '../assets'
+import { happy, tick, tired } from '../assets'
 
 const Transformation = () => {
   return (
@@ -13,10 +13,12 @@ const Transformation = () => {
         <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col  mx-auto mt-5 `}> 
          
 
-           <div className='noto text-start xs:text-[20px] text-[24px] text-black mt-2'>
+           <div className='noto text-start xs:text-[20px] text-[24px] text-black mt-2 mx-auto'>
            Before Joining:
             </div> 
-
+          <div className=' mx-auto tablexx mt-2 mb-2 '>
+         <img src={tired} alt=""  className=''/>
+          </div>
             {/* icons */}
           </div>
           <div className='mx-auto'>
@@ -31,9 +33,12 @@ const Transformation = () => {
         <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col  mx-auto mt-5 `}> 
          
 
-           <div className='noto text-start xs:text-[20px] text-[24px] text-black mt-2'>
+           <div className='noto text-start xs:text-[20px] text-[24px] text-black mt-2 mx-auto'>
          After Joining:
             </div> 
+            <div className=' mx-auto tablexx mt-2 mb-2 '>
+         <img src={happy} alt=""  className=''/>
+          </div>
             </div> 
 
             {/* icons */}

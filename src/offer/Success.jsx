@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { tick } from '../assets'
+import { ppl, tick } from '../assets'
 
 const Success = () => {
   return (
@@ -17,8 +17,8 @@ const Success = () => {
        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablex mx-auto mt-5 `}> 
           <div className='flex flex-col gap-4 mt-5'>
             
-          <div className='w-5 mt-2'>
-                <img src={tick} alt=""  />
+          <div className='w-12 mt-2'>
+                <img src={ppl} alt=""  />
             </div>
 
            <div className='noto text-start xs:text-[20px] text-[24px] text-black '>
@@ -40,8 +40,8 @@ const Success = () => {
        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablex mx-auto mt-5 `}> 
           <div className='flex flex-col gap-4 mt-5'>
             
-          <div className='w-5 mt-2'>
-                <img src={tick} alt=""  />
+          <div className='w-12 mt-2'>
+                <img src={ppl} alt=""  />
             </div>
 
            <div className='noto text-start xs:text-[20px] text-[24px] text-black '>

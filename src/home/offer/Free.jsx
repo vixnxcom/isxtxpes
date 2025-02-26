@@ -12,7 +12,7 @@ const Free = () => {
 
         {/* head section */}
         {/* card 1 */}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablex mx-auto mt-2 `}>
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-2 `}>
         <div className='flex flex-row gap-4 mt-2'>
             {/* icons */}
             <div className='w-5 mt-2'>
@@ -26,7 +26,7 @@ const Free = () => {
           </div>
           {/* card 1 */}
         {/* card 1 */}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablex mx-auto mt-2`}>
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-2`}>
         <div className='flex flex-row gap-4 mt-2'>
             {/* icons */}
             <div className='w-5 mt-2'>
@@ -40,7 +40,7 @@ const Free = () => {
           </div>
           {/* card 1 */}
         {/* card 1 */}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablex mx-auto mt-2 mb-5`}>
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-2 mb-5`}>
         <div className='flex flex-row gap-4 mt-2'>
             {/* icons */}
             <div className='w-5 mt-2'>

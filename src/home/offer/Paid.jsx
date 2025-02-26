@@ -13,7 +13,7 @@ const Paid = () => {
 
         {/* head section */}
         {/* card 1 */}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablex mx-auto mt-2 `}> 
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-2 `}> 
           <div className='flex flex-row gap-4 mt-2'>
             
           <div className='w-5 mt-2'>
@@ -33,7 +33,7 @@ const Paid = () => {
           {/* card  */}
         
         {/* card 2 */}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablex mx-auto mt-2 `}> 
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-2 `}> 
           <div className='flex flex-row gap-4 mt-2'>
             
           <div className='w-5 mt-2'>
@@ -53,7 +53,7 @@ const Paid = () => {
           </div>
           {/* card  */}
         {/* card  3*/}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablex mx-auto mt-2 `}> 
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-2 `}> 
           <div className='flex flex-row gap-4 mt-2'>
             
           <div className='w-5 mt-2'>
@@ -73,7 +73,7 @@ const Paid = () => {
           </div>
           {/* card  */}
         {/* card  4*/}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablex mx-auto mt-2 `}> 
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-2 `}> 
           <div className='flex flex-row gap-4 mt-2'>
             
           <div className='w-5 mt-2'>
@@ -94,7 +94,7 @@ const Paid = () => {
           </div>
           {/* card  */}
         {/* card 5 */}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablex mx-auto mt-2 `}> 
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-2 `}> 
           <div className='flex flex-row gap-4 mt-2'>
             
           <div className='w-5 mt-2'>
@@ -115,7 +115,7 @@ const Paid = () => {
           </div>
           {/* card  */}
         {/* card 6 */}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablex mx-auto mt-2 `}> 
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-2 `}> 
           <div className='flex flex-row gap-4 mt-2'>
             
           <div className='w-5 mt-2'>

@@ -19,9 +19,17 @@ import four from './four.png'
 import five from './five.png'
 import six from './six.png'
 import seven from './seven.png'
+import gen from './gen.png'
+import healthy from './healthcare.png'
+import media from './media.png'
+import mentor from './mentor.png'
+import plan from './plan.png'
+import access from './access.png'
+import travel from './travel.png'
+import grow from './grow.png'
 
 export{
-    beach, two, three, four, five, six, seven,
+    beach, two, three, four, five, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,
     earn, build, products, protect, wealth, business, world, one,
 tick,
 open,

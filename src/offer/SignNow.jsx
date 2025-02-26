@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { wealth } from '../assets'
+import { access, gen, grow, healthy, media, mentor, plan, travel, wealth } from '../assets'
 import Time from './Time'
 
 const SignNow = () => {
@@ -19,7 +19,7 @@ Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME 
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
-                <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={plan} alt="" className='w-20 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
@@ -33,7 +33,7 @@ Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME 
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
-                <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={access} alt="" className='w-20 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
@@ -49,7 +49,7 @@ Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME 
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
-                <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={mentor} alt="" className='w-20 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
@@ -64,7 +64,7 @@ Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME 
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
-                <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={media} alt="" className='w-20 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
@@ -79,7 +79,7 @@ Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME 
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
-                <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={healthy} alt="" className='w-20 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
@@ -96,7 +96,7 @@ Immunity!
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
-                <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={travel} alt="" className='w-20 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
@@ -114,7 +114,7 @@ Immunity!
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
-                <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={gen} alt="" className='w-20 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
@@ -131,7 +131,7 @@ Immunity!
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
-                <img src={wealth} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={grow} alt="" className='w-20 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>

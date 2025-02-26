@@ -54,7 +54,8 @@ const Choice = () => {
             {/* icons */}
           </div>
           <div className=''>
-              <p className={`${styles.paragraphx} mt-2 mb-5`}>  Build a legacy for your children and grandchildren
+              <p className={`${styles.paragraphx} mt-2 mb-5`}> Do nothing and stay in the same position—waiting for "the right time" (which never comes
+
 
               </p>
             </div>

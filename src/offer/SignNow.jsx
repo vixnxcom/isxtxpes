@@ -91,23 +91,7 @@ Immunity!
              </div>      
           </div>
           {/* card */}
-  {/* card 4 */}
-  <div className='flex flex-col  mt-5 text-center justify-center items-center'>
-            {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
-            <div className=''>
-                <img src={travel} alt="" className='w-20 mx-auto mt-5' /> 
-              
-            </div>
-            <div className='mt-2 p-4 '>
-              <p className={`${styles.paragraphx}`}>Special Travel & Lifestyle Perks—Exclusive Discounts on Luxury Hotels, 
-                Resorts & Experiences!
- </p>
 
-            </div> 
-             </div>      
-          </div>
-          {/* card */}
   
   {/* card 4 */}
   <div className='flex flex-col  mt-5 text-center justify-center items-center'>
@@ -120,6 +104,23 @@ Immunity!
             <div className='mt-2 p-4 '>
               <p className={`${styles.paragraphx}`}> A Proven System to Build Generational Wealth—So Your Future
                  Family Can Live Free!
+ </p>
+
+            </div> 
+             </div>      
+          </div>
+          {/* card */}
+            {/* card 4 */}
+  <div className='flex flex-col  mt-5 text-center justify-center items-center'>
+            {/* icons */}
+            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
+            <div className=''>
+                <img src={travel} alt="" className='w-20 mx-auto mt-5' /> 
+              
+            </div>
+            <div className='mt-2 p-4 '>
+              <p className={`${styles.paragraphx}`}>Special Travel & Lifestyle Perks—Exclusive Discounts on Luxury Hotels, 
+                Resorts & Experiences!
  </p>
 
             </div> 

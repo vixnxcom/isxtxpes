@@ -17,6 +17,8 @@ import Transformation from './Transformation'
 import System from './System'
 import SignNow from './SignNow'
 import Objections from './Objections'
+import Success from './Success'
+import Choice from './Choice'
 
 const Offer = () => {
   return (
@@ -130,6 +132,26 @@ const Offer = () => {
 
    <Objections/> 
    <PartnerButton /> 
+ 
+</div>
+</div> 
+
+<div className={`${styles.flexCenter} mt-20 `}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Success/> 
+  
+   
+ 
+</div>
+</div> 
+
+<div className={`${styles.flexCenter} mt-10`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Choice/> 
+  
+   <PartnerButton />
  
 </div>
 </div> 

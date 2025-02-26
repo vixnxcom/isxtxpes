@@ -9,13 +9,13 @@ const SignNow = () => {
     
     {/* head section */}
     <div className={`${styles.heading5} blue`}>
-Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME OFFER!)</span>
+     Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME OFFER!)</span>
     </div>
     <div className={`${styles.flexCenter} mx-auto p-4`}>
       <Time />
      </div>
   {/* card 4 */}
-  <div className='flex flex-col  mt-5 text-center justify-center items-center'>
+  <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
@@ -29,7 +29,7 @@ Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME 
           </div>
           {/* card */}
   {/* card 4 */}
-  <div className='flex flex-col  mt-5 text-center justify-center items-center'>
+  <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
@@ -45,7 +45,7 @@ Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME 
  
           {/* card */}
   {/* card 4 */}
-  <div className='flex flex-col  mt-5 text-center justify-center items-center'>
+  <div className='flex flex-col  mt-5 mx-auto '>
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
@@ -60,7 +60,7 @@ Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME 
           </div>
           {/* card */}
   {/* card 4 */}
-  <div className='flex flex-col  mt-5 text-center justify-center items-center'>
+  <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
@@ -75,7 +75,7 @@ Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME 
           </div>
           {/* card */}
   {/* card 4 */}
-  <div className='flex flex-col  mt-5 text-center justify-center items-center'>
+  <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
@@ -94,7 +94,7 @@ Immunity!
 
   
   {/* card 4 */}
-  <div className='flex flex-col  mt-5 text-center justify-center items-center'>
+  <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
@@ -111,7 +111,7 @@ Immunity!
           </div>
           {/* card */}
             {/* card 4 */}
-  <div className='flex flex-col  mt-5 text-center justify-center items-center'>
+  <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>
@@ -128,7 +128,7 @@ Immunity!
           </div>
           {/* card */}
   {/* card 4 */}
-  <div className='flex flex-col  mt-5 text-center justify-center items-center'>
+  <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
             <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
             <div className=''>

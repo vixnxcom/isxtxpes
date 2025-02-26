@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../style'
 import { five, four, one, seven, six, three, tick, two } from '../assets'
+import Time from '../offer/Time'
 
 const Bonus = () => {
   return (
@@ -12,7 +13,9 @@ const Bonus = () => {
        <span className='gold'> Bonus Offer: </span> <br /> Act Now and Get Exclusive Access!
           </h1>
            </div>
-
+           <div className={`${styles.flexCenter} mx-auto p-4`}>
+         <Time />
+           </div>
            <div className='flex flex-col  mt-5'>
             {/* icons */}
             <div className='w-[50px] h-[55px] text-center mx-auto'>

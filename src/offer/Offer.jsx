@@ -20,7 +20,7 @@ import Objections from './Objections'
 
 const Offer = () => {
   return (
-    <div className='bg-white w-full'>
+    <div className='off-white w-full'>
 
     <div className={`${styles.flexCenter} mt-40 `}>
     <div className={`${styles.boxWidth}`}>

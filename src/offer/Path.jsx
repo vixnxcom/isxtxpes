@@ -4,7 +4,7 @@ import styles from '../style'
 const Path = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
-
+<div className='mt-40'></div>
 
     {/* head section */}
     <div className={`${styles.heading5} blue`}>

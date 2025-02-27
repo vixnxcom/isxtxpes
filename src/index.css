@@ -61,7 +61,9 @@
 background: linear-gradient(207.41deg, #011861 4.53%,
  #00239C 58.75%, #02134B 112.96%);
 }
-
+.bg-skyblue{
+  background: #0378fd;
+}
 
 
 .bg-gold{
@@ -128,6 +130,7 @@ margin: 20px auto;
 
 .borderr{
   border: 1px solid #DCDADA;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
 }
 
 .bg-offwhite{

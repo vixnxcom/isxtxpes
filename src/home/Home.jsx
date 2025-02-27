@@ -127,58 +127,7 @@ const Home = () => {
    <Opportunity/>
 
 </div>
-</div>
-{/* 
- <div className={`${styles.flexCenter} mt-10 bg-bluee w-[92vw] mx-auto rounded-[24px]`}>
- <div className={`${styles.boxWidth}`}>
-
-   <Imagine/>
-</div>
-</div>
-
- <div className={`${styles.flexCenter} mt-10 bg-bluee w-[92vw] mx-auto rounded-[24px]`}>
- <div className={`${styles.boxWidth}`}>
-
-   <Rice/>
-</div>
-</div>
-
-<div className={`${styles.flexCenter} mt-10 bg-bluee w-[92vw] mx-auto rounded-[24px]`}>
- <div className={`${styles.boxWidth}`}>
-
-   <Crush />
-</div>
-</div>
-
- <div className={`${styles.flexCenter} mt-10 `}>
- <div className={`${styles.boxWidth}`}>
-
-   <WhatIf />
-   <PartnerButton />
-</div>
-</div>
-
-
-<div className={`${styles.flexCenter} mt-10 table w-[92vw] mx-auto rounded-[24px]`}>
- <div className={`${styles.boxWidth}`}>
-
-   <Nintydays />
-</div>
-</div>
-
-<div className={`${styles.flexCenter} mt-10 table w-[92vw] mx-auto rounded-[24px]`}>
- <div className={`${styles.boxWidth}`}>
-
-   <Llegit />
-</div>
-</div>
-<div className={`${styles.flexCenter} mt-10 `}>
- <div className={`${styles.boxWidth}`}>
-
-   <Recover/>
-   <PartnerButton />
-</div>
-</div> */}
+</div> 
 
  <div className={`${styles.flexCenter} mt-10`}>
  <div className={`${styles.boxWidth}`}>
@@ -233,7 +182,7 @@ const Home = () => {
 
 
 
-<div className='h-[40px] '>
+<div className='h-[80px] '>
 </div>
 
 

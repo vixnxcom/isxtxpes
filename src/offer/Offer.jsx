@@ -19,6 +19,9 @@ import SignNow from './SignNow'
 import Objections from './Objections'
 import Success from './Success'
 import Choice from './Choice'
+import Questions from './Questions'
+import ButtonS from './session/ButtonS'
+import Regret from './Regret'
 
 const Offer = () => {
   return (
@@ -151,10 +154,36 @@ const Offer = () => {
 
    <Choice/> 
   
-   <PartnerButton />
+ 
  
 </div>
 </div> 
+
+<div className={`${styles.flexCenter} mt-10`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Regret/> 
+  <PartnerButton />
+  
+  
+ 
+</div>
+</div> 
+
+<div className={`${styles.flexCenter} mt-20`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Questions/> 
+   <ButtonS/> 
+  
+  
+ 
+</div>
+</div> 
+
+
+<div className='h-[80px] '>
+</div>
 
 
 

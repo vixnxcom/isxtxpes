@@ -14,7 +14,7 @@ const Get = () => {
         {/* card 1 */}
         <div className='flex flex-row gap-4 mt-5'>
               {/* icons */}
-              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px] mt-1'>
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>01</p>
               </div>
 
@@ -30,7 +30,7 @@ const Get = () => {
            {/* card 1 */}
            <div className='flex flex-row gap-4 mt-5'>
               {/* icons */}
-              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px] mt-1'>
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>02</p>
               </div>
               <div>
@@ -45,7 +45,7 @@ const Get = () => {
            {/* card 1 */}
            <div className='flex flex-row gap-4 mt-5'>
               {/* icons */}
-              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px] mt-1'>
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>03</p>
               </div>
               <div>
@@ -60,7 +60,7 @@ const Get = () => {
            {/* card 1 */}
            <div className='flex flex-row gap-4 mt-5'>
               {/* icons */}
-              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px] mt-1'>
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>04</p>
               </div>
               <div>
@@ -77,7 +77,7 @@ const Get = () => {
            {/* card 1 */}
            <div className='flex flex-row gap-4 mt-5'>
               {/* icons */}
-              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px] mt-1'>
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>05</p>
               </div>
               <div>
@@ -94,7 +94,7 @@ const Get = () => {
            {/* card 1 */}
            <div className='flex flex-row gap-4 mt-5'>
               {/* icons */}
-              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px] mt-1'>
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>06</p>
               </div>
               <div>
@@ -116,7 +116,7 @@ const Get = () => {
            {/* card 1 */}
            <div className='flex flex-row gap-4 mt-5'>
               {/* icons */}
-              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px] mt-1'>
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>07</p>
               </div>
               <div>
@@ -138,7 +138,7 @@ const Get = () => {
            {/* card 1 */}
            <div className='flex flex-row gap-4 mt-5'>
               {/* icons */}
-              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px] mt-1'>
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>08</p>
               </div>
               <div>
@@ -164,7 +164,7 @@ dreams!</p>
            {/* card 1 */}
            <div className='flex flex-row gap-4 mt-5'>
               {/* icons */}
-              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px]'>
+              <div className='w-[55px] h-[55px] bg-gold mx-auto rounded-[8px] mt-1'>
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>09</p>
               </div>
               <div>

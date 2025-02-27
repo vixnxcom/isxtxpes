@@ -51,6 +51,14 @@ const Navbar = () => {
               Our Offer
             </Link>
           </li>
+          <li>
+            <Link
+              to="/giveaway"
+              className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
+            >
+             Our Exclusive Giveaway
+            </Link>
+          </li>
         
           <li>
             <Link

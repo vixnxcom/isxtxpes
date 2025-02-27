@@ -23,7 +23,7 @@ Still Have Doubts? Let’s Address Them
     {/* head section */}
     {/* card 1 */}
     <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col table  mx-auto  `}> 
-      <div className='flex flex-row gap-4 '>
+      <div className=' '>
         
       
        <p className='noto text-start xs:text-[20px] text-[24px] text-black mt-2 mb-2'>
@@ -43,7 +43,7 @@ Still Have Doubts? Let’s Address Them
     {/* head section */}
     {/* card 1 */}
     <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col table  mx-auto  `}> 
-      <div className='flex flex-row gap-4 '>
+      <div className=''>
         
       
        <p className='noto text-start xs:text-[20px] text-[24px] text-black mt-2 mb-2'>
@@ -63,7 +63,7 @@ Still Have Doubts? Let’s Address Them
     {/* head section */}
     {/* card 1 */}
     <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col table  mx-auto  `}> 
-      <div className='flex flex-row gap-4 '>
+      <div className=''>
         
       
        <p className='noto text-start xs:text-[20px] text-[24px] text-black mt-2 mb-2'>

@@ -33,7 +33,7 @@ const Opportunity = () => {
      {/* card 2 */}
      <div className='flex flex-col  mt-5 text-center justify-center items-center'>
             {/* icons */}
-            <div className='w-[90w] mx-auto text-center bg-white rounded-[24px]'>
+            <div className='w-[90vw] mx-auto text-center bg-white rounded-[24px]'>
             <div className=''>
                 <img src={earn} alt="" className='w-16 mt-5 mx-auto ' /> 
               

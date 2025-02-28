@@ -97,7 +97,9 @@ border-radius: 24px;
 width: 92vw;
 
 }
-
+.black{
+  color: #111;
+}
 
 .tablex{
 background: #FFFFFF;

@@ -13,12 +13,14 @@ const Title = () => {
        
    <div className='mt-10'></div>
         {/* head section */}
-        <div className={`${styles.heading5} gold`}>
-        EXCLUSIVE GIVEAWAY!!!
+        <div className={`${styles.heading5} gold`}>THE DIAMOND PROJECT EXCLUSIVE FREE GIFT! 
+       
         </div>
 
-        <div className={`${styles.heading2}`}>
-        WIN <span className='gold'>₦100,000</span>  FOR FREE!
+        <div className={`${styles.heading2}`}>Unlock Your 'Millionaire Roadmap'
+             & Fast-Track Guide to Your First  <span className='gold'>N1,000,000!</span>
+
+       
         </div>
         </section>
   )

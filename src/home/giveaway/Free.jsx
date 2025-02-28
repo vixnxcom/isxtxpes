@@ -2,13 +2,17 @@ import React from 'react'
 import styles from '../../style'
 import { tick } from '../../assets'
 
-const Details = () => {
+const Free = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
     {/* head section */}
-    {/* <div className={`${styles.heading2} `}>
-    What's in it for you?
-    </div> */}
+     <div className={`${styles.heading2} `}>
+     100% FREE – Get Instant Access Below!
+    </div>  
+    <div className={`${styles.heading2}`}>
+    (📌 Only Available for the Next Few Action-Takers!)
+
+        </div>
        {/* card  */}
             {/* icons */}
         
@@ -18,7 +22,7 @@ const Details = () => {
 
           <div className='mx-auto'>
               <p className={`${styles.paragraph}  mb-2`}> 
-             The clock is ticking, and this opportunity won’t last long! 
+              Enter Your Details to Unlock Access Instantly
               </p>
             </div>
          
@@ -33,16 +37,25 @@ const Details = () => {
 
           <div className='mx-auto'>
               <p className={`${styles.paragraph}  mb-2`}> 
-              Enter your details now to claim your chance to change your life
+             Full Name, Phone Number, and Email address
 
               </p>
             </div>
          
           {/* card  */}
             {/* icons */}
-        
+            <div className={`${styles.heading2} mt-5 `}>
+   Limited Spots Available
+    </div>
+
+    <div className={`${styles.subHeading} mt-2`}>
+    Yes! I Want My Success Plan NOW! 
+    </div>
+    <div className={`${styles.subHeading} mt-2`}>
+    🔒 100% Secure. No Spam. Just Pure Value.
+    </div>
     </section>
   )
 }
 
-export default Details
+export default Free

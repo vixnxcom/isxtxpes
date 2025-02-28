@@ -2,13 +2,13 @@ import React from 'react'
 import styles from '../../style'
 import { tick } from '../../assets'
 
-const Details = () => {
+const Step = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
     {/* head section */}
-    {/* <div className={`${styles.heading2} `}>
+    <div className={`${styles.heading2} mt-2 `}>
     What's in it for you?
-    </div> */}
+    </div>
        {/* card  */}
             {/* icons */}
         
@@ -18,7 +18,7 @@ const Details = () => {
 
           <div className='mx-auto'>
               <p className={`${styles.paragraph}  mb-2`}> 
-             The clock is ticking, and this opportunity won’t last long! 
+              Step-by-Step Guide to Your First N1,000,000!
               </p>
             </div>
          
@@ -33,16 +33,33 @@ const Details = () => {
 
           <div className='mx-auto'>
               <p className={`${styles.paragraph}  mb-2`}> 
-              Enter your details now to claim your chance to change your life
+              100% Proven System (No Experience Needed!)
 
               </p>
             </div>
          
           {/* card  */}
             {/* icons */}
+       {/* card  */}
+            {/* icons */}
         
+            <div className='mx-auto mt-5 mb-2'>
+                <img src={tick} alt=""  className='w-8'/>
+          </div>
+
+          <div className='mx-auto'>
+              <p className={`${styles.paragraph}   mb-5`}> 
+              Fast-Track Training plus Special Bonus Worth Over N500,000!
+
+
+              </p>
+            </div>
+         
+          {/* card  */}
+            {/* icons */}
+  
     </section>
   )
 }
 
-export default Details
+export default Step

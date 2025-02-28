@@ -1,23 +1,27 @@
 import React from 'react'
 import styles from '../../style'
+import Time from '../../offer/Time'
 
-const Chance = () => {
+const Warning = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
 
     {/* head section */}
     <div className={`${styles.heading2}`}>
-    Limited Time
+    Warning
     </div>
     <div className={`${styles.subHeading} mt-2`}>
-    Unlock Your 'Millionaire Roadmap' & Fast-Track Guide to Your First N1,000,000!
+    This Exclusive Offer Will Be Removed Once Timer Hits Zero!
     </div>
+    <div className='mx-auto mt-5'>
+   <Time />
+   </div>
+
     <div className={`${styles.subHeading} mt-2`}>
-          Discover the exact proven strategy that has helped ordinary people generate consistent income & financial
-          freedom using The Diamond Project system.
+    Offer Expires Soon – Don’t Miss Out!
     </div>
  </section>
   )
 }
 
-export default Chance
+export default Warning

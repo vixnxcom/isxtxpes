@@ -5,24 +5,17 @@ import Time from '../offer/Time'
 
 const Bonus = () => {
   return (
-    <section className={`${styles.flexCenter} mt-10 flex flex-col`}>
+    <section className={`${styles.flexCenter}  flex flex-col`}>
     {/* main text */}
            
-           <div className={`${styles.heading1} `} >           
-          <h1 className=''>
-       <span className='gold'> Bonus Offer: </span> <br /> Act Now and Get Exclusive Access!
-          </h1>
-           </div>
-           <div className={`${styles.flexCenter} mx-auto p-4`}>
-         <Time />
-           </div>
-           <div className='flex flex-col  mt-5'>
+     
+           <div className='flex flex-col mx-auto  mt-10'>
             {/* icons */}
             <div className='w-[50px] h-[55px] text-center mx-auto'>
                 <img src={one} alt=""  />
             </div>
-            <div>
-            <p className={`${styles.subHeading}`}>
+            <div className='text-center  lilac w-[78vw]'>
+            <p className={`${styles.subHeadingy} mx-auto coal mb-5`}>
             90-Day Success Plan (A roadmap to <span className='gold aeon-bold'>₦1,000,000+</span> )
             </p>
            
@@ -30,13 +23,13 @@ const Bonus = () => {
             </div>
 
             {/* icons */}
-           <div className='flex flex-col  mt-5'>
+           <div className='flex flex-col  mt-10'>
             {/* icons */}
             <div className='w-[50px] h-[55px] text-center mx-auto'>
                 <img src={two} alt=""  />
             </div>
-            <div>
-            <p className={`${styles.subHeading}`}>
+            <div className='text-center  lilac w-[78vw]'>
+            <p className={`${styles.subHeadingy} mx-auto coal mb-5`}>
             Access to Millionaire Mentorship Groups Plan 
             </p>
             </div>
@@ -49,8 +42,8 @@ const Bonus = () => {
             <div className='w-[50px] h-[55px] text-center mx-auto'>
                 <img src={three} alt=""  />
             </div>
-            <div>
-            <p className={`${styles.subHeading}`}>
+            <div className='text-center  lilac w-[78vw]'>
+            <p className={`${styles.subHeadingy} mx-auto coal mb-5`}>
             1-on-1 Mastermind Sessions
             </p>
         
@@ -64,8 +57,8 @@ const Bonus = () => {
             <div className='w-[50px] h-[55px] text-center mx-auto'>
                 <img src={four} alt=""  />
             </div>
-            <div>
-            <p className={`${styles.subHeading}`}>
+            <div className='text-center  lilac w-[78vw]'>
+            <p className={`${styles.subHeadingy} coal mb-5`}>
            Social Media Scripts <br /> for Instant Leads
             </p>
         
@@ -79,8 +72,8 @@ const Bonus = () => {
             <div className='w-[50px] h-[55px] text-center mx-auto'>
                 <img src={five} alt=""  />
             </div>
-            <div>
-            <p className={`${styles.subHeading}`}>
+            <div className='text-center  lilac w-[78vw]'>
+            <p className={`${styles.subHeadingy} coal mb-5`}>
             Travel & Lifestyle Perks
             </p>
         
@@ -94,8 +87,8 @@ const Bonus = () => {
             <div className='w-[50px] h-[55px] text-center mx-auto'>
                 <img src={six} alt=""  />
             </div>
-            <div>
-            <p className={`${styles.subHeading}`}>
+            <div className='text-center  lilac w-[78vw]'>
+            <p className={`${styles.subHeadingy} coal mb-5`}>
             Premium Health Product <br /> Access
 
             </p>
@@ -109,12 +102,10 @@ const Bonus = () => {
             {/* icons */}
             <div className='w-[50px] h-[55px] text-center mx-auto'>
                 <img src={seven} alt=""  />
-            </div>
-            <div>
-            <p className={`${styles.subHeading}`}>
+            </div> 
+            <div className='text-center  lilac w-[78vw]'>
+            <p className={`${styles.subHeadingy} coal mb-5`}>
           Generational Wealth <br /> Building System
-
-
             </p>
         
             </div>

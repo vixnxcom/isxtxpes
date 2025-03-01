@@ -9,7 +9,7 @@ const styles = {
   heading3: "aeon-bold text-center xs:text-[20px] text-[24px] text-white xs:leading-[66.8px] leading-[56.8px] w-full",
   heading7: "aeon-bold text-center xs:text-[20px] text-[24px] text-black xs:leading-[66.8px] leading-[56.8px] w-full",
   subHeading: "noto text-center xs:text-[28px] text-[24px] text-white mt-5 w-full",
-  subHeadingy: "noto text-center xs:text-[28px] text-[24px] text-black mt-5 w-full",
+  subHeadingy: "noto text-center xs:text-[28px] text-[24px] text-black mt-5 w-full tracking-wide",
  
  
   subHeadingc: "noto text-left xs:text-[28px] text-[24px] text-white mt-5 w-full",

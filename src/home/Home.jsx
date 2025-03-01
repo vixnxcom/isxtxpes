@@ -29,6 +29,7 @@ import Opportunity from './Opportunity'
 import Doubts from './Doubts'
 import Bonus from './Bonus'
 import Final from './Final'
+import Head from './Head'
 
 const Home = () => {
   return (
@@ -168,7 +169,13 @@ const Home = () => {
 </div>
 </div>
 
- <div className={`${styles.flexCenter} mt-20 `}>
+ <div className={`${styles.flexCenter} mt-10 `}>
+ <div className={`${styles.boxWidth}`}>
+<Head /> 
+</div>
+</div>
+
+ <div className={`${styles.flexCenter} bg-white w-[90vw] mx-auto rounded-[24px] borderr mt-5 `}>
  <div className={`${styles.boxWidth}`}>
 
    <Bonus/>
@@ -176,6 +183,7 @@ const Home = () => {
  
 </div>
 </div>
+
 <div className={`${styles.flexCenter} mt-20 `}>
  <div className={`${styles.boxWidth}`}>
 

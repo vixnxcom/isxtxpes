@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../style'
-import { good, tick, } from '../../assets'
+import { good, pink, tick, } from '../../assets'
 import SignNow from '../SignNow'
 
 const Paid = () => {
@@ -13,11 +13,11 @@ const Paid = () => {
 
         {/* head section */}
         {/* card 1 */}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-2 `}> 
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-5 `}> 
           <div className='flex flex-row gap-4 mt-2'>
             
           <div className='w-5 mt-2'>
-                <img src={tick} alt=""  />
+                <img src={pink} alt=""  />
             </div>
 
            <div className='noto text-center xs:text-[20px] text-[24px] text-black '>
@@ -33,11 +33,11 @@ const Paid = () => {
           {/* card  */}
         
         {/* card 2 */}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-2 `}> 
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-5 `}> 
           <div className='flex flex-row gap-4 mt-2'>
             
           <div className='w-5 mt-2'>
-                <img src={tick} alt=""  />
+                <img src={pink} alt=""  />
             </div>
 
            <div className='noto text-center xs:text-[20px] text-[24px] text-black '>
@@ -53,11 +53,11 @@ const Paid = () => {
           </div>
           {/* card  */}
         {/* card  3*/}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-2 `}> 
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-5 `}> 
           <div className='flex flex-row gap-4 mt-2'>
             
           <div className='w-5 mt-2'>
-                <img src={tick} alt=""  />
+                <img src={pink} alt=""  />
             </div>
 
            <div className='noto text-start xs:text-[20px] text-[24px] text-black '>
@@ -73,11 +73,11 @@ const Paid = () => {
           </div>
           {/* card  */}
         {/* card  4*/}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-2 `}> 
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-5 `}> 
           <div className='flex flex-row gap-4 mt-2'>
             
           <div className='w-5 mt-2'>
-                <img src={tick} alt=""  />
+                <img src={pink} alt=""  />
             </div>
 
            <div className='noto text-start xs:text-[20px] text-[24px] text-black '>
@@ -94,11 +94,11 @@ const Paid = () => {
           </div>
           {/* card  */}
         {/* card 5 */}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-2 `}> 
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-5 `}> 
           <div className='flex flex-row gap-4 mt-2'>
             
           <div className='w-5 mt-2'>
-                <img src={tick} alt=""  />
+                <img src={pink} alt=""  />
             </div>
 
            <div className='noto text-start xs:text-[20px] text-[24px] text-black '>
@@ -115,11 +115,11 @@ const Paid = () => {
           </div>
           {/* card  */}
         {/* card 6 */}
-        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-2 `}> 
+        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablexx mx-auto mt-5 `}> 
           <div className='flex flex-row gap-4 mt-2'>
             
           <div className='w-5 mt-2'>
-                <img src={tick} alt=""  />
+                <img src={pink} alt=""  />
             </div>
 
            <div className='noto text-start xs:text-[20px] text-[24px] text-black '>

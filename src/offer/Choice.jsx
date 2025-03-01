@@ -1,5 +1,5 @@
 import React from 'react'
-import { tick } from '../assets'
+import { graph, tick } from '../assets'
 import styles from '../style'
 
 const Choice = () => {
@@ -15,7 +15,7 @@ const Choice = () => {
        {/* card 5 */}
         
        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-row mx-auto gap-4 `}>
-       <img src={tick} alt="" className='w-8 mt-10'/>
+       <img src={graph} alt="" className='w-8 mt-10'/>
        <div className={`${styles.heading4}   mx-auto mt-6`}> <span></span>
          Choice 1
         </div>
@@ -35,7 +35,7 @@ const Choice = () => {
        {/* card 5 */}
         
        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-row mx-auto gap-4 `}>
-       <img src={tick} alt="" className='w-8 mt-10'/>
+       <img src={graph} alt="" className='w-8 mt-10'/>
        <div className={`${styles.heading4}   mx-auto mt-6`}> <span></span>
          Choice 2
         </div>

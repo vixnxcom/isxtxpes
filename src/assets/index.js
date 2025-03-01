@@ -34,10 +34,12 @@ import tired from './tired.jpg'
 import safe from './safe.png'
 import eye from './eye.png'
 import bookmark from './bookmark.png'
+import pink from './pink.png'
+import graph from './graph.png'
 
 export{
     beach, two, three, four, five, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,ppl, tired, happy, 
-    earn, build, products, protect, wealth, business, world, one, coins, safe, eye, bookmark,
+    earn, build, products, protect, wealth, business, world, one, coins, safe, eye, bookmark, pink, graph,
 tick,
 open,
 good,

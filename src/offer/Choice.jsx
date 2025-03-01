@@ -21,19 +21,14 @@ const Choice = () => {
         </div>
         </div>
        
+        {/* card */}
+        <div className={`${styles.paragraphy} ${styles.paddingX}  coal p-5 bg-white  w-[90vw] rounded-[24px] borderr 
+         mx-auto  `}>          
+        Take action TODAY. Start building your financial & physical freedom, and create a life of abundance &
+        adventure
+      </div>
+    {/* card */}
     
-       <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablex mx-auto mt-2 `}> 
-          <div className='flex flex-row gap-4 mt-5'>
-            
-        
-            {/* icons */}
-          </div>
-          <div className=''>
-              <p className={`${styles.paragraphx} mt-2 mb-5`}>  Build a legacy for your children and grandchildren
-
-              </p>
-            </div>
-          </div>
           {/* card  */}
     {/* box */}
     {/* box */}
@@ -45,28 +40,14 @@ const Choice = () => {
          Choice 2
         </div>
         </div>
+        {/* card */}
+    <div className={`${styles.paragraphy} ${styles.paddingX}  coal p-5 bg-white  w-[90vw] rounded-[24px] borderr  mx-auto  `}>          
+    Everyone who is winning in this business started where you are—with doubts. The difference? They took action.
        
-    
-       <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablex mx-auto mt-2 `}> 
-          <div className='flex flex-row gap-4 mt-5'>
-            
-        
-            {/* icons */}
-          </div>
-          <div className=''>
-              <p className={`${styles.paragraphx} mt-2 mb-5`}> Do nothing and stay in the same position—waiting for "the right time" (which never comes
-
-
-              </p>
-            </div>
-          </div>
-          {/* card  */}
-    {/* box */}
-    <div className={`${styles.subHeadingy} mt-5`}>
-    The right time is NOW!. Your future self will thank you for this decision!
-
-
-    </div>
+      </div>
+    {/* card */}
+   
+  
    </section>
   )
 }

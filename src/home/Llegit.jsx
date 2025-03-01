@@ -4,7 +4,7 @@ import styles from '../style'
 const Llegit = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col mb-10 mt-5`}>
-    <div className={`${styles.subHeadingb} mt-2`}>
+    <div className={`${styles.subHeadingxy}  coal mt-2`}>
      
 It’s a <span className='aeon-bold text-[24px blue'> legit system</span> that people—just like you—are using 
 to change their lives, to change their story.

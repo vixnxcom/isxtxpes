@@ -160,7 +160,7 @@ const Home = () => {
 </div> */}
 
 
- <div className={`${styles.flexCenter} mt-20 `}>
+ <div className={`${styles.flexCenter} mt-20 mx-auto `}>
  <div className={`${styles.boxWidth}`}>
 
    <Doubts/>

@@ -14,49 +14,51 @@ const Success = () => {
 
     {/* box */}
        {/* card 5 */}
-       <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablex mx-auto mt-5 `}> 
-          <div className='flex flex-col gap-4 mt-5'>
+       <div className={`${styles.paragraphy} ${styles.paddingX}  coal p-5 bg-white  w-[90vw] rounded-[24px] borderr 
+         mx-auto  `}> 
+          <div className='flex flex-col gap-4 mt-2'>
             
           <div className='w-12 mt-2'>
                 <img src={ppl} alt=""  />
             </div>
 
-           <div className='noto text-start xs:text-[20px] text-[24px] text-black '>
+           <div className='noto text-start xs:text-[20px] text-[24px] text-black mb-2'>
            Meet Uche
             </div> 
 
             {/* icons */}
           </div>
-          <div className=''>
-              <p className={`${styles.paragraphx} mt-2 mb-5`}> She was struggling financially and had chronic fatigue, but she took action. Now, she’s making
+        
+              <p className={`${styles.paragraphy} mt-2 mb-5`}> She was struggling financially and had chronic fatigue, but she took action. Now, she’s making
               ₦500,000+ per month, traveling the world, and feeling healthier than ever. What changed? She said YES.
               </p>
-            </div>
+         
           </div>
           {/* card  */}
     {/* box */}
     {/* box */}
        {/* card 5 */}
-       <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col tablex mx-auto mt-5 `}> 
-          <div className='flex flex-col gap-4 mt-5'>
+       <div className={`${styles.paragraphy} ${styles.paddingX}  coal p-5 bg-white  w-[90vw] rounded-[24px] borderr 
+         mx-auto  `}> 
+          <div className='flex flex-col gap-4 mt-2'>
             
           <div className='w-12 mt-2'>
                 <img src={ppl} alt=""  />
             </div>
 
-           <div className='noto text-start xs:text-[20px] text-[24px] text-black '>
+           <div className='noto text-start xs:text-[20px] text-[24px] text-black mb-2'>
            Meet Fabian
             </div> 
 
             {/* icons */}
           </div>
-          <div className=''>
+     
               <p className={`${styles.paragraphx} mt-2 mb-5`}>  He started with no experience and no money. Today, he’s exploring exotic destinations, earning
 online, and living the dream—all because he decided to take action.
 
               </p>
             </div>
-          </div>
+     
           {/* card  */}
     {/* box */}
     <div className={`${styles.subHeadingy} mt-5`}>

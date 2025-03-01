@@ -16,69 +16,37 @@ Still Have Doubts? Let’s Address Them
 
     </div>  
     {/* head section */}
-    <div className={`${styles.heading6} mt-10 mb-5 table mx-auto `}>
+    <div className={`${styles.heading6} borderr w-[90vw] bg-white rounded-[24px] mt-10   mx-auto `}>
     "I don’t have the money"
     </div>
-
-    {/* head section */}
-    {/* card 1 */}
-    <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col table  mx-auto  `}> 
-      <div className=' '>
-        
-      
-       <p className='noto text-start xs:text-[20px] text-[24px] text-black mt-2 mb-2'>
-       Isn’t this the exact reason why you need this opportunity
-        </p> 
-
-        {/* icons */}
+    {/* card */}
+    <div className={`${styles.subHeadingxy} ${styles.paddingX}  coal p-5 offlilac w-[90vw] rounded-[24px] borderr  mx-auto  `}>          
+       Isn’t this the exact reason why you need this opportunity       
       </div>
-      
-      </div>
-      {/* card  */}
+    {/* card */}
+    
     {/* head section */}
-    <div className={`${styles.heading6} mt-10 mb-5 table mx-auto `}>
+    <div className={`${styles.heading6} borderr w-[90vw] bg-white rounded-[24px] mt-10   mx-auto `}>
     “I’m not sure if it’ll work for me”
     </div>
+    {/* card */}
+    <div className={`${styles.subHeadingxy} ${styles.paddingX}  coal p-5 offlilac w-[90vw] rounded-[24px] borderr  mx-auto  `}>          
+    Everyone who succeeded started where you are now—doubtful and unsure.       
+      </div>
+    {/* card */}
 
     {/* head section */}
-    {/* card 1 */}
-    <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col table  mx-auto  `}> 
-      <div className=''>
-        
-      
-       <p className='noto text-start xs:text-[20px] text-[24px] text-black mt-2 mb-2'>
-       Everyone who succeeded started where you are now—doubtful and unsure
-        </p> 
-
-        {/* icons */}
-      </div>
-      
-      </div>
-      {/* card  */}
-    {/* head section */}
-    <div className={`${styles.heading6} mt-10 mb-5 table mx-auto `}>
-    “I need more time to think” 
+    <div className={`${styles.heading6} borderr w-[90vw] bg-white rounded-[24px] mt-10   mx-auto `}>
+    “I need more time to think”
     </div>
-
-    {/* head section */}
-    {/* card 1 */}
-    <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col table  mx-auto  `}> 
-      <div className=''>
-        
-      
-       <p className='noto text-start xs:text-[20px] text-[24px] text-black mt-2 mb-2'>
-       Waiting only delays your success. Take action today and your future self will thank you.
-        </p> 
-
-        {/* icons */}
+    {/* card */}
+    <div className={`${styles.subHeadingxy} ${styles.paddingX}  coal p-5 offlilac w-[90vw] rounded-[24px] borderr  mx-auto  `}>          
+    Waiting only delays your success. Take action today and your future self will thank you.
+       
       </div>
+    {/* card */}
+   
       
-      </div>
-      {/* card  */}
-      <div className={`${styles.subHeading} mt-10`}>
-      Take Action Now & Get Started Today
-    
-          </div>
       </section>
   )
 }

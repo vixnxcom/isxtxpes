@@ -11,12 +11,16 @@ const styles = {
   subHeading: "noto text-center xs:text-[28px] text-[24px] text-white mt-5 w-full",
   subHeadingy: "noto text-center xs:text-[28px] text-[24px] text-black mt-5 w-full",
  
+ 
   subHeadingc: "noto text-left xs:text-[28px] text-[24px] text-white mt-5 w-full",
   subHeadingb: "noto text-left xs:text-[28px] text-[24px] text-black mt-5 w-full",
   subHeadingx: "noto text-left xs:text-[28px] text-[24px] text-white mt-5 w-full",
+  subHeadingxy: "noto text-left xs:text-[24px] text-[20px] text-white mt-5 w-full tracking-wide",
 
   paragraph: "noto font-normal text-white md:text-[14px] text-[16px] leading-[30.8px]",
   paragraphx: "noto font-normal coal md:text-[14px] text-[16px] leading-[30.8px]",
+  paragraphy: "noto text-left md:text-[14px] font-normal text-[16px] coal mt-5 w-full tracking-wide leading-[30.8px]",
+
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",

@@ -8,14 +8,14 @@ const Crush = () => {
     {/* head section */}
 
   
-    <div className={`${styles.subHeadingx}  mt-2 `}>
-    <span className='aeon-bold text-[24px'>You see people, opportunities. </span>
+    <div className={`${styles.subHeadingxy}  mt-2 `}>
+    <span className='aeon-bold text-[20px]'>You see people, opportunities. </span>
 The girl/boy you had a crush on but never had the courage to tell.
-Everything you’ve ever lost. <span className='aeon-bold text-[24px'>Every opportunity </span> you didn’t take. Every moment you let slip through your fingers.
+Everything you’ve ever lost. <span className='aeon-bold text-[20px]'>Every opportunity </span> you didn’t take. Every moment you let slip through your fingers.
 And then it hits you.
 The worst things we lose are not objects.
-It’s the time we wasted.<span className='aeon-bold text-[24px'>The money </span>
- we never made. The<span className='aeon-bold text-[24px'> chances </span>
+It’s the time we wasted.<span className='aeon-bold text-[20px]'>The money </span>
+ we never made. The<span className='aeon-bold text-[20px]'> chances </span>
  we never took because fear held us back.
 But what if—right now—you had the chance to get it all back?
 

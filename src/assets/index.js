@@ -32,10 +32,12 @@ import coins from './coins.png'
 import happy from './happy.jpg'
 import tired from './tired.jpg'
 import safe from './safe.png'
+import eye from './eye.png'
+import bookmark from './bookmark.png'
 
 export{
     beach, two, three, four, five, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,ppl, tired, happy, 
-    earn, build, products, protect, wealth, business, world, one, coins, safe,
+    earn, build, products, protect, wealth, business, world, one, coins, safe, eye, bookmark,
 tick,
 open,
 good,

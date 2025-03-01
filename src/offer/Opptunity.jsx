@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { tick } from '../assets'
+import { bookmark, tick } from '../assets'
 
 const Opptunity = () => {
   return (
@@ -16,7 +16,7 @@ const Opptunity = () => {
      <div className='flex flex-row gap-4 mt-5'>
         {/* icons */}
         <div className='w-[50px] h-[55px]'>
-            <img src={tick} alt=""  className='max-w-8 mt-2'/>
+            <img src={bookmark} alt=""  className='max-w-8 mt-2'/>
         </div>
         <div>
           <p className={`${styles.paragraphx}`}>For Less Than the Cost of a Shoe, You Can Build a Business That Pays You Forever—While Making an Impact
@@ -30,7 +30,7 @@ That Lasts Generations!
      <div className='flex flex-row gap-4 mt-5'>
         {/* icons */}
         <div className='w-[50px] h-[55px]'>
-            <img src={tick} alt="" className='max-w-8 mt-2' />
+            <img src={bookmark} alt="" className='max-w-8 mt-2' />
         </div>
         <div>
           <p className={`${styles.paragraphx}`}>People spend ₦70,000 on weekend outings, shopping, and subscriptions 

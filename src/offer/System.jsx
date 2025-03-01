@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { safe, tick } from '../assets'
+import { eye, safe, tick } from '../assets'
 
 const System = () => {
   return (
@@ -13,7 +13,7 @@ const System = () => {
       <div className='flex flex-row gap-4 mt-5'>
             {/* icons */}
             <div className=''>
-                <img src={safe} alt=""  className='max-w-8 mt-2' />
+                <img src={eye} alt=""  className='max-w-8 mt-2' />
             </div>
             <div>
               <p className={`${styles.paragraphx}`}>You want to earn extra income without affecting your daily routine.
@@ -26,7 +26,7 @@ const System = () => {
       <div className='flex flex-row gap-4 mt-5'>
             {/* icons */}
             <div className=''>
-                <img src={safe} alt=""  className='max-w-8 mt-2' />
+                <img src={eye} alt=""  className='max-w-8 mt-2' />
             </div>
             <div>
               <p className={`${styles.paragraphx}`}>
@@ -40,7 +40,7 @@ const System = () => {
       <div className='flex flex-row gap-4 mt-5'>
             {/* icons */}
             <div className=''>
-                <img src={safe} alt=""  className='max-w-8 mt-2' />
+                <img src={eye} alt=""  className='max-w-8 mt-2' />
             </div>
             <div>
            
@@ -56,7 +56,7 @@ const System = () => {
       <div className='flex flex-row gap-4 mt-5'>
             {/* icons */}
             <div className=''>
-                <img src={safe} alt=""  className='max-w-8 mt-2' />
+                <img src={eye} alt=""  className='max-w-8 mt-2' />
             </div>
             <div>
            
@@ -72,7 +72,7 @@ const System = () => {
       <div className='flex flex-row gap-4 mt-5'>
             {/* icons */}
             <div className=''>
-                <img src={safe} alt=""  className='max-w-8 mt-2' />
+                <img src={eye} alt=""  className='max-w-8 mt-2' />
             </div>
             <div>
            
@@ -86,7 +86,7 @@ const System = () => {
       <div className='flex flex-row gap-4 mt-5'>
             {/* icons */}
             <div className=''>
-                <img src={safe} alt=""  className='max-w-8 mt-2' />
+                <img src={eye} alt=""  className='max-w-8 mt-2' />
             </div>
             <div>
            

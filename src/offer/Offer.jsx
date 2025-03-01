@@ -22,6 +22,7 @@ import Choice from './Choice'
 import Questions from './Questions'
 import ButtonS from './session/ButtonS'
 import Regret from './Regret'
+import You from './You'
 
 const Offer = () => {
   return (
@@ -116,7 +117,15 @@ const Offer = () => {
    
 </div>
 </div> 
-<div className={`${styles.flexCenter} mt-20 `}>
+<div className={`${styles.flexCenter} mt-10 `}>
+ <div className={`${styles.boxWidth}`}>
+
+   <You/>
+   
+   
+</div>
+</div> 
+<div className={`${styles.flexCenter} mt-10 bg-white w-[90vw] mx-auto rounded-[24px] borderr`}>
  <div className={`${styles.boxWidth}`}>
 
    <Transformation />  

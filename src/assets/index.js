@@ -36,10 +36,11 @@ import eye from './eye.png'
 import bookmark from './bookmark.png'
 import pink from './pink.png'
 import graph from './graph.png'
+import  bar from './bar.png'
 
 export{
     beach, two, three, four, five, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,ppl, tired, happy, 
-    earn, build, products, protect, wealth, business, world, one, coins, safe, eye, bookmark, pink, graph,
+    earn, build, products, protect, wealth, business, world, one, coins, safe, eye, bookmark, pink, graph, bar,
 tick,
 open,
 good,

@@ -1,14 +1,12 @@
 import React from 'react'
 import styles from '../style'
-import { happy, tick, tired } from '../assets'
+import { bar, happy, tick, tired } from '../assets'
 
 const Transformation = () => {
   return (
-    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
-    {/* head section */}
-    <div className={`${styles.heading7}  blue`}>
-    What's in it for you?
-    </div>
+    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col `}>
+  
+   
         {/* card 5 */}
         <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col  mx-auto mt-5 `}> 
          
@@ -43,7 +41,7 @@ const Transformation = () => {
 
             {/* icons */}
         
-          <div className='mx-auto mt-5 mb-2'><img src={tick} alt=""  className='w-8'/>
+          <div className='mx-auto mt-5 mb-2'><img src={bar} alt=""  className='w-8'/>
           </div>
           <div className='mx-auto'>
               <p className={`${styles.paragraphx}  mb-2`}> 
@@ -54,7 +52,7 @@ const Transformation = () => {
           {/* card  */}
             {/* icons */}
         
-          <div className='mx-auto mt-5 mb-2'><img src={tick} alt=""  className='w-8'/>
+          <div className='mx-auto mt-5 mb-2'><img src={bar} alt=""  className='w-8'/>
           </div>
           <div className='mx-auto'>
               <p className={`${styles.paragraphx}  mb-2`}> 
@@ -66,10 +64,10 @@ const Transformation = () => {
           {/* card  */}
             {/* icons */}
         
-          <div className='mx-auto mt-5 mb-2'><img src={tick} alt=""  className='w-8'/>
+          <div className='mx-auto mt-5 mb-2'><img src={bar} alt=""  className='w-8'/>
           </div>
-          <div className='mx-auto'>
-              <p className={`${styles.paragraphx}  mb-2`}> 
+          <div className='mx-auto mb-10'>
+              <p className={`${styles.paragraphx}  mb-5`}> 
               Creating a legacy of wealth, health, and freedom for your future generations!
 
               </p>

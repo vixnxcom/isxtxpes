@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../style'
 import PartnerButton from './PartnerButton'
+import { coins, hand,  } from '../assets'
 
 const Stats = () => {
   return (
@@ -16,7 +17,7 @@ const Stats = () => {
             Systems
            </div>
         {/* head section */}
-
+    
         {/* card */}
         <div className='flex flex-row gap-5 mt-5 mx-auto mx-auto'>
             
@@ -30,6 +31,7 @@ const Stats = () => {
     </div>
 
         <div className="flex flex-col box justify-center items-center mt-5">
+
   <div className="text-black aeon-bold text-[24px]">
     8
   </div>
@@ -37,13 +39,13 @@ const Stats = () => {
    Billionaires
     </div>
     </div>
-
+    
 </div>
         {/* card */}
 
         {/* card 2 */}
         <div className='mx-auto'>
-        <div className="flex flex-col boxx justify-center items-center mt-5 mx-2 mb-10 ">
+        <div className="flex flex-col boxx justify-center items-center mt-5 mx-2  ">
 
        <div className="text-black aeon-bold text-[24px] ">
        50,000+ 
@@ -56,10 +58,13 @@ const Stats = () => {
 
         </div>
         {/* card 2 */}
-        <div className={`${styles.heading3} mt-5`}>
+        <div className='h-[8vw] '>
+      <img src={coins} alt="" />
+    </div>
+        <div className={`${styles.heading3} `}>
         
            </div>
-        <div className={`${styles.subHeading} mt-2`}>
+        <div className={`${styles.subHeading} shadow mt-2`}>
       
 Having a system that works for you while you sleep is the fastest way to become financially free.
 Our wealthiest partners have made over <span className='gold aeon-bold'> ₦5 Billion </span> 

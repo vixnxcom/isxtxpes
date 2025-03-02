@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../style'
-import { business, finance, health, tick, world } from '../assets'
+import { business, finance, health, ppl, tick, world } from '../assets'
+
 
 const Bulletpoints = () => {
   return (
@@ -11,53 +12,89 @@ const Bulletpoints = () => {
         </div>
         {/* head section */}
         {/* card 1 */}
-          <div className='flex flex-col  mt-5 text-center justify-center items-center'>
-            {/* icons */}
-            <div className='w-[86vw] h-[160px] text-center bg-white rounded-[24px]'>
-                <img src={finance} alt="" className='w-32 mt-5 mx-auto ' /> 
-              
+        <div className={`${styles.flexCenter} flex flex-row gap-4`}>        
+     {/* card 5 */}
+     <div className={`${styles.paragraphy} ${styles.paddingX} mt-5  coal  bg-white h-[240px]  max-w-[48vw] rounded-[12px] borderr 
+         mx-auto  `}> 
+          <div className='flex flex-col gap-4 mt-2'>
+            
+          <div className='w-12 mt-2'>
+                <img src={finance} alt=""  />
             </div>
-            <div className='mt-2'>
-              <p className={`${styles.paragraph}`}>Financial Freedom your way</p>
-            </div>        
+
+        
+            {/* icons */}
           </div>
-          {/* card 1 */}   
+        
+              <p className={`${styles.paragraphy} mt-2 mb-5`}>
+              Financial freedom, your way.
+              </p>
+         
+          </div>
+          {/* card  */}
+     {/* card 5 */}
+     <div className={`${styles.paragraphy} ${styles.paddingX} mt-5  coal  bg-white h-[240px] max-w-[48vw] rounded-[12px] borderr 
+         mx-auto  `}> 
+          <div className='flex flex-col gap-4 mt-2'>
+            
+          <div className='w-12 mt-2'>
+                <img src={health} alt=""  />
+            </div>
+
+        
+            {/* icons */}
+          </div>
+        
+              <p className={`${styles.paragraphy} mt-2 mb-5`}>
+              Health & well -ness products that improve your life.
+              </p>
+         
+          </div>
+          {/* card  */}
+          </div>
         {/* card 1 */}
-          <div className='flex flex-col  mt-5 text-center justify-center items-center'>
-            {/* icons */}
-            <div className='w-[86vw] h-[160px] text-center bg-white rounded-[24px] '>
-                <img src={health} alt="" className='w-36 mx-auto  mt-2 ' /> 
-              
+        <div className={`${styles.flexCenter} flex flex-row gap-4`}>        
+     {/* card 5 */}
+     <div className={`${styles.paragraphy} ${styles.paddingX} mt-5  coal  bg-white h-[240px]  max-w-[48vw] rounded-[12px] borderr 
+         mx-auto  `}> 
+          <div className='flex flex-col gap-4 mt-2'>
+            
+          <div className='w-12 mt-2'>
+                <img src={world} alt=""  />
             </div>
-            <div className='mt-2'>
-              <p className={`${styles.paragraph}`}>Health & wellness products that improve your life.</p>
-            </div>        
-          </div>
-          {/* card 1 */}   
-        {/* card 1 */}
-          <div className='flex flex-col  mt-5 text-center justify-center items-center'>
+
+        
             {/* icons */}
-            <div className='w-[86vw] h-[160px] text-center bg-white rounded-[24px]'>
-                <img src={world} alt="" className='w-28 mx-auto mt-5' /> 
-              
-            </div>
-            <div className='mt-2'>
-              <p className={`${styles.paragraph}`}>Work from anywhere, including your dream destinations.</p>
-            </div>        
           </div>
-          {/* card 1 */}   
-        {/* card 1 */}
-          <div className='flex flex-col  mt-5 text-center justify-center items-center'>
+        
+              <p className={`${styles.paragraphy} mt-2 mb-5`}>
+              Work from any -where, including your dream destinations.
+
+              </p>
+         
+          </div>
+          {/* card  */}
+     {/* card 5 */}
+     <div className={`${styles.paragraphy} ${styles.paddingX} mt-5  coal  bg-white h-[240px] max-w-[48vw] rounded-[12px] borderr 
+         mx-auto  `}> 
+          <div className='flex flex-col gap-4 mt-2'>
+            
+          <div className='w-12 mt-2'>
+                <img src={business} alt=""  />
+            </div>
+
+        
             {/* icons */}
-            <div className='w-[86vw] h-[160px] text-center bg-white rounded-[24px]'>
-                <img src={business} alt="" className='w-28 mx-auto mt-5 ' /> 
-              
-            </div>
-            <div className='mt-2'>
-              <p className={`${styles.paragraph}`}>Build a business that can generate income for generations.</p>
-            </div>        
           </div>
-          {/* card 1 */}   
+        
+              <p className={`${styles.paragraphy} mt-2 mb-5`}>
+              Build a business that can gen -erate income for generations
+              </p>
+         
+          </div>
+          {/* card  */}
+          </div>
+        
     </section>
   )
 }

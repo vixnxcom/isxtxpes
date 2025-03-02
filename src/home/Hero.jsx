@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../style'
+import { coins } from '../assets'
  
 
 const Hero = () => {
@@ -9,12 +10,16 @@ const Hero = () => {
   {/* main text */}
          
          <div className={`${styles.heading1} `} >
+         <div className='h-[10vw] p-2'>
+      <img src={coins} alt="" />
+    </div>
             <div className='md:h-[160px]  h-[160px]'></div>
         <h1 className=''>
         Do you lack   <span className='gold'>passive income?</span>  
         </h1>
          </div>
-         <div className={`${styles.subHeading}`}>
+      
+         <div className={`${styles.subHeading} shadow`}>
          Let's help you build a financial leverage system.
          </div>
   {/* main text */}

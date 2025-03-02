@@ -58,9 +58,7 @@ const Stats = () => {
 
         </div>
         {/* card 2 */}
-        <div className='h-[8vw] '>
-      <img src={coins} alt="" />
-    </div>
+     
         <div className={`${styles.heading3} `}>
         
            </div>

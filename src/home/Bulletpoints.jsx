@@ -24,7 +24,7 @@ const Bulletpoints = () => {
         
             {/* icons */}
           </div>
-          <div className=' w-full  h-[100px]'>
+          <div className=' w-full  h-[160px]'>
               <p className={`${styles.heading4} text-white `}>
               Financial freedom, your way.
               </p>

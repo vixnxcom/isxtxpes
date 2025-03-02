@@ -87,11 +87,7 @@ const Home = () => {
 </div>
 </div>
 
-<div className={`${styles.flexCenter} mt-10`}>
- <div className=' bg-white w-[90vw]' >
-  <img src={beach} alt="" className='mx-auto mt-2 mb-2 p-1'/>
-</div>
-</div>
+
 
  <div className={`${styles.flexCenter} mt-20 `}>
  <div className={`${styles.boxWidth}`}>
@@ -99,12 +95,13 @@ const Home = () => {
    <Build/>
 </div>
 </div>
- <div className={`${styles.flexCenter} mt-20 `}>
- <div className={`${styles.boxWidth}`}>
 
-   <Backup/>
+<div className={`${styles.flexCenter} mt-10`}>
+ <div className=' bg-white w-[90vw]' >
+  <img src={beach} alt="" className='mx-auto mt-2 mb-2 p-1'/>
 </div>
 </div>
+
 
 
 

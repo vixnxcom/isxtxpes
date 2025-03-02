@@ -19,10 +19,11 @@ const Stats = () => {
         {/* head section */}
     
         {/* card */}
-        <div className='flex flex-row gap-5 mt-5 mx-auto mx-auto'>
+        <div className='mx-auto bg-white rounded-[24px] w-full   mt-5'>
+        <div className='mt-5 mx-auto '>
             
-        <div className="flex flex-col box justify-center items-center mt-5 ">
-  <div className="text-black aeon-bold text-[24px] ">
+        <div className="flex flex-col  justify-center items-center offlilac borderr max-w-[84vw] mx-auto rounded-[24px] h-[160px]">
+  <div className="text-black aeon-bold text-[40px] ">
     800,000+ 
   </div>
   <div className="text-black noto text-[24px]">
@@ -30,33 +31,36 @@ const Stats = () => {
     </div>
     </div>
 
-        <div className="flex flex-col box justify-center items-center mt-5">
+        <div className="flex flex-col  justify-center items-center mt-5 offlilac borderr max-w-[84vw] mx-auto rounded-[24px] h-[160px] ">
 
-  <div className="text-black aeon-bold text-[24px]">
+  <div className="text-black aeon-bold text-[40px]">
     8
   </div>
   <div className="text-black noto text-[24px]">
    Billionaires
     </div>
+   
+    
+</div>
+        <div className="flex flex-col  justify-center items-center mt-5 mb-5 offlilac borderr max-w-[84vw] mx-auto rounded-[24px] h-[160px]">
+
+  <div className="text-black aeon-bold text-[40px]">
+    5000+
+  </div>
+  <div className="text-black noto text-[24px]">
+   Millionaires
     </div>
+   
     
 </div>
         {/* card */}
 
         {/* card 2 */}
-        <div className='mx-auto'>
-        <div className="flex flex-col boxx justify-center items-center mt-5 mx-2  ">
-
-       <div className="text-black aeon-bold text-[24px] ">
-       50,000+ 
-
-  </div>
-  <div className="text-black noto text-[24px]">
-  Multi-millionaires
-    </div>  
-    </div>  
+        
 
         </div>
+        </div>
+      
         {/* card 2 */}
      
         <div className={`${styles.heading3} `}>

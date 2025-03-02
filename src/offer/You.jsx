@@ -5,7 +5,7 @@ const You = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col `}>
     {/* head section */}
-    <div className={`${styles.heading7}  blue`}>
+    <div className={`${styles.heading5}  blue`}>
     What's in it for you?
     </div>
     </section>

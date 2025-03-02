@@ -11,11 +11,11 @@ const Transformation = () => {
         <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col  mx-auto mt-5 `}> 
          
 
-           <div className='noto text-start xs:text-[20px] text-[24px] text-black mt-2 mx-auto'>
-           Before Joining:
+           <div className='aeon-bold text-start xs:text-[20px] text-[24px] blue mt-2 mx-auto'>
+           Before Joining
             </div> 
-          <div className=' mx-auto tablexx mt-2 mb-2 '>
-         <img src={tired} alt=""  className=''/>
+          <div className=' mx-auto mt-2 mb-2 borderr'>
+         <img src={tired} alt=""  className='mx-auto w-full'/>
           </div>
             {/* icons */}
           </div>
@@ -31,11 +31,11 @@ const Transformation = () => {
         <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col  mx-auto mt-5 `}> 
          
 
-           <div className='noto text-start xs:text-[20px] text-[24px] text-black mt-2 mx-auto'>
-         After Joining:
+           <div className='aeon-bold text-start xs:text-[20px] text-[24px] blue mt-2 mx-auto'>
+           After Joining
             </div> 
-            <div className=' mx-auto tablexx mt-2 mb-2 '>
-         <img src={happy} alt=""  className=''/>
+            <div className=' mx-auto mt-2 mb-2 borderr '>
+         <img src={happy} alt=""  className='w-full'/>
           </div>
             </div> 
 

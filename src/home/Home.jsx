@@ -30,6 +30,8 @@ import Doubts from './Doubts'
 import Bonus from './Bonus'
 import Final from './Final'
 import Head from './Head'
+import SuccessProof from './SuccessProof'
+import Act from './Act'
 
 const Home = () => {
   return (
@@ -177,21 +179,31 @@ const Home = () => {
 
  <div className={`${styles.flexCenter} bg-white w-[90vw] mx-auto rounded-[24px] borderr mt-5 `}>
  <div className={`${styles.boxWidth}`}>
-
    <Bonus/>
+</div>
+</div>
 
- 
-</div>
-</div>
 
 <div className={`${styles.flexCenter} mt-20 `}>
  <div className={`${styles.boxWidth}`}>
-
    <Final/>
    <PartnerButton/>
 </div>
 </div>
 
+<div className={`${styles.flexCenter} mt-20 `}>
+ <div className={`${styles.boxWidth}`}>
+   <SuccessProof/>
+
+</div>
+</div>
+
+<div className={`${styles.flexCenter} mt-10 `}>
+ <div className={`${styles.boxWidth}`}>
+   <Act/>
+   <PartnerButton/>
+</div>
+</div>
 
 
 <div className='h-[80px] '>

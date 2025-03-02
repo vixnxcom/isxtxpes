@@ -32,6 +32,7 @@ import Final from './Final'
 import Head from './Head'
 import SuccessProof from './SuccessProof'
 import Act from './Act'
+import Backup from './Backup'
 
 const Home = () => {
   return (
@@ -73,11 +74,11 @@ const Home = () => {
 </div>
 </div>
 
-<div className={`${styles.flexCenter} mt-10`}>
+{/* <div className={`${styles.flexCenter} mt-10`}>
  <div className=' bg-white w-[90vw]' >
   <img src={video} alt="" className='mx-auto mt-2 mb-2 p-1'/>
 </div>
-</div>
+</div> */}
 
  <div className={`${styles.flexCenter} mt-10`}>
  <div className={`${styles.boxWidth}`}>
@@ -96,6 +97,12 @@ const Home = () => {
  <div className={`${styles.boxWidth}`}>
 
    <Build/>
+</div>
+</div>
+ <div className={`${styles.flexCenter} mt-20 `}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Backup/>
 </div>
 </div>
 

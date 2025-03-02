@@ -146,8 +146,13 @@ margin: 20px auto;
 .offlilac{
   background-color: #f7ebf8;
 }
+
+.lavender{
+  background-color: #e503fa;
+}
 .lilac{
   border-bottom: 1.2px solid #d1caca;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
 }
 
 .bg-tired{
@@ -158,4 +163,20 @@ margin: 20px auto;
 
 .shadow{
   text-shadow: 0px 1px 1px rgba(3, 3, 3, 0.25);
+}
+.bg-bluey{
+  background-color: green;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+}
+.bg-org{
+  background-color: rgb(252, 173, 5);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+}
+.bg-fruit{
+  background-color: rgb(238, 93, 233);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+}
+.bg-work{
+  background-color: #fa017d;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
 }

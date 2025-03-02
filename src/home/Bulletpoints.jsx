@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { business, finance, health, ppl, tick, world } from '../assets'
+import { business, coins, dubai, finance, free, fruit, hand, health, home, ppl, stack, tick, world } from '../assets'
 
 
 const Bulletpoints = () => {
@@ -11,89 +11,96 @@ const Bulletpoints = () => {
            More Benefits
         </div>
         {/* head section */}
-        {/* card 1 */}
-        <div className={`${styles.flexCenter} flex flex-row gap-4`}>        
-     {/* card 5 */}
-     <div className={`${styles.paragraphy} ${styles.paddingX} mt-5  coal  bg-white h-[240px]  max-w-[48vw] rounded-[12px] borderr 
+           {/* card 5 */}
+     <div className={`${styles.paragraphy} ${styles.paddingX} mt-5   coal bg-bluey max-w-[90vw] rounded-[12px]
+      
          mx-auto  `}> 
-          <div className='flex flex-col gap-4 mt-2'>
-            
-          <div className='w-12 mt-2'>
-                <img src={finance} alt=""  />
+          <div className='flex flex-col  '>
+          
+          <div className=' object-cover'>
+                <img src={stack} alt="" className='' />
             </div>
 
         
             {/* icons */}
           </div>
-        
-              <p className={`${styles.paragraphy} mt-2 mb-5`}>
+          <div className=' w-full  h-[100px]'>
+              <p className={`${styles.heading4} text-white `}>
               Financial freedom, your way.
               </p>
-         
+             
           </div>
+          </div>
+       
           {/* card  */}
-     {/* card 5 */}
-     <div className={`${styles.paragraphy} ${styles.paddingX} mt-5  coal  bg-white h-[240px] max-w-[48vw] rounded-[12px] borderr 
+           {/* card 5 */}
+     <div className={`${styles.paragraphy} ${styles.paddingX} mt-5   coal bg-fruit max-w-[90vw] rounded-[12px]
+      
          mx-auto  `}> 
-          <div className='flex flex-col gap-4 mt-2'>
-            
-          <div className='w-12 mt-2'>
-                <img src={health} alt=""  />
+          <div className='flex flex-col  '>
+          
+          <div className=' object-cover mt-2'>
+                <img src={fruit} alt="" className='' />
             </div>
 
         
             {/* icons */}
           </div>
-        
-              <p className={`${styles.paragraphy} mt-2 mb-5`}>
-              Health & well -ness products that improve your life.
+          <div className=' w-full  h-[160px]'>
+              <p className={`${styles.heading7} text-white `}>
+              Health & wellness products that improve your life.
               </p>
-         
+             
           </div>
+          </div>
+       
           {/* card  */}
-          </div>
-        {/* card 1 */}
-        <div className={`${styles.flexCenter} flex flex-row gap-4`}>        
-     {/* card 5 */}
-     <div className={`${styles.paragraphy} ${styles.paddingX} mt-5  coal  bg-white h-[240px]  max-w-[48vw] rounded-[12px] borderr 
+           {/* card 5 */}
+     <div className={`  mt-5   coal bg-work max-w-[90vw] rounded-[12px]
+      
          mx-auto  `}> 
-          <div className='flex flex-col gap-4 mt-2'>
-            
-          <div className='w-12 mt-2'>
-                <img src={world} alt=""  />
+          <div className='flex flex-col  '>
+          
+          <div className=' object-cover'>
+                <img src={dubai} alt="" className='' />
             </div>
 
         
             {/* icons */}
           </div>
-        
-              <p className={`${styles.paragraphy} mt-2 mb-5`}>
-              Work from any -where, including your dream destinations.
-
+          <div className=' w-full  h-[160px]'>
+              <p className={`${styles.heading7} text-white `}>
+              Work from anywhere, including your dream destinations
               </p>
-         
+             
           </div>
+          </div>
+       
           {/* card  */}
-     {/* card 5 */}
-     <div className={`${styles.paragraphy} ${styles.paddingX} mt-5  coal  bg-white h-[240px] max-w-[48vw] rounded-[12px] borderr 
+           {/* card 5 */}
+     <div className={`${styles.paragraphy} ${styles.paddingX} mt-5   coal bg-org max-w-[90vw] rounded-[12px]
+      
          mx-auto  `}> 
-          <div className='flex flex-col gap-4 mt-2'>
-            
-          <div className='w-12 mt-2'>
-                <img src={business} alt=""  />
+          <div className='flex flex-col  '>
+          
+          <div className=' object-cover'>
+                <img src={home} alt="" className='' />
             </div>
 
         
             {/* icons */}
           </div>
-        
-              <p className={`${styles.paragraphy} mt-2 mb-5`}>
-              Build a business that can gen -erate income for generations
+          <div className=' w-full  h-[200px]'>
+              <p className={`${styles.heading7} text-white `}>
+              Build a business that can generate income for generations.
               </p>
-         
+             
           </div>
+          </div>
+       
           {/* card  */}
-          </div>
+
+        
         
     </section>
   )

@@ -38,10 +38,16 @@ import pink from './pink.png'
 import graph from './graph.png'
 import  bar from './bar.png'
 import hand from './hands.png'
+import home from './home.png'
+import stack from './stack.png'
+import fruit from './fruit.png'
+import dubai from './dubai.png'
+import free from './hands.jpg'
 
 export{
-    beach, two, three, four, five, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,ppl, tired, happy, 
-    earn, build, products, protect, wealth, business, world, one, coins, safe, eye, bookmark, pink, graph, bar, hand,
+    dubai,
+    beach, two, three, four, five, fruit, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,ppl, tired, happy, home, stack,
+    earn, build, products, protect, wealth, business, world, one, coins, safe, eye, bookmark, pink, graph, bar, hand, free,
 tick,
 open,
 good,

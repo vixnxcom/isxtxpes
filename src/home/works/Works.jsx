@@ -10,7 +10,7 @@ const Works = () => {
   return (
     <div className='bg-white w-full'>
 
-    <div className={`${styles.flexCenter} mt-40 `}>
+    <div className={`${styles.flexCenter} mt-20 `}>
     <div className={`${styles.boxWidth}`}>
    <WrkSteps />
    <PartnerButton />

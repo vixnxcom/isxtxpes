@@ -13,7 +13,7 @@ const Hero = () => {
          <div className='h-[10vw] p-2'>
       <img src={coins} alt="" />
     </div>
-            <div className='md:h-[160px]  h-[160px]'></div>
+            <div className='md:h-[160px]  h-[160px] shadow'></div>
         <h1 className=''>
         Do you lack   <span className='gold'>passive income?</span>  
         </h1>

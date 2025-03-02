@@ -1,59 +1,118 @@
 import React from 'react'
 import styles from '../../style'
-import { tick } from '../../assets'
+import { hand, tick, world } from '../../assets'
 
 
 const WrkSteps = () => {
   return (
     <section className={`${styles.flexCenter} ${styles.paddingX} flex flex-col`}>
 
-           {/* head section */}
-           <div className={`${styles.heading5} blue`}>
-           How to Register
+  <div className='h-[180px]'>
+            <img src={hand} alt="" />
            </div>
+           {/* head section */}
+           <div className={`${styles.heading5} blue shadow`}>
+           How to Register & Become a Partner
+           </div>
+         
         {/* head section */}
 
-        {/* card 1 */}
-          <div className='flex flex-col  mt-10'>
-              {/* icons */}
-              <div className='w-[200px] h-[160px] bg-gold mx-auto rounded-[8px] tablex'>
-             <img src={tick} alt="" className='w-24 mx-auto flex' />
-              </div>
+        
+ {/* card 5 */}
+ <div className={`${styles.paragraphy} ${styles.paddingX} mt-10  coal   bg-white   max-w-[90vw]
+  rounded-[24px] borderr 
+     mx-auto  `}> 
+   
+        
+      <div className='w-12 mt-5'>
+            <img src={world} alt=""  />
+        </div>
 
-              <div>
-              <p className={`${styles.paragraphx} mt-2`}>Watch the complete video on 
-                 our homepage. The "Join-Now" / "Become a partner" button only activates after watching the complete video</p>
-              </div>   
-              </div>   
-              
-        {/* card 1 */}
-        {/* card 1 */}
-          <div className='flex flex-col  mt-10'>
-              {/* icons */}
-              <div className='w-[200px] h-[160px] bg-gold mx-auto rounded-[8px] tablex'>
-             <img src={tick} alt="" className='w-24 mx-auto flex' />
-              </div>
+    
+        {/* icons */}
+     
+          <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
+          Watch the complete video on 
+          our homepage. The <span className='aeon-bold blue'>"Join-Now" / "Become a partner" </span> button only activates after watching the complete video
+          </p>
+     
+      </div>
+  
+     
+      {/* card  */}
+ {/* card 5 */}
+ <div className={`${styles.paragraphy} ${styles.paddingX} mt-5  coal   bg-white   max-w-[90vw]
+  rounded-[24px] borderr 
+     mx-auto  `}> 
+   
+        
+      <div className='w-12 mt-5'>
+            <img src={world} alt=""  />
+        </div>
 
-              <div>
-              <p className={`${styles.paragraphx} mt-2`}>Click on the button. Select the Sign-Up-Now offer if you are ready to fully subscribe immediately, And the Sign-Up-later offer if you plan to subscribe in the future</p>
-              </div>   
-              </div>   
-              
-        {/* card 1 */}
-        {/* card 1 */}
-          <div className='flex flex-col  mt-10'>
-              {/* icons */}
-              <div className='w-[200px] h-[160px] bg-gold mx-auto rounded-[8px] tablex'>
-             <img src={tick} alt="" className='w-24 mx-auto flex' />
-              </div>
+    
+        {/* icons */}
+     
+          <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
+          Click on the button. Select a plan from our package offer and make payment
+          </p>
+     
+      </div>
+  
+     
+      {/* card  */}
+ {/* card 5 */}
+      {/* card  */}
+ {/* card 5 */}
+ <div className={`${styles.paragraphy} ${styles.paddingX} mt-5  coal   bg-white   max-w-[90vw]
+  rounded-[24px] borderr 
+     mx-auto  `}> 
+   
+        
+      <div className='w-12 mt-5'>
+            <img src={world} alt=""  />
+        </div>
 
-              <div>
-              <p className={`${styles.paragraphx} mt-2`}>After payment fill out the form and automatically get added to our Telegram Channel and WhatsApp Group page. 
-                </p>
-              </div>   
-              </div>   
-              
-        {/* card 1 */}
+    
+        {/* icons */}
+     
+          <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
+          Fill out the interest form and automatically 
+          get added to our Telegram Channel and WhatsApp Group page.
+          </p>
+     
+      </div>
+  
+     
+      {/* card  */}
+ {/* card 5 */}
+ {/* card 5 */}
+ <div className={`${styles.paragraphy} ${styles.paddingX} mt-5  coal   bg-white   max-w-[90vw]
+  rounded-[24px] borderr 
+     mx-auto  `}> 
+   
+        
+      <div className='w-12 mt-5'>
+            <img src={world} alt=""  />
+        </div>
+
+    
+        {/* icons */}
+     
+          <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
+         A receipt containing your registration details would be sent to your email, which can be printed or saved
+          as an image on your phone.
+         This copy woud be presented at our office to complete your journey
+          </p>
+     
+      </div>
+  
+     
+      {/* card  */}
+ {/* card 5 */}
+
+
+      
        
    </section>
   )

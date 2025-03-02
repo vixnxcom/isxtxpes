@@ -6,6 +6,7 @@ import Works from '../home/works/Works';
 import Footer from '../home/Footer';
 import Offer from '../offer/Offer';
 import Giveaway from '../home/giveaway/Giveaway';
+import Reg from '../registration/Reg';
 
 const Pages = () => {
   return (
@@ -19,6 +20,7 @@ const Pages = () => {
         <Route exact path="/works" element={<Works />} />
         <Route exact path="/offer" element={<Offer />} />
         <Route exact path="/giveaway" element={<Giveaway />} />
+        <Route exact path="/register" element={<Reg />} />
       </Routes>
 
       <div className="bottom-0 h-[50vh] bg-blue">

@@ -70,7 +70,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/Register"
+              to="/register"
               className="text-black hover:bg-blue-500 md:hover:bg-transparent py-2 px-4 block "
             >
               <p className={`${styles.paragraphx} flex justify-content-center align-items-center`}>Become a Partner today!</p>

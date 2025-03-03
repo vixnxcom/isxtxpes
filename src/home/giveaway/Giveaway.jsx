@@ -21,14 +21,14 @@ const Giveaway = () => {
    </div>
    </div>
 
-    <div className={`${styles.flexCenter} mt-10`}>
+    <div className={`${styles.flexCenter} mt-20`}>
     <div className={`${styles.boxWidth}`}>
    <Chance/>
    
    </div>
    </div>
 
-    <div className={`${styles.flexCenter} mt-10 bg-bluee w-[92vw] mx-auto rounded-[24px]`}>
+    <div className={`${styles.flexCenter} mt-10 bg-white w-[92vw] mx-auto rounded-[24px]`}>
     <div className={`${styles.boxWidth}`}>
    <Enter/>
    
@@ -61,13 +61,13 @@ const Giveaway = () => {
    
    </div>
    </div> */}
-    <div className={`${styles.flexCenter} mt-10`}>
+    <div className={`${styles.flexCenter} mt-20`}>
     <div className={`${styles.boxWidth}`}>
    <Warning/>
    
    </div>
    </div>
-    <div className={`${styles.flexCenter}  mt-10 bg-bluee w-[92vw] mx-auto rounded-[24px]`}>
+    <div className={`${styles.flexCenter}  mt-10 bg-white w-[92vw] mx-auto rounded-[24px]`}>
     <div className={`${styles.boxWidth}`}>
    <Step/>
    
@@ -89,7 +89,8 @@ const Giveaway = () => {
    
    </div>
    </div>
-    <div className={`${styles.flexCenter}  mt-10 bg-bluee w-[92vw] mx-auto rounded-[24px] `}>
+   
+    <div className={`${styles.flexCenter}  mt-10 bg-white w-[92vw] mx-auto  rounded-[24px] `}>
     <div className={`${styles.boxWidth}`}>
    <Inside/>
    

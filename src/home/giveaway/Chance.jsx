@@ -6,7 +6,7 @@ const Chance = () => {
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
 
     {/* head section */}
-    <div className={`${styles.heading2}`}>
+    <div className={`${styles.heading2} borderr`}>
     Limited Time
     </div>
     <div className={`${styles.subHeading} mt-2`}>

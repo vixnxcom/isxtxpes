@@ -6,7 +6,7 @@ const Step = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
     {/* head section */}
-    <div className={`${styles.heading2} mt-2 `}>
+    <div className={`${styles.heading2} blue mt-2 `}>
     What's in it for you?
     </div>
        {/* card  */}
@@ -17,7 +17,7 @@ const Step = () => {
           </div>
 
           <div className='mx-auto'>
-              <p className={`${styles.paragraph}  mb-2`}> 
+              <p className={`${styles.paragraph} coal  mb-2`}> 
               Step-by-Step Guide to Your First N1,000,000!
               </p>
             </div>
@@ -32,7 +32,7 @@ const Step = () => {
           </div>
 
           <div className='mx-auto'>
-              <p className={`${styles.paragraph}  mb-2`}> 
+              <p className={`${styles.paragraph} coal  mb-2`}> 
               100% Proven System (No Experience Needed!)
 
               </p>
@@ -48,7 +48,7 @@ const Step = () => {
           </div>
 
           <div className='mx-auto'>
-              <p className={`${styles.paragraph}   mb-5`}> 
+              <p className={`${styles.paragraph} coal  mb-5`}> 
               Fast-Track Training plus Special Bonus Worth Over N500,000!
 
 

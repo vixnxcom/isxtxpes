@@ -19,7 +19,7 @@ const Stats = () => {
         {/* head section */}
     
         {/* card */}
-        <div className='mx-auto bg-white rounded-[24px] w-full   mt-5'>
+        <div className='mx-auto bg-white rounded-[24px] w-full   mt-10'>
         <div className='mt-5 mx-auto '>
             
         <div className="flex flex-col  justify-center items-center offlilac borderr max-w-[84vw]
@@ -74,10 +74,8 @@ const Stats = () => {
       
         {/* card 2 */}
      
-        <div className={`${styles.heading3} `}>
-        
-           </div>
-        <div className={`${styles.subHeading} shadow mt-2`}>
+      
+        <div className={`${styles.subHeading} shadow mt-10`}>
       
 Having a system that works for you while you sleep is the fastest way to become financially free.
 Our wealthiest partners have made over <span className='gold aeon-bold'> ₦5 Billion </span> 

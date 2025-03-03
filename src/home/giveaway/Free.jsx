@@ -44,11 +44,11 @@ const Free = () => {
          
           {/* card  */}
             {/* icons */}
-            <div className={`${styles.heading2} mt-5 `}>
+            <div className={`${styles.heading2} mt-20 borderr`}>
    Limited Spots Available
     </div>
 
-    <div className={`${styles.subHeading} mt-2`}>
+    <div className={`${styles.subHeading} mt-10`}>
     Yes! I Want My Success Plan NOW! 
     </div>
     <div className={`${styles.subHeading} mt-2`}>

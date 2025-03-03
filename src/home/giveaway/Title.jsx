@@ -7,9 +7,7 @@ const Title = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col mx-auto`}>
      <div className='mt-20'></div>
-   <div className='mx-auto'>
-   <Time />
-   </div>
+
        
    <div className='mt-10'></div>
         {/* head section */}
@@ -17,6 +15,9 @@ const Title = () => {
        
         </div>
 
+        <div className='mx-auto mb-2'>
+   <Time />
+   </div>
         <div className={`${styles.heading2}`}>Unlock Your 'Millionaire Roadmap'
              & Fast-Track Guide to Your First  <span className='gold'>N1,000,000!</span>
 

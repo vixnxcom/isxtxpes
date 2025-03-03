@@ -11,10 +11,10 @@ const Bonus = () => {
      
            <div className='flex flex-col mx-auto  mt-10'>
             {/* icons */}
-            <div className='w-[50px] h-[55px] text-center mx-auto'>
+            <div className='w-[50px] h-[55px] text-center mx-auto mb-2'>
                 <img src={one} alt=""  />
             </div>
-            <div className='text-center  lilac w-[78vw]'>
+            <div className='text-center  lilac h-[120px] w-[78vw]'>
             <p className={`${styles.subHeadingy} mx-auto coal mb-5`}>
             90-Day Success Plan (A roadmap to <span className='gold aeon-bold'>₦1,000,000+</span> )
             </p>
@@ -25,10 +25,10 @@ const Bonus = () => {
             {/* icons */}
            <div className='flex flex-col  mt-10'>
             {/* icons */}
-            <div className='w-[50px] h-[55px] text-center mx-auto'>
+            <div className='w-[50px] h-[55px] text-center mx-auto mb-2'>
                 <img src={two} alt=""  />
             </div>
-            <div className='text-center  lilac w-[78vw]'>
+            <div className='text-center  lilac w-[78vw] h-[120px]'>
             <p className={`${styles.subHeadingy} mx-auto coal mb-5`}>
             Access to Millionaire Mentorship Groups Plan 
             </p>
@@ -39,12 +39,12 @@ const Bonus = () => {
             {/* icons */}
            <div className='flex flex-col  mt-10'>
             {/* icons */}
-            <div className='w-[50px] h-[55px] text-center mx-auto'>
+            <div className='w-[50px] h-[55px] text-center mx-auto mb-2'>
                 <img src={three} alt=""  />
             </div>
-            <div className='text-center  lilac w-[78vw]'>
+            <div className='text-center  lilac w-[78vw] h-[120px]'>
             <p className={`${styles.subHeadingy} mx-auto coal mb-5`}>
-            1-on-1 Mastermind Sessions
+            1-on-1 Mastermind <br /> Sessions
             </p>
         
             </div>
@@ -54,10 +54,10 @@ const Bonus = () => {
             {/* icons */}
            <div className='flex flex-col  mt-10'>
             {/* icons */}
-            <div className='w-[50px] h-[55px] text-center mx-auto'>
+            <div className='w-[50px] h-[55px] text-center mx-auto mb-2'>
                 <img src={four} alt=""  />
             </div>
-            <div className='text-center  lilac w-[78vw]'>
+            <div className='text-center  lilac w-[78vw] h-[120px]'>
             <p className={`${styles.subHeadingy} coal mb-5`}>
            Social Media Scripts <br /> for Instant Leads
             </p>
@@ -69,12 +69,12 @@ const Bonus = () => {
             {/* icons */}
            <div className='flex flex-col  mt-10'>
             {/* icons */}
-            <div className='w-[50px] h-[55px] text-center mx-auto'>
+            <div className='w-[50px] h-[55px] text-center mx-auto mb-2'>
                 <img src={five} alt=""  />
             </div>
-            <div className='text-center  lilac w-[78vw]'>
+            <div className='text-center  lilac w-[78vw] h-[120px]'>
             <p className={`${styles.subHeadingy} coal mb-5`}>
-            Travel & Lifestyle Perks
+            Travel & Lifestyle <br />  Perks
             </p>
         
             </div>
@@ -84,10 +84,10 @@ const Bonus = () => {
             {/* icons */}
            <div className='flex flex-col  mt-10'>
             {/* icons */}
-            <div className='w-[50px] h-[55px] text-center mx-auto'>
+            <div className='w-[50px] h-[55px] text-center mx-auto mb-2'>
                 <img src={six} alt=""  />
             </div>
-            <div className='text-center  lilac w-[78vw]'>
+            <div className='text-center  lilac w-[78vw] h-[120px]'>
             <p className={`${styles.subHeadingy} coal mb-5`}>
             Premium Health Product <br /> Access
 
@@ -100,10 +100,10 @@ const Bonus = () => {
             {/* icons */}
            <div className='flex flex-col  mt-10'>
             {/* icons */}
-            <div className='w-[50px] h-[55px] text-center mx-auto'>
+            <div className='w-[50px] h-[55px] text-center mx-auto mb-2'>
                 <img src={seven} alt=""  />
             </div> 
-            <div className='text-center  lilac w-[78vw]'>
+            <div className='text-center  lilac w-[78vw] h-[120px]'>
             <p className={`${styles.subHeadingy} coal mb-5`}>
           Generational Wealth <br /> Building System
             </p>

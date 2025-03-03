@@ -7,7 +7,7 @@ const Warning = () => {
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
 
     {/* head section */}
-    <div className={`${styles.heading2}`}>
+    <div className={`${styles.heading2} borderr`}>
     Warning
     </div>
     <div className={`${styles.subHeading} mt-2`}>

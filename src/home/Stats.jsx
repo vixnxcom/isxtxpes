@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../style'
 import PartnerButton from './PartnerButton'
-import { coins, hand,  } from '../assets'
+import { billion, coins, hand, million, partner,  } from '../assets'
 
 const Stats = () => {
   return (
@@ -22,32 +22,43 @@ const Stats = () => {
         <div className='mx-auto bg-white rounded-[24px] w-full   mt-5'>
         <div className='mt-5 mx-auto '>
             
-        <div className="flex flex-col  justify-center items-center offlilac borderr max-w-[84vw] mx-auto rounded-[24px] h-[160px]">
+        <div className="flex flex-col  justify-center items-center offlilac borderr max-w-[84vw]
+         mx-auto rounded-[24px] ">
+                 <div className='mb-5 mt-5'>
+  <img src={partner} alt="" className='w-40' />
+</div> 
   <div className="text-black aeon-bold text-[40px] ">
     800,000+ 
   </div>
-  <div className="text-black noto text-[24px]">
+  <div className="text-black noto text-[24px] mb-5">
    Partners
     </div>
     </div>
 
-        <div className="flex flex-col  justify-center items-center mt-5 offlilac borderr max-w-[84vw] mx-auto rounded-[24px] h-[160px] ">
+        <div className="flex flex-col  justify-center items-center mt-5 offlilac borderr max-w-[84vw] 
+        mx-auto rounded-[24px] ">
+        <div className='mb-5 mt-5'>
+  <img src={billion} alt="" className='w-40' />
+</div>
 
   <div className="text-black aeon-bold text-[40px]">
     8
   </div>
-  <div className="text-black noto text-[24px]">
+  <div className="text-black noto text-[24px] mb-5">
    Billionaires
     </div>
    
     
 </div>
-        <div className="flex flex-col  justify-center items-center mt-5 mb-5 offlilac borderr max-w-[84vw] mx-auto rounded-[24px] h-[160px]">
-
+        <div className="flex flex-col  justify-center items-center mt-5 mb-5 offlilac borderr max-w-[84vw]
+         mx-auto rounded-[24px] ">
+<div className='mb-5 mt-5'>
+  <img src={million} alt="" className='w-40' />
+</div>
   <div className="text-black aeon-bold text-[40px]">
     5000+
   </div>
-  <div className="text-black noto text-[24px]">
+  <div className="text-black noto text-[24px] mb-5">
    Millionaires
     </div>
    

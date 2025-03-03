@@ -42,10 +42,13 @@ import home from './home.png'
 import stack from './stack.png'
 import fruit from './fruit.png'
 import dubai from './dubai.png'
+import billion from './billion.png'
+import million from './million.png'
+import partner from './partner.png'
 import free from './hands.jpg'
 
 export{
-    dubai,
+    dubai, partner,million, billion, 
     beach, two, three, four, five, fruit, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,ppl, tired, happy, home, stack,
     earn, build, products, protect, wealth, business, world, one, coins, safe, eye, bookmark, pink, graph, bar, hand, free,
 tick,

@@ -9,6 +9,8 @@ import Giveaway from "../home/giveaway/Giveaway";
 import Reg from "../registration/Reg";
 import Forms from "../forms/Forms";
 import VideoPage from "../VideoPage";
+import ScrollTop from "../ScrollTop";
+import styles from "../style";
 
 
 const ProtectedRoute = ({ element }) => {
@@ -31,6 +33,9 @@ const Pages = () => {
         <Route path="/giveaway" element={<ProtectedRoute element={<Giveaway />} />} />
         <Route path="/register" element={<ProtectedRoute element={<Forms />} />} />
       </Routes>
+      <div className={`${styles.boxWidth} `}>
+            < ScrollTop />
+           </div>  
 
       <div className="bottom-0 h-[50vh] bg-blue">
         <Footer />

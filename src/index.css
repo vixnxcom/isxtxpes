@@ -183,3 +183,26 @@ margin: 20px auto;
   background-color: #fa017d;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
 }
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 22px;
+  display: none;
+  color: white;
+  cursor: pointer;
+
+
+}
+
+.scroll-to-top.visible {
+  display: block;
+}
+
+
+
+@media(min-width:620px) {
+  .scroll-to-top {
+    right: 60px;
+  }
+}

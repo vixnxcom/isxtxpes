@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../style'
 import { access, gen, grow, healthy, media, mentor, plan, travel, wealth } from '../assets'
 import Time from './Time'
+import BonusButton from '../home/BonusButton'
 
 const SignNow = () => {
   return (
@@ -147,7 +148,11 @@ Immunity!
   
           <div className={`${styles.subHeadingy} mt-5`}>
           These bonuses are available for TODAY ONLY!
+          <BonusButton />
     </div>
+
+  
+          <div className='h-[40px]'></div>
 </section>  )
 }
 

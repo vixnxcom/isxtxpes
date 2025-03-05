@@ -161,8 +161,11 @@ margin: 20px auto;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
 }
 
-.shadow{
+.shadoww{
   text-shadow: 0px 1px 1px rgba(3, 3, 3, 0.25);
+}
+.shadoww{
+  text-shadow: 0px 0px 20px #03030340;
 }
 .bg-bluey{
   background-color: green;

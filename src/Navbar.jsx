@@ -65,7 +65,7 @@ const Navbar = () => {
               to="/works"
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
-             How to become a Partner
+             How to Become a Partner
             </Link>
           </li>
           <li>

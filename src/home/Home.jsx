@@ -16,7 +16,7 @@ import Nintydays from './Nintydays'
 import Llegit from './Llegit'
 import Recover from './Recover'
 import Freedom from './Freedom'
-import { beach, hand, tick, video } from '../assets'
+import { beach, hand, test, tick, video } from '../assets'
 import Hook from './Hook'
 import Bulletpoints from './Bulletpoints'
 import Vid from './Vid'
@@ -34,7 +34,21 @@ import SuccessProof from './SuccessProof'
 import Act from './Act'
 import Backup from './Backup'
 
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
 const Home = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const completed = localStorage.getItem("videoCompleted");
+    if (completed !== "true") {
+      navigate("/video");
+    }
+  }, [navigate]);
+
+
+
   return (
  <div className='bg-blue w-full'>
 
@@ -110,7 +124,9 @@ const Home = () => {
 <div className={`${styles.flexCenter} mt-10`}>
  <div className={`${styles.boxWidth}`}>
 
-   <Vid/>
+  <video src={test}>
+
+  </video>
  
 </div>
 </div>

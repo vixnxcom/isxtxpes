@@ -118,7 +118,7 @@ const Bonus = () => {
           </div>
     {/* main text */}
     <div className={`${styles.flexCenter} flex flex-col`}>
-          <p className={`${styles.paragraphx} mt-2 `}>
+          <p className={`${styles.paragraphx}  `}>
         Be one of the lucky ones
           </p>
             <BonusButton />

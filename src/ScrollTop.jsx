@@ -8,7 +8,7 @@ const ScrollTop = () => {
    useEffect(() => {
     const handleScroll = () => {
         const scrollTop = window.scrollY;
-        setIsVisible(scrollTop > 800);
+        setIsVisible(scrollTop > 2000);
     };
     window.addEventListener('scroll', handleScroll);
 
@@ -32,7 +32,7 @@ const ScrollTop = () => {
   return (
 
     <button className={`scroll-to-top ${isVisible ? 'visible' : ''} bg-white w-12 h-12 rounded-[8px] shadow-lg`} onClick= {scrollToTop}>
-        <h1 className='text-black noto '>TOP</h1>
+        <h1 className='text-black noto coal'>TOP</h1>
     </button>
   );
 };

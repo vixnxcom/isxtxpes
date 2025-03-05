@@ -33,7 +33,28 @@ const WrkSteps = () => {
      
           <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
           Watch the complete video on 
-          our homepage. The <span className='aeon-bold blue'>"Join-Now" / "Become a partner" </span> button only activates after watching the complete video
+          our default page. The Homepage only activates after watching the complete video without skipping
+          </p>
+     
+      </div>
+  
+     
+      {/* card  */}
+ {/* card 5 */}
+ <div className={`${styles.paragraphy} ${styles.paddingX} mt-10  coal   bg-white   max-w-[90vw]
+  rounded-[24px] borderr 
+     mx-auto  `}> 
+   
+        
+      <div className='w-12 mt-5'>
+            <img src={world} alt=""  />
+        </div>
+
+    
+        {/* icons */}
+     
+          <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
+        Click on the any of the <span className='aeon-bold blue'>"Become a Partner" </span> buttons on the website
           </p>
      
       </div>
@@ -54,7 +75,7 @@ const WrkSteps = () => {
         {/* icons */}
      
           <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
-          Click on the button. Select a plan from our package offer and make payment
+          Select a plan from our package offer and make payment
           </p>
      
       </div>
@@ -77,7 +98,28 @@ const WrkSteps = () => {
         {/* icons */}
      
           <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
-          Fill out the interest form and automatically 
+          Fill out the interest form which pops-up immediately after payment.
+          </p>
+     
+      </div>
+  
+     
+      {/* card  */}
+ {/* card 5 */}
+ <div className={`${styles.paragraphy} ${styles.paddingX} mt-5  coal   bg-white   max-w-[90vw]
+  rounded-[24px] borderr 
+     mx-auto  `}> 
+   
+        
+      <div className='w-12 mt-5'>
+            <img src={world} alt=""  />
+        </div>
+
+    
+        {/* icons */}
+     
+          <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
+     Click on the <span className='aeon-bold blue'>"Submit" </span>button and automatically 
           get added to our Telegram Channel and WhatsApp Group page.
           </p>
      

@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../style'
 import { five, four, one, seven, six, three, tick, two } from '../assets'
 import Time from '../offer/Time'
+import BonusButton from './BonusButton'
 
 const Bonus = () => {
   return (
@@ -111,11 +112,18 @@ const Bonus = () => {
             </div>
             </div>
             {/* icons */}
-            <div className={`${styles.subHeading} mt-10`}>
+            <div className={`${styles.subHeading}`}>
             Get Started & Claim Your Bonuses
     
           </div>
     {/* main text */}
+    <div className={`${styles.flexCenter} flex flex-col`}>
+          <p className={`${styles.paragraphx} mt-2 `}>
+        Be one of the lucky ones
+          </p>
+            <BonusButton />
+          </div>
+          <div className='h-[40px]'></div>
     </section>  
   )
 }

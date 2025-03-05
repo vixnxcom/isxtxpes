@@ -106,7 +106,8 @@ const VideoPage = () => {
 
           {/* Fullscreen Button (Optional) */}
           <button
-            className="mt-4 px-6 py-2 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600"
+            className="mt-4 px-6 py-2 bg-white borderr coal rounded-full
+             text-white noto  hover:bg-blue-600"
             onClick={enterFullscreen}
           >
             Fullscreen
@@ -116,8 +117,8 @@ const VideoPage = () => {
 
       {/* Proceed to Homepage Button */}
       <button
-        className={`mt-4 px-6 py-2 text-lg font-semibold rounded-lg transition-all ${
-          videoCompleted ? "bg-blue-500 hover:bg-blue-600" : "bg-gray-500 cursor-not-allowed"
+        className={`mt-4 px-6 py-2 text-lg aeon-bold rounded-[24px] transition-all ${
+          videoCompleted ? "bg-gold text-black hover:bg-white" : "bg-gray-500 cursor-not-allowed"
         }`}
         onClick={() => navigate("/")}
         disabled={!videoCompleted}

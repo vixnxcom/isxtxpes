@@ -34,21 +34,7 @@ import SuccessProof from './SuccessProof'
 import Act from './Act'
 import Backup from './Backup'
 
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-
 const Home = () => {
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    const completed = localStorage.getItem("videoCompleted");
-    if (completed !== "true") {
-      navigate("/video");
-    }
-  }, [navigate]);
-
-
-
   return (
  <div className='bg-blue w-full'>
 
@@ -120,7 +106,7 @@ const Home = () => {
 
 
 
-
+{/* 
 <div className={`${styles.flexCenter} mt-10`}>
  <div className={`${styles.boxWidth}`}>
 
@@ -135,7 +121,7 @@ const Home = () => {
  <div className=' bg-white w-[90vw] h-[200px]' >
   <img src={tick} alt="" className='mx-auto mt-2 mb-2 w-8' />
 </div>
-</div>
+</div> */}
 
 <div className={`${styles.flexCenter} mt-5`}>
  <div className={`${styles.boxWidth}`}>

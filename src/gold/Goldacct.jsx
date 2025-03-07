@@ -2,7 +2,9 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import styles from '../style';
 
-const Account = () => {
+
+
+const Goldacct = () => {
   const navigate = useNavigate(); // Initialize navigation
 
   return (
@@ -56,7 +58,7 @@ const Account = () => {
       <div className={`${styles.flexStart} flex flex-col`}>
         <p className="coal mt-2 mb-2 aeon-bold">Account to pay</p>
         <p className="noto text-center xs:text-[24px] text-[20px] coal mt-2 tracking-wide">
-    N190,000
+        ₦330,000
         </p>
       </div>
      
@@ -64,7 +66,7 @@ const Account = () => {
       {/* Centered Button That Navigates to the Payment Form Page */}
       <div className="flex justify-center w-full mt-10">
         <button
-          onClick={() => navigate('/form')} // Navigate to PaymentForm page
+          onClick={() => navigate('/gldform')} // Navigate to PaymentForm page
           className="px-6 py-3 mb-10 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition duration-300"
         >
           Yes, I've Sent the Money
@@ -75,4 +77,4 @@ const Account = () => {
   );
 };
 
-export default Account;
+export default Goldacct;

@@ -1,16 +1,26 @@
 import React from 'react'
 import HeadForm from './HeadForm'
 import styles from '../style'
-import Sample from '../pack/Sample'
 import PartnerButton from '../home/PartnerButton'
-import Access from '../pack/Access'
-import Silver from '../pack/Silver'
 import Coal from '../pack/Coal'
-import Platinium from '../pack/Platinium'
-import Elite from '../pack/Elite'
+
 import ZohoForm from './Silverform'
 import ZohoCampaignsForm from './Silverform'
 import Account from './Account'
+
+import Sample from '../sample/Sample'
+import SampleButton from '../sample/Samplebutton'
+import Access from '../access/Access'
+import Accessbutton from '../access/Accessbutton'
+import Silver from '../silver/Silver'
+import SilverButton from '../silver/SilverButton'
+import Gold from '../gold/Gold'
+import GoldButton from '../gold/GoldButton'
+import Platinium from '../platinium/Platinum'
+import PlatButton from '../platinium/PlatButton'
+
+import ElitButton from '../elite/ElitButton'
+import Elite from '../elite/Elite'
 
 const Forms = () => {
   return (
@@ -30,12 +40,7 @@ const Forms = () => {
     </div>
     </div> 
 
-    <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[92vw] mx-auto rounded-[24px]`}>
-    <div className={`${styles.boxWidth}`}>
-   <Account />
-
-   </div>
-   </div>
+ 
   
     {/* <div >
   
@@ -45,46 +50,49 @@ const Forms = () => {
  
     <div className={`${styles.flexCenter} mt-10 bg-white borderr w-[92vw] mx-auto rounded-[24px]`}>
     <div className={`${styles.boxWidth}`}>
-   <Sample />
-  <PartnerButton />
+   < Sample/>
+  <SampleButton />
    </div>
    </div>
 
     <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[92vw] mx-auto rounded-[24px]`}>
     <div className={`${styles.boxWidth}`}>
    <Access />
-  <PartnerButton />
+  <Accessbutton />
    </div>
    </div>
 
     <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[92vw] mx-auto rounded-[24px]`}>
     <div className={`${styles.boxWidth}`}>
    <Silver/>
-  <PartnerButton />
+  <SilverButton />
    </div>
    </div>
 
     <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[92vw] mx-auto rounded-[24px]`}>
     <div className={`${styles.boxWidth}`}>
-   <Coal/>
-  <PartnerButton />
+   <Gold/>
+  <GoldButton />
    </div>
    </div>
 
     <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[92vw] mx-auto rounded-[24px]`}>
     <div className={`${styles.boxWidth}`}>
    <Platinium/>
-  <PartnerButton />
+  <PlatButton />
    </div>
    </div>
 
     <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[92vw] mx-auto rounded-[24px]`}>
     <div className={`${styles.boxWidth}`}>
    <Elite/>
-  <PartnerButton />
+  <ElitButton />
    </div>
    </div>
 
+
+   <div className='h-[80px] '>
+</div>
 
    </div>
   )

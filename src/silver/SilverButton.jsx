@@ -1,7 +1,8 @@
 import React from 'react'
 
-import { Link } from 'react-router-dom'
+
 import styles from '../style'
+import { HashLink } from 'react-router-hash-link'
 
 const SilverButton = () => {
     
@@ -9,8 +10,8 @@ const SilverButton = () => {
     <div className={`${styles.flexCenter} flex justify-content-center align-items-center mt-10 mb-10`}>
     <div className=''>
     <button className='mx-auto bg-blue md:w-[24vw] md:h-[4vw] w-[60vw] rounded-[24px] h-[12vw]'>
-    <Link to ='/slvaccount'
-     className='aeon-bold text-white text-[20px]'>Choose Silver</Link>
+    <HashLink to ='/slvaccount#silver'
+     className='aeon-bold text-white text-[20px]'>Choose Silver</HashLink>
     </button>
     </div>
 </div>

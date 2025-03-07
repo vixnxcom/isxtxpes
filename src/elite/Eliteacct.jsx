@@ -8,7 +8,7 @@ const Eliteacct = () => {
   const navigate = useNavigate(); // Initialize navigation
 
   return (
-    <section className='mt-20 mb-40 bg-white borderr w-[92vw] mx-auto rounded-[24px]'>
+    <section className='mt-20 mb-40 bg-white borderr w-[92vw] mx-auto rounded-[24px]' id='elacct'>
     <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col items-center`}>
     
       {/* Head Section */}

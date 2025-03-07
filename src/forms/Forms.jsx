@@ -24,7 +24,7 @@ import Elite from '../elite/Elite'
 
 const Forms = () => {
   return (
-    <div className='bg-white w-full'>
+    <div className='.offlilac w-full'>
 
     <div className={`${styles.flexCenter} bg-bluee  `}>
     <div className={`${styles.boxWidth}`}>

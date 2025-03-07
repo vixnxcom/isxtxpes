@@ -11,6 +11,8 @@ import Forms from "../forms/Forms";
 import VideoPage from "../VideoPage";
 import ScrollTop from "../ScrollTop";
 import styles from "../style";
+import Account from "../forms/Account";
+import ZohoForm from "../forms/Silverform";
 
 
 const ProtectedRoute = ({ element }) => {
@@ -32,6 +34,8 @@ const Pages = () => {
         <Route path="/offer" element={<ProtectedRoute element={<Offer />} />} />
         <Route path="/giveaway" element={<ProtectedRoute element={<Giveaway />} />} />
         <Route path="/register" element={<ProtectedRoute element={<Forms />} />} />
+        <Route path="/account" element={<ProtectedRoute element={<Account />} />} />
+        <Route path="/form" element={<ProtectedRoute element={<ZohoForm />} />} />
       </Routes>
       <div className={`${styles.boxWidth} `}>
             < ScrollTop />

@@ -10,6 +10,7 @@ import Platinium from '../pack/Platinium'
 import Elite from '../pack/Elite'
 import ZohoForm from './Silverform'
 import ZohoCampaignsForm from './Silverform'
+import Account from './Account'
 
 const Forms = () => {
   return (
@@ -29,11 +30,18 @@ const Forms = () => {
     </div>
     </div> 
 
-    <div >
+    <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[92vw] mx-auto rounded-[24px]`}>
+    <div className={`${styles.boxWidth}`}>
+   <Account />
+
+   </div>
+   </div>
+  
+    {/* <div >
   
    <ZohoForm/>
  
-   </div>
+   </div> */}
  
     <div className={`${styles.flexCenter} mt-10 bg-white borderr w-[92vw] mx-auto rounded-[24px]`}>
     <div className={`${styles.boxWidth}`}>

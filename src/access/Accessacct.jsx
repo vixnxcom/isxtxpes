@@ -8,7 +8,7 @@ const Accessacct = () => {
   const navigate = useNavigate(); // Initialize navigation
 
   return (
-    <section className='mt-40 mb-40 bg-white borderr w-[92vw] mx-auto rounded-[24px]'>
+    <section className='mt-20 mb-40 bg-white borderr w-[92vw] mx-auto rounded-[24px]'>
     <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col items-center`}>
     
       {/* Head Section */}
@@ -64,10 +64,10 @@ const Accessacct = () => {
      
 
       {/* Centered Button That Navigates to the Payment Form Page */}
-      <div className="flex justify-center w-full mt-10">
+      <div className="flex justify-center w-full mt-10 mb-10">
         <button
           onClick={() => navigate('/accform')} // Navigate to PaymentForm page
-          className="px-6 py-3 mb-10 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition duration-300"
+            className='px-6 py-3 bg-blue text-white rounded-xl shadow-lg hover:bg-gold transition duration-300'
         >
           Yes, I've Sent the Money
         </button>

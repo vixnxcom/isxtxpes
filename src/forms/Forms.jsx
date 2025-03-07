@@ -24,7 +24,7 @@ import Elite from '../elite/Elite'
 
 const Forms = () => {
   return (
-    <div className='.offlilac w-full'>
+    <div className='offlilac w-full'>
 
     <div className={`${styles.flexCenter} bg-bluee  `}>
     <div className={`${styles.boxWidth}`}>
@@ -33,7 +33,7 @@ const Forms = () => {
    </div>
    </div>
 
-    <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col mt-10 bg-white`}>
+    <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col mt-10 `}>
    
     <div className={`${styles.heading7} blue`}> Select your
     Preferred <br /> Package

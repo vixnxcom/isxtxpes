@@ -23,31 +23,31 @@ const Footer = () => {
         {/* first div */}
         <div className='flex flex-col'>
      
-        <HashLink to='/#benefits' className='text-white noto tracking-wide text-[16px] mt-2'>
+        <HashLink to='/#benefits' className='royal noto tracking-wide text-[16px] mt-2'>
         The Benefits </HashLink>
       
         {/* <HashLink to='/works#join' className='text-white noto tracking-wide text-[16px] mt-2'>
          How to join </HashLink> */}
-        <HashLink to='/#opp' className='text-white noto tracking-wide text-[16px] mt-2'>
+        <HashLink to='/#opp' className='royal noto tracking-wide text-[16px] mt-2'>
         Why you need this </HashLink>
-        <HashLink to='/#reviews' className='text-white noto tracking-wide text-[16px] mt-2'>
+        <HashLink to='/#reviews' className='royal noto tracking-wide text-[16px] mt-2'>
        Testimonials </HashLink>
         </div>
         {/* first div */}
         {/* first div */}
         <div className='flex flex-col'>
      
-        <HashLink to='/offer#countdown' className='text-white noto tracking-wide text-[16px] mt-2'>
+        <HashLink to='/offer#countdown' className='royal noto tracking-wide text-[16px] mt-2'>
        Limited Time offer </HashLink>
       
         {/* <HashLink to='/works#join' className='text-white noto tracking-wide text-[16px] mt-2'>
          How to join </HashLink> */}
-        <HashLink to='/offer#get' className='text-white noto tracking-wide text-[16px] mt-2'>
+        <HashLink to='/offer#get' className='royal noto tracking-wide text-[16px] mt-2'>
         What you get</HashLink>
-        <HashLink to='/offer#pros' className='text-white noto tracking-wide text-[16px] mt-2'>
+        <HashLink to='/offer#pros' className='royal noto tracking-wide text-[16px] mt-2'>
       The Pros </HashLink>
       
-        <HashLink to='/offer#meetings' className='text-white noto tracking-wide text-[16px] mt-2'>
+        <HashLink to='/offer#meetings' className='royal noto tracking-wide text-[16px] mt-2'>
      Meeting sessions </HashLink>
         </div>
         {/* first div */}
@@ -57,18 +57,18 @@ const Footer = () => {
         {/* first div */}
         <div className='flex flex-col'>
      
-        <Link to='/' className='text-white noto tracking-wide text-[16px] mt-2'>
+        <Link to='/' className='royal noto tracking-wide text-[16px] mt-2'>
         Home </Link>
       
         {/* <HashLink to='/works#join' className='text-white noto tracking-wide text-[16px] mt-2'>
          How to join </HashLink> */}
-        <Link to='/offer' className='text-white noto tracking-wide text-[16px] mt-2'>
+        <Link to='/offer' className='royal noto tracking-wide text-[16px] mt-2'>
         Our Offer </Link>
-        <Link to='/giveaway' className='text-white noto tracking-wide text-[16px] mt-2'>
+        <Link to='/giveaway' className='royal noto tracking-wide text-[16px] mt-2'>
      Our Exclusive Giveaway </Link>
-        <Link to='/works' className='text-white noto tracking-wide text-[16px] mt-2'>
+        <Link to='/works' className='royal noto tracking-wide text-[16px] mt-2'>
       How to become a partner </Link>
-        <Link to='/register' className='text-white noto tracking-wide text-[16px] mt-2'>
+        <Link to='/register' className='royal noto tracking-wide text-[16px] mt-2'>
    Register Today! </Link>
         </div>
         </div>

@@ -193,9 +193,11 @@ margin: 20px auto;
   color: #fa017d;
 }
 .border-blue{
-  border: 1px solid #00239C;
+  border: 1px solid #00239c;
 }
-
+.royal{
+  color:#016dd3;
+}
 .scroll-to-top {
   position: fixed;
   bottom: 20px;
@@ -220,4 +222,7 @@ margin: 20px auto;
 }
 .bg-chess{
   background-image: url(assets//chess.png);
+  background-size: cover;
+  background-position: 60%;
+ 
 }

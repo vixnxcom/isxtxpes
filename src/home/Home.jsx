@@ -38,7 +38,7 @@ const Home = () => {
   return (
  <div className='bg-blue w-full'>
 
- <div className={`${styles.flexCenter} bg-chess `}>
+ <div className={`${styles.flexCenter} bg-chess h-[99vh] `}>
  <div className={`${styles.boxWidth}`}>
 
    <Hero/>

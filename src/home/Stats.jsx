@@ -19,10 +19,10 @@ const Stats = () => {
         {/* head section */}
     
         {/* card */}
-        <div className='mx-auto bg-white rounded-[24px] w-full   mt-10'>
+        <div className='mx-auto  w-full   mt-10'>
         <div className='mt-5 mx-auto '>
             
-        <div className="flex flex-col  justify-center items-center offlilac borderr max-w-[84vw]
+        <div className="flex flex-col  justify-center items-center offlilac borderr max-w-[92vw]
          mx-auto rounded-[24px] ">
                  <div className='mb-5 mt-5'>
   <img src={partner} alt="" className='w-40' />
@@ -50,7 +50,7 @@ const Stats = () => {
    
     
 </div>
-        <div className="flex flex-col  justify-center items-center mt-5 mb-5 offlilac borderr max-w-[84vw]
+        <div className="flex flex-col  justify-center items-center mt-5 mb-5 offlilac borderr max-w-[92vw]
          mx-auto rounded-[24px] ">
 <div className='mb-5 mt-5'>
   <img src={million} alt="" className='w-40' />

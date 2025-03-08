@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../style'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 
 const SignNow = () => {
@@ -8,8 +9,8 @@ const SignNow = () => {
     <div className={`${styles.flexCenter} flex justify-content-center align-items-center mt-5`}>
     <div className=''>
     <button className='mx-auto bg-blue md:w-[24vw] md:h-[4vw] w-[60vw] rounded-[24px] h-[12vw]'>
-    <Link to='/register'
-     className='aeon-bold text-white text-[20px]' >Sign-Up Now!</Link>
+    <HashLink to='/register#topreg'
+     className='aeon-bold text-white text-[20px]' >Sign-Up Now!</HashLink>
     </button>
     </div>
 </div>

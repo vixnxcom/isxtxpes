@@ -5,7 +5,7 @@ import Time from '../../offer/Time'
 
 const Title = () => {
   return (
-    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col mx-auto`}>
+    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col mx-auto`} id='givway'>
      <div className='mt-20'></div>
 
        

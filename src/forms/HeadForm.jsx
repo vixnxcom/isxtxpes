@@ -4,7 +4,7 @@ import { hand } from '../assets'
 
 const HeadForm = () => {
   return (
-    <section className={`${styles.flexCenter} ${styles.paddingX} flex flex-col`}>
+    <section className={`${styles.flexCenter} ${styles.paddingX} flex flex-col`} id='topreg'>
         <div className='md:h-[160px] bg-blue  h-[160px] shadoww'></div>
 
     <div className=''>

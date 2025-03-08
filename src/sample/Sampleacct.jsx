@@ -67,7 +67,7 @@ const Sampleacct = () => {
       <div className="flex justify-center w-full mb-10 mt-10">
         <button
           onClick={() => navigate('/samform')} // Navigate to PaymentForm page
-           className='px-6 py-3 bg-blue text-white rounded-xl shadow-lg hover:bg-gold transition duration-300'
+       className='px-6 py-3 border-blue text-black rounded-xl shadow-lg hover:bg-gold transition duration-300'
         >
           Yes, I've Sent the Money
         </button>

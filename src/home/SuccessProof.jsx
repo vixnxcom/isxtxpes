@@ -4,7 +4,7 @@ import { ppl } from '../assets'
 
 const SuccessProof = () => {
   return (
-    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
+    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`} id='reviews'>
 
 
     {/* head section */}

@@ -4,7 +4,7 @@ import { two } from '../assets'
 
 const Get = () => {
   return (
-    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
+    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`} id='get'>
     {/* head section */}
     <div className={`${styles.heading7} blue`}>
     What You Get

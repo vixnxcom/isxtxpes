@@ -63,7 +63,7 @@ const Pages = () => {
             < ScrollTop />
            </div>  
 
-      <div className="bottom-0 h-[50vh] bg-blue">
+      <div className="bottom-0  bg-blue">
         <Footer />
       </div>
     </Router>

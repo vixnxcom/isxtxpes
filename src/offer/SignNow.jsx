@@ -6,7 +6,7 @@ import BonusButton from '../home/BonusButton'
 
 const SignNow = () => {
   return (
-    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
+    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`} id='countdown'>
     
     {/* head section */}
     <div className={`${styles.heading5} blue`}>

@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from '../style'
 import { tick } from '../assets'
+import { HashLink } from 'react-router-hash-link'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -17,7 +19,60 @@ const Footer = () => {
        Turn your aspirations into a reality—earn from anywhere, anytime, while making an impact that lasts forever.
        </div>
        {/* links */}
- 
+       <div className={`${styles.flexStart} ${styles.paddingX} flex flex-row gap-5 mt-10`}>
+        {/* first div */}
+        <div className='flex flex-col'>
+     
+        <HashLink to='/#benefits' className='text-white noto tracking-wide text-[16px] mt-2'>
+        The Benefits </HashLink>
+      
+        {/* <HashLink to='/works#join' className='text-white noto tracking-wide text-[16px] mt-2'>
+         How to join </HashLink> */}
+        <HashLink to='/#opp' className='text-white noto tracking-wide text-[16px] mt-2'>
+        Why you need this </HashLink>
+        <HashLink to='/#reviews' className='text-white noto tracking-wide text-[16px] mt-2'>
+       Testimonials </HashLink>
+        </div>
+        {/* first div */}
+        {/* first div */}
+        <div className='flex flex-col'>
+     
+        <HashLink to='/offer#countdown' className='text-white noto tracking-wide text-[16px] mt-2'>
+       Limited Time offer </HashLink>
+      
+        {/* <HashLink to='/works#join' className='text-white noto tracking-wide text-[16px] mt-2'>
+         How to join </HashLink> */}
+        <HashLink to='/offer#get' className='text-white noto tracking-wide text-[16px] mt-2'>
+        What you get</HashLink>
+        <HashLink to='/offer#pros' className='text-white noto tracking-wide text-[16px] mt-2'>
+      The Pros </HashLink>
+      
+        <HashLink to='/offer#meetings' className='text-white noto tracking-wide text-[16px] mt-2'>
+     Meeting sessions </HashLink>
+        </div>
+        {/* first div */}
+       </div>
+ {/* links */}
+ <div className={`${styles.flexStart} ${styles.paddingX} flex flex-row gap-5 mt-10`}>
+        {/* first div */}
+        <div className='flex flex-col'>
+     
+        <Link to='/' className='text-white noto tracking-wide text-[16px] mt-2'>
+        Home </Link>
+      
+        {/* <HashLink to='/works#join' className='text-white noto tracking-wide text-[16px] mt-2'>
+         How to join </HashLink> */}
+        <Link to='/offer' className='text-white noto tracking-wide text-[16px] mt-2'>
+        Our Offer </Link>
+        <Link to='/giveaway' className='text-white noto tracking-wide text-[16px] mt-2'>
+     Our Exclusive Giveaway </Link>
+        <Link to='/works' className='text-white noto tracking-wide text-[16px] mt-2'>
+      How to become a partner </Link>
+        <Link to='/register' className='text-white noto tracking-wide text-[16px] mt-2'>
+   Register Today! </Link>
+        </div>
+        </div>
+        {/* first div */}
        {/* links */}
     </section>
   )

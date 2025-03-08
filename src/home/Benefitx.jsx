@@ -4,7 +4,7 @@ import { tick } from '../assets'
 
 const Benefitx = () => {
   return (
-    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
+    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`} id='benefits'>
         {/* head section */}
         <div className={`${styles.heading2}`}>
            Easy Benefits

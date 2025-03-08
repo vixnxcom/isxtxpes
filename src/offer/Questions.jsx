@@ -3,7 +3,7 @@ import styles from '../style'
 
 const Questions = () => {
   return (
-    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
+    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`} id='meetings'>
 
 
     {/* head section */}

@@ -5,7 +5,7 @@ import { hand, tick, world } from '../../assets'
 
 const WrkSteps = () => {
   return (
-    <section className={`${styles.flexCenter} ${styles.paddingX} flex flex-col`}>
+    <section className={`${styles.flexCenter} ${styles.paddingX} flex flex-col`} id='join'>
 
   <div className='h-[180px]'>
             <img src={hand} alt="" />
@@ -75,7 +75,7 @@ const WrkSteps = () => {
         {/* icons */}
      
           <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
-          Select a plan from our package offer and make payment
+          Select a suitable plan from our package offer and make payment
           </p>
      
       </div>
@@ -98,7 +98,8 @@ const WrkSteps = () => {
         {/* icons */}
      
           <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
-          Fill out the interest form which pops-up immediately after payment.
+          Click on the <span className='aeon-bold blue'> 'yes i've sent the money'</span> button after payment into any of our bank accounts.
+          Fill out the interest form and upload a copy of your payment receipt.
           </p>
      
       </div>

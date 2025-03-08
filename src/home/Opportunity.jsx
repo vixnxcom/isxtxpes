@@ -4,7 +4,7 @@ import { build, earn, finance, products, protect, wealth } from '../assets'
 
 const Opportunity = () => {
   return (
-    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
+    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`} id='opp'>
 
     {/* head section */}
     <div className={`${styles.heading3}`}>

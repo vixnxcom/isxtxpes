@@ -184,7 +184,7 @@ dreams!</p>
               </div>   
               
         {/* card 1 */}
-        <div className={`${styles.subHeadingy} mt-5`}>
+        <div className={`${styles.subHeadingy} text-white mt-5`}>
         Imagine waking up in a beach resort, sipping fresh coconut water, knowing your business is making money 
         for you even while you travel!
     </div>

@@ -14,9 +14,9 @@ const Transformation = () => {
            <div className='aeon-bold text-start xs:text-[20px] text-[24px] blue mt-2 mx-auto'>
            Before Joining
             </div> 
-          <div className=' mx-auto mt-2 mb-2 borderr'>
+          {/* <div className=' mx-auto mt-2 mb-2 borderr'>
          <img src={tired} alt=""  className='mx-auto w-full'/>
-          </div>
+          </div> */}
             {/* icons */}
           </div>
           <div className='mx-auto'>
@@ -34,9 +34,9 @@ const Transformation = () => {
            <div className='aeon-bold text-start xs:text-[20px] text-[24px] blue mt-2 mx-auto'>
            After Joining
             </div> 
-            <div className=' mx-auto mt-2 mb-2 borderr '>
+            {/* <div className=' mx-auto mt-2 mb-2 borderr '>
          <img src={happy} alt=""  className='w-full'/>
-          </div>
+          </div> */}
             </div> 
 
             {/* icons */}

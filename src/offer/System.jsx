@@ -6,7 +6,7 @@ const System = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`} id='pros'>
     {/* head section */}
-    <div className={`${styles.heading7} blue`}>
+    <div className={`${styles.heading7} text-white`}>
   This system is for you if:
     </div>
       {/* head section */}
@@ -16,7 +16,7 @@ const System = () => {
                 <img src={eye} alt=""  className='max-w-8 mt-2' />
             </div>
             <div>
-              <p className={`${styles.paragraphx}`}>You want to earn extra income without affecting your daily routine.
+              <p className={`${styles.paragraphx} text-white`}>You want to earn extra income without affecting your daily routine.
               </p>
             </div>
             {/* icons */}
@@ -29,7 +29,7 @@ const System = () => {
                 <img src={eye} alt=""  className='max-w-8 mt-2' />
             </div>
             <div>
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               You’re tired of financial struggles and want real change
               </p>
              
@@ -44,7 +44,7 @@ const System = () => {
             </div>
             <div>
            
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               You want access to powerful wellness products that fight diseases, prevent cancer, boost immunity, and reverse
               aging!
               </p>
@@ -60,7 +60,7 @@ const System = () => {
             </div>
             <div>
            
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               You dream of traveling the world, experiencing new cultures, and living life on your terms!
 
               </p>
@@ -76,7 +76,7 @@ const System = () => {
             </div>
             <div>
            
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               You want to help others escape poverty, find financial freedom, and live healthier, happier lives.
               </p>
             </div>
@@ -90,7 +90,7 @@ const System = () => {
             </div>
             <div>
            
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               You believe in building something that outlives you—creating generational wealth that benefits your family for
               years to come!
               </p>
@@ -98,7 +98,7 @@ const System = () => {
             {/* icons */}
           </div>
   
-          <div className={`${styles.subHeadingy} mt-5`}>
+          <div className={`${styles.subHeadingy} text-white mt-5`}>
           This isn’t just an opportunity—it’s a MOVEMENT!
 
     </div>

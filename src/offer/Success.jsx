@@ -8,7 +8,7 @@ const Success = () => {
 
 
     {/* head section */}
-    <div className={`${styles.heading5} blue`}>
+    <div className={`${styles.heading5} text-white`}>
     Success stories and social proof (See real results!)
     </div>
 
@@ -61,7 +61,7 @@ online, and living the dream—all because he decided to take action.
      
           {/* card  */}
     {/* box */}
-    <div className={`${styles.subHeadingy} mt-5`}>
+    <div className={`${styles.subHeadingy} text-white mt-5`}>
       You could be next!
 
     </div>

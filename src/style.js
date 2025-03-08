@@ -18,7 +18,7 @@ const styles = {
   subHeadingxy: "noto text-left xs:text-[24px] text-[20px] text-white mt-5 w-full tracking-wide",
 
   paragraph: "noto font-normal text-white md:text-[14px] text-[16px] leading-[30.8px]",
-  paragraphx: "noto font-normal coal md:text-[14px] text-[16px] leading-[30.8px]",
+  paragraphx: "noto font-normal  md:text-[14px] text-[16px] leading-[30.8px]",
   paragraphy: "noto text-left md:text-[14px] font-normal text-[16px] coal mt-5 w-full tracking-wide leading-[30.8px]",
 
 

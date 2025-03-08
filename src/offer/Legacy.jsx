@@ -6,10 +6,10 @@ const Legacy = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
     {/* head section */}
-    <div className={`${styles.heading7} blue`}>
+    <div className={`${styles.heading7} gold`}>
     Could your path to financial & lifestyle freedom start now
     </div>
-    <div className={`${styles.subHeadingy}`}>
+    <div className={`${styles.subHeadingy} text-white`}>
     Turn a Small Decision Today Into a Lifetime of Wealth, Impact & Legacy
     </div>
     {/* head section */}
@@ -19,7 +19,7 @@ const Legacy = () => {
             <img src={tick} alt=""  />
         </div>
         <div>
-          <p className={`${styles.paragraphx}`}> You’ve watched the video. You understand the business</p>
+          <p className={`${styles.paragraphx} text-white`}> You’ve watched the video. You understand the business</p>
         </div>
         {/* icons */}
       </div>
@@ -30,12 +30,12 @@ const Legacy = () => {
             <img src={tick} alt=""  />
         </div>
         <div>
-          <p className={`${styles.paragraphx}`}> Now, it’s time to take action and secure your dream lifestyle.
+          <p className={`${styles.paragraphx} text-white`}> Now, it’s time to take action and secure your dream lifestyle.
           </p>
         </div>
         {/* icons */}
       </div>
-      <div className={`${styles.subHeadingy} mt-5`}>
+      <div className={`${styles.subHeadingy} text-white mt-5`}>
       Spots Are Limited! Don’t Miss This Opportunity!
 
     </div>

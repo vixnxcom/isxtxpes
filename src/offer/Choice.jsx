@@ -8,7 +8,7 @@ const Choice = () => {
 
 
     {/* head section */}
-    <div className={`${styles.heading5} blue`}>
+    <div className={`${styles.heading5} text-white`}>
     Only a few spots left - You could be next!
     </div>
     {/* box */}
@@ -16,7 +16,7 @@ const Choice = () => {
         
        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-row mx-auto gap-4 `}>
        <img src={graph} alt="" className='w-8 mt-10'/>
-       <div className={`${styles.heading4}   mx-auto mt-6`}> <span></span>
+       <div className={`${styles.heading4}  text-white  mx-auto mt-6`}> <span></span>
          Choice 1
         </div>
         </div>
@@ -36,7 +36,7 @@ const Choice = () => {
         
        <div className={`${styles.flexStart} ${styles.paddingX} flex flex-row mx-auto gap-4 `}>
        <img src={graph} alt="" className='w-8 mt-10'/>
-       <div className={`${styles.heading4}   mx-auto mt-6`}> <span></span>
+       <div className={`${styles.heading4} text-white   mx-auto mt-6`}> <span></span>
          Choice 2
         </div>
         </div>

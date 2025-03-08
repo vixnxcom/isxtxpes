@@ -10,7 +10,7 @@ const Objections = () => {
 
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col  mx-auto`}>
 
-<div className={`${styles.heading1} blue`}>
+<div className={`${styles.heading1} text-white`}>
 Still Have Doubts? Let’s Address Them
 
 

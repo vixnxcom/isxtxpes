@@ -8,9 +8,9 @@ const Hero = () => {
 
  <section className={`${styles.flexCenter} md:h-[500px] h-auto flex flex-col`}>
   {/* main text */}
-         
+         <div className='h-[80px]'></div>
          <div className={`${styles.heading1} `} >
-         <div className='h-[10vw] p-2'>
+         <div className='h-[8vw] '>
       <img src={chess} alt="" />
     </div>
             <div className='md:h-[160px]  h-[160px] shadoww'></div>

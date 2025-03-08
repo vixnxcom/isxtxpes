@@ -218,3 +218,6 @@ margin: 20px auto;
     right: 60px;
   }
 }
+.bg-chess{
+  background-image: url(assets//chess.png);
+}

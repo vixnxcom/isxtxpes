@@ -38,11 +38,12 @@ const Home = () => {
   return (
  <div className='bg-blue w-full'>
 
- <div className={`${styles.flexCenter} `}>
+ <div className={`${styles.flexCenter} bg-chess `}>
  <div className={`${styles.boxWidth}`}>
 
    <Hero/>
    <Button />
+   <div className='h-[80px]'></div>
 </div>
 </div>
 

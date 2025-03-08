@@ -20,9 +20,10 @@ export default function GradientHome({ children }) {
       className="min-h-screen transition-all duration-500 ease-in-out"
       style={{
         background: `linear-gradient(180deg, 
-#070141  ${Math.min(60, scrollPercentage * 1.0)}%,  
+#0a025a  ${Math.min(60, scrollPercentage * 1.0)}%,  
  #010D1B ${Math.min(60, scrollPercentage * 1.5)}%, 
-#012e5e 100%)`,
+ 
+#011e38 100%)`,
       }}
     >
       {children}

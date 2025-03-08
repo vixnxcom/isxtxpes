@@ -10,7 +10,8 @@ const SignNow = () => {
     
     {/* head section */}
     <div className={`${styles.heading5} blue`}>
-     Sign-Up Now & get these exclusive bonuses  <span className='gold'>(LIMITED-TIME OFFER!)</span>
+     Sign-Up Now & get these exclusive bonuses 
+      <br /><span className='gold aeon-bold'>Limited Time Offer!!</span>
     </div>
     <div className={`${styles.flexCenter} mx-auto p-4`}>
       <Time />

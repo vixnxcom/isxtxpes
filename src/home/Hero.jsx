@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { coins } from '../assets'
+import { chess, coins } from '../assets'
  
 
 const Hero = () => {
@@ -11,7 +11,7 @@ const Hero = () => {
          
          <div className={`${styles.heading1} `} >
          <div className='h-[10vw] p-2'>
-      <img src={coins} alt="" />
+      <img src={chess} alt="" />
     </div>
             <div className='md:h-[160px]  h-[160px] shadoww'></div>
         <h1 className=''>

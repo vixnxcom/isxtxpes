@@ -36,10 +36,11 @@
   color: #00239C;
 }
 .blue{
-  background: linear-gradient(190.89deg, #00239C 61.98%, #02134b 124.86%);
+background: linear-gradient(223.85deg, #010D1B -1.35%, #001429 46.68%, #02172B 97%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
+
 .gold{
   background: linear-gradient(90deg, #FFD700, #FFC107, #FFB300);
   -webkit-background-clip: text;
@@ -53,13 +54,17 @@
 }
 
 .bg-blue{
-  background: linear-gradient(190.89deg, #00239C 61.98%, 
-  #02134b 124.86%);
+
+background: linear-gradient(223.85deg, #010D1B -1.35%, #001429 46.68%, #02172B 97%);
+
 }
 
 .bg-bluee{
-background: linear-gradient(207.41deg, #011861 4.53%,
- #00239C 58.75%, #02134B 112.96%);
+
+
+background: linear-gradient(223.85deg, #010D1B -1.35%, 
+#001429 46.68%, #02172B 97%);
+
 }
 .bg-skyblue{
   background: #0378fd;

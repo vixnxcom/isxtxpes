@@ -47,10 +47,11 @@ import million from './million.png'
 import partner from './partner.png'
 import free from './hands.jpg'
 import test from './test.mp4'
+import chess from './chess.png'
 
 
 export{
-    dubai, partner,million, billion, test,
+    dubai, partner,million, billion, test, chess,
     beach, two, three, four, five, fruit, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,ppl, tired, happy, home, stack,
     earn, build, products, protect, wealth, business, world, one, coins, safe, eye, bookmark, pink, graph, bar, hand, free,
 tick,

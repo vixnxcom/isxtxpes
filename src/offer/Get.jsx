@@ -6,7 +6,7 @@ const Get = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`} id='get'>
     {/* head section */}
-    <div className={`${styles.heading7} blue`}>
+    <div className={`${styles.heading7} text-white`}>
     What You Get
     </div>
 
@@ -19,9 +19,9 @@ const Get = () => {
               </div>
 
               <div>
-              <p className={`${styles.paragraphx}`}>Invest as little as <span className=' aeon-bold'> 
+              <p className={`${styles.paragraphx} text-white`}>Invest as little as <span className=' aeon-bold'> 
                 ₦69,990</span> </p>
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
              today and build an income stream for life!</p>
               </div>   
               </div>   
@@ -34,9 +34,9 @@ const Get = () => {
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>02</p>
               </div>
               <div>
-              <p className={`${styles.paragraphx}`}>Earn daily, weekly, and monthly
+              <p className={`${styles.paragraphx} text-white`}>Earn daily, weekly, and monthly
             </p>
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               no experience needed!</p>
               </div>   
               </div>   
@@ -49,9 +49,9 @@ const Get = () => {
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>03</p>
               </div>
               <div>
-              <p className={`${styles.paragraphx}`}>No selling, no inventory, no stress
+              <p className={`${styles.paragraphx} text-white`}>No selling, no inventory, no stress
             </p>
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               just no experience needed!</p>
               </div>   
               </div>   
@@ -64,10 +64,10 @@ const Get = () => {
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>04</p>
               </div>
               <div>
-              <p className={`${styles.paragraphx}`}>Step-by-step training & 1-on-1 
+              <p className={`${styles.paragraphx} text-white`}>Step-by-step training & 1-on-1 
 
             </p>
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               mentorship included!</p>
               </div>   
               </div>   
@@ -81,11 +81,11 @@ const Get = () => {
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>05</p>
               </div>
               <div>
-              <p className={`${styles.paragraphx}`}>Work from anywhere in the world 
+              <p className={`${styles.paragraphx} text-white`}>Work from anywhere in the world 
 
 
             </p>
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               and control your income!</p>
               </div>   
               </div>   
@@ -98,16 +98,16 @@ const Get = () => {
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>06</p>
               </div>
               <div>
-              <p className={`${styles.paragraphx}`}>Access to premium health products 
+              <p className={`${styles.paragraphx} text-white`}>Access to premium health products 
               
 
 
             </p>
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               that make you look younger, </p>
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               boost  immunity, prevent diseases, and  </p>
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               promote overall well-being!</p>
               </div>   
               </div>   
@@ -120,17 +120,17 @@ const Get = () => {
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>07</p>
               </div>
               <div>
-              <p className={`${styles.paragraphx}`}>Unlock luxury travel experiences,  
+              <p className={`${styles.paragraphx} text-white `}>Unlock luxury travel experiences,  
 
               
 
 
             </p>
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               VIP events, and exclusive rewards </p>
-              <p className={`${styles.paragraphx}`}>just by growing your
+              <p className={`${styles.paragraphx} text-white`}>just by growing your
           </p>
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               business!</p>
               </div>   
               </div>   
@@ -142,18 +142,18 @@ const Get = () => {
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>08</p>
               </div>
               <div>
-              <p className={`${styles.paragraphx}`}>Make a meaningful impact by  
+              <p className={`${styles.paragraphx} text-white`}>Make a meaningful impact by  
   
 
               
 
 
             </p>
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               helping others escape financial </p>
-              <p className={`${styles.paragraphx}`}>struggles, improve their health, 
+              <p className={`${styles.paragraphx} text-white `}>struggles, improve their health, 
           </p>
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               and achieve their
 dreams!</p>
               </div>   
@@ -168,16 +168,16 @@ dreams!</p>
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>09</p>
               </div>
               <div>
-              <p className={`${styles.paragraphx}`}>Build generational wealth so your  
+              <p className={`${styles.paragraphx} text-white`}>Build generational wealth so your  
   
 
               
 
 
             </p>
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               children and grandchildren will</p>
-              <p className={`${styles.paragraphx}`}> never have to struggle!
+              <p className={`${styles.paragraphx} text-white`}> never have to struggle!
           </p>
           
               </div>   

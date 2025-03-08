@@ -8,7 +8,7 @@ const Opptunity = () => {
 
 
     {/* head section */}
-    <div className={`${styles.heading5} blue`}>
+    <div className={`${styles.heading5} text-white`}>
     Why this opportunity is a no-brainer
     </div>
 
@@ -19,7 +19,7 @@ const Opptunity = () => {
             <img src={bookmark} alt=""  className='max-w-8 mt-2'/>
         </div>
         <div>
-          <p className={`${styles.paragraphx}`}>For Less Than the Cost of a Shoe, You Can Build a Business That Pays You Forever—While Making an Impact
+          <p className={`${styles.paragraphx} text-white`}>For Less Than the Cost of a Shoe, You Can Build a Business That Pays You Forever—While Making an Impact
 That Lasts Generations!
 </p>
         </div>
@@ -33,7 +33,7 @@ That Lasts Generations!
             <img src={bookmark} alt="" className='max-w-8 mt-2' />
         </div>
         <div>
-          <p className={`${styles.paragraphx}`}>People spend ₦70,000 on weekend outings, shopping, and subscriptions 
+          <p className={`${styles.paragraphx} text-white`}>People spend ₦70,000 on weekend outings, shopping, and subscriptions 
             that don’t change their lives. But this? This
           could change everything.
 </p>

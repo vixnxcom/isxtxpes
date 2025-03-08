@@ -148,12 +148,12 @@ margin: 20px auto;
 
 .bg-offwhite{
   /* background: #e0efff; */
-background: linear-gradient(220.65deg, #010D1B 8.18%, #f5a802 33.34%, #Ffc107 47.98%, #02172B 84.43%,
+background: linear-gradient(220.65deg, #010D1B 8.18%, #f5a802 33.34%, 47.98%, #02172B 84.43%,
  #04192F 93.68%);
 
 }
 .offlilac{
-  background-color: #f7ebf8;
+  background-color: #f0f6fd;
 }
 
 .lavender{

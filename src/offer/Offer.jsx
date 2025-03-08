@@ -23,11 +23,12 @@ import Questions from './Questions'
 import ButtonS from './session/ButtonS'
 import Regret from './Regret'
 import You from './You'
+import GradientBackground from './GradientBackground'
 
 const Offer = () => {
   return (
-    <div className='bg-offwhite w-full'>
-
+    <div className=' w-full'>
+<GradientBackground>
     <div className={`${styles.flexCenter} `}>
     <div className={`${styles.boxWidth}`}>
    <Path />
@@ -189,7 +190,7 @@ const Offer = () => {
 
 
 
-
+</GradientBackground>
    </div>
   )
 }

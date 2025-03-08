@@ -146,7 +146,7 @@ Immunity!
           </div>
           {/* card */}
   
-          <div className={`${styles.subHeadingy} mt-5`}>
+          <div className={`${styles.subHeadingy} text-white mt-5`}>
           These bonuses are available for TODAY ONLY!
           <BonusButton />
     </div>

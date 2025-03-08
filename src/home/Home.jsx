@@ -33,10 +33,12 @@ import Head from './Head'
 import SuccessProof from './SuccessProof'
 import Act from './Act'
 import Backup from './Backup'
+import GradientHome from './GradientHome'
 
 const Home = () => {
   return (
- <div className='bg-blue w-full'>
+ <div className=' w-full'>
+  <GradientHome >
 
  <div className={`${styles.flexCenter} bg-chess h-[99vh] `}>
  <div className={`${styles.boxWidth}`}>
@@ -234,7 +236,7 @@ const Home = () => {
 
 
 
-
+</GradientHome>
  </div>
   )
 }

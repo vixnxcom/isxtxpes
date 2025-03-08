@@ -5,6 +5,7 @@ import WrkOffer from './WrkOffer'
 import WrkFree from './WrkFree'
 import WrkPaid from './WrkPaid'
 import PartnerButton from '../PartnerButton'
+import Regret from '../../offer/Regret'
 
 const Works = () => {
   return (
@@ -24,6 +25,8 @@ const Works = () => {
 </div>
 </div>
 
+
+
 <div className={`${styles.flexCenter} mt-10 `}>
  <div className={`${styles.boxWidth}`}>
 
@@ -34,9 +37,20 @@ const Works = () => {
  <div className={`${styles.boxWidth}`}>
 
    <WrkFree/>
-   <PartnerButton />
+
 </div>
 </div>
+
+<div className={`${styles.flexCenter} mt-10`}>
+ <div className={`${styles.boxWidth}`}>
+
+   <Regret/> 
+  <PartnerButton />
+  
+  
+ 
+</div>
+</div> 
 
   <div className='h-[40px] '></div>
    </div>

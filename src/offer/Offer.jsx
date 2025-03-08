@@ -168,16 +168,7 @@ const Offer = () => {
 </div>
 </div> 
 
-<div className={`${styles.flexCenter} mt-10`}>
- <div className={`${styles.boxWidth}`}>
 
-   <Regret/> 
-  <PartnerButton />
-  
-  
- 
-</div>
-</div> 
 
 <div className={`${styles.flexCenter} mt-20`}>
  <div className={`${styles.boxWidth}`}>

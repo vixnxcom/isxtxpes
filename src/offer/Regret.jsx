@@ -4,7 +4,7 @@ import { tick } from '../assets'
 
 const Regret = () => {
   return (
-    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
+    <section className={`${styles.flexCenter} ${styles.paddingX} flex flex-col`} >
 
 
     {/* head section */}
@@ -13,10 +13,10 @@ The only regret you will have is not joining sooner
     </div>
 
      {/* head section */}
-     <div className='flex flex-row gap-4 mt-5'>
+     <div className='flex flex-col  mt-5'>
             {/* icons */}
             <div className=''>
-                <img src={tick} alt=""  className='max-w-8 mt-2' />
+                <img src={tick} alt=""  className='max-w-8 mt-2 mb-2' />
             </div>
             <div>
            
@@ -28,10 +28,10 @@ The only regret you will have is not joining sooner
           </div>
 
      {/* head section */}
-     <div className='flex flex-row gap-4 mt-5'>
+     <div className='flex flex-col mt-5'>
             {/* icons */}
             <div className=''>
-                <img src={tick} alt=""  className='max-w-8 mt-2' />
+                <img src={tick} alt=""  className='max-w-8 mt-2 mb-2' />
             </div>
             <div>
            
@@ -43,10 +43,10 @@ The only regret you will have is not joining sooner
           </div>
       {/* head section */}
      {/* head section */}
-     <div className='flex flex-row gap-4 mt-5'>
+     <div className='flex flex-col mt-5'>
             {/* icons */}
             <div className=''>
-                <img src={tick} alt=""  className='max-w-8 mt-2' />
+                <img src={tick} alt=""  className='max-w-8 mt-2 mb-2' />
             </div>
             <div>
            

@@ -1,20 +1,23 @@
 import React from 'react'
 import styles from '../../style'
-import { hand, tick, world } from '../../assets'
+import { hand, tick, time, world } from '../../assets'
 
 
 const WrkSteps = () => {
   return (
     <section className={`${styles.flexCenter} ${styles.paddingX} flex flex-col`} id='join'>
+ 
+  <div className='h-[160px]'>
 
-  <div className='h-[180px]'>
             {/* <img src={hand} alt="" className=''/> */}
            </div>
            {/* head section */}
            <div className={`${styles.heading5} gold shadoww`}>
            How to Register & Become a Partner
            </div>
-         
+           <div className='md:w-[25%] w-[75%] p-2'>
+            <img src={time} alt="" />
+          </div>
         {/* head section */}
 
         

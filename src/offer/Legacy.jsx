@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { tick } from '../assets'
+import { tick, time } from '../assets'
 
 const Legacy = () => {
   return (
@@ -34,11 +34,14 @@ const Legacy = () => {
           </p>
         </div>
         {/* icons */}
+     
       </div>
+    
       <div className={`${styles.subHeadingy} text-white mt-5`}>
       Spots Are Limited! Don’t Miss This Opportunity!
 
     </div>
+   
       </section>
   )
 }

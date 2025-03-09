@@ -24,10 +24,12 @@ import ButtonS from './session/ButtonS'
 import Regret from './Regret'
 import You from './You'
 import GradientBackground from './GradientBackground'
+import { time } from '../assets'
 
 const Offer = () => {
   return (
     <div className=' w-full'>
+    
 <GradientBackground>
     <div className={`${styles.flexCenter} `}>
     <div className={`${styles.boxWidth}`}>

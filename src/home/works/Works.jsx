@@ -7,13 +7,14 @@ import WrkPaid from './WrkPaid'
 import PartnerButton from '../PartnerButton'
 import Regret from '../../offer/Regret'
 import GradientHome from '../GradientHome'
+import { time } from '../../assets'
 
 const Works = () => {
   return (
     <div className=' w-full'>
-      
+         
 <GradientHome>
-    <div className={`${styles.flexCenter} mt-20 `}>
+    <div className={`${styles.flexCenter}  `}>
     <div className={`${styles.boxWidth}`}>
    <WrkSteps />
    <PartnerButton />

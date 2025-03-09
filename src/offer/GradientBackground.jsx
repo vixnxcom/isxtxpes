@@ -7,7 +7,7 @@ export default function GradientBackground({ children }) {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const scrolled = (scrollTop / docHeight) * 500;
+      const scrolled = (scrollTop / docHeight) * 300;
       setScrollPercentage(scrolled);
     };
 

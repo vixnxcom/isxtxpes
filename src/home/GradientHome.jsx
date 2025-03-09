@@ -7,7 +7,7 @@ export default function GradientHome({ children }) {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const scrolled = (scrollTop / docHeight) * 200;
+      const scrolled = (scrollTop / docHeight) * 100;
       setScrollPercentage(scrolled);
     };
 

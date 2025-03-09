@@ -19,8 +19,7 @@ export default function Gradient({ children }) {
     <div
       className="min-h-screen transition-all duration-500 ease-in-out"
       style={{
-        background: `linear-gradient(180deg,
-         #ff0096 
+        background: `linear-gradient(180deg, #ff0096 
         ${scrollPercentage}%,
          #00ccff 50%,
           hsl(39, 100.00%, 50.00%) 100%)`,

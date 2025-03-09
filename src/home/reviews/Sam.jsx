@@ -21,7 +21,7 @@ money to do everything I’ve ever wanted. If you're looking for a better opport
 Project—it’s a proven system that helps you build sustainable income through leverage!"
 
             </p>
-            <h1 className='aeon-bold blue '>
+            <h1 className='aeon-bold blue text-[16px] '>
             — Ambassador Sam Ozoani
             </h1>
            <p className='p-5 italic'>

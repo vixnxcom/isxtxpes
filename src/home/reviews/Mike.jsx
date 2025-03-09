@@ -20,7 +20,7 @@ stability in just a few months. The system is simple, effective, and truly works
 my terms, and I couldn’t be more grateful!"
 
             </p>
-            <h1 className='aeon-bold blue '>
+            <h1 className='aeon-bold blue text-[16px] '>
             — Michael .K. Okoli
             </h1>
            <p className='p-5 italic'>

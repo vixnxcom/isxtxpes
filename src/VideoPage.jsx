@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { test } from "./assets"; // Import your video file
+import { test, vlogo } from "./assets"; // Import your video file
 
 const VideoPage = () => {
   const videoRef = useRef(null);
@@ -73,8 +73,9 @@ const VideoPage = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-blue text-white relative min-h-screen z-60">
-      <h1 className="text-[44px] font-bold mb-4 mx-auto text-center">The Diamond Project</h1>
+    <div className="flex flex-col items-center justify-center bg-video text-white relative min-h-screen z-60">
+      <img src={vlogo} alt="" className="mx-auto max-w-16 mt-5 mb-2 shadowx" />
+      <h1 className="text-[44px] gold shadoww font-bold mb-4 mx-auto text-center">The Diamond Project</h1>
       <h1 className="text-2xl font-bold mb-4 mt-5">Watch the Video to Proceed</h1>
       <h1 className="text-[16px] mx-auto text-center noto mb-4 mt-5">
         Home Button only activates if you watch the complete video without skipping

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { tick } from '../assets'
+import { flogo, tick } from '../assets'
 import { HashLink } from 'react-router-hash-link'
 import { Link } from 'react-router-dom'
 
@@ -10,8 +10,8 @@ const Footer = () => {
       
          {/* logo */}
          
-         <div className={`${styles.heading2} flex flex-row sm:px-16 px-6`}>
-         <span><img src={tick} alt="" className='max-w-12 mr-4' /></span>  The Diamond Project
+         <div className={`${styles.heading2} flex flex-row gold shadoww sm:px-16 px-6`}>
+         <span><img src={flogo} alt="" className='max-w-40 mr-4' /></span>  The Diamond Project
          </div>
          {/* logo */}
 

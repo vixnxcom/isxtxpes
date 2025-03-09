@@ -21,7 +21,7 @@ mind, consistent income, and true financial freedom. This project didn’t just 
 
 
             </p>
-            <h1 className='aeon-bold blue '>
+            <h1 className='aeon-bold blue text-[16px] '>
             — Nefo Esima
             </h1>
            <p className='p-5 italic'>

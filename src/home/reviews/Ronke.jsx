@@ -20,7 +20,7 @@ This opportunity changed everything. It opened my mind, pushed me to become the 
 me the financial freedom to travel the world. I finally have the life I once only dreamed of!"
 
             </p>
-            <h1 className='aeon-bold blue '>
+            <h1 className='aeon-bold blue text-[16px] '>
             — Ronke Kosemani
             </h1>
            <p className='p-5 italic'>

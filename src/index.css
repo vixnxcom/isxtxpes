@@ -245,3 +245,10 @@ background: linear-gradient(220.65deg, #010D1B 8.18%, #f5a802 33.34%, 47.98%, #0
   background-position: 60%;
  
 }
+
+.bg-video{
+
+background: linear-gradient(176.64deg, #01043A -8.99%, #010C22 35.86%,
+ #010C22 88.11%, #01043A 118.71%);
+
+}

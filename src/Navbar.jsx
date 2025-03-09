@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { open } from "./assets";
+import { logo, open } from "./assets";
 import styles from "./style";
 
 
@@ -10,8 +10,9 @@ const Navbar = () => {
   return (
     <nav className="bg-white p-4 fixed w-full top-0 left-0 shadow-md z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-black text-xl font-bold">MyLogo</h1>
-
+         {/* <h1 className=" flex flex-row gap-2 blue text-xl aeon-bold mt-2"> <span> <img src={logo} alt=""  className="w-16 "/></span>The Diamond Project</h1>  */}
+        <img src={logo} alt=""  className="w-16 "/> 
+         
         {/* Mobile Menu Button */}
         <button
           className="text-black md:hidden noto flex  flex-row"

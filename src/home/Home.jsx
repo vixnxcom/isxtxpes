@@ -34,6 +34,7 @@ import SuccessProof from './SuccessProof'
 import Act from './Act'
 import Backup from './Backup'
 import GradientHome from './GradientHome'
+import Reviews from './reviews/Reviews'
 
 const Home = () => {
   return (
@@ -207,6 +208,15 @@ const Home = () => {
 </div>
 </div>
 
+
+
+<div className={`${styles.flexCenter} mt-10 `}>
+ <div className={`${styles.boxWidth}`}>
+   <Act/>
+   <PartnerButton/>
+</div>
+</div> 
+
 <div className={`${styles.flexCenter} mt-2 `}>
  <div className={`${styles.boxWidth}`}>
         <div className=' '>
@@ -215,12 +225,14 @@ const Home = () => {
 </div>
 </div>
 
-<div className={`${styles.flexCenter} mt-2 `}>
+<div className={`${styles.flexCenter} mt-20 `}>
  <div className={`${styles.boxWidth}`}>
-   <Act/>
-   <PartnerButton/>
+   <Reviews/>
+
 </div>
 </div>
+
+
 
 
 

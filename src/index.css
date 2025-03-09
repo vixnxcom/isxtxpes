@@ -14,6 +14,10 @@
   font-family: noto;
   src: url(./fonts/noto-sans.regular.ttf);
 }
+@font-face {
+  font-family: italic;
+  src: url(./fonts/italic.otf);
+}
 
 .noto{
   font-family: noto;
@@ -23,6 +27,9 @@
 }
 .aeon-boldt{
   font-family: aeon-boldt;
+}
+.italic{
+  font-family: italic;
 }
 
 .card{

@@ -6,7 +6,7 @@ const Nefo = () => {
   return (
     <section className={`${styles.flexCenter} ${styles.paddingX} flex flex-col`}>
     {/* main text */}
-    <div className='text-center  bg-gold w-[92] mt-5 mb-5 rounded-[12px]'>    
+    <div className='text-center  bg-gold w-[90vw] mt-5 mb-5 rounded-[12px]'>    
      
            <div className='flex flex-col mx-auto  mt-10'>
             {/* icons */}

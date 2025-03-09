@@ -225,12 +225,10 @@ const Home = () => {
 </div>
 </div>
 
-<div className={`${styles.flexCenter} mt-20 `}>
- <div className={`${styles.boxWidth}`}>
+
+
    <Reviews/>
 
-</div>
-</div>
 
 
 

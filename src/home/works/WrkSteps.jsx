@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../style'
-import { hand, tick, time, world } from '../../assets'
+import { form, hand, plans, reg, select, sent, tick, time, watch, world } from '../../assets'
 
 
 const WrkSteps = () => {
@@ -27,8 +27,8 @@ const WrkSteps = () => {
      mx-auto  `}> 
    
         
-      <div className='w-12 mt-5'>
-            <img src={world} alt=""  />
+      <div className='w-12 mt-5 '>
+            <img src={watch} alt=""  />
         </div>
 
     
@@ -50,7 +50,7 @@ const WrkSteps = () => {
    
         
       <div className='w-12 mt-5'>
-            <img src={world} alt=""  />
+            <img src={plans} alt=""  />
         </div>
 
     
@@ -71,7 +71,7 @@ const WrkSteps = () => {
    
         
       <div className='w-12 mt-5'>
-            <img src={world} alt=""  />
+            <img src={select} alt=""  />
         </div>
 
     
@@ -94,15 +94,15 @@ const WrkSteps = () => {
    
         
       <div className='w-12 mt-5'>
-            <img src={world} alt=""  />
+            <img src={form} alt=""  />
         </div>
 
     
         {/* icons */}
      
           <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
-          Click on the <span className='aeon-bold blue'> 'yes i've sent the money'</span> button after payment into any of our bank accounts.
-          Fill out the interest form and upload a copy of your payment receipt.
+          After payment into any of our bank accounts.
+          Fill out the interest form and upload a copy of your payment receipt. Click on the <span className='aeon-bold blue'> 'yes i've sent the money'</span> button 
           </p>
      
       </div>
@@ -116,7 +116,7 @@ const WrkSteps = () => {
    
         
       <div className='w-12 mt-5'>
-            <img src={world} alt=""  />
+            <img src={sent} alt=""  />
         </div>
 
     
@@ -139,7 +139,7 @@ const WrkSteps = () => {
    
         
       <div className='w-12 mt-5'>
-            <img src={world} alt=""  />
+            <img src={reg} alt=""  />
         </div>
 
     

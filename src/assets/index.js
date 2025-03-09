@@ -56,9 +56,16 @@ import ronke from './ronke.png'
 import logo from './logo.png'
 import flogo from './flogo.png'
 import vlogo from './vlogo.png'
+import watch from './watch.png'
+import form from './form.png'
+import plans from './plans.png'
+import reg from './reg.png'
+import select from './select.png'
+import sent from './sent.png'
 
 
 export{
+    watch, form, plans, reg, select, sent,
     dubai, partner,million, billion, test, chess, time, mike,ronke, sam, nefo, logo, flogo, vlogo,
     beach, two, three, four, five, fruit, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,ppl, tired, happy, home, stack,
     earn, build, products, protect, wealth, business, world, one, coins, safe, eye, bookmark, pink, graph, bar, hand, free,

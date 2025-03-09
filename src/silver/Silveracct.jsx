@@ -47,12 +47,7 @@ const Silveracct = () => {
         0686956216
         </p>
       </div>
-      <div className="flex flex-col items-center mt-5">
-        <p className="coal mt-2 mb-2 aeon-bold">Account Number</p>
-        <p className="noto text-center xs:text-[24px] text-[20px] coal mt-2 tracking-wide">
-          1219490884
-        </p>
-      </div>
+
       {/* Access Bank Details */}
       <div className={`${styles.heading7} text-lilac mt-5`}>Amount</div>
       <div className={`${styles.flexStart} flex flex-col`}>

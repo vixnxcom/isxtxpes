@@ -48,7 +48,7 @@ background: linear-gradient(223.85deg, #010D1B -1.35%, #001429 46.68%, #02172B 9
 }
 
 .bg-goldd{
-  background: linear-gradient(180deg,#fea 0%,rgb(241, 217, 121) 49%,
+  background: linear-gradient(180deg,#fea 0%,#f1d979 49%,
   rgb(202, 182, 102) 51%,#dc8 100%);
 
 }
@@ -184,6 +184,7 @@ background: linear-gradient(220.65deg, #010D1B 8.18%, #f5a802 33.34%, 47.98%, #0
 .shadow{
   text-shadow: 0px 0px 20px #03030340;
 }
+
 .bg-bluey{
   background-color: green;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);

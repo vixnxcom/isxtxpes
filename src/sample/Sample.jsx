@@ -12,7 +12,7 @@ const Sample = () => {
     </div>
 
     <div className={`${styles.flexStart} ${styles.paddingX} flex flex-col  mx-auto mt-5 `}>
-    <div className='aeon-bold gold  text-start xs:text-[20px] text-[24px] shadoww   mx-auto'>
+    <div className='aeon-bold gold  text-start xs:text-[20px] text-[24px] shadowy   mx-auto'>
        ₦49,990
             </div> 
    

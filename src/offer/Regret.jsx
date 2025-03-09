@@ -8,19 +8,19 @@ const Regret = () => {
 
 
     {/* head section */}
-    <div className={`${styles.heading5} blue`}>
+    <div className={`${styles.heading5} text-white`}>
 The only regret you will have is not joining sooner
     </div>
 
      {/* head section */}
-     <div className='flex flex-col  mt-5'>
+     <div className='flex md:flex-row md:gap-4 flex-col mt-5'>
             {/* icons */}
             <div className=''>
-                <img src={tick} alt=""  className='max-w-8 mt-2 mb-2' />
+                <img src={tick} alt=""  className='max-w-8 md:mt-1 mt-2 mb-2' />
             </div>
             <div>
            
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               This is your chance to take control of your life, financially, physically, mentally, and experientially..
               </p>
             </div>
@@ -28,14 +28,14 @@ The only regret you will have is not joining sooner
           </div>
 
      {/* head section */}
-     <div className='flex flex-col mt-5'>
+     <div className='flex md:flex-row md:gap-4 flex-col mt-5'>
             {/* icons */}
             <div className=''>
-                <img src={tick} alt=""  className='max-w-8 mt-2 mb-2' />
+                <img src={tick} alt=""  className='max-w-8 md:mt-1 mt-2 mb-2' />
             </div>
             <div>
            
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               Success is waiting, but only for those who take ACTION.
               </p>
             </div>
@@ -43,14 +43,14 @@ The only regret you will have is not joining sooner
           </div>
       {/* head section */}
      {/* head section */}
-     <div className='flex flex-col mt-5'>
+     <div className='flex md:flex-row md:gap-4 flex-col mt-5'>
             {/* icons */}
             <div className=''>
-                <img src={tick} alt=""  className='max-w-8 mt-2 mb-2' />
+                <img src={tick} alt=""  className='max-w-8 md:mt-1 mt-2 mb-2' />
             </div>
             <div>
            
-              <p className={`${styles.paragraphx}`}>
+              <p className={`${styles.paragraphx} text-white`}>
               Click the button below and secure your future NOW!
 
               </p>

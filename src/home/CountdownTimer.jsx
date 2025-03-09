@@ -30,7 +30,7 @@ const CountdownTimer = () => {
         return `${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
     };
     return (
-        <div className="text-4xl font-bold  text-black text-center p-4 rounded-[24px] shadow-md w-64 mx-auto">
+        <div className="text-4xl font-bold shadowx  text-black text-center p-4 rounded-[24px] shadow-md w-64 mx-auto">
             {formatTime(timeLeft)}
         </div>
     );

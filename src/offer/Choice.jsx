@@ -9,7 +9,7 @@ const Choice = () => {
 
     {/* head section */}
     <div className={`${styles.heading5} text-white`}>
-    Only a few spots left - You could be next!
+    Only a few spots left -  <span className='gold'>You could be next!</span>
     </div>
     {/* box */}
        {/* card 5 */}

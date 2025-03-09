@@ -6,11 +6,13 @@ import WrkFree from './WrkFree'
 import WrkPaid from './WrkPaid'
 import PartnerButton from '../PartnerButton'
 import Regret from '../../offer/Regret'
+import GradientHome from '../GradientHome'
 
 const Works = () => {
   return (
-    <div className='bg-white w-full'>
-
+    <div className=' w-full'>
+      
+<GradientHome>
     <div className={`${styles.flexCenter} mt-20 `}>
     <div className={`${styles.boxWidth}`}>
    <WrkSteps />
@@ -53,6 +55,8 @@ const Works = () => {
 </div> 
 
   <div className='h-[40px] '></div>
+
+  </GradientHome>
    </div>
   )
 }

@@ -8,10 +8,10 @@ const WrkSteps = () => {
     <section className={`${styles.flexCenter} ${styles.paddingX} flex flex-col`} id='join'>
 
   <div className='h-[180px]'>
-            <img src={hand} alt="" />
+            {/* <img src={hand} alt="" className=''/> */}
            </div>
            {/* head section */}
-           <div className={`${styles.heading5} blue shadow`}>
+           <div className={`${styles.heading5} gold shadoww`}>
            How to Register & Become a Partner
            </div>
          

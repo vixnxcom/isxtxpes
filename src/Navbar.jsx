@@ -74,8 +74,8 @@ const Navbar = () => {
               className="text-black hover:bg-blue-500 md:hover:bg-transparent py-2 px-4 block "
             >
               <p className={`${styles.paragraphx} flex justify-content-center align-items-center`}>Become a Partner today!</p>
-           <div className=" bg-gold md:w-[24vw] md:h-[4vw] w-[60vw] rounded-[24px] h-[12vw] mt-2">
-          <p className="aeon-bold text-black text-[20px] mx-auto flex justify-center items-center py-2">
+           <div className=" bg-gold md:w-[24vw] md:h-[4vw] shadowx w-[60vw] rounded-[24px] h-[12vw] mt-2">
+          <p className="aeon-bold text-black text-[20px] mx-auto  flex justify-center items-center py-2">
             Register Now
           </p>
            </div>

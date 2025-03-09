@@ -17,7 +17,7 @@ const Bonus = () => {
             </div>
             <div className='text-center  lilac h-[120px] w-[78vw] rounded-[12px]'>
             <p className={`${styles.subHeadingy} mx-auto coal mb-5`}>
-            90-Day Success Plan (A roadmap to <span className='gold aeon-bold'>₦1,000,000+</span> )
+            90-Day Success Plan (A roadmap to <span className='gold aeon-bold shadowy'>₦1,000,000+</span> )
             </p>
            
             </div>

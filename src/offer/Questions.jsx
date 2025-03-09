@@ -8,7 +8,7 @@ const Questions = () => {
 
     {/* head section */}
     <div className={`${styles.heading5} text-white`}>
-   Still have question? We got you covered!
+   Still have questions? We've got you covered!
     </div>
 
     

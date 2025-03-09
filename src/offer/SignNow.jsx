@@ -9,7 +9,7 @@ const SignNow = () => {
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`} id='countdown'>
     
     {/* head section */}
-    <div className={`${styles.heading5} blue`}>
+    <div className={`${styles.heading5} text-white shadoww`}>
      Sign-Up Now & get these exclusive bonuses 
       <br /><span className='gold aeon-bold'>Limited Time Offer!!</span>
     </div>

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function GradientBackground({ children }) {
+export default function Gradient({ children }) {
   const [scrollPercentage, setScrollPercentage] = useState(0);
 
   useEffect(() => {
@@ -19,7 +19,11 @@ export default function GradientBackground({ children }) {
     <div
       className="min-h-screen transition-all duration-500 ease-in-out"
       style={{
-        background: `linear-gradient(180deg, rgba(255,0,150,1) ${scrollPercentage}%, rgba(0,204,255,1) 50%, rgba(255,165,0,1) 100%)`,
+        background: `linear-gradient(180deg,
+         #ff0096 
+        ${scrollPercentage}%,
+         #00ccff 50%,
+          hsl(39, 100.00%, 50.00%) 100%)`,
       }}
     >
       {children}

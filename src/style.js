@@ -1,18 +1,18 @@
 const styles = {
   boxWidth: "xl:max-w-[1440px] w-full",
 
-  heading1: "aeon-bold text-center xs:text-[44px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
-  heading5: "aeon-bold text-center xs:text-[44px] text-[40px] text-black xs:leading-[76.8px] leading-[66.8px] w-full",
-  heading2: "aeon-bold text-center xs:text-[20px] text-[24px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
-  heading4: "aeon-bold text-center xs:text-[20px] text-[24px] text-black xs:leading-[76.8px] leading-[66.8px] w-full",
-  heading6: "aeon-bold text-center xs:text-[20px] text-[24px] bluey xs:leading-[76.8px] leading-[66.8px] w-full",
-  heading3: "aeon-bold text-center xs:text-[20px] text-[24px] text-white xs:leading-[66.8px] leading-[56.8px] w-full",
-  heading7: "aeon-bold text-center xs:text-[20px] text-[24px] text-black xs:leading-[66.8px] leading-[56.8px] w-full",
+  heading1: "aeon-bold text-center xs:text-[44px] text-[40px] shadoww text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+  heading5: "aeon-bold text-center xs:text-[44px] text-[40px] shadoww text-black xs:leading-[76.8px] leading-[66.8px] w-full",
+  heading2: "aeon-bold text-center xs:text-[20px] shadowy text-[24px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+  heading4: "aeon-bold text-center xs:text-[20px] shadowy text-[24px] text-black xs:leading-[76.8px] leading-[66.8px] w-full",
+  heading6: "aeon-bold text-center xs:text-[20px] shadowy text-[24px] bluey xs:leading-[76.8px] leading-[66.8px] w-full",
+  heading3: "aeon-bold text-center xs:text-[20px] shadowy text-[24px] text-white xs:leading-[66.8px] leading-[56.8px] w-full",
+  heading7: "aeon-bold text-center xs:text-[20px] shadowy text-[24px] text-black xs:leading-[66.8px] leading-[56.8px] w-full",
   subHeading: "noto text-center xs:text-[28px] text-[24px] text-white mt-5 w-full",
   subHeadingy: "noto text-center xs:text-[28px] text-[24px] text-black mt-5 w-full tracking-wide",
  
  
-  subHeadingc: "noto text-left xs:text-[28px] text-[24px] text-white mt-5 w-full",
+  subHeadingc: "noto text-left xs:text-[28px] text-[24px]  text-white mt-5 w-full",
   subHeadingb: "noto text-left xs:text-[28px] text-[24px] text-black mt-5 w-full",
   subHeadingx: "noto text-left xs:text-[28px] text-[24px] text-white mt-5 w-full",
   subHeadingxy: "noto text-left xs:text-[24px] text-[20px] text-white mt-5 w-full tracking-wide",

@@ -7,7 +7,7 @@ export default function GradientBackground({ children }) {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const scrolled = (scrollTop / docHeight) * 100;
+      const scrolled = (scrollTop / docHeight) * 500;
       setScrollPercentage(scrolled);
     };
 
@@ -20,10 +20,10 @@ export default function GradientBackground({ children }) {
       className="min-h-screen transition-all duration-500 ease-in-out"
       style={{
         background: `linear-gradient(180deg, 
-rgb(255, 168, 7)  ${Math.min(60, scrollPercentage * 1.0)}%,  
-rgb(2, 23, 80)  ${Math.min(60, scrollPercentage * 1.5)}%, 
+#df9203  ${Math.min(30, scrollPercentage * 1.0)}%,  
+#01043a  ${Math.min(60, scrollPercentage * 1.5)}%, 
 
-#012e5e 100%)`,
+#021930 100%)`,
       }}
     >
       {children}

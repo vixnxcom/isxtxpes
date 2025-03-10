@@ -63,13 +63,14 @@ import paper from './paper.png'
 import tele from './telegram.png'
 import vid from './vid.png'
 import barr from './barr.png'
+import chance from './chance.png'
 
 
 
 
 
 export{
-   plans, cart, walle,paper,tele, vid, barr,
+   plans, cart, walle,paper,tele, vid, barr, chance,
     dubai, partner,million, billion, test, chess, time, mike,ronke, sam, nefo, logo, flogo, vlogo,
     beach, two, three, four, five, fruit, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,ppl, tired, happy, home, stack,
     earn, build, products, protect, wealth, business, world, one, coins, safe, eye, bookmark, pink, graph, bar, hand, free,

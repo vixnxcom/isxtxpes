@@ -183,6 +183,9 @@ background: linear-gradient(220.65deg, #010D1B 8.18%, #f5a802 33.34%, 47.98%, #0
 .shadowy{
   text-shadow: 0px 0.8px 0.8px rgba(3, 3, 3, 0.25);
 }
+.shade{
+  text-shadow: 0px 0.2px 0.2px rgba(3, 3, 3, 0.25);
+}
 .shadowx{
   box-shadow: 0px 0.8px 0.8px rgba(3, 3, 3, 0.25);
 }

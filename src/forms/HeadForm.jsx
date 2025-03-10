@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { hand } from '../assets'
+import { hand, vlogo } from '../assets'
 
 const HeadForm = () => {
   return (
@@ -13,7 +13,7 @@ const HeadForm = () => {
             Become a Partner Today
              </div>
 
-              <img src={hand} alt="" className='w-50 mx-auto'/>
+              <img src={vlogo} alt="" className='w-50 mx-auto mb-5'/>
              </div>
              {/* head section */}
          

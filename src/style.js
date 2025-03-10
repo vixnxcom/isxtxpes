@@ -8,8 +8,8 @@ const styles = {
   heading6: "aeon-bold text-center xs:text-[20px] shadowy text-[24px] bluey xs:leading-[76.8px] leading-[66.8px] w-full",
   heading3: "aeon-bold text-center xs:text-[20px] shadowy text-[24px] text-white xs:leading-[66.8px] leading-[56.8px] w-full",
   heading7: "aeon-bold text-center xs:text-[20px] shadowy text-[24px] text-black xs:leading-[66.8px] leading-[56.8px] w-full",
-  subHeading: "noto text-center xs:text-[28px] text-[24px] text-white mt-5 w-full",
-  subHeadingy: "noto text-center xs:text-[28px] text-[24px] text-black mt-5 w-full tracking-wide",
+  subHeading: "noto text-center xs:text-[28px] text-[24px] text-white mt-5 w-full shade",
+  subHeadingy: "noto text-center xs:text-[28px] text-[24px] text-black mt-5 w-full shade tracking-wide",
  
  
   subHeadingc: "noto text-left xs:text-[28px] text-[24px]  text-white mt-5 w-full",

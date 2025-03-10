@@ -15,7 +15,7 @@ const Legacy = () => {
     {/* head section */}
       <div className='flex flex-row gap-4 mt-5'>
         {/* icons */}
-        <div className='w-[50px] h-[55px]'>
+        <div className='w-[50px] h-[55px] mt-1'>
             <img src={barr} alt=""  />
         </div>
         <div>
@@ -26,7 +26,7 @@ const Legacy = () => {
     {/* head section */}
       <div className='flex flex-row gap-4 mt-5'>
         {/* icons */}
-        <div className='w-[50px] h-[55px]'>
+        <div className='w-[50px] h-[55px] mt-1'>
             <img src={barr} alt=""  />
         </div>
         <div>

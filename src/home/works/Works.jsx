@@ -36,15 +36,15 @@ const Works = () => {
    <WrkPaid/>
 </div>
 </div>
-<div className={`${styles.flexCenter} mt-10 `}>
+{/* <div className={`${styles.flexCenter} mt-10 `}>
  <div className={`${styles.boxWidth}`}>
 
    <WrkFree/>
 
 </div>
-</div>
+</div> */}
 
-<div className={`${styles.flexCenter} mt-10`}>
+<div className={`${styles.flexCenter} mt-20`}>
  <div className={`${styles.boxWidth}`}>
 
    <Regret/> 
@@ -55,7 +55,7 @@ const Works = () => {
 </div>
 </div> 
 
-  <div className='h-[40px] '></div>
+  <div className='h-[80px] '></div>
 
   </GradientHome>
    </div>

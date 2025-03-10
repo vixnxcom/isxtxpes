@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { tick } from '../assets'
+import { chance, tick } from '../assets'
 
 const Regret = () => {
   return (
@@ -16,7 +16,7 @@ The only regret you will have is not joining sooner
      <div className='flex md:flex-row md:gap-4 flex-col mt-5'>
             {/* icons */}
             <div className=''>
-                <img src={tick} alt=""  className='max-w-8 md:mt-1 mt-2 mb-2' />
+                <img src={chance} alt=""  className='max-w-16 md:mt-1 mt-2 mb-2' />
             </div>
             <div>
            
@@ -31,7 +31,7 @@ The only regret you will have is not joining sooner
      <div className='flex md:flex-row md:gap-4 flex-col mt-5'>
             {/* icons */}
             <div className=''>
-                <img src={tick} alt=""  className='max-w-8 md:mt-1 mt-2 mb-2' />
+                <img src={chance} alt=""  className='max-w-16 md:mt-1 mt-2 mb-2' />
             </div>
             <div>
            
@@ -46,7 +46,7 @@ The only regret you will have is not joining sooner
      <div className='flex md:flex-row md:gap-4 flex-col mt-5'>
             {/* icons */}
             <div className=''>
-                <img src={tick} alt=""  className='max-w-8 md:mt-1 mt-2 mb-2' />
+                <img src={chance} alt=""  className='max-w-16 md:mt-1 mt-2 mb-2' />
             </div>
             <div>
            

@@ -11,8 +11,10 @@ import {
   
   
   plans,
+   tele,
    tick,
    time,
+   vid,
    walle,  } from '../../assets'
 
 
@@ -41,7 +43,7 @@ const WrkSteps = () => {
    
         
       <div className='w-12 mt-5 '>
-            <img src={tick} alt=""  />
+            <img src={vid} alt=""  />
         </div>
 
     
@@ -129,7 +131,7 @@ const WrkSteps = () => {
    
         
       <div className='w-12 mt-5'>
-            <img src={tick} alt=""  />
+            <img src={tele} alt=""  />
         </div>
 
     

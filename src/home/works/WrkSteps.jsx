@@ -1,6 +1,19 @@
 import React from 'react'
 import styles from '../../style'
-import { form, hand, plans, reg, select, sent, tick, time, watch, world } from '../../assets'
+import { 
+
+  cart,
+  
+  
+  
+  paper,
+  
+  
+  
+  plans,
+   tick,
+   time,
+   walle,  } from '../../assets'
 
 
 const WrkSteps = () => {
@@ -28,7 +41,7 @@ const WrkSteps = () => {
    
         
       <div className='w-12 mt-5 '>
-            <img src={watch} alt=""  />
+            <img src={tick} alt=""  />
         </div>
 
     
@@ -71,7 +84,7 @@ const WrkSteps = () => {
    
         
       <div className='w-12 mt-5'>
-            <img src={select} alt=""  />
+            <img src={cart} alt=""  />
         </div>
 
     
@@ -94,7 +107,7 @@ const WrkSteps = () => {
    
         
       <div className='w-12 mt-5'>
-            <img src={form} alt=""  />
+            <img src={walle} alt=""  />
         </div>
 
     
@@ -116,7 +129,7 @@ const WrkSteps = () => {
    
         
       <div className='w-12 mt-5'>
-            <img src={sent} alt=""  />
+            <img src={tick} alt=""  />
         </div>
 
     
@@ -139,7 +152,7 @@ const WrkSteps = () => {
    
         
       <div className='w-12 mt-5'>
-            <img src={reg} alt=""  />
+            <img src={paper} alt=""  />
         </div>
 
     

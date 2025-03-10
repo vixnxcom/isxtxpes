@@ -9,6 +9,7 @@ import Warning from './Warning'
 import Step from './Step'
 import Free from './Free'
 import Inside from './Inside'
+import FormGiveway from './FormGiveway'
 
 const Giveaway = () => {
   return (
@@ -93,6 +94,15 @@ const Giveaway = () => {
     <div className={`${styles.flexCenter}  mt-10 bg-white w-[92vw] mx-auto  rounded-[24px] `}>
     <div className={`${styles.boxWidth}`}>
    <Inside/>
+   
+   </div>
+   </div>
+
+  
+
+    <div className={`${styles.flexCenter} mb-5 mt-10 bg-white w-[92vw] mx-auto  rounded-[24px] `}>
+    <div className={`${styles.boxWidth}`}>
+   <FormGiveway/>
    
    </div>
    </div>

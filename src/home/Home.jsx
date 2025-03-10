@@ -35,6 +35,7 @@ import Act from './Act'
 import Backup from './Backup'
 import GradientHome from './GradientHome'
 import Reviews from './reviews/Reviews'
+import VidTestestimony from '../vidtestimonials/VidTestestimony'
 
 const Home = () => {
   return (
@@ -226,8 +227,15 @@ const Home = () => {
 </div>
 
 
+<div>
+<Reviews/>
+</div>
+  
 
-   <Reviews/>
+   <div className='mt-10'>
+   <VidTestestimony/>
+   </div>
+
 
 
 

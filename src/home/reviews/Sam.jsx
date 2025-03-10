@@ -8,10 +8,10 @@ const Sam = () => {
     {/* main text */}
     <div className='text-center  bg-gold w-[90vw] mt-5 mb-5 rounded-[12px]'>    
      
-           <div className='flex flex-col mx-auto  mt-10'>
+           <div className='flex flex-col mx-auto  mt-10'> 
             {/* icons */}
             <div className='w-60 text-center mx-auto mb-2'>
-                <img src={sam} alt=""  />
+                <img src={sam} alt="" className='shadoww' />
             </div>
             <div className='text-center w-[90vw] mt-5 mb-5 '>
             <p className={`${styles.paragraphi} p-5 mx-auto  mb-5`}>

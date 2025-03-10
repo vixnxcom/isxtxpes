@@ -19,7 +19,7 @@ const styles = {
 
   paragraph: "noto font-normal text-white md:text-[14px] text-[16px] leading-[30.8px]",
   paragraphx: "noto font-normal  md:text-[14px] text-[16px] leading-[30.8px]",
-  paragraphi: "italic md:text-[14px] text-[22px] leading-[30.8px]",
+  paragraphi: "italic md:text-[14px] text-[20px] leading-[30.8px]",
   paragraphy: "noto text-left md:text-[14px] font-normal text-[16px] coal mt-5 w-full tracking-wide leading-[30.8px]",
 
 

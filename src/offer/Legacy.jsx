@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { tick, time } from '../assets'
+import { barr, tick, time } from '../assets'
 
 const Legacy = () => {
   return (
@@ -16,7 +16,7 @@ const Legacy = () => {
       <div className='flex flex-row gap-4 mt-5'>
         {/* icons */}
         <div className='w-[50px] h-[55px]'>
-            <img src={tick} alt=""  />
+            <img src={barr} alt=""  />
         </div>
         <div>
           <p className={`${styles.paragraphx} text-white`}> You’ve watched the video. You understand the business</p>
@@ -27,7 +27,7 @@ const Legacy = () => {
       <div className='flex flex-row gap-4 mt-5'>
         {/* icons */}
         <div className='w-[50px] h-[55px]'>
-            <img src={tick} alt=""  />
+            <img src={barr} alt=""  />
         </div>
         <div>
           <p className={`${styles.paragraphx} text-white`}> Now, it’s time to take action and secure your dream lifestyle.

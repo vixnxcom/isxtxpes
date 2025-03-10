@@ -10,7 +10,8 @@ const Chinaza = () => {
            <div className='flex flex-col mx-auto  mt-10'>
             {/* icons */}
             <div className='w-80 text-center mx-auto  mb-2'>
-              <video src={chinasa} className='rounded-[12px] shadoww'></video>  
+            <video src={chinasa} className='rounded-[12px] shadoww' controls></video>
+ 
                      
             </div>
             <div className='text-center w-[90vw] mt-5 mb-5 '>

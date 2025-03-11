@@ -10,7 +10,7 @@ const Reviews = () => {
  
     
         return (
-          <div className=' w-full'>
+          <div className=' w-full' id='team'>
 
 
           <div className={`${styles.flexCenter}  `}>

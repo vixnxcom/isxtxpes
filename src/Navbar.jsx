@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { logo, open } from "./assets";
 import styles from "./style";
+import { HashLink } from "react-router-hash-link";
 
 
 const Navbar = () => {
@@ -59,6 +60,26 @@ const Navbar = () => {
             >
              Our Exclusive Giveaway
             </Link>
+          </li>
+
+
+          <li>
+
+            <HashLink
+              to="/#team"
+              className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
+            >
+             Our Team
+            </HashLink>
+          </li>
+          <li>
+
+            <HashLink
+              to="/#vtestimonials"
+              className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
+            >
+            Video Testimonials
+            </HashLink>
           </li>
         
           <li>

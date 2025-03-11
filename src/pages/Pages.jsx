@@ -25,6 +25,7 @@ import Platnacct from "../platinium/Platnacct";
 import Eliteacct from "../elite/Eliteacct";
 import Platform from "../platinium/Platform";
 import Elitform from "../elite/Elitform";
+import Reviews from "../home/reviews/Reviews";
 
 
 const ProtectedRoute = ({ element }) => {
@@ -58,6 +59,7 @@ const Pages = () => {
         <Route path="/platform" element={<ProtectedRoute element={<Platform/>} />} />
         <Route path="/elite" element={<ProtectedRoute element={<Eliteacct/>} />} />
         <Route path="/elitform" element={<ProtectedRoute element={<Elitform/>} />} />
+ 
       </Routes>
       <div className={`${styles.boxWidth} `}>
             < ScrollTop />

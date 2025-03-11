@@ -7,6 +7,8 @@ import Didi from './Didi'
 import Ozani from './Ozani'
 import Abba from './Abba'
 import Car from './Car'
+import Moses from './Moses'
+import PartnerButton from '../home/PartnerButton'
 
 const VidTestestimony = () => {
   return (
@@ -56,6 +58,13 @@ const VidTestestimony = () => {
 <div className={`${styles.boxWidth}`}>
 <Car />
 
+</div>
+</div>
+
+    <div className={`${styles.flexCenter}  `}>
+<div className={`${styles.boxWidth}`}>
+<Moses/>
+<PartnerButton />
 </div>
 </div>
 

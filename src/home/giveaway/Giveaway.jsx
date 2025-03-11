@@ -128,3 +128,7 @@ const Giveaway = () => {
 }
 
 export default Giveaway
+{/* <script type="text/javascript" src="https://campaigns.zoho.com/js/zc.iframe.js"></script>
+<iframe frameborder="0" id="iframewin" width="100%" height="100%" 
+src="https://msknovj-cmpzourl.maillist-manage.com/ua/Optin?od=11287ecce930db&zx=1348aded9&lD=113ef142f6848086f&n=11699f74e8b501b&sD=113ef142f68484a0f">
+</iframe> */}

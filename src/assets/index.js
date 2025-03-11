@@ -70,12 +70,15 @@ import didi from './didi.mp4'
 import ozani from './ozani.mp4'
 import abba from './abba.mp4'
 import car from './car.mp4'
+import drugs from './drugs.png'
+import infinite from './infinite.png'
+import security from './security.png'
+import upgrade from './upgrade.png'
 
 
 
 
-
-export{
+export{ infinite, security, upgrade, drugs,
    plans, cart, walle,paper,tele, vid, barr, chance, chinasa, elijah, didi, ozani, abba, car,
     dubai, partner,million, billion, test, chess, time, mike,ronke, sam, nefo, logo, flogo, vlogo,
     beach, two, three, four, five, fruit, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,ppl, tired, happy, home, stack,

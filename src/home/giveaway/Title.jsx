@@ -11,7 +11,7 @@ const Title = () => {
        
    <div className='mt-10'></div>
         {/* head section */}
-        <div className={`${styles.heading5} gold`}>THE DIAMOND PROJECT EXCLUSIVE FREE GIFT! 
+        <div className={`${styles.heading5} gold`}>ONE MILLION NAIRA BLUEPRINT + Bonus Gifts (Fast Movers Only)
        
         </div>
 

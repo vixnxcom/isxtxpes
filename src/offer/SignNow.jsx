@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { access, gen, grow, healthy, media, mentor, plan, travel, wealth } from '../assets'
+import { access, gen, grow, healthy, infinite, media, mentor, plan, travel, wealth } from '../assets'
 import Time from './Time'
 import BonusButton from '../home/BonusButton'
 
@@ -19,13 +19,13 @@ const SignNow = () => {
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
+            <div className='max-w-[92vw] text-center bg-bluee shadow rounded-[24px]  '>
             <div className=''>
-                <img src={plan} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={plan} alt="" className='w-40 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
-              <p className={`${styles.paragraphx}`}> A 90-Day Success Plan (Your roadmap to making your first ₦1,000,000!)</p>
+              <p className={`${styles.paragraphx} text-white`}> A 90-Day Success Plan (Your roadmap to making your first ₦1,000,000!)</p>
             </div> 
              </div>      
           </div>
@@ -33,9 +33,9 @@ const SignNow = () => {
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
+            <div className='max-w-[92vw] text-center offlilac shadow rounded-[24px] borderr '>
             <div className=''>
-                <img src={access} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={access} alt="" className='w-40 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
@@ -49,13 +49,13 @@ const SignNow = () => {
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto '>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
+            <div className='max-w-[92vw] text-center bg-bluee shadow rounded-[24px]  '>
             <div className=''>
-                <img src={mentor} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={mentor} alt="" className='w-40 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
-              <p className={`${styles.paragraphx}`}> 1-on-1 Mastermind Mentorship & Training with the top earners
+              <p className={`${styles.paragraphx} text-white`}> 1-on-1 Mastermind Mentorship & Training with the top earners
               </p>
             </div> 
              </div>      
@@ -64,13 +64,13 @@ const SignNow = () => {
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
+            <div className='max-w-[92vw] text-center offlilac shadow rounded-[24px] borderr '>
             <div className=''>
-                <img src={media} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={media} alt="" className='w-40 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
-              <p className={`${styles.paragraphx}`}>Social Media Scripts That Will Bring You Leads Instantly  </p>
+              <p className={`${styles.paragraphx} `}>Social Media Scripts That Will Bring You Leads Instantly  </p>
 
             </div> 
              </div>      
@@ -79,13 +79,13 @@ const SignNow = () => {
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
+            <div className='max-w-[92vw] text-center bg-bluee shadow rounded-[24px]  '>
             <div className=''>
-                <img src={healthy} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={healthy} alt="" className='w-40 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
-              <p className={`${styles.paragraphx}`}>  Exclusive Access to Premium Health Products That Improve Longevity, Reverse Aging & Boost
+              <p className={`${styles.paragraphx} text-white`}>  Exclusive Access to Premium Health Products That Improve Longevity, Reverse Aging & Boost
 Immunity!
  </p>
 
@@ -98,9 +98,9 @@ Immunity!
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
+            <div className='max-w-[92vw] text-center offlilac shadow rounded-[24px] borderr '>
             <div className=''>
-                <img src={gen} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={gen} alt="" className='w-40 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
@@ -115,13 +115,13 @@ Immunity!
             {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
+            <div className='max-w-[92vw] text-center bg-bluee shadow rounded-[24px]  '>
             <div className=''>
-                <img src={travel} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={travel} alt="" className='w-40 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
-              <p className={`${styles.paragraphx}`}>Special Travel & Lifestyle Perks—Exclusive Discounts on Luxury Hotels, 
+              <p className={`${styles.paragraphx} text-white`}>Special Travel & Lifestyle Perks—Exclusive Discounts on Luxury Hotels, 
                 Resorts & Experiences!
  </p>
 
@@ -132,13 +132,13 @@ Immunity!
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='w-[86vw] text-center bg-white rounded-[24px] borderr h-[240px]'>
+            <div className='max-w-[92vw] text-center offlilac shadow rounded-[24px] borderr '>
             <div className=''>
-                <img src={grow} alt="" className='w-20 mx-auto mt-5' /> 
+                <img src={grow} alt="" className='w-40 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>
-              <p className={`${styles.paragraphx}`}>  A Life-Changing Opportunity to Impact Others & Leave a Legacy That Matters!
+              <p className={`${styles.paragraphx} `}>  A Life-Changing Opportunity to Impact Others & Leave a Legacy That Matters!
 
  </p>
 

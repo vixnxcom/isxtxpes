@@ -87,7 +87,7 @@ const Paid = () => {
             {/* icons */}
           </div>
           <div className=''>
-              <p className={`${styles.paragraphx} mt-2 mb-2`}> Exclusive discounts, VIP access to resorts
+              <p className={`${styles.paragraphx} mt-2 mb-2`}> Qualify for All-expense paid trips
 
               </p>
             </div>

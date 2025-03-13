@@ -56,7 +56,7 @@ const Stats = () => {
   <img src={million} alt="" className='w-40' />
 </div>
   <div className="text-black aeon-bold text-[40px]">
-    5000+
+    50,000+
   </div>
   <div className="text-black noto text-[24px] mb-5">
    Millionaires

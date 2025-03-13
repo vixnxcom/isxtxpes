@@ -16,7 +16,7 @@ const Benefitx = () => {
                 <img src={tick} alt=""  />
             </div>
             <div>
-              <p className={`${styles.paragraph}`}>Work from Home</p>
+              <p className={`${styles.paragraph}`}>Work from Anywhere</p>
             </div>
             {/* icons */}
           </div>
@@ -37,7 +37,7 @@ const Benefitx = () => {
                 <img src={tick} alt=""  />
             </div>
             <div>
-              <p className={`${styles.paragraph}`}>Automated income system</p>
+              <p className={`${styles.paragraph}`}>Free mentorship and Trainings</p>
             </div>
             {/* icons */}
           </div>

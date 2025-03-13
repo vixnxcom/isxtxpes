@@ -3,23 +3,17 @@ import styles from '../style'
 import { access, gen, grow, healthy, infinite, media, mentor, plan, travel, wealth } from '../assets'
 import Time from './Time'
 import BonusButton from '../home/BonusButton'
+import TimerB from './TimerB'
 
 const SignNow = () => {
   return (
-    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`} id='countdown'>
+    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`} >
     
-    {/* head section */}
-    <div className={`${styles.heading5} text-white shadoww`}>
-     Sign-Up Now & get these exclusive bonuses 
-      <br /><span className='gold aeon-bold'>Limited Time Offer!!</span>
-    </div>
-    <div className={`${styles.flexCenter} mx-auto p-4`}>
-      <Time />
-     </div>
+   
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='max-w-[92vw] text-center bg-bluee shadow rounded-[24px]  '>
+            <div className='max-w-[86vw] text-center bg-offer shadow rounded-[24px]  '>
             <div className=''>
                 <img src={plan} alt="" className='w-40 mx-auto mt-5' /> 
               
@@ -33,7 +27,7 @@ const SignNow = () => {
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='max-w-[92vw] text-center offlilac shadow rounded-[24px] borderr '>
+            <div className='max-w-[86vw] text-center offlilac shadow rounded-[24px] borderr '>
             <div className=''>
                 <img src={access} alt="" className='w-40 mx-auto mt-5' /> 
               
@@ -49,7 +43,7 @@ const SignNow = () => {
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto '>
             {/* icons */}
-            <div className='max-w-[92vw] text-center bg-bluee shadow rounded-[24px]  '>
+            <div className='max-w-[86vw] text-center bg-offer shadow rounded-[24px]  '>
             <div className=''>
                 <img src={mentor} alt="" className='w-40 mx-auto mt-5' /> 
               
@@ -64,7 +58,7 @@ const SignNow = () => {
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='max-w-[92vw] text-center offlilac shadow rounded-[24px] borderr '>
+            <div className='max-w-[86vw] text-center offlilac shadow rounded-[24px] borderr '>
             <div className=''>
                 <img src={media} alt="" className='w-40 mx-auto mt-5' /> 
               
@@ -79,7 +73,7 @@ const SignNow = () => {
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='max-w-[92vw] text-center bg-bluee shadow rounded-[24px]  '>
+            <div className='max-w-[86vw] text-center bg-offer shadow rounded-[24px]  '>
             <div className=''>
                 <img src={healthy} alt="" className='w-40 mx-auto mt-5' /> 
               
@@ -98,7 +92,7 @@ Immunity!
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='max-w-[92vw] text-center offlilac shadow rounded-[24px] borderr '>
+            <div className='max-w-[86vw] text-center offlilac shadow rounded-[24px] borderr '>
             <div className=''>
                 <img src={gen} alt="" className='w-40 mx-auto mt-5' /> 
               
@@ -115,7 +109,7 @@ Immunity!
             {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='max-w-[92vw] text-center bg-bluee shadow rounded-[24px]  '>
+            <div className='max-w-[86vw] text-center bg-offer shadow rounded-[24px]  '>
             <div className=''>
                 <img src={travel} alt="" className='w-40 mx-auto mt-5' /> 
               
@@ -132,7 +126,7 @@ Immunity!
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='max-w-[92vw] text-center offlilac shadow rounded-[24px] borderr '>
+            <div className='max-w-[86vw] text-center offlilac shadow rounded-[24px] borderr '>
             <div className=''>
                 <img src={grow} alt="" className='w-40 mx-auto mt-5' /> 
               
@@ -147,10 +141,7 @@ Immunity!
           </div>
           {/* card */}
   
-          <div className={`${styles.subHeadingy} text-white mt-5`}>
-          These bonuses are available for TODAY ONLY!
-          <BonusButton />
-    </div>
+      
 
   
           <div className='h-[40px]'></div>

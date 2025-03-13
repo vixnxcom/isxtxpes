@@ -25,6 +25,8 @@ import Regret from './Regret'
 import You from './You'
 import GradientBackground from './GradientBackground'
 import { time } from '../assets'
+import Headsign from './Headsign'
+import BonusButton from '../home/BonusButton'
 
 const Offer = () => {
   return (
@@ -100,10 +102,22 @@ const Offer = () => {
 <div className={`${styles.flexCenter} mt-20 `}>
  <div className={`${styles.boxWidth}`}>
 
+   <Headsign/>  
+ 
+</div>
+</div> 
+<div className={`${styles.flexCenter}  bg-bluee mt-5 w-[92vw] mx-auto rounded-[24px] `}>
+ <div className={`${styles.boxWidth}`}>
+
    <SignNow/>  
  
 </div>
 </div> 
+
+<div className={`${styles.subHeadingy} text-white mt-5`}>
+          These bonuses are available for TODAY ONLY!
+          <BonusButton />
+    </div>
 
 <div className={`${styles.flexCenter} mt-20 `}>
  <div className={`${styles.boxWidth}`}>

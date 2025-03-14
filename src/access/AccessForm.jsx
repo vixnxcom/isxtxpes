@@ -8,7 +8,7 @@ const AccessForm = () => {
         width="98%"
         height="2000px"
         frameBorder="0"
-        title="Zoho Interest Form"
+        title="Zoho Access Interest Form"
         style={{ border: "none" }}
       />   
 <div className='h-[80px] bg-bluee'>

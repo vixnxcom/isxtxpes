@@ -8,7 +8,7 @@ const Sampleform = () => {
         width="98%"
         height="2000px"
         frameBorder="0"
-        title="Zoho Interest Form"
+        title="Zoho Sample Interest Form"
         style={{ border: "none" }}
       />   
 <div className='h-[80px] bg-bluee'>

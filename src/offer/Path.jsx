@@ -4,7 +4,7 @@ import { time } from '../assets'
 
 const Path = () => {
   return (
-    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
+    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`} id='path'>
       
 <div className='mt-40'></div>
 

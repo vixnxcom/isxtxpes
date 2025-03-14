@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../style'
+import Map from './Map'
 
 const Questions = () => {
   return (
@@ -36,6 +37,10 @@ const Questions = () => {
     If you're in Abuja, meet me in person at our
 head office and get all the clarity you need!
 
+    </div>
+
+    <div className="flex justify-center items-center mx-auto mt-4">
+      <Map />
     </div>
     {/* card 1 */}
     <div className={`${styles.subHeadingy} text-white mt-5`}>

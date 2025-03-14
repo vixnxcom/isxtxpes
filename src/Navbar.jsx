@@ -35,31 +35,31 @@ const Navbar = () => {
           } md:flex`}
         >
           <li>
-            <Link
-              to="/"
+            <HashLink
+              to="/#hero"
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
               Home
-            </Link>
+            </HashLink>
           </li>
 
         
 
           <li>
-            <Link
-              to="/offer"
+            <HashLink
+              to="/offer#path"
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
               Our Offer
-            </Link>
+            </HashLink>
           </li>
           <li>
-            <Link
-              to="/giveaway"
+            <HashLink
+              to="/giveaway#givway"
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
           One Million Naira Blueprint
-            </Link>
+            </HashLink>
           </li>
 
           <li>
@@ -82,16 +82,16 @@ const Navbar = () => {
           </li>
         
           <li>
-            <Link
-              to="/works"
+            <HashLink
+              to="/works#join"
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
              How to Become a Partner
-            </Link>
+            </HashLink>
           </li>
           <li>
-            <Link
-              to="/register"
+            <HashLink
+              to="/register#topreg "
               className="text-black hover:bg-blue-500 md:hover:bg-transparent py-2 px-4 block "
             >
               <p className={`${styles.paragraphx} flex justify-content-center align-items-center`}>Become a Partner today!</p>
@@ -101,7 +101,7 @@ const Navbar = () => {
           </p>
            </div>
            
-            </Link>
+            </HashLink>
           </li>
         </ul>
       </div>

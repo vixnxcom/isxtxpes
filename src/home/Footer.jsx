@@ -12,7 +12,7 @@ const Footer = () => {
          
          <div className={`${styles.heading2} flex flex-row gold shadoww sm:px-16 px-6`}>
          <span><img src={flogo} alt="" className='max-w-40 mr-4' /></span>  The Diamond Project
-         </div>
+         </div> 
          {/* logo */}
 
          <div className={`${styles.subHeadingxy} ${styles.paddingX}  mt-2 `}>
@@ -74,6 +74,18 @@ const Footer = () => {
         </div>
         {/* first div */}
        {/* links */}
+       <div className={`${styles.subHeadingxy} ${styles.paddingX} aeon-bold mt-5 `}>
+       Contact Address
+       </div>
+       <p className={`${styles.subHeadingxy} ${styles.paddingX} noto tracking-wide text-[16px]  mt-5 `}>
+        Suite 123, Bahamas Plaza, Beside Ajuji Hotel, Gudu-Apo Legislative Abuja
+       </p>
+       <div className={`${styles.subHeadingxy} ${styles.paddingX} aeon-bold mt-5 `}>
+       Email Address
+       </div>
+       <p className={` ${styles.paddingX} royal noto tracking-wide text-[16px]  mt-5 `}>
+        thediamondproject888@gmail.com
+       </p>
     </section>
   )
 }

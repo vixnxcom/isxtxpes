@@ -94,7 +94,7 @@ Immunity!
             {/* icons */}
             <div className='max-w-[86vw] text-center offlilac shadow rounded-[24px] borderr '>
             <div className=''>
-                <img src={gen} alt="" className='w-40 mx-auto mt-5' /> 
+                <img src={gen} alt="" className='w-48 mx-auto mt-5' /> 
               
             </div>
             <div className='mt-2 p-4 '>

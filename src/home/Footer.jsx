@@ -77,7 +77,7 @@ const Footer = () => {
        <div className={`${styles.subHeadingxy} ${styles.paddingX} aeon-bold mt-5 `}>
        Contact Address
        </div>
-       <p className={`${styles.subHeadingxy} ${styles.paddingX} noto tracking-wide text-[16px]  mt-5 `}>
+       <p className={` ${styles.paddingX} text-white noto tracking-wide text-[16px]  mt-5 `}>
         Suite 123, Bahamas Plaza, Beside Ajuji Hotel, Gudu-Apo Legislative Abuja
        </p>
        <div className={`${styles.subHeadingxy} ${styles.paddingX} aeon-bold mt-5 `}>
@@ -86,6 +86,17 @@ const Footer = () => {
        <p className={` ${styles.paddingX} royal noto tracking-wide text-[16px]  mt-5 `}>
         thediamondproject888@gmail.com
        </p>
+         {/* foot */}
+         <div className={`${styles.flexCenter} ${styles.paddingX} mt-5 text-white `}>
+       <p className='aeon-bold text-[20px] mt-10 tracking-wide mb-5 '> &copy; The Diamond Project. All Rights Reserved 2024.</p>
+        </div>
+        
+        <div className=' bg-border mx-6  text-white flex flex-row  mt-2 tracking-wide mb-5 '>
+         
+       <p className='noto text-[16px] mt-5'>Developed by </p>
+        <a href="https://read.cv/vixndotcom" target="_blank" className='mt-4 text-[20px] mx-2 cursor-pointer royal'
+        rel="noopener noreferrer">Vixndotcom📌 </a>
+        </div>
     </section>
   )
 }

@@ -73,7 +73,11 @@ background: linear-gradient(223.85deg, #010D1B -1.35%, #001429 46.68%, #02172B 9
 background: linear-gradient(223.85deg, #010D1B -1.35%, #001429 46.68%, #02172B 97%);
 
 }
-
+.bg-border{
+  border-top: 1px solid #dddd;
+  padding-right: 24px;
+  width: 80vw;
+}
 .bg-bluee{
 
 

@@ -79,7 +79,7 @@ const Opportunity = () => {
          mx-auto  `}> 
             {/* icons */}
         
-                <img src={protect} alt="" className='w-16 mx-auto mt-5 ' /> 
+                <img src={protect} alt="" className='w-22 mx-auto mt-5 ' /> 
               
           
             <div className='text-center'>

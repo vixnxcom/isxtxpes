@@ -5,7 +5,7 @@ import styles from '../style'
 
 const Sample = () => {
   return (
-    <section className={`${styles.flexStart} ${styles.paddingX}  flex flex-col`}>
+    <section className={`${styles.flexStart} ${styles.paddingX}  flex flex-col`} id='regg' >
     {/* head section */}
     <div className={`${styles.heading7} coal mt-5`}>
     Sample Pack

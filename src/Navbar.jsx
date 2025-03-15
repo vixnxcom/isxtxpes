@@ -90,18 +90,17 @@ const Navbar = () => {
             </HashLink>
           </li>
           <li>
-            <HashLink
-              to="/register#topreg "
-              className="text-black hover:bg-blue-500 md:hover:bg-transparent py-2 px-4 block "
+            <p className="text-black hover:bg-blue-500 md:hover:bg-transparent py-2 px-4 block "
             >
               <p className={`${styles.paragraphx} flex justify-content-center align-items-center`}>Become a Partner today!</p>
-           <div className=" bg-gold md:w-[24vw] md:h-[4vw] shadowx w-[60vw] rounded-[24px] h-[12vw] mt-2">
-          <p className="aeon-bold text-black text-[20px] mx-auto  flex justify-center items-center py-2">
+              </p>
+           <button className=" bg-gold md:w-[24vw] md:h-[4vw] shadowx w-[60vw] rounded-[24px] h-[12vw] mt-2">
+          <HashLink to = '/register#topreg' className="aeon-bold text-black text-[20px] mx-auto  flex justify-center items-center py-2">
             Register Now
-          </p>
-           </div>
+          </HashLink>
+           </button>
            
-            </HashLink>
+         
           </li>
         </ul>
       </div>

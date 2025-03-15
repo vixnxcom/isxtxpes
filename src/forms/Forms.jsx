@@ -26,7 +26,7 @@ const Forms = () => {
   return (
     <div className='offlilac w-full'>
 
-    <div className={`${styles.flexCenter} bg-bluee  `}>
+    <div className={`${styles.flexCenter} bg-bluee  `} >
     <div className={`${styles.boxWidth}`}>
    <HeadForm />
   

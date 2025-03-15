@@ -75,11 +75,13 @@ import drugs from './drugs.png'
 import infinite from './infinite.png'
 import security from './security.png'
 import upgrade from './upgrade.png'
+import Interest from './Interest.png'
+import copyicon from './copyicon.png'
 
 
 
 
-export{ infinite, security, upgrade, drugs, moses,
+export{ infinite, security, upgrade, drugs, moses, Interest, copyicon,
    plans, cart, walle,paper,tele, vid, barr, chance, chinasa, elijah, didi, ozani, abba, car,
     dubai, partner,million, billion, test, chess, time, mike,ronke, sam, nefo, logo, flogo, vlogo,
     beach, two, three, four, five, fruit, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,ppl, tired, happy, home, stack,

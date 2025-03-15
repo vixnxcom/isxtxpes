@@ -4,7 +4,7 @@ const Platform = () => {
   return (
     <div className="w-full bg-bluee flex justify-center mt-20">
       <iframe
-       src="https://forms.zohopublic.com/vixndotcomgm1/form/TheDiamondProjectSilverPack/formperma/nzB2zIDNcE07y3drzZ3x_ce2QWmf6gl79il2XPuJbpg"
+       src="https://forms.zohopublic.com/thediamondproject888gm1/form/TheDiamondProjectInterestFormPlatinumPack/formperma/Hk-YqZ8qJWeCtGGXZavGZPzAzFm_8oov7cgMqyg3jOg"
         width="94%"
         height="2000px"
         frameBorder="0"

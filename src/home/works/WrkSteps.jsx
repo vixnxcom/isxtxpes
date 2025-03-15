@@ -6,6 +6,10 @@ import {
   
   
   
+  Interest,
+  
+  
+  
   paper,
   
   
@@ -50,8 +54,7 @@ const WrkSteps = () => {
         {/* icons */}
      
           <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
-          Watch the complete video on 
-          our default page. The Homepage only activates after watching the complete video without skipping
+          Watch the complete video on our default page. The Homepage only activates after watching the complete video without skipping
           </p>
      
       </div>
@@ -59,7 +62,7 @@ const WrkSteps = () => {
      
       {/* card  */}
  {/* card 5 */}
- <div className={`${styles.paragraphy} ${styles.paddingX} mt-10  coal   bg-white   max-w-[90vw]
+ <div className={`${styles.paragraphy} ${styles.paddingX} mt-5 coal   bg-white   max-w-[90vw]
   rounded-[24px] borderr 
      mx-auto  `}> 
    
@@ -93,7 +96,7 @@ const WrkSteps = () => {
         {/* icons */}
      
           <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
-          Select a suitable plan from our package offer and make payment
+          Select a suitable plan from our package offerS and make payment
           </p>
      
       </div>
@@ -117,7 +120,30 @@ const WrkSteps = () => {
      
           <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
           After payment into any of our bank accounts.
-          Fill out the interest form and upload a copy of your payment receipt. Click on the <span className='aeon-bold blue'> 'yes i've sent the money'</span> button 
+         
+           Click on the <span className='aeon-bold blue'> 'yes i've sent the money'</span> button at the bottom.
+          
+          </p>
+     
+      </div>
+  
+     
+      {/* card  */}
+ {/* card 5 */}
+ <div className={`${styles.paragraphy} ${styles.paddingX} mt-5  coal   bg-white   max-w-[90vw]
+  rounded-[24px] borderr 
+     mx-auto  `}> 
+   
+        
+      <div className='w-12 mt-5'>
+            <img src={Interest} alt=""  />
+        </div>
+    
+        {/* icons */}
+     
+          <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
+        
+           This leads you to the Interest form. Fill out the form and upload a copy of your payment receipt.
           </p>
      
       </div>
@@ -161,7 +187,7 @@ const WrkSteps = () => {
         {/* icons */}
      
           <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
-         A receipt containing your registration details would be sent to your email, which can be printed or saved
+         A PDF copy containing your registration details would be sent to your email, which can be printed or saved
           as an image on your phone.
          This copy woud be presented at our office to complete your journey
           </p>

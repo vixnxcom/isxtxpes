@@ -1,19 +1,9 @@
 import React from 'react'
 import styles from '../../style'
-import { 
-
+import {
   cart,
-  
-  
-  
-  Interest,
-  
-  
-  
-  paper,
-  
-  
-  
+  int,
+  paper, 
   plans,
    tele,
    tick,
@@ -136,7 +126,7 @@ const WrkSteps = () => {
    
         
       <div className='w-12 mt-5'>
-            <img src={Interest} alt=""  />
+            <img src={int} alt=""  />
         </div>
     
         {/* icons */}

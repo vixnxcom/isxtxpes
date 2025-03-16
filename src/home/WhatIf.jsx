@@ -6,7 +6,7 @@ const WhatIf = () => {
        
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col `}>
 
-         <div className={`${styles.subHeadingy} text-white mx-auto mt-5`}>
+         <div className={`${styles.subHeadingy} text-white mx-auto `}>
          What if I told you that between <br /> <span className=' aeon-bold shadowy'>₦3 million </span> 
          to <span className=' aeon-bold shadowy'>₦15 million</span>  is just waiting to be found?
             </div>

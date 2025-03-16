@@ -3,7 +3,7 @@ import styles from '../style'
 
 const Nintydays = () => {
   return (
-    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col mb-10 mt-5`}>
+    <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col mb-10 `}>
     <div className={`${styles.subHeadingxy} coal mt-2`}>
    
 

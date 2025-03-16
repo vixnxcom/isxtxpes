@@ -7,7 +7,7 @@ const Recover = () => {
 
    
 
-    <div className={`${styles.subHeadingy} text-white mt-5 `}>
+    <div className={`${styles.subHeadingy} text-white  `}>
     If you could recover all the money you’ve lost in 
     life and all the opportunities you've missed out on, would you take
     that chance?

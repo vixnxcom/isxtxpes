@@ -78,7 +78,7 @@ const Offer = () => {
 </div>
 
 
-<div className={`${styles.flexCenter} mt-10 table w-[92vw] mx-auto rounded-[24px]`}>
+<div className={`${styles.flexCenter} mt-20 table w-[92vw] mx-auto rounded-[24px]`}>
  <div className={`${styles.boxWidth}`}>
 
    <Nintydays />

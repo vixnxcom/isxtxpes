@@ -86,7 +86,7 @@ const WrkSteps = () => {
         {/* icons */}
      
           <p className={`${styles.subHeadingxy} coal h-auto mb-5`}>
-          Select a suitable plan from our package offerS and make payment
+          Select a suitable plan from our package offers and make payment
           </p>
      
       </div>

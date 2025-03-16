@@ -13,7 +13,7 @@ const SignNow = () => {
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='max-w-[86vw] text-center bg-offer shadow rounded-[24px]  '>
+            <div className='max-w-[86vw] text-center bg-bluee shadow rounded-[24px]  '>
             <div className=''>
                 <img src={plan} alt="" className='w-40 mx-auto mt-5' /> 
               
@@ -43,7 +43,7 @@ const SignNow = () => {
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto '>
             {/* icons */}
-            <div className='max-w-[86vw] text-center bg-offer shadow rounded-[24px]  '>
+            <div className='max-w-[86vw] text-center bg-bluee shadow rounded-[24px]  '>
             <div className=''>
                 <img src={mentor} alt="" className='w-40 mx-auto mt-5' /> 
               
@@ -73,7 +73,7 @@ const SignNow = () => {
   {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='max-w-[86vw] text-center bg-offer shadow rounded-[24px]  '>
+            <div className='max-w-[86vw] text-center bg-bluee shadow rounded-[24px]  '>
             <div className=''>
                 <img src={healthy} alt="" className='w-40 mx-auto mt-5' /> 
               
@@ -109,7 +109,7 @@ Immunity!
             {/* card 4 */}
   <div className='flex flex-col  mt-5 mx-auto'>
             {/* icons */}
-            <div className='max-w-[86vw] text-center bg-offer shadow rounded-[24px]  '>
+            <div className='max-w-[86vw] text-center bg-bluee shadow rounded-[24px]  '>
             <div className=''>
                 <img src={travel} alt="" className='w-40 mx-auto mt-5' /> 
               

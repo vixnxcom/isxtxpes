@@ -48,42 +48,42 @@ const Forms = () => {
  
    </div> */}
  
-    <div className={`${styles.flexCenter} mt-10 bg-white borderr w-[92vw] mx-auto rounded-[24px]`}>
+    <div className={`${styles.flexCenter} mt-10 bg-white borderr w-[90vw] mx-auto rounded-[24px]`}>
     <div className={`${styles.boxWidth}`}>
    < Sample/>
   <SampleButton />
    </div>
    </div>
 
-    <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[92vw] mx-auto rounded-[24px]`}>
+    <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[90vw] mx-auto rounded-[24px]`}>
     <div className={`${styles.boxWidth}`}>
    <Access />
   <Accessbutton />
    </div>
    </div>
 
-    <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[92vw] mx-auto rounded-[24px]`}>
+    <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[90vw] mx-auto rounded-[24px]`}>
     <div className={`${styles.boxWidth}`}>
    <Silver/>
   <SilverButton />
    </div>
    </div>
 
-    <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[92vw] mx-auto rounded-[24px]`}>
+    <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[90vw] mx-auto rounded-[24px]`}>
     <div className={`${styles.boxWidth}`}>
    <Gold/>
   <GoldButton />
    </div>
    </div>
 
-    <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[92vw] mx-auto rounded-[24px]`}>
+    <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[90vw] mx-auto rounded-[24px]`}>
     <div className={`${styles.boxWidth}`}>
    <Platinium/>
   <PlatButton />
    </div>
    </div>
 
-    <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[92vw] mx-auto rounded-[24px]`}>
+    <div className={`${styles.flexCenter} mt-5 bg-white borderr w-[90vw] mx-auto rounded-[24px]`}>
     <div className={`${styles.boxWidth}`}>
    <Elite/>
   <ElitButton />

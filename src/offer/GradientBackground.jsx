@@ -20,10 +20,12 @@ export default function GradientBackground({ children }) {
       className="min-h-screen transition-all duration-500 ease-in-out"
       style={{
         background: `linear-gradient(180deg, 
-#df9203  ${Math.min(30, scrollPercentage * 0.8)}%,  
-#01043a  ${Math.min(60, scrollPercentage * 1.5)}%, 
-
-#021930 100%)`,
+          #d88b02 0%, 
+rgb(226, 153, 17) ${Math.min(25, scrollPercentage * 0.8)}%,  
+          #e0bb41 ${Math.min(40, scrollPercentage * 1.0)}%, 
+          #826030 ${Math.min(50, scrollPercentage * 1.2)}%, /* New transition shade */
+          #01043a ${Math.min(65, scrollPercentage * 1.5)}%, 
+          #021930 100%)`,
       }}
     >
       {children}

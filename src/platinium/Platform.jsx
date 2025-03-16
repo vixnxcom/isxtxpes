@@ -5,7 +5,7 @@ const Platform = () => {
     <div className="w-full bg-bluee flex justify-center mt-20">
       <iframe
        src="https://forms.zohopublic.com/thediamondproject888gm1/form/TheDiamondProjectInterestFormPlatinumPack/formperma/Hk-YqZ8qJWeCtGGXZavGZPzAzFm_8oov7cgMqyg3jOg"
-        width="94%"
+        width="100%"
         height="2000px"
         frameBorder="0"
         title="Zoho Interest Form"

@@ -5,7 +5,7 @@ const Goldform = () => {
     <div className="w-full bg-bluee flex justify-center mt-20">
       <iframe
        src="https://forms.zohopublic.com/thediamondproject888gm1/form/GoldPack/formperma/gXzDN-pfc5SGfSwMDoXaW-NDADVntfkeo1EmMC9-xok"
-        width="94%"
+        width="100%"
         height="2000px"
         frameBorder="0"
         title="Zoho Interest Form"

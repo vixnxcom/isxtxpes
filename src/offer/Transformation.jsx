@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { bar, happy, tick, tired } from '../assets'
+import { bar, coal, diamond, happy, tick, tired } from '../assets'
 
 const Transformation = () => {
   return (
@@ -14,10 +14,10 @@ const Transformation = () => {
            <div className='aeon-bold text-start xs:text-[20px] text-[24px] blue mt-2 mx-auto'>
            Before Joining
             </div> 
-          {/* <div className=' mx-auto mt-2 mb-2 borderr'>
-         <img src={tired} alt=""  className='mx-auto w-full'/>
-          </div> */}
-            {/* icons */}
+         {/* <div className=' mx-auto '>
+         <img src={coal} alt=""  className='mx-auto w-32'/>
+          </div>  */}
+             {/* icons  */}
           </div>
           <div className='mx-auto'>
               <p className={`${styles.paragraphx} mt-2 mb-2`}> 
@@ -34,9 +34,9 @@ const Transformation = () => {
            <div className='aeon-bold text-start xs:text-[20px] text-[24px] blue mt-2 mx-auto'>
            After Joining
             </div> 
-            {/* <div className=' mx-auto mt-2 mb-2 borderr '>
-         <img src={happy} alt=""  className='w-full'/>
-          </div> */}
+           <div className=' mx-auto '>
+         <img src={diamond} alt=""  className='w-full'/>
+          </div> 
             </div> 
 
             {/* icons */}

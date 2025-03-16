@@ -7,12 +7,12 @@ const WhatIf = () => {
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col `}>
 
          <div className={`${styles.subHeadingy} text-white mx-auto mt-5`}>
-         What if I told you that between <br /> <span className='gold aeon-bold shadowy'>₦3 million </span> 
-         to <span className='gold aeon-bold shadowy'>₦15 million</span>  is just waiting to be found?
+         What if I told you that between <br /> <span className=' aeon-bold shadowy'>₦3 million </span> 
+         to <span className=' aeon-bold shadowy'>₦15 million</span>  is just waiting to be found?
             </div>
 
          <div className={`${styles.subHeadingy} text-white mt-2`}>
-       What if, in the next <span className='aeon-bold text-[24px gold shadowy'> 
+       What if, in the next <span className='aeon-bold text-[24px ] shadowy'> 
          90 days </span> you could recover everything you’ve ever lost—financially, emotionally, and mentally?
          </div>
 

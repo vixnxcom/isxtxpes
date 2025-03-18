@@ -106,7 +106,7 @@ const Offer = () => {
  
 </div>
 </div> 
-<div className={`${styles.flexCenter}  bg-white mt-5 w-[92vw] mx-auto rounded-[24px] `}>
+<div className={`${styles.flexCenter}  bg-book mt-5 w-[92vw] mx-auto rounded-[24px] `}>
  <div className={`${styles.boxWidth}`}>
 
    <SignNow/>  

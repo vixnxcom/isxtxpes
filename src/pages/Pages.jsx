@@ -29,10 +29,14 @@ import Reviews from "../home/reviews/Reviews";
 import Zoom from "../offer/Zoom";
 import Meetings from "../offer/Meetings";
 
+import SallyVideo from "../home/SallyVideo";
+import VideooPage from "../home/VideooPage";
 
+
+// Protected Route Logic
 const ProtectedRoute = ({ element }) => {
   const videoCompleted = localStorage.getItem("videoCompleted") === "true";
-  return videoCompleted ? element : <Navigate to="/video" />;
+  return videoCompleted ? element : <Navigate to="/" />;
 };
 
 const Pages = () => {
@@ -43,8 +47,12 @@ const Pages = () => {
       </div>
 
       <Routes>
+           {/* Start with SallyVideo as the landing page */}
+           <Route path="/" element={<SallyVideo />} />
         <Route path="/video" element={<VideoPage />} />
-        <Route path="/" element={<ProtectedRoute element={<Home />} />} />
+        <Route path="/videoo" element={<VideooPage />} />
+        
+        <Route path="/home" element={<ProtectedRoute element={<Home />} />} />
         <Route path="/works" element={<ProtectedRoute element={<Works />} />} />
         <Route path="/offer" element={<ProtectedRoute element={<Offer />} />} />
         <Route path="/giveaway" element={<ProtectedRoute element={<Giveaway />} />} />
@@ -63,6 +71,7 @@ const Pages = () => {
         <Route path="/elitform" element={<ProtectedRoute element={<Elitform/>} />} />
         <Route path="/zoom" element={<ProtectedRoute element={<Zoom/>} />} />
         <Route path="/meet" element={<ProtectedRoute element={<Meetings/>} />} />
+        <Route path="/video" element={<ProtectedRoute element={<VideoPage/>} />} />
  
       </Routes>
       <div className={`${styles.boxWidth} `}>

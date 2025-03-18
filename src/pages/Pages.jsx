@@ -26,6 +26,8 @@ import Eliteacct from "../elite/Eliteacct";
 import Platform from "../platinium/Platform";
 import Elitform from "../elite/Elitform";
 import Reviews from "../home/reviews/Reviews";
+import Zoom from "../offer/Zoom";
+import Meetings from "../offer/Meetings";
 
 
 const ProtectedRoute = ({ element }) => {
@@ -59,6 +61,8 @@ const Pages = () => {
         <Route path="/platform" element={<ProtectedRoute element={<Platform/>} />} />
         <Route path="/elite" element={<ProtectedRoute element={<Eliteacct/>} />} />
         <Route path="/elitform" element={<ProtectedRoute element={<Elitform/>} />} />
+        <Route path="/zoom" element={<ProtectedRoute element={<Zoom/>} />} />
+        <Route path="/meet" element={<ProtectedRoute element={<Meetings/>} />} />
  
       </Routes>
       <div className={`${styles.boxWidth} `}>

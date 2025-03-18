@@ -191,7 +191,7 @@ const Offer = () => {
  <div className={`${styles.boxWidth}`}>
 
    <Questions/> 
-   <ButtonS/> 
+  
   
   
  

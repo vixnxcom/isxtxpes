@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../style'
-import { logo, vlogo } from '../../assets'
+import { logo, sparkles, vlogo } from '../../assets'
 
 const HeadGroup = () => {
   return (
@@ -8,7 +8,7 @@ const HeadGroup = () => {
     <div className='md:h-[80px]  h-[20px] '></div>
       
 <div className=''>
-<img src={logo} alt="" className='w-20 mx-auto mb-5'/>
+<img src={sparkles} alt="" className='w-20 mx-auto mb-5'/>
 
 <div className={`${styles.heading1} gold shadowy  `}>
 

@@ -80,11 +80,15 @@ import copyicon from './copyicon.png'
 import coal from './coal.png'
 import diamond from './diamond.png'
 import best from './best.png'
+import gram from './gram.png'
+import green from './green.png'
+import sparkles from './sparkles.png'
 
 
 
 
-export{ infinite, security, upgrade, drugs, moses, int, copyicon, coal, diamond, best,
+
+export{ infinite, security, upgrade, drugs, moses, int, copyicon, coal, diamond, best, gram, green, sparkles,
    plans, cart, walle,paper,tele, vid, barr, chance, chinasa, elijah, didi, ozani, abba, car,
     dubai, partner,million, billion, test, chess, time, mike,ronke, sam, nefo, logo, flogo, vlogo,
     beach, two, three, four, five, fruit, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,ppl, tired, happy, home, stack,

@@ -22,10 +22,25 @@ const VideooPage = () => {
     }
   }, [navigate]);
 
-  const handleFormCompletion = () => {
+  // Listen for form submission
+  useEffect(() => {
+    const checkFormCompletion = (event) => {
+      // Ensure the message is coming from Zoho (Replace with Zoho's domain if needed)
+      if (event.origin.includes("maillist-manage.com")) {
+        localStorage.setItem("zohoFormCompleted", "true");
+        setFormCompleted(true);
+        setShowForm(false); // Hide the form
+      }
+    };
+
+    window.addEventListener("message", checkFormCompletion);
+    return () => window.removeEventListener("message", checkFormCompletion);
+  }, []);
+
+  const handleManualFormCompletion = () => {
     localStorage.setItem("zohoFormCompleted", "true");
     setFormCompleted(true);
-    setShowForm(false); // Hide the form modal
+    setShowForm(false);
   };
 
   const handleVideoEnd = () => {
@@ -35,7 +50,7 @@ const VideooPage = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-4">
-      {/* Popup Form */}
+      {/* Form Modal */}
       {showForm && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
           <div className="bg-white p-6 rounded-lg shadow-lg max-w-3xl w-full">
@@ -49,7 +64,7 @@ const VideooPage = () => {
             ></iframe>
             <button
               className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition w-full"
-              onClick={handleFormCompletion}
+              onClick={handleManualFormCompletion}
             >
               I Have Submitted the Form
             </button>
@@ -57,9 +72,10 @@ const VideooPage = () => {
         </div>
       )}
 
-      {/* Video Section (Only if form is completed) */}
+      {/* Video Section */}
       {formCompleted && (
         <>
+          <div className="md:h-[80px]"></div>
           <h1 className="text-3xl font-bold mb-4">Watch this Short Video</h1>
 
           <video

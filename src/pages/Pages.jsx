@@ -22,13 +22,16 @@ import Platnacct from "../platinium/Platnacct";
 import Eliteacct from "../elite/Eliteacct";
 import Platform from "../platinium/Platform";
 import Elitform from "../elite/Elitform";
+import Reviews from "../home/reviews/Reviews";
 import Zoom from "../offer/Zoom";
 import Meetings from "../offer/Meetings";
+
+import SallyVideo from "../home/SallyVideo";
 import VideooPage from "../home/VideooPage";
 
 // Protected Route Logic
 const ProtectedRoute = ({ element }) => {
-  const videoCompleted = localStorage.getItem("videoCompleted") === "true";
+  const videoCompleted = localStorage.getItem("videooCompleted") === "true";
   return videoCompleted ? element : <Navigate to="/" />;
 };
 
@@ -40,11 +43,14 @@ const Pages = () => {
       </div>
 
       <Routes>
-        {/* Start directly with VideooPage (now includes the form) */}
-        <Route path="/" element={<VideooPage />} />
-        <Route path="/video" element={<VideoPage />} />
+        {/* Start with SallyVideo (Zoho Form) as the landing page */}
+        <Route path="/" element={<SallyVideo />} />
 
-        {/* Protected Routes */}
+        {/* VideooPage is now shown only if the form is completed */}
+        <Route path="/videoo" element={<VideooPage />} />
+
+        {/* Home and other pages are protected behind video completion */}
+        <Route path="/video" element={<ProtectedRoute element={<VideoPage />} />} />
         <Route path="/home" element={<ProtectedRoute element={<Home />} />} />
         <Route path="/works" element={<ProtectedRoute element={<Works />} />} />
         <Route path="/offer" element={<ProtectedRoute element={<Offer />} />} />
@@ -68,7 +74,7 @@ const Pages = () => {
 
       <div className={`${styles.boxWidth}`}>
         <ScrollTop />
-      </div>
+      </div>  
 
       <div className="bottom-0 bg-blue">
         <Footer />

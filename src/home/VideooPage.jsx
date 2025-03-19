@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { chinasa } from "../assets";
+import { chinasa, vlogo } from "../assets";
 
 const VideooPage = () => {
   const videoRef = useRef(null);
@@ -75,7 +75,7 @@ const VideooPage = () => {
             </h2>
 
             <button
-              className="mt-4 px-6 py-2 bg-gold  text-white rounded-[24px] hover:bg-blue-700 transition w-full"
+              className="mt-4 px-6 py-2 bg-gold  text-black aeon-bold rounded-[24px] hover:bg-blue-700 transition w-full"
               onClick={handleFormCompletion}
             >
               I Have Submitted this Form
@@ -90,7 +90,13 @@ const VideooPage = () => {
         <>
           <div className="md:h-[80px]"></div>
           <div className="fixed inset-0 flex flex-col items-center justify-center bg-video bg-opacity-75 z-50">
-          <h1 className="text-3xl font-bold mb-4">Watch this Short Video</h1>
+         
+          <div className="flex flex-col gap-4">
+             <img src={vlogo} alt="" className="mx-auto w-20 md:mb-2  mb-2 shadowx" />
+             <h1 className="text-[24px] gold shadoww aeon-bold  mx-auto text-center md:mb-2 mb-16">The Diamond Project</h1>
+             </div>
+
+          <h1 className="text-[20px] aeon-bold  mb-5 p-2">Watch this Short Video</h1>
 
           <video
             ref={videoRef}
@@ -104,8 +110,11 @@ const VideooPage = () => {
             <source src={chinasa} type="video/mp4" />
           </video>
 
+          <h1 className="text-[16px] mx-auto text-center noto mb-4 mt-5 p-2">
+        Webinar button only activates if you watch this complete video without skipping
+      </h1>
           <button
-            className={`mt-4 px-6 py-2 text-lg font-bold rounded-lg transition-all ${
+            className={`mt-4 px-6 py-2 text-[24px] aeon-bold rounded-[24px] transition-all ${
               videoCompleted
                 ? "bg-gold text-black hover:bg-white"
                 : "bg-gray-500 cursor-not-allowed"
@@ -116,6 +125,7 @@ const VideooPage = () => {
             Proceed to Webinar
           </button>
           </div>
+          <div className="md:h-[20px]"></div>
         </>
       )}
     </div>

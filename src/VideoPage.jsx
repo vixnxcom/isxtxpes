@@ -58,31 +58,33 @@ const VideoPage = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-video text-white relative  z-60">
+    <div className="flex flex-col items-center justify-center  bg-video text-white relative  z-60">
 
-     <div className="flex flex-col mt-20">
-             <img src={vlogo} alt="" className="mx-auto w-20 h-18  mb-10 shadowx" />
-             <h1 className="text-[24px] gold shadoww aeon-bold  mx-auto text-center mb-16">The Diamond Project</h1>
+   <div className="md:h-[80px]"></div>
+          <div className="fixed inset-0 flex flex-col items-center justify-center bg-video bg-opacity-75 z-50">
+         
+          <div className="flex flex-col gap-4">
+             <img src={vlogo} alt="" className="mx-auto w-20 md:mb-2  mb-2 shadowx" />
+             <h1 className="text-[24px] gold shadoww aeon-bold  mx-auto text-center md:mb-2 mb-16">The Diamond Project</h1>
              </div>
- 
-      <h1 className="text-2xl font-bold mb-4 mt-5">Watch the Video to Proceed</h1>
-      <h1 className="text-[16px] mx-auto text-center noto mb-4 mt-5">
-        Home Button only activates if you watch the complete video without skipping
-      </h1>
+
+          <h1 className="text-[20px] aeon-bold  mb-5 p-2">Watch video to Proceed</h1>
+
 
       {showWarning && (
-        <div className="absolute top-40 bg-red-600 text-white px-4 py-2 rounded-lg shadow-lg animate-pulse">
+        <div className="absolute top-0 bg-red-600 text-white px-4 py-2 rounded-lg shadow-lg
+         animate-pulse">
           ⚠️ No skipping allowed!
         </div>
       )}
 
       {loading ? (
-        <div className="text-center text-lg font-semibold">Loading video...</div>
+        <div className="text-center text-[24px] font-semibold">Loading video...</div>
       ) : (
         <>
           <video
             ref={videoRef}
-            className="w-full max-w-2xl rounded-lg shadow-lg"
+            className="w-full max-w-2xl rounded-[24px] shadow-lg p-2"
             controls
             onTimeUpdate={handleTimeUpdate}
             onEnded={handleVideoEnd}
@@ -94,6 +96,9 @@ const VideoPage = () => {
           </video>
         </>
       )}
+      <h1 className="text-[16px] mx-auto text-center noto mb-4 mt-5 p-2">
+        Home Button only activates if you watch the complete video without skipping
+      </h1>
 
       {/* Proceed to Homepage Button */}
       <button
@@ -106,7 +111,8 @@ const VideoPage = () => {
         Proceed to Homepage
       </button>
 
-      <div className="h-[200px]"></div>
+      <div className="h-[80px]"></div>
+    </div>
     </div>
   );
 };

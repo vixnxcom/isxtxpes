@@ -11,7 +11,7 @@ const Telegram = () => {
     
     <button   className='mx-auto bg-gold shadowx md:w-[24vw] md:h-[4vw] w-[60vw] rounded-[24px] h-[12vw]'>
             <a
-                href="https://wa.me/+2349154684458" // Replace with your WhatsApp number
+                href="https://t.me/+z-z4yjYrozxlZjZk" // Replace with your WhatsApp number
                 target="_blank" className='aeon-bold'
                 rel="noopener noreferrer">
              

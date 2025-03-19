@@ -8,7 +8,7 @@ const Crush = () => {
     {/* head section */}
 
   
-    <div className={`${styles.subHeadingxy}  mt-2 `}>
+    <div className={`${styles.subHeadingxy} coal  mt-2 `}>
     <span className='aeon-bold text-[20px]'>You see people, opportunities. </span>
 The girl/boy you had a crush on but never had the courage to tell.
 Everything you’ve ever lost. <span className='aeon-bold text-[20px]'>Every opportunity </span> you didn’t take. 

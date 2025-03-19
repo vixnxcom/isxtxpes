@@ -7,7 +7,7 @@ const Imagine = () => {
 
            {/* head section */}
        
-           <div className={`${styles.subHeadingxy} mt-2`}>
+           <div className={`${styles.subHeadingxy}  coal mt-2`}>
            <span className='aeon-bold text-[20px]'>Imagine </span> You Found Everything You’ve Ever Lost...
 You’re walking down your street one evening. NEPA just brought light, your neighbors' children are playing football,
 and you're <span className='aeon-bold text-[20px]'>thinking about life. </span>
@@ -16,7 +16,7 @@ It's that ₦500 note that was stolen from you in class years ago. The exact one
 were supposed to use it for lunch.
 
            </div>
-           <div className={`${styles.subHeadingxy}  mt-2 `}>
+           <div className={`${styles.subHeadingxy} coal  mt-2 `}>
 
 There, right at your feet, is your  from < span className='aeon-bold text-[20px]'>favourite toy</span> childhood—the one you cried over when you lost it.
 You pick it up, heart racing. And then—right beside it—you see your first phone. The one that was stolen from you.

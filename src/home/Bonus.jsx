@@ -15,7 +15,7 @@ const Bonus = () => {
             <div className='w-[50px] h-[55px] text-center mx-auto mb-2'>
                 <img src={one} alt=""  />
             </div>
-            <div className='text-center bg-white  lilac h-[120px] w-[78vw] rounded-[12px]'>
+            <div className='text-center bg-white  lilac h-[120px] w-[78vw] rounded-[24px]'>
             <p className={`${styles.subHeadingy} mx-auto coal mb-5`}>
             90-Day Success Plan (A roadmap to <span className='gold aeon-bold shadowy'>₦1,000,000+</span> )
             </p>
@@ -29,7 +29,7 @@ const Bonus = () => {
             <div className='w-[50px] h-[55px] text-center mx-auto mb-2'>
                 <img src={two} alt=""  />
             </div>
-            <div className='text-center bg-white  lilac w-[78vw] h-[120px] rounded-[12px]'>
+            <div className='text-center bg-white  lilac w-[78vw] h-[120px] rounded-[24px]'>
             <p className={`${styles.subHeadingy} mx-auto coal mb-5`}>
             Access to Millionaire Mentorship Groups Plan 
             </p>
@@ -43,7 +43,7 @@ const Bonus = () => {
             <div className='w-[50px] h-[55px] text-center mx-auto mb-2'>
                 <img src={three} alt=""  />
             </div>
-            <div className='text-center bg-white  lilac w-[78vw] h-[120px] rounded-[12px]'>
+            <div className='text-center bg-white  lilac w-[78vw] h-[120px] rounded-[24px]'>
             <p className={`${styles.subHeadingy} mx-auto coal mb-5`}>
             1-on-1 Mastermind <br /> Sessions
             </p>
@@ -58,7 +58,7 @@ const Bonus = () => {
             <div className='w-[50px] h-[55px] text-center mx-auto mb-2'>
                 <img src={four} alt=""  />
             </div>
-            <div className='text-center bg-white  lilac w-[78vw] h-[120px] rounded-[12px]'>
+            <div className='text-center bg-white  lilac w-[78vw] h-[120px] rounded-[24px]'>
             <p className={`${styles.subHeadingy} coal mb-5`}>
            Social Media Scripts <br /> for Instant Leads
             </p>
@@ -73,7 +73,7 @@ const Bonus = () => {
             <div className='w-[50px] h-[55px] text-center mx-auto mb-2'>
                 <img src={five} alt=""  />
             </div>
-            <div className='text-center bg-white  lilac w-[78vw] h-[120px] rounded-[12px]'>
+            <div className='text-center bg-white  lilac w-[78vw] h-[120px] rounded-[24px]'>
             <p className={`${styles.subHeadingy} coal mb-5`}>
             Travel & Lifestyle <br />  Perks
             </p>
@@ -88,7 +88,7 @@ const Bonus = () => {
             <div className='w-[50px] h-[55px] text-center mx-auto mb-2'>
                 <img src={six} alt=""  />
             </div>
-            <div className='text-center bg-white  lilac w-[78vw] h-[120px] rounded-[12px]'>
+            <div className='text-center bg-white  lilac w-[78vw] h-[120px] rounded-[24px]'>
             <p className={`${styles.subHeadingy} coal mb-5`}>
             Premium Health Product <br /> Access
 
@@ -104,7 +104,7 @@ const Bonus = () => {
             <div className='w-[50px] h-[55px] text-center mx-auto mb-2'>
                 <img src={seven} alt=""  />
             </div> 
-            <div className='text-center bg-white  lilac w-[78vw] h-[120px] rounded-[12px]'>
+            <div className='text-center bg-white  lilac w-[78vw] h-[120px] rounded-[24px]'>
             <p className={`${styles.subHeadingy} coal mb-5`}>
           Generational Wealth <br /> Building System
             </p>

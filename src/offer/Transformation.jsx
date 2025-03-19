@@ -34,9 +34,9 @@ const Transformation = () => {
            <div className='aeon-bold text-start xs:text-[20px] text-[24px] blue mt-2 mx-auto'>
            After Joining
             </div> 
-           <div className=' mx-auto '>
+           {/* <div className=' mx-auto '>
          <img src={diamond} alt=""  className='w-full'/>
-          </div> 
+          </div>  */}
             </div> 
 
             {/* icons */}

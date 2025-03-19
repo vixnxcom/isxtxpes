@@ -25,7 +25,7 @@ rgb(226, 153, 17) ${Math.min(25, scrollPercentage * 0.8)}%,
           #e0bb41 ${Math.min(40, scrollPercentage * 1.0)}%, 
           #826030 ${Math.min(50, scrollPercentage * 1.2)}%, /* New transition shade */
           #01043a ${Math.min(65, scrollPercentage * 1.5)}%, 
-          #021930 100%)`,
+          #010D1B 100%)`,
       }}
     >
       {children}

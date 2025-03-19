@@ -23,7 +23,7 @@ export default function GradientWork({ children }) {
 #0255c0  ${Math.min(30, scrollPercentage * 1.0)}%,  
   #01043a  ${Math.min(60, scrollPercentage * 2.0)}%, 
  
-#021930 100%)`,
+#010d1b 100%)`,
       }}
     >
       {children}

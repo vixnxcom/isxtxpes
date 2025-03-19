@@ -78,7 +78,7 @@ const Pages = () => {
         <ScrollTop />
       </div>  
 
-      <div className="bottom-0 bg-blue">
+      <div className="bottom-0 bg-bluee">
         <Footer />
       </div>
     </Router>

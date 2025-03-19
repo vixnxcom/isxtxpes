@@ -39,8 +39,8 @@ import VidTestestimony from '../vidtestimonials/VidTestestimony'
 
 const Home = () => {
   return (
- <div className=' w-full'>
-  <GradientHome >
+ <div className='bg-blue w-full'>
+
 
  <div className={`${styles.flexCenter} bg-chess h-[99vh] `}>
  <div className={`${styles.boxWidth}`}>
@@ -188,7 +188,7 @@ const Home = () => {
 </div>
 </div>
 
- <div className={`${styles.flexCenter} bg-book w-[90vw] mx-auto rounded-[24px] borderr mt-5 `}>
+ <div className={`${styles.flexCenter} bg-white w-[90vw] mx-auto rounded-[24px] borderr mt-5 `}>
  <div className={`${styles.boxWidth}`}>
    <Bonus/>
 </div>
@@ -254,7 +254,7 @@ const Home = () => {
 
 
 
-</GradientHome>
+
  </div>
   )
 }

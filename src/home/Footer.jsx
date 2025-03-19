@@ -57,19 +57,22 @@ const Footer = () => {
         {/* first div */}
         <div className='flex flex-col'>
      
-        <Link to='/' className='royal noto tracking-wide text-[16px] mt-2'>
-        Home </Link>
+        <HashLink to='/#hero' className='royal noto tracking-wide text-[16px] mt-2'>
+        Home </HashLink>
       
         {/* <HashLink to='/works#join' className='text-white noto tracking-wide text-[16px] mt-2'>
          How to join </HashLink> */}
-        <Link to='/offer' className='royal noto tracking-wide text-[16px] mt-2'>
-        Our Offer </Link>
-        <Link to='/giveaway' className='royal noto tracking-wide text-[16px] mt-2'>
-     Our Exclusive Giveaway </Link>
-        <Link to='/works' className='royal noto tracking-wide text-[16px] mt-2'>
-      How to become a partner </Link>
-        <Link to='/register' className='royal noto tracking-wide text-[16px] mt-2'>
-   Register Today! </Link>
+        <HashLink to='/offer#path' className='royal noto tracking-wide text-[16px] mt-2'>
+        Our Offer </HashLink>
+
+        <HashLink to='/giveaway#givway' className='royal noto tracking-wide text-[16px] mt-2'>
+     Our Exclusive Blueprint </HashLink>
+
+        <HashLink to='/works#join' className='royal noto tracking-wide text-[16px] mt-2'>
+      How to become a partner </HashLink>
+
+        <HashLink to='/register#topreg' className='royal noto tracking-wide text-[16px] mt-2'>
+   Register Today! </HashLink>
         </div>
         </div>
         {/* first div */}

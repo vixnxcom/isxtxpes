@@ -6,13 +6,10 @@ import Works from "../home/works/Works";
 import Footer from "../home/Footer";
 import Offer from "../offer/Offer";
 import Giveaway from "../home/giveaway/Giveaway";
-import Reg from "../registration/Reg";
 import Forms from "../forms/Forms";
 import VideoPage from "../VideoPage";
 import ScrollTop from "../ScrollTop";
 import styles from "../style";
-import Account from "../forms/Account";
-import ZohoForm from "../forms/Silverform";
 import Sampleacct from "../sample/Sampleacct";
 import Sampleform from "../sample/Sampleform";
 import Accessacct from "../access/Accessacct";
@@ -25,13 +22,9 @@ import Platnacct from "../platinium/Platnacct";
 import Eliteacct from "../elite/Eliteacct";
 import Platform from "../platinium/Platform";
 import Elitform from "../elite/Elitform";
-import Reviews from "../home/reviews/Reviews";
 import Zoom from "../offer/Zoom";
 import Meetings from "../offer/Meetings";
-
-import SallyVideo from "../home/SallyVideo";
 import VideooPage from "../home/VideooPage";
-
 
 // Protected Route Logic
 const ProtectedRoute = ({ element }) => {
@@ -47,11 +40,11 @@ const Pages = () => {
       </div>
 
       <Routes>
-           {/* Start with SallyVideo as the landing page */}
-           <Route path="/" element={<SallyVideo />} />
+        {/* Start directly with VideooPage (now includes the form) */}
+        <Route path="/" element={<VideooPage />} />
         <Route path="/video" element={<VideoPage />} />
-        <Route path="/videoo" element={<VideooPage />} />
-        
+
+        {/* Protected Routes */}
         <Route path="/home" element={<ProtectedRoute element={<Home />} />} />
         <Route path="/works" element={<ProtectedRoute element={<Works />} />} />
         <Route path="/offer" element={<ProtectedRoute element={<Offer />} />} />
@@ -63,22 +56,21 @@ const Pages = () => {
         <Route path="/asaccount" element={<ProtectedRoute element={<Accessacct />} />} />
         <Route path="/slvaccount" element={<ProtectedRoute element={<Silveracct />} />} />
         <Route path="/slvform" element={<ProtectedRoute element={<Silverform />} />} />
-        <Route path="/gldaccount" element={<ProtectedRoute element={<Goldacct/>} />} />
-        <Route path="/gldform" element={<ProtectedRoute element={<Goldform/>} />} />
-        <Route path="/platinum" element={<ProtectedRoute element={<Platnacct/>} />} />
-        <Route path="/platform" element={<ProtectedRoute element={<Platform/>} />} />
-        <Route path="/elite" element={<ProtectedRoute element={<Eliteacct/>} />} />
-        <Route path="/elitform" element={<ProtectedRoute element={<Elitform/>} />} />
-        <Route path="/zoom" element={<ProtectedRoute element={<Zoom/>} />} />
-        <Route path="/meet" element={<ProtectedRoute element={<Meetings/>} />} />
-        <Route path="/video" element={<ProtectedRoute element={<VideoPage/>} />} />
- 
+        <Route path="/gldaccount" element={<ProtectedRoute element={<Goldacct />} />} />
+        <Route path="/gldform" element={<ProtectedRoute element={<Goldform />} />} />
+        <Route path="/platinum" element={<ProtectedRoute element={<Platnacct />} />} />
+        <Route path="/platform" element={<ProtectedRoute element={<Platform />} />} />
+        <Route path="/elite" element={<ProtectedRoute element={<Eliteacct />} />} />
+        <Route path="/elitform" element={<ProtectedRoute element={<Elitform />} />} />
+        <Route path="/zoom" element={<ProtectedRoute element={<Zoom />} />} />
+        <Route path="/meet" element={<ProtectedRoute element={<Meetings />} />} />
       </Routes>
-      <div className={`${styles.boxWidth} `}>
-            < ScrollTop />
-           </div>  
 
-      <div className="bottom-0  bg-blue">
+      <div className={`${styles.boxWidth}`}>
+        <ScrollTop />
+      </div>
+
+      <div className="bottom-0 bg-blue">
         <Footer />
       </div>
     </Router>

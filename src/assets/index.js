@@ -79,11 +79,12 @@ import int from './int.png'
 import copyicon from './copyicon.png'
 import coal from './coal.png'
 import diamond from './diamond.png'
+import best from './best.png'
 
 
 
 
-export{ infinite, security, upgrade, drugs, moses, int, copyicon, coal, diamond,
+export{ infinite, security, upgrade, drugs, moses, int, copyicon, coal, diamond, best,
    plans, cart, walle,paper,tele, vid, barr, chance, chinasa, elijah, didi, ozani, abba, car,
     dubai, partner,million, billion, test, chess, time, mike,ronke, sam, nefo, logo, flogo, vlogo,
     beach, two, three, four, five, fruit, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,ppl, tired, happy, home, stack,

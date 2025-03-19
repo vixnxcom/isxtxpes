@@ -28,6 +28,7 @@ import Meetings from "../offer/Meetings";
 
 
 import VideooPage from "../home/VideooPage";
+import Group from "../home/groups/Group";
 
 // Protected Route Logic
 const ProtectedRoute = ({ element }) => {
@@ -70,6 +71,7 @@ const Pages = () => {
         <Route path="/elitform" element={<ProtectedRoute element={<Elitform />} />} />
         <Route path="/zoom" element={<ProtectedRoute element={<Zoom />} />} />
         <Route path="/meet" element={<ProtectedRoute element={<Meetings />} />} />
+        <Route path="/group" element={<ProtectedRoute element={<Group />} />} />
       </Routes>
 
       <div className={`${styles.boxWidth}`}>

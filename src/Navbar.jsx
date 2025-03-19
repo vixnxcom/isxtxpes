@@ -82,6 +82,16 @@ const Navbar = () => {
           </li>
         
           <li>
+
+            <HashLink
+              to="/group#groups"
+              className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
+            >
+           Telegram Group
+            </HashLink>
+          </li>
+        
+          <li>
             <HashLink
               to="/works#join"
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"

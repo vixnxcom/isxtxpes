@@ -35,24 +35,50 @@ const VideooPage = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-4">
+    <div className="flex flex-col items-center justify-center bg-video text-white p-4">
       {/* Popup Form (Only if not completed) */}
+      <div className="md:h-[40px]"></div>
       {showForm && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
-          <div className="bg-white p-6 rounded-lg shadow-lg max-w-3xl w-full">
-            <h2 className="text-xl font-bold text-center mb-4 text-black">
-              Fill Out the Form to Proceedff
+        <div className="fixed inset-0 flex items-center justify-center bg-video bg-opacity-75 z-50">
+   
+          <div className="bg-white p-6  max-w-3xl w-[92vw] rounded-[24px]">
+
+            <h2 className="text-[24px] aeon-bold text-center mb-4 blue">
+            GAIN PRIVATE ACCESS TO 2025’s FASTEST CASHFLOW SHORTCUT!
             </h2>
+            
+            <h2 className="text-[20px] aeon-bold text-center mb-4 blue">
+            Make your first <span className="gold">₦1,000,000 </span> fast with full assistance!
+            </h2>
+            <p className="noto font-normal coal md:text-[12px] text-[14px] text-center mx-auto"> 
+             No struggle – We guide you</p>
+            <p className="noto font-normal coal md:text-[12px] text-[14px] text-center mx-auto"> 
+              No complexity – Anyone can win</p>
+            <p className="noto font-normal coal md:text-[12px] text-[14px] text-center mx-auto"> 
+          Zero risk – Nothing to lose</p>
+
+          <h2 className="text-[20px] aeon-bold text-center mb-4 mt-4 blue">
+          Enter your details correctly or miss out!
+            </h2>
+
             <iframe
      src="https://msknovj-cmpzourl.maillist-manage.com/ua/Optin?od=11287ecce930db&zx=1348aded9&lD=113ef142f6849059b&n=11699f74eaeef84&sD=113ef142f684905ee"
-              className="w-full h-[500px] border border-gray-300 shadow-lg"
+              className="w-full h-[280px] border "
               title="Zoho Form"
             ></iframe>
+
+  <p className="noto font-normal coal md:text-[12px] text-[14px] text-center mx-auto"> 
+  50 Spots – 43 Already Taken!</p>
+
+         <h2 className="text-[20px] aeon-bold text-center mb-2 mt-2 blue">
+           ️ Once spots are gone, this page disappears
+            </h2>
+
             <button
-              className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition w-full"
+              className="mt-4 px-6 py-2 bg-gold text-white rounded-[24px] hover:bg-blue-700 transition w-full"
               onClick={handleFormCompletion}
             >
-              I Have Submitted the Form
+              I Have Submitted this Form
             </button>
           </div>
         </div>

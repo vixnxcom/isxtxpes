@@ -18,15 +18,16 @@ const VideooPage = () => {
 
     const completed = localStorage.getItem("videooCompleted");
     if (completed === "true") {
-      navigate("/video"); // Redirect if video already completed
+      setVideoCompleted(true);
+      setTimeout(() => navigate("/video"), 1000); // Delayed redirect for smooth UX
     }
   }, [navigate]);
 
-  // Listen for form submission
+  // Listen for form submission from Zoho
   useEffect(() => {
     const checkFormCompletion = (event) => {
-      // Ensure the message is coming from Zoho (Replace with Zoho's domain if needed)
-      if (event.origin.includes("maillist-manage.com")) {
+      console.log("Received event from:", event.origin);
+      if (event.origin === "https://msknovj-cmpzourl.maillist-manage.com") { 
         localStorage.setItem("zohoFormCompleted", "true");
         setFormCompleted(true);
         setShowForm(false); // Hide the form
@@ -58,8 +59,8 @@ const VideooPage = () => {
               Fill Out the Form to Proceed
             </h2>
             <iframe
-              src="https://msknovj-cmpzourl.maillist-manage.com/ua/Optin?od=11287ecce930db&zx=1348aded9&tD=113ef142f684807a9&sD=113ef142f6848abe1"
-              className="w-full h-[500px] border border-gray-300 shadow-lg"
+              src="https://msknovj-cmpzourl.maillist-manage.com/ua/Optin?od=11287ecce930db&zx=1348aded9&lD=113ef142f6849059b&n=11699f74eaeef84&sD=113ef142f684905a9"
+              className="w-full h-[400px] border border-gray-300 shadow-lg"
               title="Zoho Form"
             ></iframe>
             <button

@@ -19,10 +19,10 @@ const SallyVideo = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 text-black p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 text-black p-4">
       <h1 className="text-3xl font-bold mb-4">Fill Out the Form to Proceed</h1>
       <iframe
-        src="https://msknovj-cmpzourl.maillist-manage.com/ua/Optin?od=11287ecce930db&zx=1348aded9&tD=113ef142f684807a9&sD=113ef142f6848abe1"     
+     src="https://msknovj-cmpzourl.maillist-manage.com/ua/Optin?od=11287ecce930db&zx=1348aded9&lD=113ef142f6849059b&n=11699f74eaeef84&sD=113ef142f684905ee"  
         className="w-full max-w-3xl h-[600px] border border-gray-300 shadow-lg"
         title="Zoho Form"
       ></iframe>
@@ -38,3 +38,6 @@ const SallyVideo = () => {
 };
 
 export default SallyVideo;
+
+
+

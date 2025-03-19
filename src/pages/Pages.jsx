@@ -25,8 +25,6 @@ import Elitform from "../elite/Elitform";
 import Reviews from "../home/reviews/Reviews";
 import Zoom from "../offer/Zoom";
 import Meetings from "../offer/Meetings";
-
-import SallyVideo from "../home/SallyVideo";
 import VideooPage from "../home/VideooPage";
 
 // Protected Route Logic
@@ -36,6 +34,8 @@ const ProtectedRoute = ({ element }) => {
 };
 
 const Pages = () => {
+  const videoCompleted = localStorage.getItem("videooCompleted") === "true";
+
   return (
     <Router>
       <div className="w-full top-20">
@@ -43,13 +43,10 @@ const Pages = () => {
       </div>
 
       <Routes>
-        {/* Start with SallyVideo (Zoho Form) as the landing page */}
-        <Route path="/" element={<SallyVideo />} />
+        {/* Redirect to /video if user has already completed video */}
+        <Route path="/" element={videoCompleted ? <Navigate to="/video" /> : <VideooPage />} />
 
-        {/* VideooPage is now shown only if the form is completed */}
-        <Route path="/videoo" element={<VideooPage />} />
-
-        {/* Home and other pages are protected behind video completion */}
+        {/* Protected Pages - Only accessible after watching the video */}
         <Route path="/video" element={<ProtectedRoute element={<VideoPage />} />} />
         <Route path="/home" element={<ProtectedRoute element={<Home />} />} />
         <Route path="/works" element={<ProtectedRoute element={<Works />} />} />

@@ -35,19 +35,19 @@ const VideooPage = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-video text-white p-4">
+    <div className="flex flex-col items-center justify-center bg-video min-h-screen   text-white p-4">
       {/* Popup Form (Only if not completed) */}
-      <div className="md:h-[40px]"></div>
+      <div className="md:h-[40px] h-[20px]"></div>
       {showForm && (
         <div className="fixed inset-0 flex items-center justify-center bg-video bg-opacity-75 z-50">
    
-          <div className=" p-6  max-w-3xl w-full ">
+          <div className=" py-12 px-6  max-w-3xl w-full  ">
 
-            <h2 className="text-[24px] aeon-bold text-center mb-4 text-white">
+            <h2 className="text-[20px] aeon-bold text-center mb-4  text-white">
             GAIN PRIVATE ACCESS TO 2025’s FASTEST CASHFLOW SHORTCUT!
             </h2>
             
-            <h2 className="text-[20px] aeon-bold text-center mb-4 text-white">
+            <h2 className="text-[16px] aeon-bold text-center mb-2 text-white">
             Make your first <span className="gold">₦1,000,000 </span> fast with full assistance!
             </h2>
             <p className="noto font-normal text-white md:text-[12px] text-[14px] text-center mx-auto"> 
@@ -57,29 +57,30 @@ const VideooPage = () => {
             <p className="noto font-normal text-white md:text-[12px] text-[14px] text-center mx-auto"> 
           Zero risk – Nothing to lose</p>
 
-          <h2 className="text-[20px] aeon-bold text-center mb-4 mt-4 text-white">
+          <h2 className="text-[16px] aeon-bold text-center mb-4 mt-2 text-white">
           Enter your details correctly or miss out!
             </h2>
 
             <iframe
      src="https://msknovj-cmpzourl.maillist-manage.com/ua/Optin?od=11287ecce930db&zx=1348aded9&lD=113ef142f6849059b&n=11699f74eaeef84&sD=113ef142f684905ee"
-              className="w-full h-[280px]  "
+              className="w-full h-[280px]   "
               title="Zoho Form"
             ></iframe>
 
-  <p className="noto font-normal text-white md:text-[12px] text-[14px] text-center mx-auto"> 
+  <p className="noto font-normal text-white md:text-[12px] text-[14px] mt-4 text-center mx-auto"> 
   50 Spots – 43 Already Taken!</p>
 
-         <h2 className="text-[20px] aeon-bold text-center mb-2 mt-2 text-white">
+         <h2 className="text-[16px] aeon-bold text-center mb-2 mt-2 text-white">
            ️ Once spots are gone, this page disappears
             </h2>
 
             <button
-              className="mt-4 px-6 py-2 bg-gold text-white rounded-[24px] hover:bg-blue-700 transition w-full"
+              className="mt-4 px-6 py-2 bg-gold  text-white rounded-[24px] hover:bg-blue-700 transition w-full"
               onClick={handleFormCompletion}
             >
               I Have Submitted this Form
             </button>
+          
           </div>
         </div>
       )}
@@ -88,11 +89,12 @@ const VideooPage = () => {
       {formCompleted && (
         <>
           <div className="md:h-[80px]"></div>
+          <div className="fixed inset-0 flex flex-col items-center justify-center bg-video bg-opacity-75 z-50">
           <h1 className="text-3xl font-bold mb-4">Watch this Short Video</h1>
 
           <video
             ref={videoRef}
-            className="w-full max-w-2xl rounded-lg shadow-lg"
+            className="w-[96vw] max-w-2xl rounded-lg shadow-lg"
             controls
             onEnded={handleVideoEnd}
             preload="none"
@@ -113,9 +115,11 @@ const VideooPage = () => {
           >
             Proceed to Webinar
           </button>
+          </div>
         </>
       )}
     </div>
+
   );
 };
 

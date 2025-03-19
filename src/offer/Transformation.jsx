@@ -20,7 +20,7 @@ const Transformation = () => {
              {/* icons  */}
           </div>
           <div className='mx-auto'>
-              <p className={`${styles.paragraphx} mt-2 mb-2`}> 
+              <p className={`${styles.paragraphx} mt-2 mb-2 coal`}> 
               Stuck in the same routine, stressed about money, and dreaming of a better life
               </p>
             </div>
@@ -44,7 +44,7 @@ const Transformation = () => {
           <div className='mx-auto mt-5 mb-2'><img src={bar} alt=""  className='w-8'/>
           </div>
           <div className='mx-auto'>
-              <p className={`${styles.paragraphx}  mb-2`}> 
+              <p className={`${styles.paragraphx} coal mb-2`}> 
               Unlimited earning potential, financial freedom, VIP travel, and a lifestyle most people only dream of!
               </p>
             </div>
@@ -55,7 +55,7 @@ const Transformation = () => {
           <div className='mx-auto mt-5 mb-2'><img src={bar} alt=""  className='w-8'/>
           </div>
           <div className='mx-auto'>
-              <p className={`${styles.paragraphx}  mb-2`}> 
+              <p className={`${styles.paragraphx} coal mb-2`}> 
               Making a real impact by helping others achieve success!
 
               </p>
@@ -67,7 +67,7 @@ const Transformation = () => {
           <div className='mx-auto mt-5 mb-2'><img src={bar} alt=""  className='w-8'/>
           </div>
           <div className='mx-auto mb-10'>
-              <p className={`${styles.paragraphx}  mb-5`}> 
+              <p className={`${styles.paragraphx} coal  mb-5`}> 
               Creating a legacy of wealth, health, and freedom for your future generations!
 
               </p>

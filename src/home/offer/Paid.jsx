@@ -27,7 +27,7 @@ const Paid = () => {
             {/* icons */}
           </div>
           <div className=''>
-              <p className={`${styles.paragraphx} mt-2 mb-2`}> Earn daily, weekly, monthly</p>
+              <p className={`${styles.paragraphx} coal mt-2 mb-2`}> Earn daily, weekly, monthly</p>
             </div>
           </div>
           {/* card  */}
@@ -47,7 +47,7 @@ const Paid = () => {
             {/* icons */}
           </div>
           <div className=''>
-              <p className={`${styles.paragraphx} mt-2 mb-2`}> Step-by-step training and mentorship
+              <p className={`${styles.paragraphx} mt-2 mb-2 coal`}> Step-by-step training and mentorship
               </p>
             </div>
           </div>
@@ -67,7 +67,7 @@ const Paid = () => {
             {/* icons */}
           </div>
           <div className=''>
-              <p className={`${styles.paragraphx} mt-2 mb-2`}> Improve your health, reverse aging
+              <p className={`${styles.paragraphx} mt-2 mb-2 coal`}> Improve your health, reverse aging
               </p>
             </div>
           </div>
@@ -87,7 +87,7 @@ const Paid = () => {
             {/* icons */}
           </div>
           <div className=''>
-              <p className={`${styles.paragraphx} mt-2 mb-2`}> Qualify for All-expense paid trips
+              <p className={`${styles.paragraphx} mt-2 mb-2 coal`}> Qualify for All-expense paid trips
 
               </p>
             </div>
@@ -108,7 +108,7 @@ const Paid = () => {
             {/* icons */}
           </div>
           <div className=''>
-              <p className={`${styles.paragraphx} mt-2 mb-2`}>  Build a legacy for your children and grandchildren
+              <p className={`${styles.paragraphx} mt-2 mb-2 coal`}>  Build a legacy for your children and grandchildren
 
               </p>
             </div>
@@ -129,17 +129,17 @@ const Paid = () => {
             {/* icons */}
           </div>
           <div className=''>
-              <p className={`${styles.paragraphx} mt-2 mb-2`}>  All these amazing offers for the 
+              <p className={`${styles.paragraphx} mt-2 mb-2 coal`}>  All these amazing offers for the 
 
               </p>
-              <p className={`${styles.paragraphx} mt-2 mb-2`}>  Discounted rate <span className='gold aeon-bold'> ₦69,990</span>
+              <p className={`${styles.paragraphx} mt-2 mb-2 coal`}>  Discounted rate <span className='gold aeon-bold'> ₦69,990</span>
 
               </p>
             </div>
           </div>
           {/* card  */}
           <div className={`${styles.flexCenter} flex flex-col`}>
-          <p className={`${styles.paragraphx} mt-10 `}>
+          <p className={`${styles.paragraphx} coal mt-10 `}>
           Sign Up Now & Secure Your Future
           </p>
             <SignNow />

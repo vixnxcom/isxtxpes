@@ -41,36 +41,36 @@ const VideooPage = () => {
       {showForm && (
         <div className="fixed inset-0 flex items-center justify-center bg-video bg-opacity-75 z-50">
    
-          <div className="bg-white p-6  max-w-3xl w-[92vw] rounded-[24px]">
+          <div className=" p-6  max-w-3xl w-full ">
 
-            <h2 className="text-[24px] aeon-bold text-center mb-4 blue">
+            <h2 className="text-[24px] aeon-bold text-center mb-4 text-white">
             GAIN PRIVATE ACCESS TO 2025’s FASTEST CASHFLOW SHORTCUT!
             </h2>
             
-            <h2 className="text-[20px] aeon-bold text-center mb-4 blue">
+            <h2 className="text-[20px] aeon-bold text-center mb-4 text-white">
             Make your first <span className="gold">₦1,000,000 </span> fast with full assistance!
             </h2>
-            <p className="noto font-normal coal md:text-[12px] text-[14px] text-center mx-auto"> 
+            <p className="noto font-normal text-white md:text-[12px] text-[14px] text-center mx-auto"> 
              No struggle – We guide you</p>
-            <p className="noto font-normal coal md:text-[12px] text-[14px] text-center mx-auto"> 
+            <p className="noto font-normal text-white md:text-[12px] text-[14px] text-center mx-auto"> 
               No complexity – Anyone can win</p>
-            <p className="noto font-normal coal md:text-[12px] text-[14px] text-center mx-auto"> 
+            <p className="noto font-normal text-white md:text-[12px] text-[14px] text-center mx-auto"> 
           Zero risk – Nothing to lose</p>
 
-          <h2 className="text-[20px] aeon-bold text-center mb-4 mt-4 blue">
+          <h2 className="text-[20px] aeon-bold text-center mb-4 mt-4 text-white">
           Enter your details correctly or miss out!
             </h2>
 
             <iframe
      src="https://msknovj-cmpzourl.maillist-manage.com/ua/Optin?od=11287ecce930db&zx=1348aded9&lD=113ef142f6849059b&n=11699f74eaeef84&sD=113ef142f684905ee"
-              className="w-full h-[280px] border "
+              className="w-full h-[280px]  "
               title="Zoho Form"
             ></iframe>
 
-  <p className="noto font-normal coal md:text-[12px] text-[14px] text-center mx-auto"> 
+  <p className="noto font-normal text-white md:text-[12px] text-[14px] text-center mx-auto"> 
   50 Spots – 43 Already Taken!</p>
 
-         <h2 className="text-[20px] aeon-bold text-center mb-2 mt-2 blue">
+         <h2 className="text-[20px] aeon-bold text-center mb-2 mt-2 text-white">
            ️ Once spots are gone, this page disappears
             </h2>
 

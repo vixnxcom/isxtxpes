@@ -30,11 +30,17 @@ import Meetings from "../offer/Meetings";
 import VideooPage from "../home/VideooPage";
 import Group from "../home/groups/Group";
 
-// Protected Route Logic
 const ProtectedRoute = ({ element }) => {
   const videoCompleted = localStorage.getItem("videooCompleted") === "true";
+  const formCompleted = localStorage.getItem("zohoFormCompleted") === "true";
+
+  if (!formCompleted) {
+    return <Navigate to="/" />; // Redirect to form if it's not completed
+  }
+
   return videoCompleted ? element : <Navigate to="/" />;
 };
+
 
 const Pages = () => {
   return (
@@ -44,15 +50,13 @@ const Pages = () => {
       </div>
 
       <Routes>
-        {/* Start with SallyVideo (Zoho Form) as the landing page */}
-        <Route path="/" element={<VideooPage />} />
+       {/* Default to VideooPage for the Zoho Form */}
+       <Route path="/" element={<VideooPage />} />
 
-        {/* VideooPage is now shown only if the form is completed */}
-        
+{/* Protect all routes until form and video are completed */}
+<Route path="/video" element={<ProtectedRoute element={<VideoPage />} />} />
+<Route path="/home" element={<ProtectedRoute element={<Home />} />} />
 
-        {/* Home and other pages are protected behind video completion */}
-        <Route path="/video" element={<ProtectedRoute element={<VideoPage />} />} />
-        <Route path="/home" element={<ProtectedRoute element={<Home />} />} />
         <Route path="/works" element={<ProtectedRoute element={<Works />} />} />
         <Route path="/offer" element={<ProtectedRoute element={<Offer />} />} />
         <Route path="/giveaway" element={<ProtectedRoute element={<Giveaway />} />} />

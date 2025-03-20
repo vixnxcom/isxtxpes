@@ -14,7 +14,7 @@ const Brief = () => {
     </div>
    
     <div className={`${styles.subHeadingxy} coal`}>
-  Check your Email and Save a copy of the form sent to your Inbox to be presented for further reistrations
+  Check your Email and Save a copy of the form sent to your Inbox to be presented for further registrations
     </div>
     {/* card 1 */}
     {/* card 1 */}

@@ -15,18 +15,21 @@ const VideooPage = () => {
 
     if (formStatus === "true") {
       setFormCompleted(true);
-      setShowForm(false); // Hide form if already completed
+      setShowForm(false);
     }
 
     if (videoStatus === "true") {
-      navigate("/video"); // Redirect if video already completed
+      setTimeout(() => {
+        navigate("/video"); // Prevents flickering effect
+      }, 10);
     }
   }, [navigate]);
 
   const handleFormCompletion = () => {
     localStorage.setItem("zohoFormCompleted", "true");
     setFormCompleted(true);
-    setShowForm(false); // Hide the form modal
+    setShowForm(false);
+    window.location.reload(); // Reload page to ensure immediate effect
   };
 
   const handleVideoEnd = () => {
@@ -35,68 +38,62 @@ const VideooPage = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-video min-h-screen   text-white p-4">
-      {/* Popup Form (Only if not completed) */}
-      <div className="md:h-[40px] h-[20px]"></div>
+    <div className="flex flex-col items-center justify-center bg-video min-h-screen text-white p-4">
+      {/* Form Popup */}
       {showForm && (
         <div className="fixed inset-0 flex items-center justify-center bg-video bg-opacity-75 z-50">
-   
-          <div className=" py-12 px-6  max-w-3xl w-full  ">
-
-            <h2 className="text-[20px] aeon-bold text-center mb-4  text-white">
-            GAIN PRIVATE ACCESS TO 2025’s FASTEST CASHFLOW SHORTCUT!
+          <div className="py-12 px-6 max-w-3xl w-full">
+            <h2 className="text-[20px] aeon-bold text-center mb-4 text-white">
+              GAIN PRIVATE ACCESS TO 2025’s FASTEST CASHFLOW SHORTCUT!
             </h2>
-            
             <h2 className="text-[16px] aeon-bold text-center mb-2 text-white">
-            Make your first <span className="gold">₦1,000,000 </span> fast with full assistance!
+              Make your first <span className="gold">₦1,000,000</span> fast with full assistance!
             </h2>
-            <p className="noto font-normal text-white md:text-[12px] text-[14px] text-center mx-auto"> 
-             No struggle – We guide you</p>
-            <p className="noto font-normal text-white md:text-[12px] text-[14px] text-center mx-auto"> 
-              No complexity – Anyone can win</p>
-            <p className="noto font-normal text-white md:text-[12px] text-[14px] text-center mx-auto"> 
-          Zero risk – Nothing to lose</p>
+            <p className="noto font-normal text-white md:text-[12px] text-[14px] text-center mx-auto">
+              No struggle – We guide you
+            </p>
+            <p className="noto font-normal text-white md:text-[12px] text-[14px] text-center mx-auto">
+              No complexity – Anyone can win
+            </p>
+            <p className="noto font-normal text-white md:text-[12px] text-[14px] text-center mx-auto">
+              Zero risk – Nothing to lose
+            </p>
 
-          <h2 className="text-[16px] aeon-bold text-center mb-4 mt-2 text-white">
-          Enter your details correctly or miss out!
+            <h2 className="text-[16px] aeon-bold text-center mb-4 mt-2 text-white">
+              Enter your details correctly or miss out!
             </h2>
 
             <iframe
-     src="https://msknovj-cmpzourl.maillist-manage.com/ua/Optin?od=11287ecce930db&zx=1348aded9&lD=113ef142f6849059b&n=11699f74eaeef84&sD=113ef142f684905ee"
-              className="w-full h-[280px]   "
+              src="https://msknovj-cmpzourl.maillist-manage.com/ua/Optin?od=11287ecce930db&zx=1348aded9&lD=113ef142f6849059b&n=11699f74eaeef84&sD=113ef142f684905ee"
+              className="w-full h-[280px]"
               title="Zoho Form"
             ></iframe>
 
-  <p className="noto font-normal text-white md:text-[12px] text-[14px] mt-4 text-center mx-auto"> 
-  50 Spots – 43 Already Taken!</p>
-
-         <h2 className="text-[16px] aeon-bold text-center mb-2 mt-2 text-white">
-           ️ Once spots are gone, this page disappears
-            </h2>
+            <p className="noto font-normal text-white md:text-[12px] text-[14px] mt-4 text-center mx-auto">
+              50 Spots – 43 Already Taken!
+            </p>
 
             <button
-              className="mt-4 px-6 py-2 bg-gold  text-black aeon-bold rounded-[24px] hover:bg-blue-700 transition w-full"
+              className="mt-4 px-6 py-2 bg-gold text-black aeon-bold rounded-[24px] hover:bg-blue-700 transition w-full"
               onClick={handleFormCompletion}
             >
               I Have Submitted this Form
             </button>
-          
           </div>
         </div>
       )}
 
-      {/* Video Section (Only if form is completed) */}
+      {/* Video Section */}
       {formCompleted && (
-        <>
-          <div className="md:h-[80px]"></div>
-          <div className="fixed inset-0 flex flex-col items-center justify-center bg-video bg-opacity-75 z-50">
-         
+        <div className="fixed inset-0 flex flex-col items-center justify-center bg-video bg-opacity-75 z-50">
           <div className="flex flex-col gap-4">
-             <img src={vlogo} alt="" className="mx-auto w-20 md:mb-2  mb-2 shadowx" />
-             <h1 className="text-[24px] gold shadoww aeon-bold  mx-auto text-center md:mb-2 mb-16">The Diamond Project</h1>
-             </div>
+            <img src={vlogo} alt="" className="mx-auto w-20 md:mb-2 mb-2 shadowx" />
+            <h1 className="text-[24px] gold shadoww aeon-bold mx-auto text-center md:mb-2 mb-16">
+              The Diamond Project
+            </h1>
+          </div>
 
-          <h1 className="text-[20px] aeon-bold  mb-5 p-2">Watch this Short Video</h1>
+          <h1 className="text-[20px] aeon-bold mb-5 p-2">Watch this Short Video</h1>
 
           <video
             ref={videoRef}
@@ -110,28 +107,23 @@ const VideooPage = () => {
             <source src={chinasa} type="video/mp4" />
           </video>
 
-          <h1 className="text-[16px] mx-auto text-center noto mb-4 mt-5 p-2">
-        Webinar button only activates if you watch this complete video without skipping
-      </h1>
+          <p className="text-[16px] mx-auto text-center noto mb-4 mt-5 p-2">
+            Webinar button only activates if you watch this complete video without skipping
+          </p>
+
           <button
             className={`mt-4 px-6 py-2 text-[24px] aeon-bold rounded-[24px] transition-all ${
-              videoCompleted
-                ? "bg-gold text-black hover:bg-white"
-                : "bg-gray-500 cursor-not-allowed"
+              videoCompleted ? "bg-gold text-black hover:bg-white" : "bg-gray-500 cursor-not-allowed"
             }`}
             onClick={() => navigate("/video")}
             disabled={!videoCompleted}
           >
             Proceed to Webinar
           </button>
-          </div>
-          <div className="md:h-[20px]"></div>
-        </>
+        </div>
       )}
     </div>
-
   );
 };
 
 export default VideooPage;
-

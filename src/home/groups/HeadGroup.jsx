@@ -10,11 +10,11 @@ const HeadGroup = () => {
 <div className=''>
 <img src={sparkles} alt="" className='w-20 mx-auto mb-5'/>
 
-<div className={`${styles.heading1} gold shadowy  `}>
+<div className={`${styles.heading7} gold  `}>
 
        Congratulations! 
          </div>
-         <div className={`${styles.heading7} shadowy blue`}>
+         <div className={`${styles.heading7} blue`}>
   You have made it this far!
     </div>
 

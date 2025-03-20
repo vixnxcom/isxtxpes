@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "../Navbar";
 import Home from "../home/Home";
@@ -25,22 +25,21 @@ import Elitform from "../elite/Elitform";
 import Reviews from "../home/reviews/Reviews";
 import Zoom from "../offer/Zoom";
 import Meetings from "../offer/Meetings";
-
-
 import VideooPage from "../home/VideooPage";
 import Group from "../home/groups/Group";
 
+// ✅ Optimized Protected Route Logic
 const ProtectedRoute = ({ element }) => {
-  const videoCompleted = localStorage.getItem("videooCompleted") === "true";
-  const formCompleted = localStorage.getItem("zohoFormCompleted") === "true";
+  const [videoCompleted, setVideoCompleted] = useState(null);
 
-  if (!formCompleted) {
-    return <Navigate to="/" />; // Redirect to form if it's not completed
-  }
+  useEffect(() => {
+    setVideoCompleted(localStorage.getItem("videooCompleted") === "true");
+  }, []);
+
+  if (videoCompleted === null) return null; // Prevents flickering while loading state
 
   return videoCompleted ? element : <Navigate to="/" />;
 };
-
 
 const Pages = () => {
   return (
@@ -50,13 +49,14 @@ const Pages = () => {
       </div>
 
       <Routes>
-       {/* Default to VideooPage for the Zoho Form */}
-       <Route path="/" element={<VideooPage />} />
+        {/* ✅ Start with VideooPage (Zoho Form & Video) as the landing page */}
+        <Route path="/" element={<VideooPage />} />
 
-{/* Protect all routes until form and video are completed */}
-<Route path="/video" element={<ProtectedRoute element={<VideoPage />} />} />
-<Route path="/home" element={<ProtectedRoute element={<Home />} />} />
+        {/* ✅ VideooPage is now protected just like VideoPage */}
+        <Route path="/video" element={<ProtectedRoute element={<VideoPage />} />} />
 
+        {/* ✅ Home & other sections are now locked until video is watched */}
+        <Route path="/home" element={<ProtectedRoute element={<Home />} />} />
         <Route path="/works" element={<ProtectedRoute element={<Works />} />} />
         <Route path="/offer" element={<ProtectedRoute element={<Offer />} />} />
         <Route path="/giveaway" element={<ProtectedRoute element={<Giveaway />} />} />

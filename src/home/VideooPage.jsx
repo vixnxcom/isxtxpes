@@ -8,34 +8,36 @@ const VideooPage = () => {
   const [videoCompleted, setVideoCompleted] = useState(false);
   const [formCompleted, setFormCompleted] = useState(false);
   const [showForm, setShowForm] = useState(true);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const formStatus = localStorage.getItem("zohoFormCompleted");
-    const videoStatus = localStorage.getItem("videooCompleted");
+    const formStatus = localStorage.getItem("zohoFormCompleted") === "true";
+    const videoStatus = localStorage.getItem("videooCompleted") === "true";
 
-    if (formStatus === "true") {
-      setFormCompleted(true);
-      setShowForm(false);
-    }
+    setFormCompleted(formStatus);
+    setShowForm(!formStatus);
 
-    if (videoStatus === "true") {
-      setTimeout(() => {
-        navigate("/video"); // Prevents flickering effect
-      }, 10);
+    if (videoStatus) {
+      setVideoCompleted(true);
+      setTimeout(() => navigate("/video"), 50); // Prevents flickering  
     }
+    
+    setLoading(false);
   }, [navigate]);
 
   const handleFormCompletion = () => {
     localStorage.setItem("zohoFormCompleted", "true");
     setFormCompleted(true);
     setShowForm(false);
-    window.location.reload(); // Reload page to ensure immediate effect
+    window.location.reload(); // Instant effect without flickering
   };
 
   const handleVideoEnd = () => {
     localStorage.setItem("videooCompleted", "true");
     setVideoCompleted(true);
   };
+
+  if (loading) return null; // Prevents flickering during state updates
 
   return (
     <div className="flex flex-col items-center justify-center bg-video min-h-screen text-white p-4">
@@ -84,7 +86,7 @@ const VideooPage = () => {
       )}
 
       {/* Video Section */}
-      {formCompleted && (
+      {formCompleted && !showForm && (
         <div className="fixed inset-0 flex flex-col items-center justify-center bg-video bg-opacity-75 z-50">
           <div className="flex flex-col gap-4">
             <img src={vlogo} alt="" className="mx-auto w-20 md:mb-2 mb-2 shadowx" />

@@ -31,7 +31,7 @@ const GlitchVideo = () => {
   };
 
   return (
-    <div className="videoo-page bg-video">
+    <div className="videoo-page bg-video" id="sally">
       {!formCompleted ? (
 
         
@@ -66,7 +66,7 @@ const GlitchVideo = () => {
              Fill Form to activate Homepage
             </p>
 
-            <div className=""></div>
+            
             </div>
             {/* writings */}
            
@@ -79,9 +79,9 @@ const GlitchVideo = () => {
           ></iframe>
 
 
-
+         <div className="h-[200px]"></div>
           <button onClick={handleFormCompletion} 
-                  className="mt-40 px-6 py-2 bg-gold text-black aeon-bold rounded-[12px] hover:bg-blue-700 transition mb-20 w-full">
+                  className="mt-40 px-6 py-2 bg-gold text-black aeon-bold rounded-[12px] hover:bg-blue-700 transition  w-full">
              I Have Submitted this Form
           </button>
           <div className="h-[80px]"></div>

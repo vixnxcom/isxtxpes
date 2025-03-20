@@ -280,3 +280,7 @@ background: linear-gradient(176.64deg, #01043A -8.99%, #010C22 35.86%,
  #010C22 88.11%, #01043A 118.71%);
 
 }
+
+.btn-submit{
+  margin: auto;
+}

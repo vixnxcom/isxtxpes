@@ -76,7 +76,7 @@ const VideooPage = () => {
             </p>
 
             <button
-              className="mt-4 px-6 py-2 bg-gold text-black aeon-bold rounded-[24px] hover:bg-blue-700 transition w-full"
+              className="mt-5 px-6 py-2 bg-gold text-black aeon-bold rounded-[24px] hover:bg-blue-700 transition w-full"
               onClick={handleFormCompletion}
             >
               I Have Submitted this Form

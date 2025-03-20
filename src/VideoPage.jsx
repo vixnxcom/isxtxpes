@@ -58,17 +58,13 @@ const VideoPage = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center  bg-video text-white relative  z-60">
+    <div className="flex flex-col items-center justify-center md:mt-40 mt-20  bg-video text-white">
 
-   <div className="md:h-[80px]"></div>
-          <div className="fixed inset-0 flex flex-col items-center justify-center bg-video bg-opacity-75 z-50">
-         
-          <div className="flex flex-col gap-4">
-             <img src={vlogo} alt="" className="mx-auto w-20 md:mb-2  mb-2 shadowx" />
-             <h1 className="text-[24px] gold shadoww aeon-bold  mx-auto text-center md:mb-2 mb-16">The Diamond Project</h1>
-             </div>
-
-          <h1 className="text-[20px] aeon-bold  mb-5 p-2">Watch video to Proceed</h1>
+       <div className="mt-10" >
+       <h2 className="text-[24px]  aeon-bold text-center mb-4 text-white">
+           Please watch complete video to activate Homepage
+            </h2>
+         </div>
 
 
       {showWarning && (
@@ -84,7 +80,9 @@ const VideoPage = () => {
         <>
           <video
             ref={videoRef}
-            className="w-full max-w-2xl rounded-[24px] shadow-lg p-2"
+             width="100%"
+            height="auto"
+            className="w-full max-w-2xl  shadow-lg "
             controls
             onTimeUpdate={handleTimeUpdate}
             onEnded={handleVideoEnd}
@@ -113,7 +111,7 @@ const VideoPage = () => {
 
       <div className="h-[80px]"></div>
     </div>
-    </div>
+ 
   );
 };
 

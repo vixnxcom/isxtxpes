@@ -31,22 +31,63 @@ const GlitchVideo = () => {
   };
 
   return (
-    <div className="videoo-page">
+    <div className="videoo-page bg-video">
       {!formCompleted ? (
-        <div className="form-popup">
-          <h2>Complete This Form Before Watching</h2>
+
+        
+        // form
+        <div className="form-popup p-4">
+            {/* writings */}
+            <div className="bg-video ">
+                <div className="md:h-[240px] h-[90px]"></div>
+            <h2 className="text-[24px]  aeon-bold text-center mb-4 gold shadowy">
+              GAIN PRIVATE ACCESS TO 2025’s FASTEST CASHFLOW SHORTCUT!
+            </h2>
+            <h2 className="text-[16px] mt-1 aeon-bold text-center mb-2 text-white">
+              Make your first <span className="gold">₦1,000,000</span> fast with full assistance!
+            </h2>
+            <p className="noto mt-1 font-normal text-white md:text-[12px] text-[14px] text-center mx-auto">
+              No struggle – We guide you
+            </p>
+            <p className="noto mt-1 font-normal text-white md:text-[12px] text-[14px] text-center mx-auto">
+              No complexity – Anyone can win
+            </p>
+            <p className="noto font-normal text-white md:text-[12px] text-[14px] text-center mx-auto">
+              Zero risk – Nothing to lose
+            </p>
+
+            <h2 className="text-[16px] aeon-bold text-center  mt-4 text-white">
+              Enter your details correctly or miss out!
+            </h2> 
+            <div className="h-[40px]"></div>
+            </div>
+            {/* writings */}
+           
+         
           <iframe
         src="https://msknovj-cmpzourl.maillist-manage.com/ua/Optin?od=11287ecce930db&zx=1348aded9&lD=113ef142f6849059b&n=11699f74eaeef84&sD=113ef142f684905bd"
             width="100%"
-            height="100%"
+            height="280px"
             frameBorder="0"
           ></iframe>
-          <button onClick={handleFormCompletion} className="btn-submit">
-            Submit & Continue
+
+<p className="noto font-normal text-white md:text-[12px] text-[14px] mt-10 text-center mx-auto">
+              50 Spots – 43 Already Taken!
+            </p>
+
+          <button onClick={handleFormCompletion} 
+                  className="mt-10 px-6 py-2 bg-gold text-black aeon-bold rounded-[12px] hover:bg-blue-700 transition mb-20 w-full">
+             I Have Submitted this Form
           </button>
+          <div className="h-[80px]"></div>
         </div>
+        //form
+
+
+
+        // video
       ) : (
-        <div className="video-container fixed inset-0">
+        <div className="video-container md:mt-40 mt-21 ">
           <video
             width="100%"
             height="auto"
@@ -57,6 +98,8 @@ const GlitchVideo = () => {
             <source src={chinasa} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
+
+          
         </div>
       )}
     </div>

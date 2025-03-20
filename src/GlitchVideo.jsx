@@ -52,14 +52,21 @@ const GlitchVideo = () => {
             <p className="noto mt-1 font-normal text-white md:text-[12px] text-[14px] text-center mx-auto">
               No complexity – Anyone can win
             </p>
-            <p className="noto font-normal text-white md:text-[12px] text-[14px] text-center mx-auto">
+            <p className="noto font-normal text-white md:text-[12px] text-[14px] mt-1 text-center mx-auto">
               Zero risk – Nothing to lose
             </p>
 
             <h2 className="text-[16px] aeon-bold text-center  mt-4 text-white">
               Enter your details correctly or miss out!
             </h2> 
-            <div className="h-[40px]"></div>
+            <p className="noto font-normal text-white md:text-[12px] text-[14px] mt-2 text-center mx-auto">
+              50 Spots – 43 Already Taken!
+            </p>
+            <p className="noto font-normal mb-5 text-white md:text-[12px] text-[14px] mt-2 text-center mx-auto">
+             Fill Form to activate Homepage
+            </p>
+
+            <div className=""></div>
             </div>
             {/* writings */}
            
@@ -71,12 +78,10 @@ const GlitchVideo = () => {
             frameBorder="0"
           ></iframe>
 
-<p className="noto font-normal text-white md:text-[12px] text-[14px] mt-10 text-center mx-auto">
-              50 Spots – 43 Already Taken!
-            </p>
+
 
           <button onClick={handleFormCompletion} 
-                  className="mt-10 px-6 py-2 bg-gold text-black aeon-bold rounded-[12px] hover:bg-blue-700 transition mb-20 w-full">
+                  className="mt-40 px-6 py-2 bg-gold text-black aeon-bold rounded-[12px] hover:bg-blue-700 transition mb-20 w-full">
              I Have Submitted this Form
           </button>
           <div className="h-[80px]"></div>
@@ -87,19 +92,30 @@ const GlitchVideo = () => {
 
         // video
       ) : (
-        <div className="video-container md:mt-40 mt-21 ">
+        <div className="video-container md:mt-40 mt-20 ">
+
+            <div className="bg-white">
+
+            <div className="h-[20px]"></div>
+            <p className="text-[16px]  noto text-center  coal">
+          Once video is completed without skipping the <br /> Webinar automatically activates
+            </p>
+            <div className="h-[20px]"></div>
+            </div>
+            
           <video
             width="100%"
             height="auto"
             controls
             onEnded={handleVideoEnd}
             controlsList="nodownload nofullscreen noremoteplayback"
+           
           >
             <source src={chinasa} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
 
-          
+
         </div>
       )}
     </div>

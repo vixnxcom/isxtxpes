@@ -60,9 +60,9 @@ const VideoPage = () => {
   return (
     <div className="flex flex-col items-center justify-center md:mt-40 mt-20  bg-video text-white">
 
-       <div className="mt-10" >
-       <h2 className="text-[24px]  aeon-bold text-center mb-4 text-white">
-           Please watch complete video to activate Homepage
+       <div className="mt-5" >
+       <h2 className="text-[16px]  noto text-center mb-5 text-white">
+           Please watch complete video to activate <br /> Homepage
             </h2>
          </div>
 
@@ -95,7 +95,7 @@ const VideoPage = () => {
         </>
       )}
       <h1 className="text-[16px] mx-auto text-center noto mb-4 mt-5 p-2">
-        Home Button only activates if you watch the complete video without skipping
+        Homepage Button only activates if you watch the complete Webinar without skipping
       </h1>
 
       {/* Proceed to Homepage Button */}

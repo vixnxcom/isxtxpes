@@ -66,7 +66,7 @@ const VideooPage = () => {
             </h2>
 
             <iframe
-              src="https://msknovj-cmpzourl.maillist-manage.com/ua/Optin?od=11287ecce930db&zx=1348aded9&lD=113ef142f6849059b&n=11699f74eaeef84&sD=113ef142f684905ee"
+          src="https://msknovj-cmpzourl.maillist-manage.com/ua/Optin?od=11287ecce930db&zx=1348aded9&lD=113ef142f6849059b&n=11699f74eaeef84&sD=113ef142f684905bd"
               className="w-full h-[280px]"
               title="Zoho Form"
             ></iframe>

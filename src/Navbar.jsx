@@ -36,7 +36,7 @@ const Navbar = () => {
         >
           <li>
             <HashLink
-              to="/#hero"
+              to="/home#hero"
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
               Home
@@ -47,7 +47,7 @@ const Navbar = () => {
 
           <li>
             <HashLink
-              to="/offer#path"
+             smooth to="/offer#path"
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
               Our Offer
@@ -55,7 +55,7 @@ const Navbar = () => {
           </li>
           <li>
             <HashLink
-              to="/giveaway#givway"
+           smooth to="/giveaway#givway"
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
           One Million Naira Blueprint
@@ -65,7 +65,7 @@ const Navbar = () => {
           <li>
 
             <HashLink
-              to="/#team"
+             to="/home#team"
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
              Our Team
@@ -74,7 +74,7 @@ const Navbar = () => {
           <li>
 
             <HashLink
-              to="/#vtestimonials"
+              to="/home#vtestimonials"
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
             Video Testimonials
@@ -84,7 +84,7 @@ const Navbar = () => {
           <li>
 
             <HashLink
-              to="/group#groups"
+            smooth  to="/group#groups"
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
            Telegram Group
@@ -93,7 +93,7 @@ const Navbar = () => {
         
           <li>
             <HashLink
-              to="/works#join"
+            smooth  to="/works#join"
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
              How to Become a Partner
@@ -105,7 +105,7 @@ const Navbar = () => {
               <p className={`${styles.paragraphx} flex justify-content-center align-items-center`}>Become a Partner today!</p>
               </p>
            <button className=" bg-gold md:w-[24vw] md:h-[4vw] shadowx w-[60vw] rounded-[24px] h-[12vw] mt-2">
-          <HashLink to = '/register#topreg' className="aeon-bold text-black text-[20px] mx-auto  flex justify-center items-center py-2">
+          <HashLink smooth to = '/register#topreg' className="aeon-bold text-black text-[20px] mx-auto  flex justify-center items-center py-2">
             Register Now
           </HashLink>
            </button>

@@ -24,7 +24,7 @@ import ButtonS from './session/ButtonS'
 import Regret from './Regret'
 import You from './You'
 import GradientBackground from './GradientBackground'
-import { time } from '../assets'
+import { shape, time } from '../assets'
 import Headsign from './Headsign'
 import BonusButton from '../home/BonusButton'
 
@@ -34,11 +34,14 @@ const Offer = () => {
     
 <GradientBackground>
     <div className={`${styles.flexCenter} `}>
+    
     <div className={`${styles.boxWidth}`}>
    <Path />
    
    </div>
    </div>
+
+   
     <div className={`${styles.flexCenter} mt-20 `}>
     <div className={`${styles.boxWidth}`}>
    <Legacy />

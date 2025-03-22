@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <section className={`${styles.flexStart} ${styles.paddingY} flex flex-col`}>
+    <section className={`${styles.flexStart} ${styles.paddingY} flex flex-col z-50`}>
       
          {/* logo */}
          
@@ -96,7 +96,7 @@ const Footer = () => {
         
         <div className=' bg-border mx-6 md:px-8  text-white flex flex-row  mt-2 tracking-wide mb-5 '>
          
-       <p className='noto text-[16px] mt-5'>Developed by </p>
+       <p className='noto text-[16px] mt-5'>Website by </p>
         <a href="https://read.cv/vixndotcom" target="_blank" className='mt-5 shadoww aeon-bold gold mx-2 cursor-pointer royal'
         rel="noopener noreferrer">vixndotcom📌 </a>
         </div>

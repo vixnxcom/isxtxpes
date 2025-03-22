@@ -28,6 +28,7 @@ import Meetings from "../offer/Meetings";
 import VideooPage from "../home/VideooPage";
 import Group from "../home/groups/Group";
 import GlitchVideo from "../GlitchVideo";
+import ScrollVideo from "../ScrollVideo";
 
 // ✅ Optimized Protected Route Logic
 const ProtectedRoute = ({ element }) => {
@@ -50,6 +51,7 @@ const Pages = () => {
       </div>
 
       <Routes>
+       
         {/* ✅ Start with VideooPage (Zoho Form & Video) as the landing page */}
         <Route path="/" element={<GlitchVideo />} />
 

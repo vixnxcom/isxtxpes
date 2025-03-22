@@ -2,10 +2,12 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { chinasa } from "./assets";
 
+
 const GlitchVideo = () => {
   const navigate = useNavigate();
   const [formCompleted, setFormCompleted] = useState(false);
   const [videoCompleted, setVideoCompleted] = useState(false);
+
 
   useEffect(() => {
     const formDone = localStorage.getItem("formCompleted") === "true";
@@ -19,9 +21,15 @@ const GlitchVideo = () => {
     }
   }, [navigate]);
 
+//   const handleFormCompletion = () => {
+//     localStorage.setItem("formCompleted", "true");
+//     setFormCompleted(true);
+//   };
+
   const handleFormCompletion = () => {
     localStorage.setItem("formCompleted", "true");
     setFormCompleted(true);
+    window.scrollTo(0, 0); // Scrolls to the top
   };
 
   const handleVideoEnd = () => {
@@ -92,6 +100,7 @@ const GlitchVideo = () => {
 
         // video
       ) : (
+
         <div className="video-container md:mt-40 mt-20 ">
 
             <div className="bg-white">

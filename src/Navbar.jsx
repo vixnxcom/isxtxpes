@@ -37,6 +37,8 @@ const Navbar = () => {
           <li>
             <HashLink
               to="/home#hero"
+              // smooth
+              // scroll={(el) => el.scrollIntoView({ behavior: "smooth", block: "start" })}
               className="block py-2 px-4 text-black hover:bg-blue-500 md:hover:bg-transparent noto text-[20px]"
             >
               Home

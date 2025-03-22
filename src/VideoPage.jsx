@@ -73,12 +73,12 @@ const VideoPage = () => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-video text-white px-4">
       <div className="w-full max-w-2xl text-center flex flex-col items-center">
-        <h2 className="text-lg font-semibold mb-4">
+        <h2 className="text-lg font-semibold noto mb-4">
           Please watch the complete video to activate Homepage
         </h2>
 
         {showWarning && (
-          <div className="absolute top-4 bg-red-600 text-white px-4 py-2 rounded-lg shadow-lg animate-pulse">
+          <div className="absolute top-4  bg-red-600 text-white px-4 py-2 rounded-lg shadow-lg animate-pulse">
             ⚠️ No skipping allowed!
           </div>
         )}
@@ -109,12 +109,12 @@ const VideoPage = () => {
           </div>
         )}
 
-        <p className="text-sm mt-4 px-2">
+        <p className="text-sm mt-5 px-2 noto p-2">
           Homepage button only activates if you watch the complete Webinar without skipping
         </p>
 
         <button
-          className={`mt-6 px-6 py-2 text-lg rounded-lg transition-all ${
+          className={`mt-6 px-6 py-2 text-lg rounded-[24px] transition-all ${
             videoCompleted ? "bg-gold text-black hover:bg-white" : "bg-gray-500 cursor-not-allowed"
           }`}
           onClick={() => navigate("/home")}

@@ -34,7 +34,7 @@ const Steps = () => {
               </div>
 
               <div>
-              <p className={`${styles.paragraph} mt-2`}>Click on 'Join Now' button</p>
+              <p className={`${styles.paragraph} mt-2`}>Click on 'become a partner' button anywhere on the page</p>
               </div>   
               </div>   
               
@@ -46,7 +46,7 @@ const Steps = () => {
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>03</p>
               </div>
               <div>
-              <p className={`${styles.paragraph} mt-2`}>Choose our 'Sign-Up Now' offer</p>
+              <p className={`${styles.paragraph} mt-2`}>Choose a package from our many offers</p>
               </div>   
               </div>   
               
@@ -98,7 +98,7 @@ const Steps = () => {
                 <p className='p-2 text-white text-[20px] aeon-bold mx-1'>07</p>
               </div>
               <div>
-              <p className={`${styles.paragraph}`}>Automatically get added to our 
+              <p className={`${styles.paragraph}`}>Automatically receive a link which leads to a page where you get added to our 
             </p>
               <p className={`${styles.paragraph}`}>
                 Telegram Channel and Whatsapp group</p>

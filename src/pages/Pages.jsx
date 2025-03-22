@@ -9,7 +9,6 @@ import Giveaway from "../home/giveaway/Giveaway";
 import Forms from "../forms/Forms";
 import VideoPage from "../VideoPage";
 import ScrollTop from "../ScrollTop";
-import styles from "../style";
 import Sampleacct from "../sample/Sampleacct";
 import Sampleform from "../sample/Sampleform";
 import Accessacct from "../access/Accessacct";
@@ -25,20 +24,22 @@ import Elitform from "../elite/Elitform";
 import Reviews from "../home/reviews/Reviews";
 import Zoom from "../offer/Zoom";
 import Meetings from "../offer/Meetings";
-import VideooPage from "../home/VideooPage";
 import Group from "../home/groups/Group";
 import GlitchVideo from "../GlitchVideo";
-import ScrollVideo from "../ScrollVideo";
+import Loader from "../Loader";
 
-// ✅ Optimized Protected Route Logic
+
+// ✅ Protected Route with Loader
 const ProtectedRoute = ({ element }) => {
   const [videoCompleted, setVideoCompleted] = useState(null);
 
   useEffect(() => {
-    setVideoCompleted(localStorage.getItem("videooCompleted") === "true");
+    setTimeout(() => {
+      setVideoCompleted(localStorage.getItem("videooCompleted") === "true");
+    }, 1500); // Small delay to prevent flicker
   }, []);
 
-  if (videoCompleted === null) return null; // Prevents flickering while loading state
+  if (videoCompleted === null) return <Loader />; // Show loader while checking
 
   return videoCompleted ? element : <Navigate to="/" />;
 };
@@ -51,14 +52,8 @@ const Pages = () => {
       </div>
 
       <Routes>
-       
-        {/* ✅ Start with VideooPage (Zoho Form & Video) as the landing page */}
         <Route path="/" element={<GlitchVideo />} />
-
-        {/* ✅ VideooPage is now protected just like VideoPage */}
         <Route path="/video" element={<ProtectedRoute element={<VideoPage />} />} />
-
-        {/* ✅ Home & other sections are now locked until video is watched */}
         <Route path="/home" element={<ProtectedRoute element={<Home />} />} />
         <Route path="/works" element={<ProtectedRoute element={<Works />} />} />
         <Route path="/offer" element={<ProtectedRoute element={<Offer />} />} />
@@ -80,10 +75,6 @@ const Pages = () => {
         <Route path="/meet" element={<ProtectedRoute element={<Meetings />} />} />
         <Route path="/group" element={<ProtectedRoute element={<Group />} />} />
       </Routes>
-
-      <div className={`${styles.boxWidth}`}>
-        <ScrollTop />
-      </div>  
 
       <div className="bottom-0 bg-bluee">
         <Footer />

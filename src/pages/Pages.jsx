@@ -9,6 +9,7 @@ import Giveaway from "../home/giveaway/Giveaway";
 import Forms from "../forms/Forms";
 import VideoPage from "../VideoPage";
 import ScrollTop from "../ScrollTop";
+import styles from "../style";
 import Sampleacct from "../sample/Sampleacct";
 import Sampleform from "../sample/Sampleform";
 import Accessacct from "../access/Accessacct";
@@ -24,22 +25,25 @@ import Elitform from "../elite/Elitform";
 import Reviews from "../home/reviews/Reviews";
 import Zoom from "../offer/Zoom";
 import Meetings from "../offer/Meetings";
+import VideooPage from "../home/VideooPage";
 import Group from "../home/groups/Group";
 import GlitchVideo from "../GlitchVideo";
+import ScrollVideo from "../ScrollVideo";
 import Loader from "../Loader";
 
 
-// ✅ Protected Route with Loader
-const ProtectedRoute = ({ element }) => {
+// ✅ Optimized Protected Route
+const ProtectedRoute = ({ element, showLoader }) => {
   const [videoCompleted, setVideoCompleted] = useState(null);
 
   useEffect(() => {
-    setTimeout(() => {
-      setVideoCompleted(localStorage.getItem("videooCompleted") === "true");
-    }, 1500); // Small delay to prevent flicker
+    setVideoCompleted(localStorage.getItem("videooCompleted") === "true");
   }, []);
 
-  if (videoCompleted === null) return <Loader />; // Show loader while checking
+  // ✅ Show loader only on /home while checking videoCompleted
+  if (videoCompleted === null && showLoader) {
+    return <Loader />; // Replace with your actual loader component
+  }
 
   return videoCompleted ? element : <Navigate to="/" />;
 };
@@ -52,9 +56,16 @@ const Pages = () => {
       </div>
 
       <Routes>
+        {/* ✅ Landing Page */}
         <Route path="/" element={<GlitchVideo />} />
+
+        {/* ✅ Protected Video Page */}
         <Route path="/video" element={<ProtectedRoute element={<VideoPage />} />} />
-        <Route path="/home" element={<ProtectedRoute element={<Home />} />} />
+
+        {/* ✅ Home with a loader to hide glitch */}
+        <Route path="/home" element={<ProtectedRoute element={<Home />} showLoader />} />
+
+        {/* ✅ Other protected routes */}
         <Route path="/works" element={<ProtectedRoute element={<Works />} />} />
         <Route path="/offer" element={<ProtectedRoute element={<Offer />} />} />
         <Route path="/giveaway" element={<ProtectedRoute element={<Giveaway />} />} />
@@ -75,6 +86,10 @@ const Pages = () => {
         <Route path="/meet" element={<ProtectedRoute element={<Meetings />} />} />
         <Route path="/group" element={<ProtectedRoute element={<Group />} />} />
       </Routes>
+
+      <div className={`${styles.boxWidth}`}>
+        <ScrollTop />
+      </div>
 
       <div className="bottom-0 bg-bluee">
         <Footer />

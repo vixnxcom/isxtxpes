@@ -303,13 +303,13 @@ background: linear-gradient(176.64deg, #01043A -8.99%, #010C22 35.86%,
 
 
 .loader {
-   border: 6px solid #8a5f04;
-  border-top: 8px solid #FFB300;
+   border: 5px solid #8a5f04;
+  border-top: 7px solid #FFB300;
   
 
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   /* background-color: #01; */
   animation: spinn 1s linear infinite;
 }

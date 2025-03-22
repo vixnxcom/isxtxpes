@@ -85,12 +85,13 @@ import gram from './gram.png'
 import green from './green.png'
 import sparkles from './sparkles.png'
 import shape from './shape.png'
+import market from './market.mp4'
 
 
 
 
 
-export{ shape, sally,
+export{ shape, sally, market,
     infinite, security, upgrade, drugs, moses, int, copyicon, coal, diamond, best, gram, green, sparkles,
    plans, cart, walle,paper,tele, vid, barr, chance, chinasa, elijah, didi, ozani, abba, car,
     dubai, partner,million, billion, test, chess, time, mike,ronke, sam, nefo, logo, flogo, vlogo,

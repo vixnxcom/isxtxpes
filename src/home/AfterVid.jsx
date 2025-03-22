@@ -1,10 +1,21 @@
 import React from 'react'
 import styles from '../style'
+import { market } from '../assets'
+
 
 const AfterVid = () => {
   return (
     <section className={`${styles.flexStart} ${styles.paddingX} flex flex-col`}>
 
+     <div className={`${styles.flexCenter} mt-10 mx-auto`}>
+ <div className={`${styles.boxWidth}`}>
+
+     
+      <video src={market} className='rounded-[12px] shadoww mx-auto' controls>
+
+      </video>
+</div>
+</div> 
     {/* head section */}
     
     <div className={`${styles.subHeading} mt-2`}>

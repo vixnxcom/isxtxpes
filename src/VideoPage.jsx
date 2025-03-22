@@ -71,7 +71,7 @@ const VideoPage = () => {
   };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-video text-white px-4">
+    <div className="fixed inset-0 flex items-center justify-center bg-video text-white px-4 z-60">
       <div className="w-full max-w-2xl text-center flex flex-col items-center">
         <h2 className="text-lg font-semibold noto mb-4">
           Please watch the complete video to activate Homepage

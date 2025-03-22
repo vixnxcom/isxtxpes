@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { chinasa } from "./assets";
+import { chinasa, sally } from "./assets";
 
 
 const GlitchVideo = () => {
@@ -71,7 +71,7 @@ const GlitchVideo = () => {
               50 Spots – 43 Already Taken!
             </p>
             <p className="noto font-normal mb-5 text-white md:text-[12px] text-[14px] mt-2 text-center mx-auto">
-             Fill Form to activate Homepage
+             Fill Form to activate<span className="gold aeon-bold border-b-[1px]"> Homepage </span>
             </p>
 
             
@@ -79,7 +79,7 @@ const GlitchVideo = () => {
             {/* writings */}
            
          
-          <iframe
+          <iframe className=""
         src="https://msknovj-cmpzourl.maillist-manage.com/ua/Optin?od=11287ecce930db&zx=1348aded9&lD=113ef142f6849059b&n=11699f74eaeef84&sD=113ef142f684905bd"
             width="100%"
             height="280px"
@@ -87,7 +87,7 @@ const GlitchVideo = () => {
           ></iframe>
 
 
-         <div className="h-[200px]"></div>
+         <div className="h-[220px]"></div>
           <button onClick={handleFormCompletion} 
                   className="mt-40 px-6 py-2 bg-gold text-black aeon-bold rounded-[12px] hover:bg-blue-700 transition  w-full">
              I Have Submitted this Form
@@ -118,9 +118,9 @@ const GlitchVideo = () => {
             controls
             onEnded={handleVideoEnd}
             controlsList="nodownload nofullscreen noremoteplayback"
-           
+           className="w-full"
           >
-            <source src={chinasa} type="video/mp4" />
+            <source src={sally} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
 

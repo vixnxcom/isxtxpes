@@ -23,14 +23,14 @@ const Footer = () => {
         {/* first div */}
         <div className='flex flex-col'>
      
-        <HashLink to='/#benefits' className='royal noto tracking-wide text-[16px] mt-2'>
+        <HashLink to='/home#benefits' className='royal noto tracking-wide text-[16px] mt-2'>
         The Benefits </HashLink>
       
         {/* <HashLink to='/works#join' className='text-white noto tracking-wide text-[16px] mt-2'>
          How to join </HashLink> */}
-        <HashLink to='/#opp' className='royal noto tracking-wide text-[16px] mt-2'>
+        <HashLink to='/home#opp' className='royal noto tracking-wide text-[16px] mt-2'>
         Why you need this </HashLink>
-        <HashLink to='/#reviews' className='royal noto tracking-wide text-[16px] mt-2'>
+        <HashLink to='/home#reviews' className='royal noto tracking-wide text-[16px] mt-2'>
        Testimonials </HashLink>
         </div>
         {/* first div */}
@@ -57,7 +57,7 @@ const Footer = () => {
         {/* first div */}
         <div className='flex flex-col'>
      
-        <HashLink to='/#hero' className='royal noto tracking-wide text-[16px] mt-2'>
+        <HashLink to='/home#hero' className='royal noto tracking-wide text-[16px] mt-2'>
         Home </HashLink>
       
         {/* <HashLink to='/works#join' className='text-white noto tracking-wide text-[16px] mt-2'>

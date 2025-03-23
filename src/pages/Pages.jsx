@@ -78,7 +78,8 @@ const Pages = () => {
         <Route path="/elitform" element={<ProtectedRoute element={<Elitform />} />} />
         <Route path="/zoom" element={<ProtectedRoute element={<Zoom />} />} />
         <Route path="/meet" element={<ProtectedRoute element={<Meetings />} />} />
-        <Route path="/group" element={<ProtectedRoute element={<Group />} />} />
+        
+        <Route path="/group" element={<Group />} />
       </Routes>
 
       <div className={`${styles.boxWidth}`}>

@@ -6,7 +6,7 @@ const Zoom = () => {
       
         <div className='h-[80px]'></div>
       <iframe width='100%' height='1200px'
-       src='https://thediamondproject.zohobookings.com/portal-embed#/4776482000000044268'
+        src='https://thediamondproject.zohobookings.com/portal-embed#/4776482000000052028' 
         frameborder='0' allowfullscreen='' > 
       </iframe>
 
@@ -15,3 +15,4 @@ const Zoom = () => {
 }
 
 export default Zoom
+

@@ -6,7 +6,7 @@ const Meetings = () => {
       
         <div className='h-[80px]'></div>
       <iframe width='100%' height='1200px'
-    src='https://thediamondproject.zohobookings.com/portal-embed#/4776482000000044377'
+   src='https://thediamondproject.zohobookings.com/portal-embed#/4776482000000050004' 
         frameborder='0' allowfullscreen='' > 
       </iframe>
 

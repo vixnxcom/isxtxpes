@@ -29,21 +29,16 @@ import VideooPage from "../home/VideooPage";
 import Group from "../home/groups/Group";
 import GlitchVideo from "../GlitchVideo";
 import ScrollVideo from "../ScrollVideo";
-import Loader from "../Loader";
 
-
-// ✅ Optimized Protected Route
-const ProtectedRoute = ({ element, showLoader }) => {
+// ✅ Optimized Protected Route Logic
+const ProtectedRoute = ({ element }) => {
   const [videoCompleted, setVideoCompleted] = useState(null);
 
   useEffect(() => {
     setVideoCompleted(localStorage.getItem("videooCompleted") === "true");
   }, []);
 
-  // ✅ Show loader only on /home while checking videoCompleted
-  if (videoCompleted === null && showLoader) {
-    return <Loader />; // Replace with your actual loader component
-  }
+  if (videoCompleted === null) return null; // Prevents flickering while loading state
 
   return videoCompleted ? element : <Navigate to="/" />;
 };
@@ -56,16 +51,15 @@ const Pages = () => {
       </div>
 
       <Routes>
-        {/* ✅ Landing Page */}
+       
+        {/* ✅ Start with VideooPage (Zoho Form & Video) as the landing page */}
         <Route path="/" element={<GlitchVideo />} />
 
-        {/* ✅ Protected Video Page */}
+        {/* ✅ VideooPage is now protected just like VideoPage */}
         <Route path="/video" element={<ProtectedRoute element={<VideoPage />} />} />
 
-        {/* ✅ Home with a loader to hide glitch */}
-        <Route path="/home" element={<ProtectedRoute element={<Home />} showLoader />} />
-
-        {/* ✅ Other protected routes */}
+        {/* ✅ Home & other sections are now locked until video is watched */}
+        <Route path="/home" element={<ProtectedRoute element={<Home />} />} />
         <Route path="/works" element={<ProtectedRoute element={<Works />} />} />
         <Route path="/offer" element={<ProtectedRoute element={<Offer />} />} />
         <Route path="/giveaway" element={<ProtectedRoute element={<Giveaway />} />} />
@@ -89,7 +83,7 @@ const Pages = () => {
 
       <div className={`${styles.boxWidth}`}>
         <ScrollTop />
-      </div>
+      </div>  
 
       <div className="bottom-0 bg-bluee">
         <Footer />

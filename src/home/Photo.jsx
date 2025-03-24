@@ -15,11 +15,11 @@ Photo Gallery
       {/* box */}
        {/* card 5 */}
        <div className={`${styles.paragraphy} ${styles.paddingX} 
-       mt-5  coal p-5 bg-white  w-[90vw] rounded-[24px] borderr 
+       mt-5  coal p-2  bg-white  w-[92vw] rounded-[24px] borderr 
          mx-auto  `}> 
-          <div className='flex flex-col gap-4 mt-2'>
+        
             
-          <div className='w-full rounded-[24px] mt-2 shadow'>
+          <div className='w-full rounded-[24px]  shadow'>
                 <img src={sone} alt=""   className='rounded-[28px] shadow'/>
             </div>
 
@@ -31,18 +31,20 @@ Photo Gallery
 
 
             </div> 
-            </div> 
+        
 
             {/* icons */}
 
       {/* box */}
        {/* card 5 */}
        <div className={`${styles.paragraphy} ${styles.paddingX} 
-       mt-5  coal p-5 bg-white  w-[90vw] rounded-[24px] borderr 
+       mt-5  coal p-2  bg-white  w-[92vw] rounded-[24px] borderr 
          mx-auto  `}> 
-          <div className='flex flex-col gap-4 mt-2'>
+        
+
+        
             
-          <div className='w-full rounded-[24px] mt-2 shadow'>
+          <div className='w-full rounded-[24px] shadow'>
                 <img src={sfour} alt=""   className='rounded-[28px] shadow'/>
             </div>
 
@@ -54,17 +56,19 @@ Photo Gallery
 
 
             </div> 
-            </div> 
+           
 
             {/* icons */}
       {/* box */}
        {/* card 5 */}
        <div className={`${styles.paragraphy} ${styles.paddingX} 
-       mt-5  coal p-5 bg-white  w-[90vw] rounded-[24px] borderr 
+       mt-5  coal p-2  bg-white  w-[92vw] rounded-[24px] borderr 
          mx-auto  `}> 
-          <div className='flex flex-col gap-4 mt-2'>
+        
+
+  
             
-          <div className='w-full rounded-[24px] mt-2 shadow'>
+          <div className='w-full rounded-[24px] shadow'>
                 <img src={stwo} alt=""   className='rounded-[28px] shadow'/>
             </div>
 
@@ -76,7 +80,7 @@ Photo Gallery
 
 
             </div> 
-            </div> 
+       
 
             {/* icons */}
     

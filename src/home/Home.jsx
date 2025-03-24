@@ -36,6 +36,7 @@ import Backup from './Backup'
 import GradientHome from './GradientHome'
 import Reviews from './reviews/Reviews'
 import VidTestestimony from '../vidtestimonials/VidTestestimony'
+import Photo from './Photo'
 
 const Home = () => {
   return (
@@ -205,6 +206,13 @@ const Home = () => {
 <div className={`${styles.flexCenter} mt-20 `}>
  <div className={`${styles.boxWidth}`}>
    <SuccessProof/>
+
+</div>
+</div>
+
+<div className={`${styles.flexCenter} mt-20 `}>
+ <div className={`${styles.boxWidth}`}>
+   <Photo/>
 
 </div>
 </div>

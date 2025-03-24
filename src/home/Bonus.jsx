@@ -17,7 +17,7 @@ const Bonus = () => {
             </div>
             <div className='text-center '>
             <p className={`${styles.subHeadingy} mx-auto coal mb-5`}>
-            90-Day Success Plan (A roadmap to <span className='gold aeon-bold shadowy'>₦1,000,000+</span> )
+            30-Day Success Plan (A roadmap to your first/ <span className='gold aeon-bold shadowy'>₦1,000,000+ in 30 days!</span> )
             </p>
            
             </div>
@@ -32,7 +32,7 @@ const Bonus = () => {
             </div>
             <div className='text-center '>
             <p className={`${styles.subHeadingy} mx-auto coal mb-5`}>
-            Access to Millionaire Mentorship Groups Plan 
+            Access to Millionaire Mentorship Groups  
             </p>
             </div>
             </div>
@@ -63,7 +63,7 @@ const Bonus = () => {
             </div>
             <div className='text-center '>
             <p className={`${styles.subHeadingy} mx-auto coal mb-5`}>
-           Social Media Scripts <br /> for Instant Leads
+           Social Media  <br /> Training
             </p>
         
             </div>
@@ -95,7 +95,7 @@ const Bonus = () => {
             </div>
             <div className='text-center '>
             <p className={`${styles.subHeadingy} mx-auto coal mb-5`}>
-            Premium Health Product <br /> Access
+            Access to Premium<br />Health Products
 
             </p>
         

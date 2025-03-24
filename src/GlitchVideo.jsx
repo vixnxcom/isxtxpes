@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { chinasa, sally } from "./assets";
+import { chinasa, sally, sallyt } from "./assets";
 
 
 const GlitchVideo = () => {
@@ -112,12 +112,12 @@ const GlitchVideo = () => {
             <div className="h-[20px]"></div>
             </div>
             
-          <video
+          <video  
             width="100%"
             height="auto"
             controls
             onEnded={handleVideoEnd}
-            controlsList="nodownload nofullscreen noremoteplayback"
+            controlsList="nodownload nofullscreen noremoteplayback"  poster={sallyt}
            className="w-full"
           >
             <source src={sally} type="video/mp4" />

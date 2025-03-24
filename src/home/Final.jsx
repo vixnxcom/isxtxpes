@@ -17,7 +17,7 @@ const Final = () => {
 your world.
     </div>
     <div className={`${styles.subHeading} mt-5`}>
-    Sign Up and Secure Your Future Now”
+    Sign Up and Secure Your Future Now!
     </div>
  {/* head section */}
  </section>

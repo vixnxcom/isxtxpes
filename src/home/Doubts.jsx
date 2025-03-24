@@ -21,7 +21,7 @@ Still Have Doubts? Let’s Address Them
     </div>
     {/* card */}
     <div className={`${styles.subHeadingxy} ${styles.paddingX}  coal p-5 offlilac w-[90vw] rounded-[24px] borderr  mx-auto  `}>          
-       Isn’t this the exact reason why you need this opportunity       
+       Isn’t this the exact reason why you need this opportunity?    
       </div>
     {/* card */}
     

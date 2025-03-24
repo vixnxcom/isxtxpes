@@ -54,8 +54,7 @@ const Opportunity = () => {
     
             <div className='text-center '>
               <p className={`${styles.paragraphx} mt-5 mb-5 coal`}>Access to wellness products that help reverse aging
-                 and boost immunity
-                 experience required </p>
+                 and boost immunity </p>
             </div> 
              </div>      
        

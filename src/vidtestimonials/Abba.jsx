@@ -1,5 +1,5 @@
 import React from 'react'
-import { abba } from '../assets'
+import { abba, abbat } from '../assets'
 import styles from '../style'
 
 const Abba = () => {
@@ -11,7 +11,7 @@ const Abba = () => {
            <div className='flex flex-col mx-auto  mt-10'>
             {/* icons */}
             <div className='w-80 text-center mx-auto mb-2'>
-            <video src={abba} className='rounded-[12px] shadoww' controls></video>
+            <video src={abba} className='rounded-[12px] shadoww' controls poster={abbat}></video>
  
                      
             </div>

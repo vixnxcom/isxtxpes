@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { elijah } from '../assets'
+import { elijah, elijaht } from '../assets'
 
 const Elijah = () => {
   return (
@@ -11,7 +11,7 @@ const Elijah = () => {
            <div className='flex flex-col mx-auto  mt-10'>
             {/* icons */}
             <div className='w-80 text-center mx-auto mb-2'>
-            <video src={elijah} className='rounded-[12px] shadoww' controls></video>
+            <video src={elijah} className='rounded-[12px] shadoww' controls poster={elijaht}></video>
  
                      
             </div>

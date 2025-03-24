@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { ozani } from '../assets'
+import { ozani, samt } from '../assets'
 
 const Ozani = () => {
   return (
@@ -11,7 +11,7 @@ const Ozani = () => {
            <div className='flex flex-col mx-auto  mt-10'>
             {/* icons */}
             <div className='w-80 text-center mx-auto mb-2'>
-            <video src={ozani} className='rounded-[12px] shadoww' controls></video>
+            <video src={ozani} className='rounded-[12px] shadoww' controls poster={samt}></video>
  
                      
             </div>

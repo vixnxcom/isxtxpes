@@ -46,7 +46,7 @@ import billion from './billion.png'
 import million from './million.png'
 import partner from './partner.png'
 import free from './hands.jpg'
-import test from './test.mp4'
+
 import chess from './chess.png'
 import time from './time.png'
 import mike from './mike.png'
@@ -86,15 +86,28 @@ import green from './green.png'
 import sparkles from './sparkles.png'
 import shape from './shape.png'
 import market from './market.mp4'
+import kelechi from './kelechi.mp4'
+import kelet from './kelet.jpg'
+import sallyt from './sallyt.jpg'
+import carrt from './carrt.jpg'
+import chint from './chint.jpg'
+import samt from './samt.jpg'
+import mosest from './mosest.jpg'
+import abbat from './abbat.jpg'
+import elijaht from './elijaht.png'
+import didit from './didit.png'
 
 
 
 
 
-export{ shape, sally, market,
-    infinite, security, upgrade, drugs, moses, int, copyicon, coal, diamond, best, gram, green, sparkles,
-   plans, cart, walle,paper,tele, vid, barr, chance, chinasa, elijah, didi, ozani, abba, car,
-    dubai, partner,million, billion, test, chess, time, mike,ronke, sam, nefo, logo, flogo, vlogo,
+export{ mosest, abbat, elijaht, didit,
+    shape, sally, market, kelechi, kelet, sallyt, samt, chint, carrt,
+    infinite, security, upgrade, drugs, moses, int, copyicon, coal, diamond,
+     best, gram, green, sparkles,
+   plans, cart, walle,
+   paper,tele, vid, barr, chance, chinasa, elijah, didi, ozani, abba, car,
+    dubai, partner,million, billion,  chess, time, mike,ronke, sam, nefo, logo, flogo, vlogo,
     beach, two, three, four, five, fruit, six, seven, gen, healthy, media, mentor, plan,access, travel,grow,ppl, tired, happy, home, stack,
     earn, build, products, protect, wealth, business, world, one, coins, safe, eye, bookmark, pink, graph, bar, hand, free,
 tick,

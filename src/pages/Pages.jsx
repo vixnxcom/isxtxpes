@@ -28,7 +28,7 @@ import Meetings from "../offer/Meetings";
 import VideooPage from "../home/VideooPage";
 import Group from "../home/groups/Group";
 import GlitchVideo from "../GlitchVideo";
-import ScrollVideo from "../ScrollVideo";
+
 
 // ✅ Optimized Protected Route Logic
 const ProtectedRoute = ({ element }) => {

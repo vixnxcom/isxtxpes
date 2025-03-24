@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { test } from "./assets"; // Import your video file
+import { kelechi, kelet,  } from "./assets"; // Import your video file
 import VideooPage from "./home/VideooPage";
 
 const VideoPage = () => {
@@ -84,9 +84,9 @@ const VideoPage = () => {
             onEnded={handleVideoEnd}
             preload="none"
             disablePictureInPicture
-            controlsList="nodownload nofullscreen noplaybackrate"
+            controlsList="nodownload nofullscreen noplaybackrate"  poster={kelet}
           >
-            <source src={test} type="video/mp4" />
+            <source src={kelechi} type="video/mp4" />
           </video>
         )}
 

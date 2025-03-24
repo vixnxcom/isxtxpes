@@ -20,7 +20,7 @@ const Hero = () => {
          </div>
       
          <div className={`${styles.subHeading} shadoww`}>
-         Let's help you build a financial leverage system.
+         Let's help you build a financial leverage system
          </div>
   {/* main text */}
       

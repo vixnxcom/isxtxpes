@@ -1,5 +1,5 @@
 import React from 'react'
-import { car } from '../assets'
+import { car, carrt } from '../assets'
 import styles from '../style'
 
 const Car = () => {
@@ -11,7 +11,7 @@ const Car = () => {
            <div className='flex flex-col mx-auto  mt-10'>
             {/* icons */}
             <div className='w-80 text-center mx-auto mb-2'>
-            <video src={car} className='rounded-[12px] shadoww' controls></video>
+            <video src={car} className='rounded-[12px] shadoww' controls poster={carrt}></video>
  
                      
             </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { moses } from '../assets'
+import { moses, mosest } from '../assets'
 import styles from '../style'
 styles
 const Moses = () => {
@@ -11,7 +11,7 @@ const Moses = () => {
            <div className='flex flex-col mx-auto  mt-10'>
             {/* icons */}
             <div className='w-80 text-center mx-auto mb-2'>
-            <video src={moses} className='rounded-[12px] shadoww' controls></video>
+            <video src={moses} className='rounded-[12px] shadoww' controls poster={mosest}></video>
  
                      
             </div>

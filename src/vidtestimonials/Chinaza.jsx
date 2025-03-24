@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { chinasa } from '../assets'
+import { chinasa, chint } from '../assets'
 const Chinaza = () => {
   return (
     <section className={`${styles.flexCenter} ${styles.paddingX} flex flex-col`}>
@@ -10,7 +10,7 @@ const Chinaza = () => {
            <div className='flex flex-col mx-auto  mt-10'>
             {/* icons */}
             <div className='w-80 text-center mx-auto  mb-2'>
-            <video src={chinasa} className='rounded-[12px] shadoww' controls></video>
+            <video src={chinasa} className='rounded-[12px] shadoww' controls poster={chint}></video>
  
                      
             </div>

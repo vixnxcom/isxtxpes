@@ -82,7 +82,9 @@ const Navbar = () => {
             Video Testimonials
             </HashLink>
           </li>
-        
+
+          
+         {/*         
           <li>
 
             <HashLink
@@ -91,7 +93,7 @@ const Navbar = () => {
             >
            Telegram Group
             </HashLink>
-          </li>
+          </li> */}
         
           <li>
             <HashLink

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { didi } from '../assets'
+import { didi, didit } from '../assets'
 
 const Didi = () => {
   return (
@@ -11,7 +11,7 @@ const Didi = () => {
            <div className='flex flex-col mx-auto  mt-10'>
             {/* icons */}
             <div className='w-80 text-center mx-auto mb-2'>
-            <video src={didi} className='rounded-[12px] shadoww' controls></video>
+            <video src={didi} className='rounded-[12px] shadoww' controls poster={didit} ></video>
   
                      
             </div>

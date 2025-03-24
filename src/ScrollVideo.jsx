@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { test } from "./assets"; // Import your video file
+import {  moses, } from "./assets"; // Import your video file
 
 const ScrollVideo = () => {
   const videoRef = useRef(null);
@@ -85,7 +85,7 @@ const ScrollVideo = () => {
             disablePictureInPicture
             controlsList="nodownload nofullscreen noplaybackrate"
           >
-            <source src={test} type="video/mp4" />
+            <source src={moses} type="video/mp4" />
           </video>
         )}
 

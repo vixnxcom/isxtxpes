@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { HashLink } from 'react-router-hash-link'
+import { Link } from 'react-router-dom'
 
 
 const Accessbutton = () => {
@@ -10,8 +10,8 @@ const Accessbutton = () => {
     <div className=''>
     <button className='mx-auto bg-blue md:w-[24vw] md:h-[4vw] w-[60vw] rounded-[24px] h-[12vw]'>
 
-    <HashLink to ='/asaccount#access'
-     className='aeon-bold text-white text-[20px]'>Choose Access</HashLink>
+    <Link to ='/asaccount'
+     className='aeon-bold text-white text-[20px]'>Choose Access</Link>
     </button>
     </div>
 </div>

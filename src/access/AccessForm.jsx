@@ -1,6 +1,8 @@
 import React from "react";
 
 const AccessForm = () => {
+  window.scrollTo(0, 0); // Scrolls to the top
+  
   return (
     <div className="w-full bg-bluee flex justify-center mt-20">
       <iframe

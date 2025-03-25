@@ -6,7 +6,8 @@ import { copyicon } from '../assets';
 
 const Eliteacct = () => {
   const navigate = useNavigate(); // Initialize navigation
-
+  window.scrollTo(0, 0); // Scrolls to the top
+  
   // Function to copy text to clipboard
   const handleCopy = (text) => {
     navigator.clipboard.writeText(text)

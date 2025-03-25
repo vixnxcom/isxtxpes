@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Zoom = () => {
+  window.scrollTo(0, 0); // Scrolls to the top
+  
   return (
     <section className="w-full bg-bluee flex justify-center mt-20 h-[1200px]" id='zoomm'>
       

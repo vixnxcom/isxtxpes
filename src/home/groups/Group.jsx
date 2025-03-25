@@ -7,6 +7,8 @@ import Telegram from './Telegram'
 import Cover from './Cover'
 
 const Group = () => {
+  window.scrollTo(0, 0); // Scrolls to the top
+  
   return (
     <div className='offlilac w-full '>
   

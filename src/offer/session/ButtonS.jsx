@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../../style'
-import { HashLink } from 'react-router-hash-link'
+import { Link } from 'react-router-dom'
+
 
 const ButtonS = () => {
   return (
@@ -21,9 +22,9 @@ const ButtonS = () => {
           Click below to book your session now!
         </div>
         <button className='mx-auto mt-10 border shadow bg-white md:w-[24vw] md:h-[4vw] w-[60vw] rounded-[24px] h-[12vw] flex items-center justify-center'>
-          <HashLink to='/zoom#zoomm' className='aeon-bold gold text-[20px]'>
+          <Link to='/zoom' className='aeon-bold gold text-[20px]'>
             Book Zoom
-          </HashLink>
+          </Link>
         </button>
       </div>
     </div>

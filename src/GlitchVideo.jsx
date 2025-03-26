@@ -107,7 +107,7 @@ const GlitchVideo = () => {
 
             <div className="h-[20px]"></div>
             <p className="text-[16px]  noto text-center  coal">
-          Once video is completed without skipping the <br /> Webinar automatically activates
+          Once video is completed the Webinar <br />  automatically activates
             </p>
             <div className="h-[20px]"></div>
             </div>
@@ -124,8 +124,20 @@ const GlitchVideo = () => {
             Your browser does not support the video tag.
           </video>
 
-
+          <div className="text-center flex justify-center items-center bg-white min-h-[200px]">
+      
+          <button
+              className="px-6 py-2 text-lg aeon-bold rounded-[24px] bg-white borderr
+                text-black hover:bg-white transition-all"
+                  onClick={handleVideoEnd} 
+                    >
+              Proceed to Webinar
+             </button>
+     
         </div>
+        </div>
+
+   
       )}
     </div>
   );

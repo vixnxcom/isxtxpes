@@ -247,8 +247,8 @@ background: linear-gradient(220.65deg, #010D1B 8.18%, #f5a802 33.34%, 47.98%, #0
 
 .scroll-to-top {
   position: fixed;
-  bottom: 20px;
-  right: 12px;
+  bottom: 88px;
+  right: 32px;
   display: none;
   color: white;
   cursor: pointer;
@@ -318,3 +318,9 @@ background: linear-gradient(176.64deg, #01043A -8.99%, #010C22 35.86%,
 0%{transform: rotate(0deg);}
 100%{transform: rotate(360deg);}
 }
+
+/* Custom Styling for Tawk.to Widget */
+/* #tawkchat-container {
+  right: 20px !important;
+  bottom: 80px !important;
+} */

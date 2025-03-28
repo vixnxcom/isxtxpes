@@ -91,6 +91,7 @@ import kelet from './kelet.jpg'
 import sallyt from './sallyt.jpg'
 import carrt from './carrt.jpg'
 import chint from './chint.jpg'
+import homet from './homet.jpg'
 import samt from './samt.jpg'
 import mosest from './mosest.png'
 import abbat from './abbat.png'
@@ -105,7 +106,7 @@ import didit from './didit.png'
 
 
 export{ 
-    mosest, abbat, elijaht, didit, sfour, stwo, sone,
+    mosest, abbat, elijaht, didit, sfour, stwo, sone, homet,
     shape, sally, market, kelechi, kelet, sallyt, samt, chint, carrt,
     infinite, security, upgrade, drugs, moses, int, copyicon, coal, diamond,
      best, gram, green, sparkles,

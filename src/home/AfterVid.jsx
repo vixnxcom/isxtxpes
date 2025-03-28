@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { market } from '../assets'
+import { homet, market } from '../assets'
 
 
 const AfterVid = () => {
@@ -11,7 +11,7 @@ const AfterVid = () => {
  <div className={`${styles.boxWidth}`}>
 
      
-      <video src={market} className='rounded-[12px] shadoww mx-auto' controls>
+      <video src={market} className='rounded-[12px] shadoww mx-auto' controls poster={homet}>
 
       </video>
 </div>

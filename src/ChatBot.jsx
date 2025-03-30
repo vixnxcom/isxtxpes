@@ -108,7 +108,7 @@ export default function Chatbot() {
         <h1 className="aeon-bold blue tracking-wide">The Diamond Project</h1>
         <h1 className="coal">FAQs</h1>
           <button 
-            className="absolute top-4 right-4 sred text-white  p-2 w-12 rounded-full" 
+            className="absolute top-4 right-4 sred text-white  p-2 w-10 rounded-full" 
             onClick={() => setIsOpen(false)}
           >  X
             {/* <X size={12} /> */}

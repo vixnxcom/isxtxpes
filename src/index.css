@@ -189,6 +189,9 @@ background: linear-gradient(220.65deg, #010D1B 8.18%, #f5a802 33.34%, 47.98%, #0
 .offlilac{
   background-color: #f0f6fd;
 }
+.offpink{
+  background-color: #fce6f1;
+}
 
 .lavender{
   background-color: #e503fa;
@@ -329,7 +332,7 @@ background: linear-gradient(176.64deg, #01043A -8.99%, #010C22 35.86%,
   bottom: 80px !important;
 } */
 .tblue{
-  color: #00239C;
+  color: #01043A;
 }
 .sgreen{
 background-color: rgb(2, 167, 2);

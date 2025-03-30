@@ -94,12 +94,12 @@ export default function Chatbot() {
   };
 
   return (
-    <div className="fixed bottom-38 right-6 z-50">
+    <div className="fixed bottom-38 right-3 z-50">
       <button 
-        className="bg-goldd text-white p-3 rounded-full shadow-lg" 
+        className="bg-goldd text-white  p-3 rounded-full shadow-lg" 
         onClick={() => setIsOpen(true)}
       > 
-        <MessageCircle size={24} />
+        <MessageCircle size={28} />
       </button>
 
       {isOpen && (

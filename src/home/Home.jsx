@@ -40,6 +40,7 @@ import Photo from './Photo'
 
 const Home = () => {
   return (
+    
  <div className='bg-blue w-full'>
 
 

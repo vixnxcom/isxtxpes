@@ -83,14 +83,20 @@ const Pages = () => {
         
         <Route path="/group" element={<Group />} />
       </Routes>
-
+      
+      <div className={`${styles.flexCenter}`}>
      <div className={`${styles.boxWidth}`}>
         <ScrollTop />
       </div>   
+      </div>   
 
-         <div className="z-70">
-          <Chatbot />
-         </div>
+      <div className={`${styles.flexCenter}`}>
+     <div className={`${styles.boxWidth} z-70`}>
+        <Chatbot />
+      </div>   
+      </div>   
+
+       
 
       <div className="bottom-0 bg-bluee ">
         <Footer />

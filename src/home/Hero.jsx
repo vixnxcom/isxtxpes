@@ -7,6 +7,7 @@ const Hero = () => {
   return (
 
  <section className={`${styles.flexCenter} md:h-[500px] h-auto flex flex-col`} id='hero'>
+ 
   {/* main text */}
          <div className='h-[40px]'></div>
          <div className={`${styles.heading1} `} >

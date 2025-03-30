@@ -255,7 +255,7 @@ background: linear-gradient(220.65deg, #010D1B 8.18%, #f5a802 33.34%, 47.98%, #0
 .scroll-to-top {
   position: fixed;
   bottom: 90px;
-  right: 20px;
+  right: 16px;
   display: none;
   color: white;
   cursor: pointer;

@@ -103,7 +103,7 @@ export default function Chatbot() {
           
           {/* Chat Display */}
           <div className="w-full max-w-lg min-h-80 mt-2 rounded-lg mb-4 flex items-center">
-            <div className={`p-4 rounded-[24px] text-[12px] coal bg-blue-100 bordery`}>
+            <div className={`p-4 rounded-[24px] text-[12px] coal offlilac bordery`}>
               {message.text}
             </div>
           </div>

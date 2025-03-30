@@ -122,7 +122,7 @@ export default function Chatbot() {
           </div>
           
           {/* FAQ List (Fixed Scrolling Issue) */}
-          <div className="w-full max-w-lg bg-white p-2 max-h-40 rounded-[24px] mb-4 overflow-y-auto bordery tblue">
+          <div className="w-full max-w-lg bg-white p-2 max-h-40 noto rounded-[24px] mb-4 overflow-y-auto bordery coal">
             {Object.entries(faqData).map(([key, value]) => (
               <div key={key} className="mb-1">
                 <strong>{key}:</strong> {value.split(" - ")[0]}

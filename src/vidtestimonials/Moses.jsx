@@ -16,7 +16,7 @@ const Moses = () => {
                      
             </div>
             <div className='text-center w-[90vw] mt-5 mb-5 '>
-            <p className={`${styles.paragraphi} p-5 mx-auto  mb-5`}>
+            <p className={`${styles.paragraphi} px-5 mx-auto  mb-5`}>
             "I used to be a hardworking and dedicated entrepreneur, but despite my efforts, I just wasn’t getting it right. Then I
 realized the missing pieces were *mentorship* and *positioning*. Plugging into *The Diamond Project* transformed
 my life for good. I went from being an average fashion designer to traveling the world—all because I asked the right

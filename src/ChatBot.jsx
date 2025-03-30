@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MessageCircle, X } from "lucide-react";
+import { MessageCircle,  } from "lucide-react";
 
 const faqData = {
 "1": `Is this a scam? - When something feels too good to be true, skepticism is natural. The Diamond Project is built on transparency, proven
@@ -62,12 +62,23 @@ built on a strong foundation. This is not a Ponzi scheme or a gamble—it’s a 
 that you’ll learn how to find and attract others looking for this opportunity—people you may not even know yet.
 
 `,
+"12": `Can I do this alongside my current job? - Absolutely. This is designed to work around your life, not disrupt it. Many members start part-time, dedicating just a
+few hours a day while continuing their current jobs or responsibilities. Over time, you can transition to doing this fulltime if you choose.
 
+`,
+"13": `What if I’m not tech-savvy? - No problem. Our platform is user-friendly, and we provide detailed instructions and support. Even if you have zero
+tech knowledge, you’ll have everything you need to navigate this system effortlessly.
 
-  "12": "Do you offer 24/7 support? - Yes, we provide 24/7 live chat support.",
-  "13": "Can I migrate my data? - Yes, you can transfer your data from other platforms.",
-  "14": "What payment methods do you accept? - We accept Visa, MasterCard, and PayPal.",
-  "15": "Does my subscription auto-renew? - Your subscription renews automatically unless canceled."
+`,
+"14": `What makes this worth my time and effort? - This is about more than just money—it’s about freedom. Freedom to design your life, freedom to break free from
+limitations, and freedom to achieve the dreams you’ve always had. With every effort you put in, you’re building a future where you’re in control.
+
+`,
+"15": `What if I have more questions before I start? - We’re here to answer them! Book a one-on-one consultation with our team or join one of our live Q&A sessions. Your
+journey starts with clarity, and we’ll make sure you have all the information you need to take the first step confidently.
+
+`,
+
 };
 
 export default function Chatbot() {
@@ -83,33 +94,35 @@ export default function Chatbot() {
   };
 
   return (
-    <div className="fixed bottom-4 right-4 z-50">
+    <div className="fixed bottom-38 right-6 z-50">
       <button 
-        className="bg-blue-500 text-white p-3 rounded-full shadow-lg" 
+        className="bg-goldd text-white p-3 rounded-full shadow-lg" 
         onClick={() => setIsOpen(true)}
-      >
+      > 
         <MessageCircle size={24} />
       </button>
 
       {isOpen && (
         <div className="fixed inset-0 bg-white p-6 flex flex-col items-center shadow-lg">
           {/* Close Button */}
+        <h1 className="aeon-bold blue tracking-wide">The Diamond Project</h1>
+        <h1 className="coal">FAQs</h1>
           <button 
-            className="absolute top-4 right-4 bg-red-500 text-white p-2 rounded-full" 
+            className="absolute top-4 right-4 sred text-white  p-2 w-12 rounded-full" 
             onClick={() => setIsOpen(false)}
-          >
-            <X size={24} />
+          >  X
+            {/* <X size={12} /> */}
           </button>
           
           {/* Chat Display */}
           <div className="w-full max-w-lg min-h-80 mt-2 rounded-lg mb-4 flex items-center">
-            <div className={`p-4 rounded-[24px] text-[12px] coal offlilac bordery`}>
+            <div className={`p-4 rounded-[24px] text-[13px] coal offlilac bordery`}>
               {message.text}
             </div>
           </div>
           
           {/* FAQ List (Fixed Scrolling Issue) */}
-          <div className="w-full max-w-lg bg-white p-2 max-h-40 rounded-[24px] mb-4 overflow-y-auto bordery text-blue-900">
+          <div className="w-full max-w-lg bg-white p-2 max-h-40 rounded-[24px] mb-4 overflow-y-auto bordery tblue">
             {Object.entries(faqData).map(([key, value]) => (
               <div key={key} className="mb-1">
                 <strong>{key}:</strong> {value.split(" - ")[0]}
@@ -123,10 +136,10 @@ export default function Chatbot() {
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              className="flex-grow p-2 border rounded-[24px]"
+              className="flex-grow p-2 sblack rounded-[24px]"
               placeholder="Enter a number (1-15)..."
             />
-            <button onClick={handleSend} className="bg-green-500 text-white p-2 rounded-[24px]">Send</button>
+            <button onClick={handleSend} className="sgreen text-white p-2 rounded-[24px]">Send</button>
           </div>
         </div>
       )}

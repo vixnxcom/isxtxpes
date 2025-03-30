@@ -15,7 +15,7 @@ const Chinaza = () => {
                      
             </div>
             <div className='text-center w-[90vw] mt-5 mb-5 '>
-            <p className={`${styles.paragraphi} p-5 mx-auto  mb-5`}>
+            <p className={`${styles.paragraphi} px-5 mx-auto  mb-5`}>
             "In just two years, my life has completely transformed, thanks to *The Amazon Project* in partnership with *The
 Diamond Project* under *Century 21 Freedom Group*. As a woman, achieving financial independence was always my
 goal—and now, I’m living it. I’ve built a life where I call the shots, take care of my family and loved ones, and, most

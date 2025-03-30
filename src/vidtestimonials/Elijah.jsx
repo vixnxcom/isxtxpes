@@ -16,7 +16,7 @@ const Elijah = () => {
                      
             </div>
             <div className='text-center w-[90vw] mt-5 mb-5 '>
-            <p className={`${styles.paragraphi} p-5 mx-auto  mb-5`}>
+            <p className={`${styles.paragraphi} px-5 mx-auto  mb-5`}>
             "Just three years ago, I was juggling shifts across four hospitals, working tirelessly as a doctor. Then, I discovered
 *The Diamond Project*, and my life took a remarkable turn. Today, I earn 8 figures monthly and have had the privilege
 of mentoring others who now earn 8, 7, and 6 figures. But for me, it’s not just about the income—it’s about the lives

@@ -16,7 +16,7 @@ const Didi = () => {
                      
             </div>
             <div className='text-center w-[90vw] mt-5 mb-5 '>
-            <p className={`${styles.paragraphi} p-5 mx-auto  mb-5`}>
+            <p className={`${styles.paragraphi} px-5 mx-auto  mb-5`}>
             "Discovering The Diamond Project has been life-changing! Thanks to the freedom it provides, I now have the
 opportunity to explore the world, visiting no less than three countries each year. The Diamond Project has opened up
 incredible possibilities, and I’m beyond grateful for this journey of empowerment and adventure!" 

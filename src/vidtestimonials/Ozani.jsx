@@ -16,7 +16,7 @@ const Ozani = () => {
                      
             </div>
             <div className='text-center w-[90vw] mt-5 mb-5 '>
-            <p className={`${styles.paragraphi} p-5 mx-auto  mb-5`}>
+            <p className={`${styles.paragraphi} px-5 mx-auto  mb-5`}>
        
             "I used to wait and hope for change, but year after year, nothing happened. That was until I discovered *The Diamond
 Project*. Plugging into the system completely transformed my life—I moved from an incomplete building into my own

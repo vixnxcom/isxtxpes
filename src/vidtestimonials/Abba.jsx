@@ -16,7 +16,7 @@ const Abba = () => {
                      
             </div>
             <div className='text-center w-[90vw] mt-5 mb-5 '>
-            <p className={`${styles.paragraphi} p-5 mx-auto  mb-5`}>
+            <p className={`${styles.paragraphi} px-5 mx-auto  mb-5`}>
             "I used to struggle financially, drowning in debt, with a salary that couldn’t support me or my family. All I ever wanted
 was to give my loved ones a better life, but it felt like an impossible dream—until I discovered *The Diamond Project*.
 Through this life-changing opportunity, I’ve been able to turn my dreams into reality and now live life on my own terms.

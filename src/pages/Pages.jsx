@@ -28,7 +28,8 @@ import Meetings from "../offer/Meetings";
 import VideooPage from "../home/VideooPage";
 import Group from "../home/groups/Group";
 import GlitchVideo from "../GlitchVideo";
-import TawkToChat from "../TawkToChat";
+import Chatbot from "../ChatBot";
+
 
 
 // ✅ Optimized Protected Route Logic
@@ -87,14 +88,11 @@ const Pages = () => {
         <ScrollTop />
       </div>   
 
- <div className="relative  ">
-  <div className="tawk">
-       {/* <h1 className="text-center text-3xl font-bold mt-10">Welcome to My Website</h1> */}
-      <TawkToChat /> {/* This loads the chat widget */}
-    </div>
-    </div>
+         <div className="z-70">
+          <Chatbot />
+         </div>
 
-      <div className="bottom-0 bg-bluee">
+      <div className="bottom-0 bg-bluee ">
         <Footer />
       </div>
     </Router>

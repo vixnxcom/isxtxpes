@@ -100,13 +100,16 @@ import stwo from './stwo.jpg'
 import sfour from './sfour.jpg'
 import elijaht from './elijaht.png'
 import didit from './didit.png'
+import yt from './yt.png'
+import fb from './fb.png'
+import tok from './tok.png'
 
 
 
 
 
 export{ 
-    mosest, abbat, elijaht, didit, sfour, stwo, sone, homet,
+    mosest, abbat, elijaht, didit, sfour, stwo, sone, homet, fb, tok, yt,
     shape, sally, market, kelechi, kelet, sallyt, samt, chint, carrt,
     infinite, security, upgrade, drugs, moses, int, copyicon, coal, diamond,
      best, gram, green, sparkles,

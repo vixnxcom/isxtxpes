@@ -103,13 +103,14 @@ import didit from './didit.png'
 import yt from './yt.png'
 import fb from './fb.png'
 import tok from './tok.png'
+import call from './call.png'
 
 
 
 
 
 export{ 
-    mosest, abbat, elijaht, didit, sfour, stwo, sone, homet, fb, tok, yt,
+    mosest, abbat, elijaht, didit, sfour, stwo, sone, homet, fb, tok, yt, call,
     shape, sally, market, kelechi, kelet, sallyt, samt, chint, carrt,
     infinite, security, upgrade, drugs, moses, int, copyicon, coal, diamond,
      best, gram, green, sparkles,

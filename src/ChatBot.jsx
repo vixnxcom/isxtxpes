@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { MessageCircle,  } from "lucide-react";
+import { call } from "./assets";
 
 const faqData = {
 "1": `Is this a scam? - When something feels too good to be true, skepticism is natural. The Diamond Project is built on transparency, proven
@@ -106,7 +107,7 @@ export default function Chatbot() {
         <div className="fixed inset-0 bg-white p-6 flex flex-col items-center shadow-lg">
           {/* Close Button */}
         <h1 className="aeon-bold blue tracking-wide">The Diamond Project</h1>
-        <h1 className="coal">FAQs</h1>
+        <h1 className="coal flex flex-row gap-2"><span><img src={call} className="w-8" /></span>FAQs</h1>
           <button 
             className="absolute top-4 right-4 sred text-white  p-2 w-10 rounded-full" 
             onClick={() => setIsOpen(false)}

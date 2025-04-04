@@ -109,7 +109,7 @@ export default function Chatbot() {
         <h1 className="aeon-bold blue tracking-wide">The Diamond Project</h1>
         <h1 className="coal flex flex-row gap-2"><span><img src={call} className="w-8" /></span>FAQs</h1>
           <button 
-            className="absolute top-4 right-4 sred text-white  p-2 w-10 rounded-full" 
+            className="absolute top-4 right-4 sred text-white h-8  w-8 rounded-[24px]" 
             onClick={() => setIsOpen(false)}
           >  X
             {/* <X size={12} /> */}

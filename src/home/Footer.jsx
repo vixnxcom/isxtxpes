@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { fb, flogo, tick, tok, yt } from '../assets'
+import { fb, flogo, ig, tick, tok, yt } from '../assets'
 import { HashLink } from 'react-router-hash-link'
 import { Link } from 'react-router-dom'
 
@@ -87,6 +87,9 @@ const Footer = () => {
         <div className='flex flex-col'>
 
         <div className="container mx-auto flex justify-center space-x-6">
+        <a href="https://www.instagram.com/thediamondtribe?igsh=b29yMmdpMzVqdXFz" target="_blank" rel="noopener noreferrer" className="w-8 cursor-pointer hover:text-blue-500">
+          <img src={ig} alt="" />
+        </a>
         <a href="https://www.facebook.com/share/19ycdYXDuF/" target="_blank" rel="noopener noreferrer" className="w-8 cursor-pointer hover:text-blue-500">
           <img src={fb} alt="" />
         </a>

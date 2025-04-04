@@ -25,7 +25,7 @@ your life forever."
 
 
             </p>
-            <h1 className='aeon-bold blue text-[16px] '>
+            <h1 className='aeon-bold blue text-[16px] mb-5 '>
             — The Diamond Project Beneficiaries
 
             </h1>

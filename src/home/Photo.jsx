@@ -19,7 +19,7 @@ Photo Gallery
          mx-auto  `}> 
         
             
-          <div className='w-full rounded-[24px]  shadow'>
+          <div className='w-full rounded-[24px]'>
                 <img src={sone} alt=""   className='rounded-[28px] shadow'/>
             </div>
 
@@ -44,7 +44,7 @@ Photo Gallery
 
         
             
-          <div className='w-full rounded-[24px] shadow'>
+          <div className='w-full rounded-[24px] '>
                 <img src={sfour} alt=""   className='rounded-[28px] shadow'/>
             </div>
 
@@ -68,7 +68,7 @@ Photo Gallery
 
   
             
-          <div className='w-full rounded-[24px] shadow'>
+          <div className='w-full rounded-[24px] '>
                 <img src={stwo} alt=""   className='rounded-[28px] shadow'/>
             </div>
 

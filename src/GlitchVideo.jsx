@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { chinasa, sally, sallyt } from "./assets";
+import { best, chinasa, sally, sallyt } from "./assets";
+import styles from "./style";
 
 
 const GlitchVideo = () => {
@@ -87,7 +88,7 @@ const GlitchVideo = () => {
           ></iframe>
 
 
-         <div className="h-[220px]"></div>
+         <div className="h-[240px]"></div>
           <button onClick={handleFormCompletion} 
                   className="mt-40 px-6 py-2 bg-gold text-black aeon-bold rounded-[12px] hover:bg-blue-700 transition  w-full">
              I Have Submitted this Form
@@ -106,7 +107,7 @@ const GlitchVideo = () => {
             <div className="bg-white">
 
             <div className="h-[20px]"></div>
-            <p className="text-[16px]  noto text-center  coal">
+            <p className={` ${styles.paddingX} py-2 text-[16px] text-center tracking-wide noto coal `}>
           Once video is completed the Webinar <br />  automatically activates
             </p>
             <div className="h-[20px]"></div>
@@ -124,10 +125,45 @@ const GlitchVideo = () => {
             Your browser does not support the video tag.
           </video>
 
-          <div className="text-center flex justify-center items-center bg-white min-h-[200px]">
-      
+          <div className="text-center flex flex-col justify-center items-center bg-white min-h-[400px]">
+
+            {/* text */}
+          <p className="text-[16px]  aeon-bold text-center mb-5 mt-10 blue tracking-wide">
+            How I Made  <span className="gold shadowy">₦1,000,000</span> in 30 Days with <br /> a Simple Proven Business System -Even as a <br />Complete Beginner!
+
+            </p>
+            <p className={` ${styles.paddingX} p-2 text-[16px] tracking-wide text-center noto coal mt-5`}>
+           Inside This <span className="aeon-bold  blue">FREE Webinar</span>, You’ll Discover
+            
+            </p>
+            {/* <p className="text-[16px]  noto text-center  coal flex flex-row gap-2"> */}
+            <p className={`${styles.paragraph} ${styles.paddingX} text-start gap-2 flex flex-row coal mt-5`}>
+         <span><img src={best} className="max-w-6 mt-2" /></span>A proven system that pays you daily even if you're busy or have
+         a 9–5.
+            
+            </p>
+            <p className={`${styles.paragraph} ${styles.paddingX} text-start gap-2 flex flex-row coal mt-2`}>
+         <span><img src={best} className="max-w-6 mt-2" /></span>How to build real wealth while traveling or  working from anywhere.
+            </p>
+            <p className={`${styles.paragraph} ${styles.paddingX} text-start gap-2 flex flex-row coal mt-2`}>
+         <span><img src={best} className="max-w-6 mt-2" /></span>Why thousands of Nigerians are already using this to escape financial struggles.
+            </p>
+            <p className={`${styles.paragraph} ${styles.paddingX} text-start gap-2 flex flex-row coal mt-2`}>
+         <span><img src={best} className="max-w-6 mt-2" /></span>A step-by-step blueprint for getting paid daily, even while learning.
+
+            </p>
+
+            <p className={` ${styles.paddingX} py-2 text-[16px] tracking-wide text-center noto coal mt-5`}>
+            After watching this short training, you’ll see exactly how it works and how you can start using it today.           
+            </p>
+            <p className={` ${styles.paddingX} py-2 text-[16px] tracking-wide text-center noto coal mt-5`}>
+           No experience? No problem. If I did it, so can you!<span className="aeon-bold  blue"> Watch now</span>  and start your journey to financial freedom.           
+            </p>
+           {/* text */}
+
+
           <button
-              className="px-6 py-2 text-lg aeon-bold rounded-[24px] bg-white borderr
+              className="px-6 py-2 mt-10 mb-20 text-lg aeon-bold rounded-[24px] bg-white borderr
                 text-black hover:bg-white transition-all"
                   onClick={handleVideoEnd} 
                     >

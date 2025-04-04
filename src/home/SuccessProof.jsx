@@ -86,7 +86,7 @@ const SuccessProof = () => {
     {/* box */}
     
     <div className={`${styles.subHeadingy} text-white mt-5`}>
-    Yes! I want my success plan NOW!
+    Yes! I want my success plan now!
 
     </div>
    </section>

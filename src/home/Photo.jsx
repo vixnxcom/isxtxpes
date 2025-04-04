@@ -15,14 +15,10 @@ Photo Gallery
       {/* box */}
        {/* card 5 */}
        <div className={`${styles.paragraphy} ${styles.paddingX} 
-       mt-5  coal p-2  bg-white  w-[92vw] rounded-[24px] borderr 
-         mx-auto  `}> 
-        
-            
-          <div className='w-full rounded-[24px]'>
-                <img src={sone} alt=""   className='rounded-[28px] shadow'/>
-            </div>
-
+       mt-5    bg-gold  
+         mx-auto rounded-[12px] `}> 
+      <img src={sone} alt=""   className='rounded-[12px]  py-6'/>
+      
            {/* <div className='noto text-center xs:text-[20px] text-[24px] text-black mb-2'>
            Amb. Didi
             </div>  */}
@@ -38,15 +34,14 @@ Photo Gallery
       {/* box */}
        {/* card 5 */}
        <div className={`${styles.paragraphy} ${styles.paddingX} 
-       mt-5  coal p-2  bg-white  w-[92vw] rounded-[24px] borderr 
-         mx-auto  `}> 
+       mt-5    bg-gold  
+         mx-auto rounded-[12px] `}> 
         
 
         
-            
-          <div className='w-full rounded-[24px] '>
-                <img src={sfour} alt=""   className='rounded-[28px] shadow'/>
-            </div>
+     
+                <img src={sfour} alt=""   className='rounded-[12px] py-6'/>
+     
 
            {/* <div className='noto text-center xs:text-[20px] text-[24px] text-black mb-2'>
            Amb. Didi
@@ -62,15 +57,15 @@ Photo Gallery
       {/* box */}
        {/* card 5 */}
        <div className={`${styles.paragraphy} ${styles.paddingX} 
-       mt-5  coal p-2  bg-white  w-[92vw] rounded-[24px] borderr 
-         mx-auto  `}> 
+       mt-5    bg-gold  
+         mx-auto rounded-[12px] `}> 
         
 
   
             
-          <div className='w-full rounded-[24px] '>
-                <img src={stwo} alt=""   className='rounded-[28px] shadow'/>
-            </div>
+         
+                <img src={stwo} alt=""   className='rounded-[12px] py-6 '/>
+           
 
            {/* <div className='noto text-center xs:text-[20px] text-[24px] text-black mb-2'>
            Amb. Didi

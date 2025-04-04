@@ -16,7 +16,7 @@ Still Have Doubts? Let’s Address Them
 
     </div>  
     {/* head section */}
-    <div className={`${styles.heading6} borderr w-[90vw] bg-white rounded-[24px] mt-10   mx-auto `}>
+    <div className={`${styles.heading9} borderr w-[90vw] bg-white rounded-[24px] mt-10   mx-auto `}>
     "I Don’t Have the Money"
     </div>
     {/* card */}
@@ -27,7 +27,7 @@ Still Have Doubts? Let’s Address Them
     {/* card */}
     
     {/* head section */}
-    <div className={`${styles.heading6} borderr w-[90vw] bg-white rounded-[24px] mt-10   mx-auto `}>
+    <div className={`${styles.heading9} borderr w-[90vw] bg-white rounded-[24px] mt-10   mx-auto `}>
     "I Need to Think About It"
     </div>
     {/* card */}
@@ -39,7 +39,7 @@ Still Have Doubts? Let’s Address Them
     {/* card */}
 
     {/* head section */}
-    <div className={`${styles.heading6} borderr w-[90vw] bg-white rounded-[24px] mt-10   mx-auto `}>
+    <div className={`${styles.heading9} borderr w-[90vw] bg-white rounded-[24px] mt-10   mx-auto `}>
     "I’m Not Sure If It’ll Work for Me"
 
     </div>

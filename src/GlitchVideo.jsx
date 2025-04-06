@@ -129,7 +129,7 @@ const GlitchVideo = () => {
 
             {/* text */}
           <p className="text-[16px]  aeon-bold text-center mb-5 mt-10 blue tracking-wide">
-            How I Made  <span className="gold shadowy">₦1,000,000</span> in 30 Days with <br /> a Simple Proven Business System -Even as a <br />Complete Beginner!
+            How I Made  <span className="gold shadowy">₦1,000,000</span> in  <span className="gold shadowy">30 Days</span> with <br /> a Simple Proven Business System -Even as a <br />Complete Beginner!
 
             </p>
             <p className={` ${styles.paddingX} p-2 text-[16px] tracking-wide text-center noto coal mt-5`}>

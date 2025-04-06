@@ -7,7 +7,7 @@ const styles = {
   heading4: "aeon-bold text-center xs:text-[20px] shadowy text-[24px] text-black xs:leading-[76.8px] leading-[66.8px] w-full",
   heading6: "aeon-bold text-center xs:text-[20px] shadowy text-[24px] bluey xs:leading-[76.8px] leading-[66.8px] w-full",
 
-  heading9: "aeon-bold text-center xs:text-[20px] shadowy text-[20px] bluey xs:leading-[76.8px] leading-[66.8px] w-full tracking-wide",
+  heading9: "aeon-bold text-center xs:text-[20px] shade text-[20px] bluey xs:leading-[76.8px] leading-[66.8px] w-full tracking-wide",
   heading3: "aeon-bold text-center xs:text-[20px] shadowy text-[24px] text-white xs:leading-[66.8px] leading-[56.8px] w-full",
   heading7: "aeon-bold text-center xs:text-[20px] shadowy text-[24px] text-black xs:leading-[66.8px] leading-[56.8px] w-full",
   subHeading: "noto text-center xs:text-[28px] text-[24px] text-white mt-5 w-full shade",

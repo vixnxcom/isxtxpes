@@ -107,9 +107,9 @@ export default function Chatbot() {
         <div className="fixed inset-0 bg-white p-6 flex flex-col items-center shadow-lg">
           {/* Close Button */}
         <h1 className="aeon-bold blue tracking-wide">The Diamond Project</h1>
-        <h1 className="coal flex flex-row gap-2"><span><img src={call} className="w-8" /></span>FAQs</h1>
+        <h1 className="coal flex flex-row gap-2"><span className=""><img src={call} className="w-8" /></span>FAQs</h1>
           <button 
-            className="absolute top-4 right-4 sred text-white h-8  w-8 rounded-[24px]" 
+            className="absolute top-4 right-4 sred text-white h-6 text-[10px] w-6 rounded-[24px] noto" 
             onClick={() => setIsOpen(false)}
           >  X
             {/* <X size={12} /> */}

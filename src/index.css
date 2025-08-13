@@ -18,6 +18,14 @@
   font-family: italic;
   src: url(./fonts/italic.otf);
 }
+@font-face {
+  font-family: inter;
+  src: url(./fonts/Inter_18pt-Light.ttf);
+}
+@font-face {
+  font-family: intermid;
+  src: url(./fonts/Inter_18pt-Regular.ttf);
+}
 
 .noto{
   font-family: noto;
@@ -30,6 +38,12 @@
 }
 .italic{
   font-family: italic;
+}
+.inter{
+  font-family: inter;
+}
+.intermid{
+  font-family: intermid;
 }
 
 .card{

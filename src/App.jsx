@@ -1,8 +1,7 @@
 // App.jsx
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-import Sidebar from "./home/Sidebar"
-import Header from "./home/Header";
+
 import Inventory from "./inventory/Inventory";
 import Credit from "./credit/Credit";
 import Debit from "./debit/Debit";
@@ -27,16 +26,16 @@ function App() {
           className={`bg-pink-50 text-gray-700 p-6 transition-all duration-300
             ${sidebarOpen ? "w-64" : "w-0 overflow-hidden"}`}
         >
-          <h1 className="text-2xl font-bold mb-8">My Dashboard</h1>
+          <h1 className="text-2xl font-bold intermid mb-8">My Dashboard</h1>
           <nav className="space-y-4">
-            <Link to="/" className="block hover:text-gray-300">
+            <Link to="/" className="block hover:text-gray-300 inter">
               Home
             </Link>
             {menuItems.map((item, idx) => (
               <Link
                 key={idx}
                 to={item.path}
-                className="block hover:text-gray-300"
+                className="block hover:text-gray-300 inter"
               >
                 {item.title}
               </Link>
@@ -49,7 +48,7 @@ function App() {
           {/* Toggle Button */}
           <button
             onClick={() => setSidebarOpen(!sidebarOpen)}
-            className="mb-4 px-4 py-2 bg-pink-700 text-white rounded hover:bg-gray-600"
+            className="mb-4 px-4 py-2 bg-pink-700 text-white inter rounded hover:bg-gray-600"
           >
             {sidebarOpen ? "Close Menu" : "Open Menu"}
           </button>
@@ -59,7 +58,7 @@ function App() {
               path="/"
               element={
                 <>
-                  <h2 className="text-3xl font-bold text-gray-700 mb-6">
+                  <h2 className="text-3xl font-semibold intermid text-gray-700 mb-6">
                     Dashboard
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -67,7 +66,7 @@ function App() {
                       <Link
                         to={item.path}
                         key={index}
-                        className={`p-8 rounded-xl shadow-lg text-white font-semibold text-lg
+                        className={`p-8 rounded-xl shadow-lg text-white intermid text-lg
                            flex items-center justify-center hover:scale-105 transform transition-all 
                            cursor-pointer ${item.color}`}
                       >

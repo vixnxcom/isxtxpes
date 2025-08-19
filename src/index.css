@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: aeon-bold;
-  src: url(./fonts/AeonikProTRIAL-Bold.otf);
+  src: url(./fonts/AeonikProTRIAL-Regular.otf);
 }
 
 @font-face {
@@ -358,4 +358,11 @@ background-color: #020294;
 .sred{
 background-color: #e00505;
 
+}
+.gray200{
+  color: #3a3a3a;
+}
+
+.gray100{
+  color: #5a5a5a ;
 }

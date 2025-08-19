@@ -7,48 +7,63 @@ import Credit from "./credit/Credit";
 import Debit from "./debit/Debit";
 import Invoice from "./invoice/Invoice";
 import { useState } from "react";
+import { home, credit, debit, invent, invoice } from "./assets";
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
-  const menuItems = [
-    { title: "Inventory", color: "bg-green-500", path: "/inventory" },
-    { title: "Credit", color: "bg-blue-500", path: "/credit" },
-    { title: "Debit", color: "bg-red-500", path: "/debit" },
-    { title: "Generate Invoice", color: "bg-yellow-500", path: "/invoice" },
-  ];
+ 
+const menuItems = [
+  { title: "Inventory", color: "bg-green-500", path: "/inventory", icon: invent},
+  { title: "Credit", color: "bg-blue-500", path: "/credit", icon: credit },
+  { title: "Debit", color: "bg-red-500", path: "/debit", icon: debit },
+  { title: "Generate Invoice", color: "bg-yellow-500", path: "/invoice", icon: invoice },
+];
 
   return (
     <Router>
       <div className="flex min-h-screen">
         {/* Sidebar */}
-        <div
-          className={`bg-pink-50 text-gray-700 p-6 transition-all duration-300
-            ${sidebarOpen ? "w-64" : "w-0 overflow-hidden"}`}
-        >
-          <h1 className="text-2xl font-bold intermid mb-8">My Dashboard</h1>
-          <nav className="space-y-4">
-            <Link to="/" className="block hover:text-gray-300 inter">
-              Home
-            </Link>
-            {menuItems.map((item, idx) => (
-              <Link
-                key={idx}
-                to={item.path}
-                className="block hover:text-gray-300 inter"
-              >
-                {item.title}
-              </Link>
-            ))}
-          </nav>
-        </div>
+      {/* Sidebar */}
+<div
+  className={`bg-white gray200 p-6 transition-all duration-300
+    ${sidebarOpen ? "w-64" : "w-0 overflow-hidden"}`}
+>
+  {sidebarOpen && (
+    <>
+      <h1 className="text-2xl aeon-bold gray200 mb-8">My Dashboard</h1>
+      <nav className="space-y-4 ">
+        <Link 
+          to="/" 
+          className="block hover:bg-gray-200 inter border flex flex-row  border-gray-200 px-1 py-2 bg-white rounded-[8px]"
+        > <span><img src={home} className="w-4 h-4 mr-2 mt-1" /></span>
+          Home
+        </Link>
+        {menuItems.map((item, idx) => (
+  <Link
+    key={idx}
+    to={item.path}
+    className="flex flex-row items-center hover:bg-gray-200 inter border border-gray-200 px-1 py-2 bg-white rounded-[8px]"
+  >
+    <span>
+      <img src={item.icon} className="w-4 h-4 mr-2" />
+    </span>
+    {item.title}
+  </Link>
+))}
+
+      </nav>
+    </>
+  )}
+</div>
+
 
         {/* Main Content */}
-      <div className="flex-1 bg-gray-50 p-6 w-screen min-h-screen">
+      <div className="flex-1 bg-purple-50 p-5 w-[100vw] min-h-screen">
           {/* Toggle Button */}
           <button
             onClick={() => setSidebarOpen(!sidebarOpen)}
-            className="mb-4 px-4 py-2 bg-pink-700 text-white inter rounded hover:bg-gray-600"
+            className="mb-4 px-4 py-2 bg-white gray200 intermid text-xs border border-gray-200 rounded-lg hover:bg-gray-200"
           >
             {sidebarOpen ? "Close Menu" : "Open Menu"}
           </button>
@@ -58,7 +73,7 @@ function App() {
               path="/"
               element={
                 <>
-                  <h2 className="text-3xl font-semibold intermid text-gray-700 mb-6">
+                  <h2 className="text-3xl aeon-bold text-gray-700 mb-6">
                     Dashboard
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

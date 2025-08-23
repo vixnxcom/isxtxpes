@@ -366,3 +366,14 @@ background-color: #e00505;
 .gray100{
   color: #5a5a5a ;
 }
+.bg-footer{
+  background-image: url(assets/cloud.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+}
+
+.text-blue-600{
+  color: #03b5dd;
+}

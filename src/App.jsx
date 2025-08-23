@@ -7,7 +7,7 @@ import Credit from "./credit/Credit";
 import Debit from "./debit/Debit";
 import Invoice from "./invoice/Invoice";
 import { useState } from "react";
-import { home, credit, debit, invent, invoice } from "./assets";
+import { home, credit, debit, invent, invoice, close, open, cloud } from "./assets";
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
@@ -61,12 +61,17 @@ const menuItems = [
         {/* Main Content */}
       <div className="flex-1 bg-purple-50 p-5 w-[100vw] min-h-screen">
           {/* Toggle Button */}
-          <button
-            onClick={() => setSidebarOpen(!sidebarOpen)}
-            className="mb-4 px-4 py-2 bg-white gray200 intermid text-xs border border-gray-200 rounded-lg hover:bg-gray-200"
-          >
-            {sidebarOpen ? "Close Menu" : "Open Menu"}
-          </button>
+       <button
+  onClick={() => setSidebarOpen(!sidebarOpen)}
+  className="mb-4 px-4 py-2 bg-white flex flex-row items-center gap-2 text-xs border border-gray-200 rounded-[14px] hover:bg-gray-200"
+>
+  <img 
+    src={sidebarOpen ? close : open} 
+    alt={sidebarOpen ? "Close sidebar" : "Open sidebar"} 
+    className="w-4 h-4" 
+  />
+  {sidebarOpen ? "Close Menu" : "Open Menu"}
+</button>
 
           <Routes>
             <Route
@@ -99,6 +104,19 @@ const menuItems = [
           </Routes>
         </div>
       </div>
+<footer className="mt-5">
+  <div className="flex flex-row items-end gap-5">
+    <img src={cloud} alt="" className="w-90" />
+    <h2 className="text-blue-300 text-8xl flex items-end">
+      <span className="text-5xl mr-3">©</span>
+      ISXTOPES
+    </h2>
+  </div>
+</footer>
+
+
+
+
     </Router>
   );
 }

@@ -1,6 +1,6 @@
 import React, { useState, useReducer, useMemo, useEffect } from 'react';
 import { Plus, Edit, Trash2, Search, Package, TrendingUp, Calendar, PieChart, Download, Upload, Save } from 'lucide-react';
-import { cloud } from '../assets';
+import { box, cloud, pack, text, today, trend } from '../assets';
 
 // Load saved data from localStorage or use empty state
 const loadSavedData = () => {
@@ -418,7 +418,8 @@ export default function InventoryExpenseTracker() {
           </button>
           <button
             onClick={exportData}
-            className="border border--600 text-blue-600 px-3 py-2 rounded-[14px] hover:bg-blue-700 hover:text-white flex items-center gap-2 text-xs inter"
+            className="border border-blue-600 text-blue-600  px-3 py-2 rounded-[14px] hover:bg-blue-600 hover:text-white 
+            flex items-center gap-2 text-xs inter"
             title="Download JSON backup file"
           >
             <Download className="h-4 w-4" /> Export JSON
@@ -427,15 +428,18 @@ export default function InventoryExpenseTracker() {
           {/* 🟢 ADDED: CSV export buttons */}
           <button
             onClick={exportAllCSV}
-            className="border border-indigo-600 text-indigo-600 px-3 py-2 rounded-[14px] hover:bg-indigo-700 hover:text-white flex items-center gap-2 text-xs inter"
+            className="border border-indigo-600 text-indigo-600 px-3 py-2 rounded-[14px]
+             hover:bg-indigo-700 hover:text-white flex items-center gap-2 text-xs inter"
             title="Download CSV (open in Excel/Sheets)"
           >
             <Download className="h-4 w-4" /> Export CSV
           </button>
           <button
             onClick={exportLastMonthCSV}
-            className="border border-purple-600 text-purple-600 px-3 py-2 rounded-[14px] hover:bg-purple-700 hover:text-white inter flex items-center gap-2 text-xs"
+            className="border border-purple-600 text-purple-600 px-3 py-2
+             rounded-[14px] hover:bg-purple-700 hover:text-white inter flex items-center gap-2 text-xs"
             title="Download last month's rows as CSV"
+            
           >
             <Download className="h-4 w-4" /> Last Month CSV
           </button>
@@ -448,7 +452,8 @@ export default function InventoryExpenseTracker() {
               className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
               title="Import backup file"
             />
-            <button className="border border-orange-600 text-orange-600 px-3 py-2 rounded-[14px] hover:bg-orange-700 hover:text-white flex items-center gap-2 text-xs">
+            <button className="border border-orange-600 text-orange-600 px-3 py-2 rounded-[14px] hover:bg-orange-700 
+            hover:text-white flex items-center gap-2 text-xs">
               <Upload className="h-4 w-4" /> Import
             </button>
           </div>
@@ -466,39 +471,39 @@ export default function InventoryExpenseTracker() {
 
       {/* Summary Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="bg-white p-6 rounded-[14px] border shadow-sm border-blue-200">
+        <div className="bg-white p-6 rounded-[14px] border shadow-xs border-blue-300">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-blue-600 text-sm inter font-medium">Today's Expenses</p>
+              <p className="text-blue-500 text-sm inter font-medium"> Today's Expenses</p>
               <p className="text-2xl aeon-bold text-blue-600">{formatNaira(calculateExpenses.daily)}</p>
             </div>
-            <Calendar className="h-8 w-8 text-blue-500" />
+            <img src={today} className="h-8 w-8 text-blue-500" />
           </div>
         </div>
         
-        <div className="bg-white p-6 rounded-[14px] border border-green-200 shadow-sm">
+        <div className="bg-white p-6 rounded-[14px] border border-green-300 shadow-xs">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-green-600 text-sm inter font-medium">This Week's Expenses</p>
+              <p className="text-green-500 text-sm inter font-medium">This Week's Expenses</p>
               <p className="text-2xl aeon-bold text-green-600">{formatNaira(calculateExpenses.weekly)}</p>
             </div>
-            <TrendingUp className="h-8 w-8 text-green-500" />
+            <img src={trend} className="h-10 w-10 text-green-500" />
           </div>
         </div>
         
-        <div className="bg-white p-6 rounded-[14px] border border-purple-200 shadow-sm">
+        <div className="bg-white p-6 rounded-[14px] border border-purple-300 shadow-xs">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-purple-600 text-sm inter font-medium">This Month's Expenses</p>
+              <p className="text-purple-500 text-sm inter font-medium">This Month's Expenses</p>
               <p className="text-2xl aeon-bold text-purple-600">{formatNaira(calculateExpenses.monthly)}</p>
             </div>
-            <Package className="h-8 w-8 text-purple-500" />
+            <img src={pack} className="h-8 w-8 text-purple-500" />
           </div>
         </div>
       </div>
 
       {/* 🟢 ADDED: Last Month Summary card */}
-      <div className="bg-white p-4 rounded-[12px] border border-gray-200">
+      <div className="bg-white p-4 rounded-[14px] border border-gray-200">
         <div className="flex items-center justify-between">
           <div>
             <p className="text-sm inter text-gray-600">Last Month ({getLastMonthStats.label})</p>
@@ -519,7 +524,7 @@ export default function InventoryExpenseTracker() {
 
       {/* Category Breakdown */}
       {Object.keys(calculateExpenses.categoryTotals).length > 0 ? (
-        <div className="bg-white p-6 rounded-[12px] border border-gray-300">
+        <div className="bg-white  p-6 rounded-[14px] border border-gray-200 ">
           <h3 className="text-lg aeon-bold gray200 mb-4">Expenses by Category</h3>
           <div className="space-y-4">
             {Object.entries(calculateExpenses.categoryTotals).map(([category, totals]) => (
@@ -537,11 +542,11 @@ export default function InventoryExpenseTracker() {
           </div>
         </div>
       ) : (
-        <div className="bg-white p-6 rounded-lg border">
+        <div className="bg-white p-6 rounded-[14px] border border-gray-200">
           <div className="text-center py-8 text-gray-500">
-            <Package className="h-12 w-12 mx-auto mb-4 opacity-50" />
-            <p className="mb-2">No expenses recorded yet</p>
-            <p className="text-sm">Start by adding your first expense to see category breakdowns here.</p>
+            <img src={box} className="h-12 w-12 mx-auto mb-4 opacity-50" />
+            <p className="mb-2 inter">No expenses recorded yet</p>
+            <p className="text-sm inter">Start by adding your first expense to see category breakdowns here.</p>
           </div>
         </div>
       )}
@@ -554,22 +559,25 @@ export default function InventoryExpenseTracker() {
         <h2 className="text-2xl aeon-bold text-gray-800">Add Daily Expenses</h2>
         <button
           onClick={() => openModal()}
-          className="bg-green-600 text-white inter text-xs px-4 py-2 rounded-[14px] hover:bg-green-700 flex items-center gap-2"
+          className="bg-green-600 text-white inter text-xs px-4 py-2 rounded-[14px] hover:bg-green-700 flex items-center
+           gap-2"
         >
           <Plus className="h-4 w-4 " /> Add New Expense
         </button>
       </div>
 
       {/* Quick Add Form */}
-      <div className="bg-white p-6 rounded-[14px] border border-gray-300">
+      <div className="bg-white p-6 rounded-[14px] border border-green-200  hover:shadow-lg
+       transition-all duration-300 
+      hover:scale-[1.02]">
         <h3 className="text-lg aeon-bold gray200 mb-4">Quick Add Expense</h3>
-        <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 inter gray200">
+        <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4  inter gray200">
           <input
             type="text"
             placeholder="Product Name"
             value={expenseForm.productName}
             onChange={(e) => setExpenseForm({...expenseForm, productName: e.target.value})}
-            className="p-3 inter border border-gray-200 rounded-lg outline-none"
+            className="p-3 text-sm inter border border-gray-200 rounded-lg outline-none"
             required
           />
           <input
@@ -577,7 +585,7 @@ export default function InventoryExpenseTracker() {
             placeholder="S.Num (e.g., CEMENT-001)"
             value={expenseForm.sku}
             onChange={(e) => setExpenseForm({...expenseForm, sku: e.target.value})}
-           className="p-3 inter border border-gray-200 rounded-lg outline-none"
+           className="p-3 inter text-sm border border-gray-200 rounded-lg outline-none"
             required
           />
           <input
@@ -585,7 +593,7 @@ export default function InventoryExpenseTracker() {
             placeholder="Category"
             value={expenseForm.category}
             onChange={(e) => setExpenseForm({...expenseForm, category: e.target.value})}
-            className="p-3 inter border border-gray-200 rounded-lg outline-none "
+            className="p-3 inter text-sm border border-gray-200 rounded-lg outline-none "
             required
           />
           <input
@@ -594,7 +602,7 @@ export default function InventoryExpenseTracker() {
             placeholder="Quantity"
             value={expenseForm.quantity}
             onChange={(e) => setExpenseForm({...expenseForm, quantity: e.target.value})}
-            className="p-3 inter border border-gray-200 rounded-lg outline-none"
+            className="p-3 inter text-sm border border-gray-200 rounded-lg outline-none"
             required
           />
           <input
@@ -604,19 +612,21 @@ export default function InventoryExpenseTracker() {
             placeholder="Total Amount (₦)"
             value={expenseForm.totalAmount}
             onChange={(e) => setExpenseForm({...expenseForm, totalAmount: e.target.value})}
-           className="p-3 border inter border-gray-200 rounded-lg outline-none"
+           className="p-3 border text-sm inter border-gray-200 rounded-lg outline-none"
             required
           />
           <button
             type="submit"
-            className="bg-green-600 text-white px-4 py-3 rounded-lg hover:bg-green-700 font-medium inter md:col-span-2 lg:col-span-5"
+                  className="bg-green-600 text-white px-4 py-3 rounded-[14px] hover:bg-gradient-to-r from-green-600 to-blue-600  font-medium w-full inter md:col-span-2
+             lg:col-span-5 transform hover:scale-102 transition-all"
+          
           >
             Add Expense
           </button>
         </form>
         {expenseForm.totalAmount && (
           <div className="mt-4 p-3 bg-green-50 rounded-lg">
-            <p className="text-green-800">
+            <p className="text-green-600">
               Total Amount: <span className="font-bold">{formatNaira(parseFloat(expenseForm.totalAmount || 0))}</span>
             </p>
           </div>
@@ -633,7 +643,7 @@ export default function InventoryExpenseTracker() {
 
       {/* Recent Expenses - to prevent repetition */}
       {state.expenses.length > 0 ? (
-        <div className="bg-white p-6 rounded-[14px] border border-gray-300">
+        <div className="bg-white p-6 rounded-[14px] border border-gray-200 ">
           <div className="flex justify-between items-center mb-4">
             <div>
               <h3 className="text-lg gray200 aeon-bold">Recently Added Expenses</h3>
@@ -681,11 +691,11 @@ export default function InventoryExpenseTracker() {
           </div>
         </div>
       ) : (
-        <div className="bg-white p-6 rounded-lg border">
+        <div className="bg-white p-6 rounded-[14px] border border-gray-200">
           <div className="text-center py-8 text-gray-500">
-            <Calendar className="h-12 w-12 mx-auto mb-4 opacity-50" />
-            <p className="mb-2">No expenses added yet</p>
-            <p className="text-sm">Your recently added expenses will appear here to help prevent duplicates.</p>
+            <img src={text} className="h-12 w-12 mx-auto mb-4 opacity-50" />
+            <p className="mb-2 inter">No expenses added yet</p>
+            <p className="text-sm inter">Your recently added expenses will appear here to help prevent duplicates.</p>
           </div>
         </div>
       )}
@@ -719,7 +729,7 @@ export default function InventoryExpenseTracker() {
         </div>
       </div>
 
-      <div className="bg-white p-6 rounded-[14px] border border-gray-300">
+      <div className="bg-white p-6 rounded-[14px] border border-gray-200 ">
         <div className="flex justify-between items-center mb-4">
           <h3 className="text-lg aeon-bold gray200">
             {selectedCategory === 'All' ? 'All Categories' : selectedCategory} - {selectedPeriod.charAt(0).toUpperCase() + selectedPeriod.slice(1)} Report
@@ -751,7 +761,7 @@ export default function InventoryExpenseTracker() {
           </div>
         ) : (
           <div className="text-center py-8 text-gray-500">
-            <Package className="h-12 w-12 mx-auto mb-4 opacity-50 inter" />
+            <img src={box} className="h-12 w-12 mx-auto mb-4 opacity-50 inter" />
             <p>No expenses found for the selected period and category.</p>
           </div>
         )}
@@ -824,7 +834,7 @@ export default function InventoryExpenseTracker() {
           </p>
         </div>
 
-        <div className="bg-white rounded-[14px] border border-gray-300 overflow-hidden">
+        <div className="bg-white rounded-[14px] border border-blue-200 overflow-hidden ">
           <div className="overflow-x-auto">
             <table className="w-full">
               <thead className="bg-gray-50">
@@ -875,7 +885,7 @@ export default function InventoryExpenseTracker() {
         </div>
 
         <div className="bg-white p-4 rounded-lg border border-green-200">
-          <p className="text-green-800">
+          <p className="text-green-600">
             <span className="intermid">Total of all expenses: </span>
             <span className="text-xl aeon-bold">{formatNaira(state.expenses.reduce((sum, exp) => sum + exp.totalAmount, 0))}</span>
           </p>
@@ -985,11 +995,11 @@ export default function InventoryExpenseTracker() {
 
   return (
     <div className="min-h-screen bg-purple-50">
-      <div className="bg-black shadow-sm border-b border-gray-500 rounded-[14px]">
+      <div className="bg-gradient-to-br from-black  to-indigo-900 backdrop-blur-lg shadow-sm border-b border-gray-500 rounded-[14px]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div>
-              <h1 className="text-2xl aeon-bold text-white"><span><img src={cloud} className='w-20' /></span>Isxtopes Expense Tracker</h1>
+              <h1 className="text-2xl aeon-bold text-white">Business Expense Tracker</h1>
               <p className="text-sm text-gray-400 tracking-wide inter">Track daily expenses and monitor spending by category</p>
             </div>
             <div className="text-right">

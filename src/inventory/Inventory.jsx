@@ -1,6 +1,6 @@
 import React, { useState, useReducer, useMemo, useEffect } from 'react';
 import { Plus, Edit, Trash2, Search, Package, TrendingUp, Calendar, PieChart, Download, Upload, Save } from 'lucide-react';
-import { box, cloud, pack, text, today, trend } from '../assets';
+import { box, cloud, coins, pack, paycard, text, today, trend } from '../assets';
 
 // Load saved data from localStorage or use empty state
 const loadSavedData = () => {
@@ -999,8 +999,9 @@ export default function InventoryExpenseTracker() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div>
-              <h1 className="text-2xl aeon-bold text-white">Business Expense Tracker</h1>
-              <p className="text-sm text-gray-400 tracking-wide inter">Track daily expenses and monitor spending by category</p>
+              <h1 className="text-2xl aeon-bold text-white flex flex-row ">
+                <span><img src={coins} className="w-12 mr-3 rounded-[4px]" /></span>Business Expense Tracker</h1>
+              <p className="text-sm text-gray-400 tracking-wide inter mt-1">Track daily expenses and monitor spending by category</p>
             </div>
             <div className="text-right">
               <p className="text-sm text-gray-400 tracking-wide aeon-bold">Today's Total</p>

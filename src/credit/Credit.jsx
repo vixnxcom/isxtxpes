@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Trash2, Plus, CreditCard, TrendingUp, Calendar, Users, DollarSign } from 'lucide-react';
-import { acct, agenda, bank, graph, month, msg, name, pay,phone,todayy, totall, user,  } from '../assets';
+import { acct, agenda, bank, graph, month, msg, name, notes, pay,paycard,phone,todayy, totall, user,  } from '../assets';
 
 const PaystackPaymentSystem = () => {
   const [activeTab, setActiveTab] = useState('recipients');
@@ -245,20 +245,26 @@ const PaystackPaymentSystem = () => {
   const filteredPayments = getFilteredPayments();
 
   return (
-    <div className="min-h-screen  p-4">
+    <div className="min-h-screen">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="bg-white/10 backdrop-blur-lg rounded-[14px] p-8 mb-8 text-white text-left bg-gradient-to-br from-black  to-indigo-900 ">
-          <div className="flex  justify-left mb-4 ">
-            {/* <CreditCard className="w-8 h-8 mr-3" /> */}
-            <h1 className="text-2xl aeon-bold">Payment Intergration System</h1>
-          </div>
-          <p className="text-sm text-gray-400 tracking-wide inter ">Manage recipients and track payments efficiently</p>
-        </div>
+    <div className="backdrop-blur-lg rounded-[14px] pt-4 pr-8 pb-8 pl-8 mb-8 text-white text-left bg-gradient-to-br 
+    from-black to-indigo-900">
+  <div className="flex mb-1">
+    <img src={paycard} className="w-12 mr-3" /> 
+    <h1 className="text-2xl aeon-bold text-white leading-tight">
+      Payment Intergration System
+    </h1>
+  </div>
+  <p className="text-sm text-gray-400 tracking-wide inter">
+    Manage recipients and track payments efficiently
+  </p>
+</div>
+
 
         {/* Navigation Tabs */}
         <div className="border border-green-200 backdrop-blur-lg inter bg-white rounded-lg p-2 mb-8">
-          <div className="flex space-x-2 gray200">
+          <div className="flex text-sm space-x-2 gray200">
             {[
               { id: 'recipients', label: 'Recipients', icon: Users },
               { id: 'payments', label: 'Payment History', icon: Calendar },
@@ -378,7 +384,7 @@ const PaystackPaymentSystem = () => {
                   </div>
                   
                   <div>
-                    <label className="block text-sm intermid gray200 mb-2"><span><img src={name} className='w-4 h-4' alt="" /></span>Description</label>
+                    <label className="block text-sm intermid gray200 mb-2"><span><img src={notes} className='w-4 h-4' alt="" /></span>Description</label>
                     <input
                       type="text"
                       name="description"

@@ -24,10 +24,13 @@ import acct from './acct.png'
 import phone from './phone.png'
 import bank from './bank.png'
 import name from './name.png'
+import paycard from './paycard.png'
+import coins from './coins.png'
+import notes from './notes.png'
 
 export{ 
   debit,
-  credit, invent, home, invoice, close,
+  credit, invent, home, invoice, close, paycard, coins, notes,
    open,cloud, admin, today, trend, 
    pack, month, totall, todayy, agenda,
    pay, graph, user, box, text, msg, name, phone, acct, bank,

@@ -25,8 +25,8 @@ const menuItems = [
          {/* header */}
           <div className="">
             <div className="flex flex-row mx-5">      
-       <img src={cloud} alt="" className="w-11 h-8  mt-4" />
-       <h1 className="text-blue-500 text-xl flex mx-2 mt-6 aeon-bold ">  
+       <img src={cloud} alt="" className="w-11 h-8  mt-2" />
+       <h1 className="text-blue-500 text-xl flex mx-2 mt-3 aeon-bold ">  
       ISXTOPES <span className="aeon-bold gray200 tracking-wide mx-2">Enterprise Resource System</span>
       </h1>
        </div>
@@ -80,7 +80,7 @@ const menuItems = [
 
 
         {/* Main Content */}
-      <div className="flex-1 bg-purple-50 p-5 w-[100vw] min-h-screen rounded-[14px]">
+      <div className="flex-1 bg-purple-50 p-4 w-[100vw] min-h-screen rounded-[14px]">
        
           {/* Toggle Button */}
        <button

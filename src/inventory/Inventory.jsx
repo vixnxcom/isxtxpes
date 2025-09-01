@@ -428,21 +428,13 @@ export default function InventoryExpenseTracker() {
           {/* 🟢 ADDED: CSV export buttons */}
           <button
             onClick={exportAllCSV}
-            className="border border-indigo-600 text-indigo-600 px-3 py-2 rounded-[14px]
-             hover:bg-indigo-700 hover:text-white flex items-center gap-2 text-xs inter"
+            className="border border-indigo-600 text-indigo-600 px-3 py-2 rounded-[14px] hover:bg-indigo-700  flex items-center gap-2 
+            text-xs inter hover:text-white"
             title="Download CSV (open in Excel/Sheets)"
           >
             <Download className="h-4 w-4" /> Export CSV
           </button>
-          <button
-            onClick={exportLastMonthCSV}
-            className="border border-purple-600 text-purple-600 px-3 py-2
-             rounded-[14px] hover:bg-purple-700 hover:text-white inter flex items-center gap-2 text-xs"
-            title="Download last month's rows as CSV"
-            
-          >
-            <Download className="h-4 w-4" /> Last Month CSV
-          </button>
+         
 
           <div className="relative">
             <input
@@ -477,7 +469,9 @@ export default function InventoryExpenseTracker() {
               <p className="text-blue-500 text-sm inter font-medium"> Today's Expenses</p>
               <p className="text-2xl aeon-bold text-blue-600">{formatNaira(calculateExpenses.daily)}</p>
             </div>
-            <img src={today} className="h-8 w-8 text-blue-500" />
+            <div className='w-14 h-14 rounded-full bg-blue-50 border shadow-md border-white'>
+            <img src={today} className="p-3 text-blue-500" />
+          </div>
           </div>
         </div>
         
@@ -487,8 +481,12 @@ export default function InventoryExpenseTracker() {
               <p className="text-green-500 text-sm inter font-medium">This Week's Expenses</p>
               <p className="text-2xl aeon-bold text-green-600">{formatNaira(calculateExpenses.weekly)}</p>
             </div>
-            <img src={trend} className="h-10 w-10 text-green-500" />
+
+            <div className='w-14 h-14 rounded-full bg-green-100 border shadow-md border-white'>
+            <img src={trend} className="p-3 text-green-500" />
           </div>
+          </div>
+
         </div>
         
         <div className="bg-white p-6 rounded-[14px] border border-purple-300 shadow-xs">
@@ -497,8 +495,12 @@ export default function InventoryExpenseTracker() {
               <p className="text-purple-500 text-sm inter font-medium">This Month's Expenses</p>
               <p className="text-2xl aeon-bold text-purple-600">{formatNaira(calculateExpenses.monthly)}</p>
             </div>
-            <img src={pack} className="h-8 w-8 text-purple-500" />
+
+            <div className='w-14 h-14 rounded-full bg-purple-100 border shadow-md border-white'>
+            <img src={pack} className="p-3 text-purple-500" />
           </div>
+          </div>
+
         </div>
       </div>
 
@@ -667,9 +669,10 @@ export default function InventoryExpenseTracker() {
                 {state.expenses.slice(-15).reverse().map((expense, index) => (
                   <tr key={expense.id} className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
                     <td className="px-4 py-3 text-sm intermid text-gray-900 border-r">{expense.productName}</td>
-                    <td className="px-4 py-3 text-xs intermid text-blue-400 border-r ">{expense.sku}</td>
+                    <td className="px-4 py-3 text-sm intermid  border-r ">
+                        <span className="px-2 py-1 inter rounded-full text-xs bg-blue-100 text-blue-500"> {expense.sku}</span> </td>
                     <td className="px-4 py-3 text-sm border-r">
-                      <span className="px-2 py-1 bg-blue-100 text-blue-600 rounded-full text-xs">
+                      <span className="px-2 py-1 bg-pink-100 text-pink-600 rounded-full text-xs">
                         {expense.category}
                       </span>
                     </td>
@@ -779,14 +782,7 @@ export default function InventoryExpenseTracker() {
           <h2 className="text-2xl aeon-bold gray200">Expense History</h2>
           <div className="flex items-center space-x-4">
             {/* 🟢 ADDED: Export last month CSV alongside Print */}
-            <button
-              onClick={exportLastMonthCSV}
-              className="border border-purple-600 text-purple-600 inter px-4 py-2 rounded-[14px] hover:bg-purple-700 hover:text-white 
-              text-xs flex items-center gap-2 print:hidden"
-              title="Export last month to CSV"
-            >
-              <Download className="h-4 w-4" /> Last Month CSV
-            </button>
+          
             <button
               onClick={exportAllCSV}
               className="border border-indigo-600 text-indigo-600 inter px-4 py-2 rounded-[14px] hover:text-white hover:bg-indigo-700 flex 
@@ -853,9 +849,13 @@ export default function InventoryExpenseTracker() {
                   <tr key={expense.id} className="hover:bg-gray-50">
                     <td className="px-6 py-4 whitespace-nowrap text-sm inter text-gray-600">{expense.date}</td>
                     <td className="px-6 py-4 whitespace-nowrap intermid gray200" >{expense.productName}</td>
-                    <td className="px-6 py-4 whitespace-nowrap text-xs text-blue-600 intermid">{expense.sku}</td>
+                    <td className="px-6 py-4 whitespace-nowrap ">
+                      <span className="px-2 py-1 inter rounded-full text-xs bg-blue-100 text-blue-500">
+                        {expense.sku}
+                      </span>
+                      </td>
                     <td className="px-6 py-4 whitespace-nowrap">
-                      <span className="px-2 py-1 inter rounded-full text-xs bg-blue-100 text-blue-600">
+                      <span className="px-2 py-1 inter rounded-full text-xs bg-pink-100 text-pink-600">
                         {expense.category}
                       </span>
                     </td>

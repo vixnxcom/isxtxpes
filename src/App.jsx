@@ -15,8 +15,8 @@ function App() {
  
 const menuItems = [
   { title: "Inventory", color: "text-white",  path: "/inventory", icon: invent},
-  { title: "Credit", color: "text-white", path: "/credit", icon: credit },
-  { title: "Debit", color: "text-white", path: "/debit", icon: debit },
+  { title: "Credit Account", color: "text-white", path: "/credit", icon: credit },
+  { title: "Debit Account", color: "text-white", path: "/debit", icon: debit },
   { title: "Generate Invoice", color: "text-white", path: "/invoice", icon: invoice },
 ];
 

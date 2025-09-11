@@ -27,11 +27,24 @@ import name from './name.png'
 import paycard from './paycard.png'
 import coins from './coins.png'
 import notes from './notes.png'
+import edit from './edit.png'
+import del from './bin.png'
+import add from './add.png'
+import man from './man.png'
+import woman from './woman.jpg'
+import table from './table.jpg'
+import atm from './atm.png'
+import go from './go.png'
+import file from './file.png'
+import calc from './calc.png'
+import dcard from './dcard.png'
+import gen from './gen.png'
+
 
 export{ 
-  debit,
-  credit, invent, home, invoice, close, paycard, coins, notes,
-   open,cloud, admin, today, trend, 
+  debit, del,
+  credit, invent, home, invoice, close, paycard, coins, notes, edit, add, woman,man, table, file, go, atm, calc,
+   open,cloud, admin, today, trend, dcard, gen,
    pack, month, totall, todayy, agenda,
    pay, graph, user, box, text, msg, name, phone, acct, bank,
 }

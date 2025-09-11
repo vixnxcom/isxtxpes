@@ -1,6 +1,6 @@
 import React, { useState, useReducer, useMemo, useEffect } from 'react';
-import { Plus, Edit, Trash2, Search, Package, TrendingUp, Calendar, PieChart, Download, Upload, Save } from 'lucide-react';
-import { box, cloud, coins, pack, paycard, text, today, trend } from '../assets';
+import { Plus, Edit, Trash2, Search, Package, TrendingUp, Calendar, PieChart, Download, Upload, Save, Trash } from 'lucide-react';
+import { add, box, cloud, coins, del, edit, pack, paycard, text, today, trend } from '../assets';
 
 // Load saved data from localStorage or use empty state
 const loadSavedData = () => {
@@ -406,7 +406,7 @@ export default function InventoryExpenseTracker() {
   const renderDashboard = () => (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h2 className="text-2xl -bold aeon-bold gray200">Expense Dashboard</h2>
+        <h2 className="text-xl -bold aeon-bold gray200">Expense Dashboard</h2>
         {/* Data Management Buttons */}
         <div className="flex items-center space-x-3">
           <button
@@ -418,7 +418,7 @@ export default function InventoryExpenseTracker() {
           </button>
           <button
             onClick={exportData}
-            className="border border-blue-600 text-blue-600  px-3 py-2 rounded-[14px] hover:bg-blue-600 hover:text-white 
+            className="border border-blue-600 text-blue-600  px-3 py-2 rounded-[14px] hover:bg-blue-600 hover:!text-white 
             flex items-center gap-2 text-xs inter"
             title="Download JSON backup file"
           >
@@ -444,10 +444,14 @@ export default function InventoryExpenseTracker() {
               className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
               title="Import backup file"
             />
-            <button className="border border-orange-600 text-orange-600 px-3 py-2 rounded-[14px] hover:bg-orange-700 
-            hover:text-white flex items-center gap-2 text-xs">
-              <Upload className="h-4 w-4" /> Import
-            </button>
+   <button 
+  className="relative z-10 border border-orange-400 text-orange-400 px-3 py-2 rounded-[14px] 
+             hover:!bg-orange-400 hover:!text-white flex items-center gap-2 text-xs">
+  <Upload className="h-4 w-4" /> Import
+</button>
+
+
+  
           </div>
         </div>
       </div>
@@ -463,11 +467,11 @@ export default function InventoryExpenseTracker() {
 
       {/* Summary Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="bg-white p-6 rounded-[14px] border shadow-xs border-blue-300">
+        <div className="bg-blue-500 p-6 rounded-[14px] border shadow-xs border-blue-300">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-blue-500 text-sm inter font-medium"> Today's Expenses</p>
-              <p className="text-2xl aeon-bold text-blue-600">{formatNaira(calculateExpenses.daily)}</p>
+              <p className="text-blue-50 text-sm inter font-medium"> Today's Expenses</p>
+              <p className="text-2xl aeon-bold text-white">{formatNaira(calculateExpenses.daily)}</p>
             </div>
             <div className='w-14 h-14 rounded-full bg-blue-50 border shadow-md border-white'>
             <img src={today} className="p-3 text-blue-500" />
@@ -475,11 +479,11 @@ export default function InventoryExpenseTracker() {
           </div>
         </div>
         
-        <div className="bg-white p-6 rounded-[14px] border border-green-300 shadow-xs">
+        <div className="bg-green-500 p-6 rounded-[14px] border border-green-300 shadow-xs">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-green-500 text-sm inter font-medium">This Week's Expenses</p>
-              <p className="text-2xl aeon-bold text-green-600">{formatNaira(calculateExpenses.weekly)}</p>
+              <p className="text-green-50 text-sm inter font-medium">This Week's Expenses</p>
+              <p className="text-2xl aeon-bold text-white">{formatNaira(calculateExpenses.weekly)}</p>
             </div>
 
             <div className='w-14 h-14 rounded-full bg-green-100 border shadow-md border-white'>
@@ -489,11 +493,11 @@ export default function InventoryExpenseTracker() {
 
         </div>
         
-        <div className="bg-white p-6 rounded-[14px] border border-purple-300 shadow-xs">
+        <div className="bg-purple-500 p-6 rounded-[14px] border border-purple-300 shadow-xs">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-purple-500 text-sm inter font-medium">This Month's Expenses</p>
-              <p className="text-2xl aeon-bold text-purple-600">{formatNaira(calculateExpenses.monthly)}</p>
+              <p className="text-purple-50 text-sm inter font-medium">This Month's Expenses</p>
+              <p className="text-2xl aeon-bold text-white">{formatNaira(calculateExpenses.monthly)}</p>
             </div>
 
             <div className='w-14 h-14 rounded-full bg-purple-100 border shadow-md border-white'>
@@ -558,7 +562,11 @@ export default function InventoryExpenseTracker() {
   const renderExpenses = () => (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h2 className="text-2xl aeon-bold text-gray-800">Add Daily Expenses</h2>
+          <h3 className="text-xl aeon-bold  text-gray-800 mb-6 flex items-center">
+                      
+                            <span className='bg-green-100 rounded-[8px] w-7 h-7 mr-2' ><img src={add} className="p-1" /></span> 
+                          Add New Recipient
+                        </h3>
         <button
           onClick={() => openModal()}
           className="bg-green-600 text-white inter text-xs px-4 py-2 rounded-[14px] hover:bg-green-700 flex items-center
@@ -572,7 +580,7 @@ export default function InventoryExpenseTracker() {
       <div className="bg-white p-6 rounded-[14px] border border-green-200  hover:shadow-lg
        transition-all duration-300 
       hover:scale-[1.02]">
-        <h3 className="text-lg aeon-bold gray200 mb-4">Quick Add Expense</h3>
+        <h3 className="text-lg aeon-bold text-green-600 mb-4">Quick Add Expense</h3>
         <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4  inter gray200">
           <input
             type="text"
@@ -619,7 +627,8 @@ export default function InventoryExpenseTracker() {
           />
           <button
             type="submit"
-                  className="bg-green-600 text-white px-4 py-3 rounded-[14px] hover:bg-gradient-to-r from-green-600 to-blue-600  font-medium w-full inter md:col-span-2
+                  className="bg-green-600 text-white px-4 py-3 rounded-[14px] hover:bg-gradient-to-r from-green-600 to-blue-600  
+                  text-md w-full intermid md:col-span-2
              lg:col-span-5 transform hover:scale-102 transition-all"
           
           >
@@ -629,7 +638,7 @@ export default function InventoryExpenseTracker() {
         {expenseForm.totalAmount && (
           <div className="mt-4 p-3 bg-green-50 rounded-lg">
             <p className="text-green-600">
-              Total Amount: <span className="font-bold">{formatNaira(parseFloat(expenseForm.totalAmount || 0))}</span>
+              Total Amount: <span className="font-medium mx-2 aeon-bold">{formatNaira(parseFloat(expenseForm.totalAmount || 0))}</span>
             </p>
           </div>
         )}
@@ -653,36 +662,36 @@ export default function InventoryExpenseTracker() {
             </div>
           </div>
           
-          <div className="overflow-x-auto">
-            <table className="w-full border-collapse ">
+          <div className="overflow-x-auto ">
+            <table className="w-full border-collapse border-gray-300">
               <thead>
-                <tr className="bg-gray-50 border-b">
-                  <th className="px-4 py-3 text-left text-xs intermid text-gray-600 uppercase tracking-wider border-r">Product</th>
-                  <th className="px-4 py-3 text-left text-xs intermid text-gray-600 uppercase tracking-wider border-r">SKU</th>
-                  <th className="px-4 py-3 text-left text-xs intermid text-gray-600 uppercase tracking-wider border-r">Category</th>
-                  <th className="px-4 py-3 text-left text-xs intermid text-gray-600 uppercase tracking-wider border-r">Quantity</th>
-                  <th className="px-4 py-3 text-left text-xs intermid text-gray-600 uppercase tracking-wider border-r">Date</th>
+                <tr className="bg-gray-50 border-b border-gray-200">
+                  <th className="px-4 py-3 text-left text-xs intermid text-gray-600 uppercase tracking-wider border-r border-gray-200">Product</th>
+                  <th className="px-4 py-3 text-left text-xs intermid text-gray-600 uppercase tracking-wider border-r border-gray-200">SKU</th>
+                  <th className="px-4 py-3 text-left text-xs intermid text-gray-600 uppercase tracking-wider border-r border-gray-200">Category</th>
+                  <th className="px-4 py-3 text-left text-xs intermid text-gray-600 uppercase tracking-wider border-r border-gray-200 ">Quantity</th>
+                  <th className="px-4 py-3 text-left text-xs intermid text-gray-600 uppercase tracking-wider border-r border-gray-200">Date</th>
                   <th className="px-4 py-3 text-left text-xs intermid text-gray-600 uppercase tracking-wider">Total Amount</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
                 {state.expenses.slice(-15).reverse().map((expense, index) => (
                   <tr key={expense.id} className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-                    <td className="px-4 py-3 text-sm intermid text-gray-900 border-r">{expense.productName}</td>
-                    <td className="px-4 py-3 text-sm intermid  border-r ">
-                        <span className="px-2 py-1 inter rounded-full text-xs bg-blue-100 text-blue-500"> {expense.sku}</span> </td>
-                    <td className="px-4 py-3 text-sm border-r">
+                    <td className="px-4 py-3 text-sm intermid text-gray-900 border-gray-200 border-r">{expense.productName}</td>
+                    <td className="px-4 py-3 text-sm intermid  border-r border-gray-200">
+                        <span className="px-2 py-1 inter rounded-full text-xs bg-blue-100 text-blue-500 "> {expense.sku}</span> </td>
+                    <td className="px-4 py-3 text-sm border-r border-gray-200">
                       <span className="px-2 py-1 bg-pink-100 text-pink-600 rounded-full text-xs">
                         {expense.category}
                       </span>
                     </td>
-                    <td className="px-4 py-3 text-sm text-gray-600 border-r text-center">{expense.quantity}</td>
-                    <td className="px-4 py-3 text-sm text-gray-600 border-r">{expense.date}</td>
-                    <td className="px-4 py-3 text-sm intermid text-green-600">{formatNaira(expense.totalAmount)}</td>
+                    <td className="px-4 py-3 text-sm text-gray-600 border-r border-gray-200 text-center">{expense.quantity}</td>
+                    <td className="px-4 py-3 text-sm text-gray-600 border-r border-gray-200">{expense.date}</td>
+                    <td className="px-4 text-left py-3 text-sm intermid  text-green-600">{formatNaira(expense.totalAmount)}</td>
                   </tr>
                 ))}
                 <tr className="bg-gray-50 border-t-1.5 border-green-200">
-                  <td colSpan="5" className="px-4 py-3 text-sm intermid text-green-800 text-right border-r">
+                  <td colSpan="5" className="px-4 py-3 text-sm intermid text-green-800 text-right border-r border-gray-200">
                     TOTAL:
                   </td>
                   <td className="px-4 py-3 text-sm intermid text-green-800">
@@ -708,12 +717,12 @@ export default function InventoryExpenseTracker() {
   const renderReports = () => (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h2 className="text-2xl aeon-bold gray200">Expense Reports</h2>
+        <h2 className="text-xl aeon-bold gray200">Expense Reports</h2>
         <div className="flex space-x-4">
           <select
             value={selectedCategory}
             onChange={(e) => setSelectedCategory(e.target.value)}
-            className="p-2 px-5 border rounded-[14px] border-gray-300 bg-white gray200 inter outline-none "
+            className="p-2 px-5 border rounded-[14px] border-gray-300 bg-white gray200 text-sm inter outline-none "
           >
             {categories.map(cat => (
               <option key={cat} value={cat}>{cat}</option>
@@ -722,12 +731,14 @@ export default function InventoryExpenseTracker() {
           <select
             value={selectedPeriod}
             onChange={(e) => setSelectedPeriod(e.target.value)}
-            className="p-2 border rounded-[14px] border-gray-300 bg-white gray200 inter  outline-none"
+            className="p-2 border rounded-[14px] border-gray-300 bg-white gray200 inter text-sm  outline-none"
           >
             {/* 🟡 FIX: removed trailing space */}
+        
             <option value="daily">Today</option>
             <option value="weekly">This Week</option>
             <option value="monthly">This Month</option>
+        
           </select>
         </div>
       </div>
@@ -779,13 +790,13 @@ export default function InventoryExpenseTracker() {
     return (
       <div className="space-y-6">
         <div className="flex justify-between items-center">
-          <h2 className="text-2xl aeon-bold gray200">Expense History</h2>
+          <h2 className="text-xl aeon-bold gray200">Expense History</h2>
           <div className="flex items-center space-x-4">
             {/* 🟢 ADDED: Export last month CSV alongside Print */}
           
             <button
               onClick={exportAllCSV}
-              className="border border-indigo-600 text-indigo-600 inter px-4 py-2 rounded-[14px] hover:text-white hover:bg-indigo-700 flex 
+              className="border border-indigo-600 text-indigo-600 inter px-4 py-2 rounded-[14px] hover:!text-white hover:bg-indigo-700 flex 
               text-xs items-center gap-2 print:hidden"
               title="Export all to CSV"
             >
@@ -867,13 +878,17 @@ export default function InventoryExpenseTracker() {
                           onClick={() => openModal(expense)}
                           className="text-blue-600 hover:text-blue-800"
                         >
-                          <Edit className="h-4 w-4" />
+                          <div className='h-5 w-5 rounded-[6px] bg-blue-100'>
+                          <img src={edit} className="p-1" />
+                          </div>
                         </button>
                         <button
                           onClick={() => deleteExpense(expense.id)}
-                          className="text-red-600 hover:text-red-800"
+                          className=" hover:text-red-800"
                         >
-                          <Trash2 className="h-4 w-4" />
+                           <div className='h-5 w-5 rounded-[6px] bg-red-100'>
+                          <img src={del} className="p-1" />
+                          </div>
                         </button>
                       </div>
                     </td>
@@ -994,7 +1009,7 @@ export default function InventoryExpenseTracker() {
   };
 
   return (
-    <div className="min-h-screen bg-purple-50">
+    <div className="min-h-screen bg-white rounded-[14px]">
       <div className="bg-gradient-to-br from-black  to-indigo-900 backdrop-blur-lg shadow-sm border-b border-gray-500 rounded-[14px]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
@@ -1032,7 +1047,7 @@ export default function InventoryExpenseTracker() {
       </div>
 
       <main className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-        <div className="px-4 py-6 sm:px-0">
+        <div className="px-4 py-6 sm:px-0 outline-none">
           {activeTab === 'dashboard' && renderDashboard()}
           {activeTab === 'expenses' && renderExpenses()}
           {activeTab === 'reports' && renderReports()}

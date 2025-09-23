@@ -17,7 +17,9 @@ import {
   atm,
   file,
   calc,
-  dcard
+  dcard,
+  add,
+  hand
 } from "../assets";
 
 function Pages() {
@@ -26,16 +28,18 @@ function Pages() {
   // Sidebar menu items
   const menuItems = [
     { title: "Inventory", color: "text-white", path: "/pages/inventory", icon: invent },
-    { title: "Credit Account", color: "text-white", path: "/pages/credit", icon: credit },
-    { title: "Debit Account", color: "text-white", path: "/pages/debit", icon: debit },
+     { title: "Debit Account", color: "text-white", path: "/pages/credit", icon: debit },
+    { title: "Credit Account", color: "text-white", path: "/pages/debit", icon: credit },
+   
     { title: "Generate Invoice", color: "text-white", path: "/pages/invoice", icon: invoice },
   ];
 
   // Dashboard home cards (separate icons)
   const dashboardCards = [
     { title: "Inventory", color: "text-black", path: "/pages/inventory", icon: calc },
-    { title: "Credit Account", color: "text-black", path: "/pages/credit", icon: atm },
-    { title: "Debit", color: "text-black", path: "/pages/debit", icon: dcard },
+      { title: "Debit Account", color: "text-black", path: "/pages/credit", icon: dcard },
+    { title: "Credit Account", color: "text-black", path: "/pages/debit", icon: atm },
+  
     { title: "Invoice", color: "text-black", path: "/pages/invoice", icon: file},
   ];
 
@@ -44,15 +48,20 @@ function Pages() {
       {/* Header */}
       <Header />
 
-      <div className="flex min-h-screen">
+      <div className="flex min-h-screen  max-w-7xl md:mx-auto">
         {/* Sidebar */}
         <div
           className={`bg-white gray200 p-6 transition-all duration-300
           ${sidebarOpen ? "w-64" : "w-0 overflow-hidden"}`}
         >
           {sidebarOpen && (
-            <>
-              <h1 className="text-2xl aeon-bold gray200 mb-8">My Dashboard</h1>
+            <><div>
+              <img src={admin} className="w-12 bluish rounded-full"/>
+              
+              
+             <h1 className="text-2xl aeon-bold gray200 mb-8">My Dashboard</h1>
+             </div>
+             
               <nav className="space-y-4">
                 <Link
                   to="/pages"
@@ -105,8 +114,19 @@ function Pages() {
             <Route
               path="/"
               element={
-                <div className="bg-dash w-full min-h-[80vh]">
-                  <h2 className="text-3xl aeon-bold text-black mb-6">
+                <div className="bg-dash w-full min-h-[80vh] max-h-[50vh]">
+
+                  <div className='py-2 px-6 flex flex-row rounded-[16px] shadow-md border border-purple-200 inter
+                        text-xl bg-white flex items-left  justify-left  '
+                      >
+                  <p className="mb-2 inter tracking-wide flex flex-row"><span><img src={hand} className="w-8 mr-2" />
+                  </span ><span className="mt-1">Hi, Welcome Back!</span> </p>
+                  <p className="text-gray-500 text-sm mt-2 mx-2 ">What would you like to do today?
+                  </p>
+                  </div>
+                  <h2 className="text-3xl aeon-bold text-black mb-4 mt-8">
+
+                  
                     Dashboard
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -116,7 +136,7 @@ function Pages() {
                         key={index}
                         className={`py-8 px-6 rounded-[16px] shadow-md border border-purple-200 inter
                         text-xl bg-white flex items-left  justify-left hover:scale-105 transform 
-                        hover:bg-indigo-800 hover:!text-white transition-all cursor-pointer ${card.color}`}
+                       hover:bg-[#051077] hover:!text-white transition-all cursor-pointer ${card.color}`}
                       >
                         <span className="w-12 h-12 rounded-full border-purple-500 bg-purple-200  flex items-center justify-center">
                           <img src={card.icon} className="w-8" />

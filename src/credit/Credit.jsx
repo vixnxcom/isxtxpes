@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Trash2, Plus, CreditCard, TrendingUp, Calendar, Users, DollarSign, AlertCircle, CheckCircle, XCircle, Search, Download, Printer } from 'lucide-react';
+import { Trash2, Plus, CreditCard, TrendingUp, Calendar, Users, DollarSign, AlertCircle, CheckCircle, XCircle, Search, Download, Printer, PrinterIcon } from 'lucide-react';
 import { acct, add, agenda, bank, del, graph, month, msg, name, notes, pay, paycard, phone, todayy, totall, user } from '../assets';
 
 const PaystackPaymentSystem = () => {
@@ -729,7 +729,7 @@ const PaystackPaymentSystem = () => {
 
   const getConnectionStatusText = () => {
     switch (connectionStatus) {
-      case 'connected': return 'Connected to Google Sheets';
+      case 'connected': return 'Connection Successful';
       case 'connecting': return 'Connecting...';
       case 'error': return 'Connection Error';
       default: return 'Disconnected';
@@ -743,7 +743,7 @@ const PaystackPaymentSystem = () => {
       <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
         <div className="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-hidden">
           <div className="p-4 border-b flex justify-between items-center">
-            <h3 className="text-lg font-bold">Debug Information</h3>
+            <h3 className="text-lg font-bold inter">Debug Information</h3>
             <button
               onClick={() => setShowDebugPanel(false)}
               className="text-gray-500 hover:text-gray-700"
@@ -751,7 +751,7 @@ const PaystackPaymentSystem = () => {
               <XCircle className="w-6 h-6" />
             </button>
           </div>
-          <div className="p-4 overflow-y-auto max-h-[70vh]">
+          <div className="p-4 overflow-y-auto max-h-[70vh] inter">
             <div className="mb-4">
               <h4 className="font-semibold mb-2">Current Configuration:</h4>
               <div className="bg-gray-100 p-3 rounded text-sm">
@@ -768,7 +768,7 @@ const PaystackPaymentSystem = () => {
                 <h4 className="font-semibold mb-2">Debug Log:</h4>
                 <div className="space-y-2 max-h-96 overflow-y-auto">
                   {debugInfo.slice().reverse().map((entry, index) => (
-                    <div key={index} className="bg-gray-50 p-3 rounded text-xs">
+                    <div key={index} className="bg-gray-50 p-3 inter rounded text-xs">
                       <div className="flex justify-between items-start mb-1">
                         <span className="font-semibold text-blue-600">{entry.action}</span>
                         <span className="text-gray-500">{new Date(entry.timestamp).toLocaleTimeString()}</span>
@@ -804,15 +804,14 @@ const PaystackPaymentSystem = () => {
         <div className="backdrop-blur-lg rounded-[14px] pt-4 pr-8 pb-0 pl-8 mb-8 text-white text-left bg-gradient-to-br 
                 from-black to-purple-900">
                   <div className="flex mb-1 justify-between items-start">
-                    <div className="flex">
-                      <img src={paycard} className="w-12 h-12 mr-3" /> 
+                    <div className="flex ">
+                      
                       <div>
-                        <h1 className="text-2xl aeon-bold text-white leading-tight">
+                        <h1 className="text-2xl aeon-bold text-white flex flex-row"><span><img src={paycard} className="w-13 mt-0 h-12 mr-3" /> </span>
                           Payment Integration System
                         </h1>
                         <p className="text-sm text-start text-gray-400 tracking-wide inter mt-4">
-                          Manage recipients and track payments efficiently
-                        </p>
+                          Manage recipients and track your payment transactions efficiently </p>
                       </div>
                     </div>
             
@@ -829,14 +828,16 @@ const PaystackPaymentSystem = () => {
               <div className="flex gap-2">
                 <button
                   onClick={testConnection}
-                  className="text-xs inter bg-white bg-opacity-20 hover:bg-opacity-30 px-3 py-1 rounded transition-all"
+                  className="text-xs inter border text-purple-200 border-purple-800  hover:bg-opacity-30 px-3 py-1
+                  rounded-[8px] transition-all"
                   disabled={isLoading}
                 >
-                  Test Connection
+                  Connnection Test
                 </button>
                 <button
                   onClick={() => setShowDebugPanel(true)}
-                  className="text-xs inter bg-white bg-opacity-20 hover:bg-opacity-30 px-3 py-1 rounded transition-all"
+                  className="text-xs inter border text-purple-200 border-purple-800  hover:bg-opacity-30 
+                  px-3 py-1 rounded-[8px] transition-all"
                 >
                   Debug Info
                 </button>
@@ -1144,7 +1145,8 @@ const PaystackPaymentSystem = () => {
                   <button
                     onClick={exportToCSV}
                     disabled={filteredPayments.length === 0}
-                    className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-[14px] hover:bg-blue-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="border border-indigo-600 text-indigo-600 px-3 py-2 rounded-[14px] hover:bg-indigo-700  flex items-center gap-2 
+            text-xs inter hover:text-white disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     <Download className="w-4 h-4" />
                     Export CSV
@@ -1152,10 +1154,11 @@ const PaystackPaymentSystem = () => {
                   <button
                     onClick={printTable}
                     disabled={filteredPayments.length === 0}
-                    className="flex items-center gap-2 bg-gray-600 text-white px-4 py-2 rounded-[14px] hover:bg-gray-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                 className="border border-blue-600 text-indigo-500 px-3 py-2 rounded-[14px] hover:bg-blue-600  flex items-center gap-2 
+            text-xs inter hover:text-white disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     <Printer className="w-4 h-4" />
-                    Print
+                    Print History
                   </button>
                 </div>
               </div>
@@ -1211,7 +1214,7 @@ const PaystackPaymentSystem = () => {
                         {/* Total Row */}
                         <tr className="bg-gray-50 font-semibold">
                           <td className="px-6 py-4 text-sm intermid font-medium text-green-600" colSpan={2}>
-                            Total ({filteredPayments.length} payments)
+                            Total ({filteredPayments.length} payments):
                           </td>
                           <td className="px-6 py-4 text-sm intermid font-medium text-green-600">
                             ₦{totalAmount.toLocaleString()}

@@ -1,5 +1,5 @@
 import React, { useState, useReducer, useMemo, useEffect } from 'react';
-import { Plus, Edit, Trash2, Search, Package, TrendingUp, Calendar, PieChart, Download, Upload, Save, Trash } from 'lucide-react';
+import { Plus, Edit, Trash2, Search, Package, TrendingUp, Calendar, PieChart, Download, Upload, Save, Trash, Printer } from 'lucide-react';
 import { add, box, cloud, coins, del, edit, pack, paycard, text, today, trend } from '../assets';
 
 // Load saved data from localStorage or use empty state
@@ -88,8 +88,9 @@ export default function InventoryExpenseTracker() {
   const [editingExpense, setEditingExpense] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [selectedPeriod, setSelectedPeriod] = useState('weekly');
+  const [historySearchTerm, setHistorySearchTerm] = useState(''); // New state for history search
 
-  // 🔐 PERSISTENCE: Rehydrate again on mount in case module-scope init missed or app was SSR’d
+  // 🔐 PERSISTENCE: Rehydrate again on mount in case module-scope init missed or app was SSR'd
   useEffect(() => {
     try {
       const saved = localStorage.getItem('expenseTrackerData');
@@ -403,12 +404,87 @@ export default function InventoryExpenseTracker() {
     exp.sku.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+  // Filter expenses for history tab
+  const filteredHistoryExpenses = useMemo(() => {
+    return state.expenses.filter(exp =>
+      exp.productName.toLowerCase().includes(historySearchTerm.toLowerCase()) ||
+      exp.category.toLowerCase().includes(historySearchTerm.toLowerCase()) ||
+      exp.sku.toLowerCase().includes(historySearchTerm.toLowerCase()) ||
+      exp.date.includes(historySearchTerm)
+    );
+  }, [state.expenses, historySearchTerm]);
+
+  // Print function for history table
+  const printHistoryTable = () => {
+    const printContent = document.getElementById('history-table').innerHTML;
+    const totalAmount = filteredHistoryExpenses.reduce((sum, exp) => sum + exp.totalAmount, 0);
+    
+    const printWindow = window.open('', '_blank');
+    printWindow.document.write(`
+      <html>
+        <head>
+          <title>Expense History</title>
+          <style>
+            body { font-family: Arial, sans-serif; margin: 20px; color: #3a3a3a; }
+            table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            .total-row { font-weight: bold; background-color: #f9f9f9; }
+            @media print {
+              body { margin: 0; }
+            }
+          </style>
+        </head>
+        <body>
+          <h2>Expense History</h2>
+          <p>Generated on: ${new Date().toLocaleDateString()}</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Product</th>
+                <th>SKU</th>
+                <th>Category</th>
+                <th>Quantity</th>
+                <th>Total Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${filteredHistoryExpenses.map(expense => `
+                <tr>
+                  <td>${expense.date}</td>
+                  <td>${expense.productName}</td>
+                  <td>${expense.sku}</td>
+                  <td>${expense.category}</td>
+                  <td>${expense.quantity}</td>
+                  <td>${formatNaira(expense.totalAmount)}</td>
+                </tr>
+              `).join('')}
+              <tr class="total-row">
+                <td colspan="5" style="text-align: right; color:green">Total Amount:</td>
+                <td style="color:green">${formatNaira(totalAmount)}</td>
+              </tr>
+            </tbody>
+          </table>
+        </body>
+      </html>
+    `);
+    
+    printWindow.document.close();
+    
+    // Wait for content to load before printing
+    setTimeout(() => {
+      printWindow.print();
+      printWindow.close();
+    }, 250);
+  };
+
   const renderDashboard = () => (
-    <div className="space-y-6">
+    <div className="space-y-6 max-w-7xl mx-auto">
       <div className="flex justify-between items-center">
         <h2 className="text-xl -bold aeon-bold gray200">Expense Dashboard</h2>
         {/* Data Management Buttons */}
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-3 ">
           <button
             onClick={manualSave}
             className="border border-green-600 text-green-600 px-3 py-2 inter  rounded-[14px] hover:bg-green-600 hover:text-white flex items-center gap-2 text-xs"
@@ -569,7 +645,8 @@ export default function InventoryExpenseTracker() {
                         </h3>
         <button
           onClick={() => openModal()}
-          className="bg-green-600 text-white inter text-xs px-4 py-2 rounded-[14px] hover:bg-green-700 flex items-center
+          className="bg-green-600 text-white inter text-xs px-4 py-2 rounded-[14px] hover:bg-green-700 
+          flex items-center
            gap-2"
         >
           <Plus className="h-4 w-4 " /> Add New Expense
@@ -784,16 +861,22 @@ export default function InventoryExpenseTracker() {
   );
 
   const renderHistory = () => {
-    // 🟡 FIX: avoid mutating original array with reverse()
-    const reversed = [...filteredExpenses].reverse();
+    const totalAmount = filteredHistoryExpenses.reduce((sum, exp) => sum + exp.totalAmount, 0);
 
     return (
       <div className="space-y-6">
         <div className="flex justify-between items-center">
           <h2 className="text-xl aeon-bold gray200">Expense History</h2>
           <div className="flex items-center space-x-4">
-            {/* 🟢 ADDED: Export last month CSV alongside Print */}
-          
+           <button
+              onClick={printHistoryTable}
+              className="border border-blue-600 text-blue-500 text-xs inter px-3 py-2 rounded-[14px] hover:bg-blue-600  hover:bg-blue-700 flex items-center 
+              gap-2 hover:text-white   print:hidden"
+            
+            >
+             <Printer className="w-4 h-4" />Print History
+            </button>
+
             <button
               onClick={exportAllCSV}
               className="border border-indigo-600 text-indigo-600 inter px-4 py-2 rounded-[14px] hover:!text-white hover:bg-indigo-700 flex 
@@ -802,19 +885,13 @@ export default function InventoryExpenseTracker() {
             >
               <Download className="h-4 w-4" /> Export CSV
             </button>
-            {/* <button
-              onClick={() => window.print()}
-              className="bg-blue-600 text-white inter px-4 py-2 rounded-lg hover:bg-blue-700 flex items-center gap-2 print:hidden"
-            >
-              🖨️ Print History
-            </button> */}
             <div className="relative bg-white">
               <Search className="h-4 w-4 absolute  left-3 top-3 text-gray-400 mb-2" />
               <input
                 type="text"
                 placeholder="Search expenses..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
+                value={historySearchTerm}
+                onChange={(e) => setHistorySearchTerm(e.target.value)}
                 className="pl-10 pr-4 py-2 border text-sm border-gray-300 outline-none inter rounded-[14px] w-64"
               />
             </div>
@@ -841,7 +918,7 @@ export default function InventoryExpenseTracker() {
           </p>
         </div>
 
-        <div className="bg-white rounded-[14px] border border-blue-200 overflow-hidden ">
+        <div id="history-table" className="bg-white rounded-[14px] border border-blue-200 overflow-hidden ">
           <div className="overflow-x-auto">
             <table className="w-full">
               <thead className="bg-gray-50">
@@ -856,7 +933,7 @@ export default function InventoryExpenseTracker() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                {reversed.map(expense => (
+                {filteredHistoryExpenses.map(expense => (
                   <tr key={expense.id} className="hover:bg-gray-50">
                     <td className="px-6 py-4 whitespace-nowrap text-sm inter text-gray-600">{expense.date}</td>
                     <td className="px-6 py-4 whitespace-nowrap intermid gray200" >{expense.productName}</td>
@@ -894,12 +971,21 @@ export default function InventoryExpenseTracker() {
                     </td>
                   </tr>
                 ))}
+                <tr className="bg-gray-50 border-t-2 border-green-200">
+                  <td colSpan="5" className="px-6 py-4 text-sm intermid font-medium text-green-600">
+                    Total Amount:
+                  </td>
+                    <td className="px-6 py-4 text-sm intermid font-medium text-green-600">
+                    {formatNaira(totalAmount)}
+                  </td>
+                  <td className="print:hidden"></td>
+                </tr>
               </tbody>
             </table>
           </div>
         </div>
 
-        <div className="bg-white p-4 rounded-lg border border-green-200">
+        <div className="bg-white p-4 rounded-lg border border-green-200 print:hidden">
           <p className="text-green-600">
             <span className="intermid">Total of all expenses: </span>
             <span className="text-xl aeon-bold">{formatNaira(state.expenses.reduce((sum, exp) => sum + exp.totalAmount, 0))}</span>
@@ -1010,7 +1096,7 @@ export default function InventoryExpenseTracker() {
 
   return (
     <div className="min-h-screen bg-white rounded-[14px]">
-      <div className="bg-gradient-to-br from-black  to-indigo-900 backdrop-blur-lg shadow-sm border-b border-gray-500 rounded-[14px]">
+      <div className="bg-gradient-to-br from-black  to-[#051077] backdrop-blur-lg shadow-sm border-b border-gray-500 rounded-[14px]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div>

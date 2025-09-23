@@ -397,6 +397,13 @@ background-color: #e00505;
   
 }
 
+
+/* @media(min-width:2000px) {
+  .bg-dash {
+    background-size: 50%;
+  }
+} */
+
 .bluish{
  
   background-color: #051077;

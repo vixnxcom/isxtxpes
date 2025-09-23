@@ -39,12 +39,15 @@ import file from './file.png'
 import calc from './calc.png'
 import dcard from './dcard.png'
 import gen from './gen.png'
+import inv from './inv.png'
+import set from './set.png'
+import hand from './hand.png'
 
 
 export{ 
-  debit, del,
+  debit, del, hand,
   credit, invent, home, invoice, close, paycard, coins, notes, edit, add, woman,man, table, file, go, atm, calc,
-   open,cloud, admin, today, trend, dcard, gen,
+   open,cloud, admin, today, trend, dcard, gen, inv, set,
    pack, month, totall, todayy, agenda,
    pay, graph, user, box, text, msg, name, phone, acct, bank,
 }

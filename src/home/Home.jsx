@@ -6,7 +6,7 @@ import Stats from './Stats'
 
 const Home = () => {
   return (
-     <div className="min-h-screen w-full bg-home
+     <div className="min-h-screen   w-full bg-home max-w-7xl md:mx-auto
                     ">
                      
       <Title />

@@ -12,10 +12,10 @@ const Button = () => {
   return (
     <div
       onClick={handleClick}
-      className="w-[20vw] rounded-[14px] bluish py-4 px-4 shadow-2xl  xl:max-w-sm
+      className="w-[40vw] rounded-[14px] bluish py-4 px-4 shadow-2xl  xl:max-w-sm
                  cursor-pointer hover:bg-purple-800 transition"
     >
-      <div className="flex flex-row gap-5">
+      <div className="flex flex-row gap-5 mx-auto">
         <h1 className="p-2 text-white aeon-bold">Get Started With Us</h1>
         <div className="bg-white w-8 h-8 mt-1 rounded-full"><img src={go} className="p-2" /></div>
         

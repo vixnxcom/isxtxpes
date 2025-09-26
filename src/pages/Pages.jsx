@@ -28,8 +28,8 @@ function Pages() {
   // Sidebar menu items
   const menuItems = [
     { title: "Inventory", color: "text-white", path: "/pages/inventory", icon: invent },
-     { title: "Debit Account", color: "text-white", path: "/pages/credit", icon: debit },
-    { title: "Credit Account", color: "text-white", path: "/pages/debit", icon: credit },
+     { title: "Credit Account", color: "text-white", path: "/pages/credit", icon: debit },
+    { title: "Debit Account", color: "text-white", path: "/pages/debit", icon: credit },
    
     { title: "Generate Invoice", color: "text-white", path: "/pages/invoice", icon: invoice },
   ];
@@ -37,8 +37,8 @@ function Pages() {
   // Dashboard home cards (separate icons)
   const dashboardCards = [
     { title: "Inventory", color: "text-black", path: "/pages/inventory", icon: calc },
-      { title: "Debit Account", color: "text-black", path: "/pages/credit", icon: dcard },
-    { title: "Credit Account", color: "text-black", path: "/pages/debit", icon: atm },
+      { title: "Credit Account", color: "text-black", path: "/pages/credit", icon: dcard },
+    { title: "Debit Account", color: "text-black", path: "/pages/debit", icon: atm },
   
     { title: "Invoice", color: "text-black", path: "/pages/invoice", icon: file},
   ];

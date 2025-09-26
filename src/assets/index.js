@@ -42,12 +42,16 @@ import gen from './gen.png'
 import inv from './inv.png'
 import set from './set.png'
 import hand from './hand.png'
+import bill from './bill.png'
+import credity from './credity.png'
+import debitc from './debitc.png'
+import board from './board.png'
 
 
 export{ 
-  debit, del, hand,
+  debit, del, hand, bill, debitc,
   credit, invent, home, invoice, close, paycard, coins, notes, edit, add, woman,man, table, file, go, atm, calc,
    open,cloud, admin, today, trend, dcard, gen, inv, set,
-   pack, month, totall, todayy, agenda,
+   pack, month, totall, todayy, agenda, credity, board,
    pay, graph, user, box, text, msg, name, phone, acct, bank,
 }

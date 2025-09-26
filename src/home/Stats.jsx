@@ -2,8 +2,9 @@ import React from 'react'
 
 const Stats = () => {
   return (
-    <div className='flex flex-row gap-4 mt-1'>
-    
+    <div className=' mt-1 justify-center items-center '>
+
+    <div className='flex flex-row gap-12'>
       <div className='intermid w-full font-medium tracking-wide gray200'>
     <span className='text-3xl text-black aeon-bold '>100+</span>  Clients
       </div>
@@ -13,12 +14,16 @@ const Stats = () => {
       <div className='intermid w-full font-medium tracking-wide gray200'>
        <span className='text-3xl text-black aeon-bold'>99.9%</span> Productivity Boost 
       </div>
-      <div className='intermid w-full font-medium tracking-wide gray200'>
+      </div>
+
+      <div className='flex flex-row gap-12'>
+      <div className='intermid  font-medium tracking-wide gray200'>
        <span className='text-3xl text-black aeon-bold'>80%</span> Accelerate reporting
       </div>
-      <div className='intermid w-full font-medium tracking-wide gray200'>
+      <div className='intermid  font-medium tracking-wide gray200'>
        <span className='text-3xl text-black aeon-bold'>24/7</span> Customer Support
       </div>
+    </div>
     </div>
   )
 }

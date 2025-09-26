@@ -828,7 +828,7 @@ const PaystackPaymentSystem = () => {
               <div className="flex gap-2">
                 <button
                   onClick={testConnection}
-                  className="text-xs inter border text-purple-200 border-purple-800  hover:bg-opacity-30 px-3 py-1
+                  className="text-xs inter border text-purple-300 border-purple-800  hover:bg-opacity-30 px-3 py-1
                   rounded-[8px] transition-all"
                   disabled={isLoading}
                 >
@@ -836,7 +836,7 @@ const PaystackPaymentSystem = () => {
                 </button>
                 <button
                   onClick={() => setShowDebugPanel(true)}
-                  className="text-xs inter border text-purple-200 border-purple-800  hover:bg-opacity-30 
+                  className="text-xs inter border text-purple-300 border-purple-800 bg-opacity-20 hover:bg-opacity-30 
                   px-3 py-1 rounded-[8px] transition-all"
                 >
                   Debug Info
@@ -844,7 +844,7 @@ const PaystackPaymentSystem = () => {
               </div>
               
               {isLoading && (
-                <div className="text-xs inter text-blue-100 mt-1">Syncing data...</div>
+                <div className="text-xs inter text-purple-700 mt-1">Syncing data...</div>
               )}
             </div>
           </div>

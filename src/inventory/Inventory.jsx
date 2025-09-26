@@ -1,6 +1,7 @@
 import React, { useState, useReducer, useMemo, useEffect } from 'react';
 import { Plus, Edit, Trash2, Search, Package, TrendingUp, Calendar, PieChart, Download, Upload, Save, Trash, Printer } from 'lucide-react';
 import { add, box, cloud, coins, del, edit, pack, paycard, text, today, trend } from '../assets';
+import useRealtimeSync from '../hooks/useRealtimeSync'; // ADD THIS LINE
 
 // Load saved data from localStorage or use empty state
 const loadSavedData = () => {
@@ -82,6 +83,7 @@ const localDateStr = (d = new Date()) => {
 
 export default function InventoryExpenseTracker() {
   const [state, dispatch] = useReducer(expenseReducer, initialState);
+  const { lastUpdate, triggerUpdate } = useRealtimeSync(); // ADD THIS LINE
   const [activeTab, setActiveTab] = useState('dashboard');
   const [searchTerm, setSearchTerm] = useState('');
   const [showModal, setShowModal] = useState(false);
@@ -89,6 +91,12 @@ export default function InventoryExpenseTracker() {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [selectedPeriod, setSelectedPeriod] = useState('weekly');
   const [historySearchTerm, setHistorySearchTerm] = useState(''); // New state for history search
+
+  // ADD THIS FUNCTION
+  const syncDispatch = (action) => {
+    dispatch(action);
+    setTimeout(() => triggerUpdate(), 10);
+  };
 
   // 🔐 PERSISTENCE: Rehydrate again on mount in case module-scope init missed or app was SSR'd
   useEffect(() => {
@@ -107,7 +115,7 @@ export default function InventoryExpenseTracker() {
       console.warn('Rehydrate-on-mount failed:', err);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []); // run once
+  }, []);
 
   // 🔐 PERSISTENCE: Cross-tab sync — listen for storage changes from other tabs
   useEffect(() => {
@@ -227,7 +235,7 @@ export default function InventoryExpenseTracker() {
         const importedData = JSON.parse(e.target.result);
         if (importedData.expenses && Array.isArray(importedData.expenses)) {
           if (window.confirm(`Import ${importedData.expenses.length} expenses? This will replace your current data.`)) {
-            dispatch({ type: 'LOAD_DATA', payload: importedData });
+            syncDispatch({ type: 'LOAD_DATA', payload: importedData }); // CHANGED: dispatch to syncDispatch
             alert('✅ Data imported successfully!');
           }
         } else {
@@ -385,16 +393,16 @@ export default function InventoryExpenseTracker() {
     };
 
     if (editingExpense) {
-      dispatch({ type: 'UPDATE_EXPENSE', payload: { ...expenseData, id: editingExpense.id } });
+      syncDispatch({ type: 'UPDATE_EXPENSE', payload: { ...expenseData, id: editingExpense.id } }); // CHANGED: dispatch to syncDispatch
     } else {
-      dispatch({ type: 'ADD_EXPENSE', payload: expenseData });
+      syncDispatch({ type: 'ADD_EXPENSE', payload: expenseData }); // CHANGED: dispatch to syncDispatch
     }
     closeModal();
   };
 
   const deleteExpense = (id) => {
     if (window.confirm('Are you sure you want to delete this expense?')) {
-      dispatch({ type: 'DELETE_EXPENSE', payload: id });
+      syncDispatch({ type: 'DELETE_EXPENSE', payload: id }); // CHANGED: dispatch to syncDispatch
     }
   };
 

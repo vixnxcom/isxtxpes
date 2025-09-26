@@ -412,7 +412,9 @@ background-color: #e00505;
   border:4px solid #051077;
 }
 
-
+.text-bluish{
+  color: #051077;
+}
 
 .index{
   z-index: 500;
